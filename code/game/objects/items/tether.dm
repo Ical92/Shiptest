@@ -11,11 +11,12 @@
 	var/last_check = 0
 	var/check_delay = 5
 	var/max_range = 8
-	var/active = 0
+	var/active = FALSE
 	var/datum/beam/current_tether = null
 	var/tether_name = "tether rope"
 	var/can_fire = FALSE
 	var/can_retract = FALSE
+	var/broken = FALSE
 
 /obj/item/tether/Initialize()
 	. = ..()
@@ -27,9 +28,11 @@
 /obj/item/tether/examine(mob/user)
 	. = ..()
 	if(can_fire)
-		. += "<span class='notice'>The [tether_name] is held in a spring-loaded launcher, allowing it to be fired at flat surfaces.</span>"
+		. += "<span class='notice'>The [tether_name] is attached to a spring-loaded launcher, allowing it to be fired at flat surfaces.</span>"
 	if(can_retract)
-		. += "<span class='notice'>The [tether_name] is fed into an installed pulley, allowing it to be retracted quickly.</span>"
+		. += "<span class='notice'>The [tether_name] is fed into an attached pulley, allowing it to be retracted quickly.</span>"
+	if(broken)
+		. += "<span class'warning'>The [tether_name] is unspooled and needs fixed with a screwdriver!</span>"
 
 /obj/item/tether/dropped(mob/user)
 	..()
@@ -47,7 +50,7 @@
 		if(component.holder == src)
 			qdel(component)
 			break
-	if(!user.GetComponents(/datum/component/tether))
+	if(!length(user.GetComponents(/datum/component/tether)))
 		user.RemoveElement(/datum/element/forced_gravity, TRUE, TRUE)
 		user.update_gravity(user.has_gravity())
 	current_target = null
@@ -55,7 +58,8 @@
 
 /obj/item/tether/proc/tether_broke()
 	if(isliving(loc) && active)
-		src.visible_message("<span class='warning'>The [tether_name] suddenly retracts!</span>")
+		loc.visible_message("<span class='danger'>The [tether_name] snaps!</span>")
+		broken = TRUE
 	active = FALSE
 	LoseTarget(loc)
 
@@ -75,6 +79,10 @@
 /obj/item/tether/pre_attack(atom/target, mob/living/user)
 	. = ..()
 
+	if(broken)
+		playsound(src, 'sound/weapons/gun/pistol/dry_fire.ogg', 30, TRUE)
+		to_chat(user, "<span class='warning'>The [tether_name] is unspooled!</span>")
+		return TRUE
 	if(active)
 		if(target == current_target && user.CanReach(target, src, TRUE))
 			user.visible_message("<span class='notice'>[user] [isclosedturf(target) ? "detaches" : "unclips"] the [tether_name] from \the [target].</span>",\
@@ -159,6 +167,18 @@
 			if(A.density && A != user && A != target_turf)
 				return FALSE
 	return 1
+
+/obj/item/tether/screwdriver_act(mob/living/user, obj/item/I)
+	. = ..()
+	if(!broken)
+		return
+
+	to_chat(user, "<span class='notice'>You start rewinding the spool of [tether_name].</span>")
+	if(!do_after(user, 4 SECONDS))
+		return
+	to_chat(user, "<span class='notice'>You rewind the spool of [tether_name].</span>")
+	I.play_tool_sound(src)
+	return TRUE
 
 /obj/effect/ebeam/tether
 	name = "thin rope"

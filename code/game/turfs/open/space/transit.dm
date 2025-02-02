@@ -28,8 +28,11 @@
 
 /turf/open/space/transit/Entered(atom/movable/AM, atom/OldLoc)
 	. = ..()
-	if(!locate(/obj/structure/lattice) in src)
-		AM.throw_atom_into_space()
+	if(locate(/obj/structure/lattice) in src)
+		return
+	if(AM.has_gravity(src)) //Checks if the atom has forced gravity
+		return
+	AM.throw_atom_into_space()
 
 /atom/proc/throw_atom_into_space()
 	if(flags_1 & INITIALIZED_1)

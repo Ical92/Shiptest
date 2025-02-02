@@ -61,3 +61,29 @@
 		/obj/item/cautery = 1,
 		/obj/item/healthanalyzer = 1)
 	generate_items_inside(items_inside,src)
+
+/obj/item/storage/case/tether
+	name = "tether case"
+	// icon_state = "case_tether"
+	// item_state = "case_tether"
+	desc = "A large case containing two tether kits, and a screwdriver for respooling. It has an <b>Ashiriki Salvage</b> emblem on the lid."
+
+// Tether Case
+/obj/item/storage/case/tether/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_w_class = INFINITY
+	STR.max_combined_w_class = INFINITY
+	STR.max_items = 3
+	STR.set_holdable(list(
+		/obj/item/tether,
+		/obj/item/screwdriver,
+		))
+
+/obj/item/storage/case/tether/PopulateContents()
+	if(empty)
+		return
+	var/static/items_inside = list(
+		/obj/item/tether = 2,
+		/obj/item/screwdriver = 1)
+	generate_items_inside(items_inside,src)
