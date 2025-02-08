@@ -66,7 +66,7 @@
 	name = "tether case"
 	// icon_state = "case_tether"
 	// item_state = "case_tether"
-	desc = "A large case containing two tether kits, and a screwdriver for respooling. It has an <b>Ashiriki Salvage</b> emblem on the lid."
+	desc = "A large case containing two tether kits, and a screwdriver for respooling and adjusting. It has an <b>Ashiriki Salvage</b> emblem on the lid."
 
 // Tether Case
 /obj/item/storage/case/tether/ComponentInitialize()
@@ -85,5 +85,29 @@
 		return
 	var/static/items_inside = list(
 		/obj/item/tether = 2,
+		/obj/item/screwdriver = 1)
+	generate_items_inside(items_inside,src)
+
+/obj/item/storage/case/tether/advanced
+	name = "advanced tether case"
+	desc = "A small case containing an advanced tether kit and a screwdriver for respooling and adjusting. It has an <b>Ashiriki Salvage</b> emblem on the lid."
+
+// Advanced Tether Case
+/obj/item/storage/case/tether/advanced/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_w_class = INFINITY
+	STR.max_combined_w_class = INFINITY
+	STR.max_items = 2
+	STR.set_holdable(list(
+		/obj/item/tether/advanced,
+		/obj/item/screwdriver,
+		))
+
+/obj/item/storage/case/tether/advanced/PopulateContents()
+	if(empty)
+		return
+	var/static/items_inside = list(
+		/obj/item/tether/advanced = 1,
 		/obj/item/screwdriver = 1)
 	generate_items_inside(items_inside,src)

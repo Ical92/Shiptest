@@ -141,6 +141,20 @@
 	contains = list(/obj/item/gun/energy/plasmacutter)
 	crate_name = "plasmacutter crate"
 
+/datum/supply_pack/tools/tether
+	name = "Tethers Crate"
+	desc = "Contains two tether kits, allowing spacewalking and anchoring from space winds."
+	cost = 400
+	contains = list(/obj/item/storage/case/tether)
+	crate_name = "tethers crate"
+
+/datum/supply_pack/tools/tether/advanced
+	name = "Advanced Tether Crate"
+	desc = "Contains an advanced tether kit, includes tether launcher and pulley."
+	cost = 850
+	contains = list(/obj/item/storage/case/tether/advanced)
+	crate_name = "advanced tether crate"
+
 /*
 		Liquid tanks
 */
