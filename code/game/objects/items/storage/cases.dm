@@ -64,8 +64,7 @@
 
 /obj/item/storage/case/tether
 	name = "tether case"
-	// icon_state = "case_tether"
-	// item_state = "case_tether"
+	icon_state = "case_tether"
 	desc = "A large case containing two tether kits, and a screwdriver for respooling and adjusting. It has an <b>Ashiriki Salvage</b> emblem on the lid."
 
 // Tether Case
