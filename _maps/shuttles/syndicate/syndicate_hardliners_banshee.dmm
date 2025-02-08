@@ -113,9 +113,7 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/bridge)
 "cZ" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
+/obj/machinery/power/shuttle/engine/electric,
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
@@ -130,14 +128,12 @@
 	},
 /obj/machinery/button/shieldwallgen{
 	id = "Bansheecargofield";
-	dir = 2;
 	pixel_y = 19;
 	pixel_x = 1
 	},
 /obj/machinery/button/door{
 	id = "Bansheecargodoor";
 	name = "Cargo bay doors";
-	dir = 2;
 	pixel_y = 20;
 	pixel_x = 9
 	},
@@ -1701,6 +1697,7 @@
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/box/flares,
 /obj/item/storage/box/flares,
+/obj/item/storage/case/tether,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/cargo)
 "HB" = (
@@ -1952,9 +1949,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/crew)
 "KX" = (
-/obj/machinery/power/shuttle/engine/fire{
-	dir = 4
-	},
+/obj/machinery/power/shuttle/engine/fire,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "Mf" = (

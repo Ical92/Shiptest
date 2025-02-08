@@ -3497,6 +3497,10 @@
 	pixel_x = 6;
 	pixel_y = 8
 	},
+/obj/item/storage/case/tether{
+	pixel_x = -5;
+	pixel_y = 5
+	},
 /obj/item/tank/jetpack/carbondioxide{
 	pixel_x = -6
 	},
@@ -3505,9 +3509,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/power/apc/auto_name/directional/south,
-/obj/structure/cable{
-	icon_state = "0-1"
-	},
+/obj/structure/cable,
 /turf/open/floor/pod,
 /area/ship/storage/equip)
 "Dq" = (
@@ -4954,9 +4956,7 @@
 /obj/effect/turf_decal/trimline/opaque/bar/line,
 /obj/structure/closet/emcloset/wall/directional/west,
 /obj/machinery/power/apc/auto_name/directional/south,
-/obj/structure/cable{
-	icon_state = "0-1"
-	},
+/obj/structure/cable,
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/aft)
 "RU" = (

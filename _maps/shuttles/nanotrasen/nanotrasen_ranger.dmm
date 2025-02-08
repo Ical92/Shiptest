@@ -2860,6 +2860,10 @@
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 8
 	},
+/obj/item/storage/case/tether{
+	pixel_y = 2;
+	pixel_x = -2
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/storage/equip)
 "us" = (

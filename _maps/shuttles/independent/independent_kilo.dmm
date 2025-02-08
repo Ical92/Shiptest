@@ -312,6 +312,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
+/obj/item/storage/case/tether,
 /turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "ca" = (
@@ -574,9 +575,7 @@
 /obj/item/kirbyplants/fullysynthetic{
 	pixel_x = -11
 	},
-/obj/structure/cable/pink{
-	icon_state = "0-1"
-	},
+/obj/structure/cable/pink,
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4
@@ -826,8 +825,7 @@
 	dir = 8;
 	machinedir = 1;
 	output_dir = 4;
-	pixel_x = 20;
-	pixel_y = 0
+	pixel_x = 20
 	},
 /obj/effect/turf_decal/corner_techfloor_grid{
 	dir = 5
@@ -1617,8 +1615,7 @@
 "MY" = (
 /obj/structure/chair/sofa/brown/old/corner/directional/north,
 /obj/structure/sign/poster/random{
-	pixel_x = -32;
-	pixel_y = 0
+	pixel_x = -32
 	},
 /turf/open/floor/plasteel/grimy,
 /area/ship/crew)
@@ -1665,8 +1662,7 @@
 	pixel_x = 14
 	},
 /obj/structure/mirror{
-	pixel_x = 24;
-	pixel_y = 0
+	pixel_x = 24
 	},
 /obj/structure/toilet{
 	pixel_y = 18
@@ -1706,8 +1702,7 @@
 	pixel_y = 3
 	},
 /obj/structure/sign/poster/random{
-	pixel_x = -32;
-	pixel_y = 0
+	pixel_x = -32
 	},
 /turf/open/floor/carpet,
 /area/ship/crew/dorm)
@@ -1889,9 +1884,7 @@
 /obj/structure/cable/pink{
 	icon_state = "6-10"
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
-	dir = 2
-	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /obj/structure/cable/pink{
 	icon_state = "9-10"
 	},

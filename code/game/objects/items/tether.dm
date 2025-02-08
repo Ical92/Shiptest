@@ -7,16 +7,19 @@
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 30)
 	w_class = WEIGHT_CLASS_SMALL
 
-	var/atom/current_target
-	var/last_check = 0
 	var/check_delay = 5
-	var/max_range = 8
-	var/active = FALSE
-	var/datum/beam/current_tether = null
+
 	var/tether_name = "tether rope"
 	var/can_fire = FALSE
 	var/can_retract = FALSE
+	var/max_range = 8
+
+	var/last_check = 0
+	var/atom/current_target
+	var/datum/beam/current_tether = null
+	var/active = FALSE
 	var/broken = FALSE
+	var/current_range = 8
 
 /obj/item/tether/Initialize()
 	. = ..()
@@ -170,14 +173,18 @@
 
 /obj/item/tether/screwdriver_act(mob/living/user, obj/item/I)
 	. = ..()
-	if(!broken)
+	if(broken)
+		to_chat(user, "<span class='notice'>You start rewinding the spool of [tether_name].</span>")
+		if(!do_after(user, 4 SECONDS))
+			return
+		to_chat(user, "<span class='notice'>You rewind the spool of [tether_name].</span>")
+		I.play_tool_sound(src)
+		return TRUE
+	if(active)
+		to_chat(user, "<span class='warning'>You can't reach the clamp to adjust it while the [src] is active!</span>")
 		return
-
-	to_chat(user, "<span class='notice'>You start rewinding the spool of [tether_name].</span>")
-	if(!do_after(user, 4 SECONDS))
-		return
-	to_chat(user, "<span class='notice'>You rewind the spool of [tether_name].</span>")
-	I.play_tool_sound(src)
+	current_range = ((current_range) % (max_range - 1) + 2)
+	to_chat(user, "<span class='notice'>You adjust the [tether_name] length to [current_range] tiles.</span>")
 	return TRUE
 
 /obj/effect/ebeam/tether

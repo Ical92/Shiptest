@@ -1832,6 +1832,10 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/item/storage/bag/ore,
+/obj/item/storage/case/tether{
+	pixel_x = 4;
+	pixel_y = -7
+	},
 /obj/item/pickaxe/mini,
 /obj/item/pickaxe/mini,
 /obj/structure/platform/ship_three{
