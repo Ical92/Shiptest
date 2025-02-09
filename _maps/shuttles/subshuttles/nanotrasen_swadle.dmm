@@ -1,0 +1,656 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/plasteel/stairs/old{
+	dir = 4
+	},
+/area/ship/bridge)
+"b" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/chair/handrail{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 5
+	},
+/obj/effect/turf_decal/borderfloorwhite,
+/obj/effect/turf_decal/industrial/firstaid{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/ship/bridge)
+"c" = (
+/turf/closed/wall/mineral/titanium/interior,
+/area/ship/bridge)
+"d" = (
+/obj/machinery/power/smes/shuttle/micro/precharged,
+/obj/machinery/door/window/eastleft,
+/obj/structure/window/reinforced{
+	dir = 8;
+	pixel_x = -3
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 4;
+	id = "swadle_engine"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"f" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 5
+	},
+/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/machinery/door/window/northleft,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_engine"
+	},
+/turf/open/floor/plasteel/mono,
+/area/ship/bridge)
+"g" = (
+/obj/effect/turf_decal/ntspaceworks_small,
+/obj/structure/cable{
+	icon_state = "4-9"
+	},
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden,
+/obj/structure/cable{
+	icon_state = "9-10"
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/bridge)
+"h" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 10
+	},
+/obj/effect/turf_decal/borderfloorwhite,
+/obj/effect/turf_decal/industrial/firstaid{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/ship/bridge)
+"i" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4;
+	name = "Helm"
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"j" = (
+/obj/effect/turf_decal/spline/fancy/opaque/white{
+	dir = 5
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/bridge)
+"k" = (
+/obj/machinery/atmospherics/components/unary/shuttle/heater,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8;
+	pixel_x = -3
+	},
+/obj/machinery/door/window/northright,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_engine"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"l" = (
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/plasteel/white,
+/area/ship/bridge)
+"m" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 8;
+	name = "Port Fuel Pump"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/borderfloorwhite,
+/obj/effect/turf_decal/industrial/firstaid{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/ship/bridge)
+"n" = (
+/obj/machinery/door/airlock/external/glass{
+	dir = 4;
+	req_ship_access = 0
+	},
+/turf/open/floor/plasteel/mono,
+/area/ship/bridge)
+"o" = (
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/firstaid,
+/obj/effect/turf_decal/siding/thinplating/light,
+/turf/open/floor/plasteel/showroomfloor,
+/area/ship/bridge)
+"p" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 6
+	},
+/obj/machinery/power/port_gen/pacman,
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/machinery/door/window/southleft,
+/obj/effect/turf_decal/industrial/warning,
+/obj/item/stack/sheet/mineral/plasma/twenty,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_engine"
+	},
+/turf/open/floor/plasteel/mono,
+/area/ship/bridge)
+"q" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/portable_atmospherics/canister,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/ship/bridge)
+"r" = (
+/obj/machinery/power/shuttle/engine/electric,
+/turf/open/floor/plating,
+/area/ship/bridge)
+"s" = (
+/obj/machinery/door/airlock/command{
+	dir = 4;
+	req_ship_access = 0
+	},
+/turf/open/floor/plasteel/mono,
+/area/ship/bridge)
+"t" = (
+/obj/effect/turf_decal/ntspaceworks_small/left,
+/turf/open/floor/plasteel/mono/white,
+/area/ship/bridge)
+"u" = (
+/obj/effect/turf_decal/spline/fancy/opaque/white{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/bridge)
+"v" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 10
+	},
+/obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_engine"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"w" = (
+/obj/effect/turf_decal/industrial/warning,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/power/shieldwallgen/atmos{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_port"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/bridge)
+"x" = (
+/obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_bridge"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"y" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/layer2{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/ship/bridge)
+"z" = (
+/obj/machinery/computer/helm{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/bridge)
+"A" = (
+/obj/machinery/power/smes/shuttle/micro/precharged,
+/obj/machinery/door/window/eastright,
+/obj/structure/window/reinforced{
+	dir = 8;
+	pixel_x = -3
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 4;
+	id = "swadle_engine"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"B" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 9
+	},
+/obj/machinery/power/smes/engineering,
+/obj/machinery/door/window/southright,
+/obj/effect/turf_decal/industrial/warning,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_engine"
+	},
+/turf/open/floor/plasteel/mono,
+/area/ship/bridge)
+"C" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/ship/bridge)
+"D" = (
+/obj/effect/turf_decal/industrial/warning,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/docking_port/mobile{
+	dir = 2;
+	name = "swadle dock";
+	preferred_direction = 4
+	},
+/obj/machinery/power/shieldwallgen/atmos{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_port"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/bridge)
+"E" = (
+/obj/structure/chair/handrail{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/layer_manifold{
+	dir = 4
+	},
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/firstaid,
+/obj/effect/turf_decal/siding/thinplating/light,
+/obj/structure/cable{
+	icon_state = "5-8"
+	},
+/obj/machinery/button/shieldwallgen{
+	dir = 1;
+	pixel_y = -24;
+	pixel_x = 8
+	},
+/obj/machinery/button/door{
+	pixel_x = -8;
+	pixel_y = -24;
+	dir = 1
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/ship/bridge)
+"F" = (
+/obj/machinery/power/shuttle/engine/fueled/plasma,
+/turf/open/floor/plating,
+/area/ship/bridge)
+"G" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 9
+	},
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/firstaid,
+/obj/effect/turf_decal/siding/thinplating/light,
+/turf/open/floor/plasteel/showroomfloor,
+/area/ship/bridge)
+"H" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 10
+	},
+/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/machinery/door/window/northright,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_engine"
+	},
+/turf/open/floor/plasteel/mono,
+/area/ship/bridge)
+"I" = (
+/obj/structure/closet/emcloset/wall/directional/south,
+/turf/open/floor/plasteel/dark,
+/area/ship/bridge)
+"J" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning,
+/obj/machinery/power/shieldwallgen/atmos{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_starboard"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/bridge)
+"K" = (
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 9
+	},
+/obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_engine"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"L" = (
+/obj/effect/turf_decal/borderfloorwhite,
+/obj/effect/turf_decal/industrial/firstaid{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/plasteel/showroomfloor,
+/area/ship/bridge)
+"N" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning,
+/obj/machinery/power/shieldwallgen/atmos{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_starboard"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/bridge)
+"O" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/orange/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 8;
+	name = "Starboard Fuel Pump"
+	},
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/firstaid,
+/obj/effect/turf_decal/siding/thinplating/light,
+/turf/open/floor/plasteel/showroomfloor,
+/area/ship/bridge)
+"P" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/bridge)
+"R" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/chair/handrail,
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer4{
+	dir = 6
+	},
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/firstaid,
+/obj/effect/turf_decal/siding/thinplating/light,
+/turf/open/floor/plasteel/showroomfloor,
+/area/ship/bridge)
+"S" = (
+/obj/effect/turf_decal/ntspaceworks_small/right,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/plasteel/mono/white,
+/area/ship/bridge)
+"T" = (
+/obj/machinery/door/airlock/external/glass{
+	dir = 4;
+	req_ship_access = 0
+	},
+/obj/machinery/atmospherics/pipe/layer_manifold{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono,
+/area/ship/bridge)
+"U" = (
+/obj/effect/spawner/structure/window/shuttle,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_bridge";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"V" = (
+/obj/structure/cable{
+	icon_state = "6-8"
+	},
+/obj/structure/chair/handrail,
+/obj/machinery/atmospherics/pipe/simple/yellow/hidden{
+	dir = 4
+	},
+/obj/effect/turf_decal/borderfloorwhite,
+/obj/effect/turf_decal/industrial/firstaid{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/obj/machinery/button/shieldwallgen{
+	pixel_x = 8;
+	pixel_y = 24
+	},
+/obj/machinery/button/door{
+	pixel_x = -8;
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/ship/bridge)
+"W" = (
+/turf/template_noop,
+/area/template_noop)
+"X" = (
+/obj/machinery/atmospherics/components/unary/shuttle/heater,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/door/window/southright,
+/obj/structure/window/reinforced{
+	dir = 8;
+	pixel_x = -3
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "swadle_engine"
+	},
+/turf/open/floor/plating,
+/area/ship/bridge)
+"Y" = (
+/obj/machinery/atmospherics/components/binary/dp_vent_pump/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/advanced_airlock_controller{
+	pixel_y = -21
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/ship/bridge)
+
+(1,1,1) = {"
+W
+P
+r
+W
+r
+P
+W
+"}
+(2,1,1) = {"
+F
+P
+d
+P
+A
+P
+F
+"}
+(3,1,1) = {"
+X
+p
+b
+P
+R
+f
+k
+"}
+(4,1,1) = {"
+v
+B
+m
+l
+O
+H
+K
+"}
+(5,1,1) = {"
+P
+P
+V
+t
+E
+P
+c
+"}
+(6,1,1) = {"
+D
+u
+h
+g
+G
+N
+W
+"}
+(7,1,1) = {"
+w
+j
+L
+S
+o
+J
+W
+"}
+(8,1,1) = {"
+P
+s
+P
+P
+n
+P
+W
+"}
+(9,1,1) = {"
+P
+a
+P
+q
+C
+P
+W
+"}
+(10,1,1) = {"
+x
+I
+P
+y
+Y
+P
+W
+"}
+(11,1,1) = {"
+x
+i
+P
+P
+T
+c
+W
+"}
+(12,1,1) = {"
+x
+z
+x
+W
+W
+W
+W
+"}
+(13,1,1) = {"
+x
+U
+x
+W
+W
+W
+W
+"}

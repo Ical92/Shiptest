@@ -416,3 +416,9 @@
 	file_name = "nanotrasen_skink"
 	name = "Skink-class Cargo Runner"
 	prefix = "NTSV"
+
+/datum/map_template/shuttle/subshuttles/swadle
+	file_name = "nanotrasen_swadle"
+	name = "Swadle-class Ambulance"
+	prefix = "NTSV"
+
