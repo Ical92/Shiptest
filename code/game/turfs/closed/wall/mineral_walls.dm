@@ -385,6 +385,11 @@
 	T.transform = transform
 	return T
 
+/turf/closed/wall/mineral/titanium/interior/nodiagonal
+	icon_state = "map-shuttle_nd"
+	base_icon_state = "shuttle_wall"
+	smoothing_flags = SMOOTH_BITMASK
+
 /turf/closed/wall/mineral/titanium/copyTurf(turf/T)
 	. = ..()
 	T.transform = transform

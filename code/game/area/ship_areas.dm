@@ -293,6 +293,9 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/ship/medical/psych
 	name = "Psych's Office"
 
+/area/ship/medical/chemistry
+	name = "Chemistry Lab"
+
 /// Science Lab ///
 /area/ship/science
 	name = "Science Lab"
