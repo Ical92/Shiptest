@@ -7,6 +7,7 @@
 	armor = list("melee" = 100, "bullet" = 80, "laser" = 80, "energy" = 100, "bomb" = 50, "bio" = 100, "rad" = 100, "fire" = 50, "acid" = 50)
 	density = FALSE
 	anchored = TRUE
+	CanAtmosPass = ATMOS_PASS_NO
 
 /obj/structure/plasticflaps/opaque
 	opacity = TRUE
@@ -56,18 +57,7 @@
 	return TRUE
 
 /obj/structure/plasticflaps/CanAStarPass(ID, to_dir, caller)
-	if(isliving(caller))
-		if(isbot(caller))
-			return TRUE
-
-		var/mob/living/M = caller
-		if(!M.ventcrawler && M.mob_size != MOB_SIZE_TINY)
-			return FALSE
-	var/atom/movable/M = caller
-	if(M && M.pulling)
-		return CanAStarPass(ID, to_dir, M.pulling)
-	return TRUE //diseases, stings, etc can pass
-
+	return TRUE
 
 /obj/structure/plasticflaps/CanAllowThrough(atom/movable/mover, border_dir)
 	. = ..()
@@ -75,27 +65,7 @@
 	if(istype(mover) && (mover.pass_flags & PASSGLASS))
 		return prob(60)
 
-	if(istype(mover, /obj/structure/bed))
-		var/obj/structure/bed/bed_mover = mover
-		if(bed_mover.density || bed_mover.has_buckled_mobs())//if it's a bed/chair and is dense or someone is buckled, it will not pass
-			return FALSE
-
-	else if(istype(mover, /obj/structure/closet/cardboard))
-		var/obj/structure/closet/cardboard/cardboard_mover = mover
-		if(cardboard_mover.move_delay)
-			return FALSE
-
-	else if(ismecha(mover))
-		return FALSE
-
-	else if(isliving(mover)) // You Shall Not Pass!
-		var/mob/living/living_mover = mover
-		if(isbot(mover)) //Bots understand the secrets
-			return TRUE
-		if(living_mover.buckled && istype(living_mover.buckled, /mob/living/simple_animal/bot/mulebot)) // mulebot passenger gets a free pass.
-			return TRUE
-		if(living_mover.body_position == STANDING_UP && !living_mover.ventcrawler && living_mover.mob_size != MOB_SIZE_TINY)	//If your not laying down, or a ventcrawler or a small creature, no pass.
-			return FALSE
+	return TRUE
 
 /obj/structure/plasticflaps/deconstruct(disassembled = TRUE)
 	if(!(flags_1 & NODECONSTRUCT_1))
