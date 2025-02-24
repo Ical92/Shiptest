@@ -2150,11 +2150,11 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/machinery/computer{
-	dir = 8
-	},
 /obj/effect/turf_decal/borderfloor{
 	dir = 5
+	},
+/obj/machinery/computer/cargo{
+	dir = 8
 	},
 /turf/open/floor/plasteel/patterned/ridged,
 /area/outpost/cargo/office)
@@ -2766,7 +2766,8 @@
 	dir = 1
 	},
 /obj/structure/railing{
-	dir = 1
+	dir = 1;
+	layer = 2.79
 	},
 /turf/open/floor/plasteel/patterned,
 /area/outpost/cargo/office)
@@ -3191,7 +3192,8 @@
 "sd" = (
 /obj/structure/table/reinforced,
 /obj/item/newspaper{
-	pixel_y = 4
+	pixel_x = -3;
+	pixel_y = 2
 	},
 /turf/open/floor/plasteel/dark,
 /area/outpost/cargo/office)
@@ -3684,8 +3686,12 @@
 "uG" = (
 /obj/structure/table/reinforced,
 /obj/machinery/jukebox/boombox{
-	pixel_x = -2;
-	pixel_y = -1
+	pixel_x = -3;
+	pixel_y = 7;
+	layer = 3
+	},
+/obj/item/stack/packageWrap{
+	pixel_y = 2
 	},
 /turf/open/floor/plasteel/dark,
 /area/outpost/cargo/office)
@@ -4903,11 +4909,11 @@
 /obj/structure/railing{
 	dir = 6
 	},
-/obj/machinery/computer{
-	dir = 8
-	},
 /obj/effect/turf_decal/borderfloor{
 	dir = 6
+	},
+/obj/machinery/computer/cargo{
+	dir = 8
 	},
 /turf/open/floor/plasteel/patterned/ridged,
 /area/outpost/cargo/office)

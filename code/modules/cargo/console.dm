@@ -12,8 +12,6 @@
 	circuit = /obj/item/circuitboard/computer/cargo
 	light_color = COLOR_BRIGHT_ORANGE
 
-	/// The ship we reside on for ease of access
-	var/datum/overmap/ship/controlled/current_ship
 	var/contraband = FALSE
 	var/self_paid = FALSE
 	var/safety_warning = "For safety reasons, the automated supply shuttle \
@@ -37,10 +35,14 @@
 	var/cooldown = 0
 	/// Is the console in beacon mode? exists to let beacon know when a pod may come in
 	var/use_beacon = FALSE
-	/// The account to charge purchases to, defaults to the cargo budget
+	/// The account to charge purchases to, defaults to the cargo budget from ID, then account from cash card
 	var/datum/bank_account/charge_account
+	/// The ship our user is from, for ease of access
+	var/datum/overmap/ship/controlled/current_ship
+	/// The outpost we reside on, for ease of access
+	var/datum/overmap/outpost/current_outpost
 
-/obj/machinery/computer/cargo/Initialize()
+/obj/machinery/computer/cargo/Initialize(mapload)
 	. = ..()
 	var/obj/item/circuitboard/computer/cargo/board = circuit
 	contraband = board.contraband
@@ -48,6 +50,7 @@
 		obj_flags |= EMAGGED
 	else
 		obj_flags &= ~EMAGGED
+	current_outpost = get_outpost()
 
 /obj/machinery/computer/cargo/Destroy()
 	if(beacon)
@@ -77,21 +80,16 @@
 	board.obj_flags |= EMAGGED
 	update_static_data(user)
 
-/obj/machinery/computer/cargo/connect_to_shuttle(obj/docking_port/mobile/port, obj/docking_port/stationary/dock)
-	current_ship = port.current_ship
-
 /obj/machinery/computer/cargo/ui_interact(mob/user, datum/tgui/ui)
+	charge_account = find_payer(user)
 	ui = SStgui.try_update_ui(user, src, ui)
 	if(!ui)
 		ui = new(user, src, "OutpostCommunications", name)
 		ui.open()
-		if(!charge_account)
-			reconnect()
 
 /obj/machinery/computer/cargo/ui_static_data(mob/user)
 	. = ..()
-	var/outpost_docked = istype(current_ship.docked_to, /datum/overmap/outpost)
-	if(outpost_docked)
+	if(current_outpost)
 		generate_pack_data()
 	else
 		supply_pack_data = list()
@@ -100,12 +98,10 @@
 	var/canBeacon = beacon && (isturf(beacon.loc) || ismob(beacon.loc))//is the beacon in a valid location?
 	var/list/data = list()
 
-	var/outpost_docked = istype(current_ship.docked_to, /datum/overmap/outpost)
-
 	data["onShip"] = !isnull(current_ship)
 	data["numMissions"] = current_ship ? LAZYLEN(current_ship.missions) : 0
 	data["maxMissions"] = current_ship ? current_ship.max_missions : 0
-	data["outpostDocked"] = outpost_docked
+	data["outpostDocked"] = current_outpost
 	data["points"] = charge_account ? charge_account.account_balance : 0
 	data["siliconUser"] = user.has_unlimited_silicon_privilege && check_ship_ai_access(user)
 	data["beaconZone"] = beacon ? get_area(beacon) : ""//where is the beacon located? outputs in the tgui
@@ -136,10 +132,9 @@
 	if(current_ship)
 		for(var/datum/mission/M as anything in current_ship.missions)
 			data["shipMissions"] += list(M.get_tgui_info())
-		if(outpost_docked)
-			var/datum/overmap/outpost/out = current_ship.docked_to
-			for(var/datum/mission/M as anything in out.missions)
-				data["outpostMissions"] += list(M.get_tgui_info())
+	if(current_outpost)
+		for(var/datum/mission/M as anything in current_outpost.missions)
+			data["outpostMissions"] += list(M.get_tgui_info())
 
 	return data
 
@@ -177,8 +172,7 @@
 			printed_beacons++//printed_beacons starts at 0, so the first one out will be called beacon # 1
 			beacon.name = "Supply Pod Beacon #[printed_beacons]"
 		if("add")
-			var/datum/overmap/outpost/current_outpost = current_ship.docked_to
-			if(istype(current_ship.docked_to))
+			if(current_outpost)
 				var/datum/supply_pack/current_pack = locate(params["ref"]) in current_outpost.supply_packs
 				var/same_faction = current_pack.faction ? current_pack.faction.allowed_faction(current_ship.faction_datum) : FALSE
 				var/total_cost = (same_faction && current_pack.faction_discount) ? current_pack.cost - (current_pack.cost * (current_pack.faction_discount * 0.01)) : current_pack.cost
@@ -191,17 +185,16 @@
 					beacon.update_status(SP_LAUNCH)
 				else if(!use_beacon)// find a suitable supplypod landing zone in cargobay
 					var/list/empty_turfs = list()
-					if(!landingzone)
-						reconnect()
-						if(!landingzone)
-							WARNING("[src] couldnt find a Ship/Cargo (aka cargobay) area on a ship, and as such it has set the supplypod landingzone to the area it resides in.")
-							landingzone = get_area(src)
-					for(var/turf/open/floor/T in landingzone.contents)//uses default landing zone
+					for(var/obj/effect/landmark/outpost/cargo/target in loc) // Targets in the same area
+						var/turf/T = get_turf(target)
 						if(T.is_blocked_turf())
 							continue
 						empty_turfs += T
 						CHECK_TICK
-					landing_turf = pick(empty_turfs)
+					if(LAZYLEN(empty_turfs))
+						landing_turf = pick(empty_turfs)
+					else
+						return
 
 				// note that, because of CHECK_TICK above, we aren't sure if we can
 				// afford the pack, even though we checked earlier. luckily adjust_money
@@ -216,8 +209,11 @@
 					else if(issilicon(usr))
 						name = usr.real_name
 						rank = "Silicon"
-					var/datum/supply_order/SO = new(current_pack, name, rank, usr.ckey, "", ordering_outpost = current_ship.docked_to)
-					new /obj/effect/pod_landingzone(landing_turf, podType, SO)
+					var/datum/supply_order/SO = new(current_pack, name, rank, usr.ckey, "", ordering_outpost = current_outpost)
+					// new /obj/effect/pod_landingzone(landing_turf, podType, SO)
+					var/obj/structure/closet/crate/C = SO.generate()
+					C.forceMove(landing_turf)
+					do_sparks(3, FALSE, landing_turf)
 					update_appearance() // ??????????????????
 					return TRUE
 
@@ -225,8 +221,7 @@
 			var/datum/mission/mission = locate(params["ref"])
 			var/obj/docking_port/mobile/D = SSshuttle.get_containing_shuttle(src)
 			var/datum/overmap/ship/controlled/ship = D.current_ship
-			var/datum/overmap/outpost/outpost = ship.docked_to
-			if(!istype(outpost) || mission.source_outpost != outpost) // important to check these to prevent href fuckery
+			if(current_outpost || mission.source_outpost != current_outpost) // important to check these to prevent href fuckery
 				return
 			if(!mission.accepted)
 				if(LAZYLEN(ship.missions) >= ship.max_missions)
@@ -240,20 +235,20 @@
 					mission.give_up()
 				return TRUE
 
-/obj/machinery/computer/cargo/connect_to_shuttle(obj/docking_port/mobile/port, obj/docking_port/stationary/dock)
-	. = ..()
-	reconnect(port)
-
-/obj/machinery/computer/cargo/proc/reconnect(obj/docking_port/mobile/port)
-	if(!port)
-		var/area/ship/current_area = get_area(src)
-		if(!istype(current_area))
-			return
-		port = current_area.mobile_port
-	if(!port)
+/obj/machinery/computer/cargo/proc/find_payer(mob/user)
+	var/mob/living/living_user = user
+	if(!istype(living_user))
 		return
-	charge_account = port.current_ship.ship_account
-	landingzone = locate(/area/ship/cargo) in port.shuttle_areas
+	var/obj/item/card/id/idcard = living_user.get_idcard(TRUE)
+	if(idcard)
+		var/list/ship_access = idcard.ship_access
+		if(ship_access)
+			var/datum/overmap/ship/controlled/ship = ship_access[LAZYLEN(ship_access)] // Get the most recently added ship, in case somebody switches
+			current_ship = ship
+			return ship.ship_account
+	var/obj/item/card/bank/bankcard = living_user.get_bankcard()
+	if(bankcard)
+		return bankcard.registered_account
 
 /obj/machinery/computer/cargo/attackby(obj/item/W, mob/living/user, params)
 	var/value = W.get_item_credit_value()
@@ -274,15 +269,10 @@
 /obj/machinery/computer/cargo/proc/generate_pack_data()
 	supply_pack_data = list()
 
-	if(!current_ship.docked_to)
+	if(!current_outpost)
 		return supply_pack_data
 
-	var/datum/overmap/outpost/outpost_docked = current_ship.docked_to
-
-	if(!istype(outpost_docked))
-		return supply_pack_data
-
-	for(var/datum/supply_pack/current_pack as anything in outpost_docked.supply_packs)
+	for(var/datum/supply_pack/current_pack as anything in current_outpost.supply_packs)
 		if(!supply_pack_data[current_pack.group])
 			supply_pack_data[current_pack.group] = list(
 				"name" = current_pack.group,
@@ -303,6 +293,16 @@
 			"ref" = REF(current_pack),
 			"desc" = (current_pack.desc || current_pack.name) + (discountedcost ? "\n-[current_pack.faction_discount]% off due to your faction affiliation.\nWas [current_pack.cost]" : "") + (current_pack.faction_locked ? "\nYou are able to purchase this item due to your faction affiliation." : "") // If there is a description, use it. Otherwise use the pack's name.
 		))
+
+/obj/machinery/computer/cargo/proc/get_outpost()
+	var/datum/map_zone/our_zone = get_map_zone()
+	for(var/datum/overmap/outpost/OP in SSovermap.outposts)
+		if(!istype(OP))
+			continue
+		if(!OP.mapzone)
+			continue
+		if(OP.mapzone == our_zone)
+			return OP
 
 /obj/machinery/computer/cargo/retro
 	icon = 'icons/obj/machines/retro_computer.dmi'
