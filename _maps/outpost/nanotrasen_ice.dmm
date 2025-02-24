@@ -3965,12 +3965,11 @@
 /obj/effect/decal/fakelattice{
 	icon_state = "lattice-3"
 	},
-/obj/structure/fluff{
-	icon = 'icons/turf/floors.dmi';
-	icon_state = "black";
+/obj/effect/blending/fulldark{
+	plane = -1;
 	layer = 3.07;
-	alpha = 150;
-	color = "#000000"
+	color = "#000000";
+	alpha = 100
 	},
 /turf/open/floor/plating{
 	light_color = "#1B1D2E";
@@ -5001,12 +5000,11 @@
 	dir = 10
 	},
 /obj/structure/closet/crate/large,
-/obj/structure/fluff{
-	icon = 'icons/turf/floors.dmi';
-	icon_state = "black";
+/obj/effect/blending/fulldark{
+	plane = -1;
 	layer = 3.07;
-	alpha = 150;
-	color = "#000000"
+	color = "#000000";
+	alpha = 100
 	},
 /turf/open/floor/plating/rust,
 /area/outpost/maintenance/starboard)
@@ -6181,13 +6179,11 @@
 /obj/structure/closet/crate{
 	opened = 1
 	},
-/obj/effect/spawner/random/maintenance/two,
-/obj/structure/fluff{
-	icon = 'icons/turf/floors.dmi';
-	icon_state = "black";
+/obj/effect/blending/fulldark{
+	plane = -1;
 	layer = 3.07;
-	alpha = 150;
-	color = "#000000"
+	color = "#000000";
+	alpha = 100
 	},
 /turf/open/floor/plating/rust,
 /area/outpost/maintenance/starboard)
@@ -6540,18 +6536,18 @@
 /area/outpost/maintenance/starboard)
 "Mb" = (
 /obj/structure/platform/industrial{
-	dir = 1
+	dir = 1;
+	dynamic_layer = 0
 	},
 /obj/effect/decal/fakelattice{
 	icon_state = "lattice-3"
 	},
 /obj/machinery/light/directional/north,
-/obj/structure/fluff{
-	icon = 'icons/turf/floors.dmi';
-	icon_state = "black";
+/obj/effect/blending/fulldark{
+	plane = -1;
 	layer = 3.07;
-	alpha = 150;
-	color = "#000000"
+	color = "#000000";
+	alpha = 100
 	},
 /turf/open/floor/plating/rust,
 /area/outpost/maintenance/starboard)
@@ -6975,12 +6971,11 @@
 /obj/structure/platform/industrial{
 	dir = 9
 	},
-/obj/structure/fluff{
-	icon = 'icons/turf/floors.dmi';
-	icon_state = "black";
+/obj/effect/blending/fulldark{
+	plane = -1;
 	layer = 3.07;
-	alpha = 150;
-	color = "#000000"
+	color = "#000000";
+	alpha = 100
 	},
 /turf/open/floor/plating{
 	light_color = "#1B1D2E";
@@ -7399,12 +7394,11 @@
 	dir = 5
 	},
 /obj/structure/closet/crate/engineering,
-/obj/structure/fluff{
-	icon = 'icons/turf/floors.dmi';
-	icon_state = "black";
+/obj/effect/blending/fulldark{
+	plane = -1;
 	layer = 3.07;
-	alpha = 150;
-	color = "#000000"
+	color = "#000000";
+	alpha = 100
 	},
 /turf/open/floor/plating/rust,
 /area/outpost/maintenance/starboard)

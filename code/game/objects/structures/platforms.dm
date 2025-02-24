@@ -9,6 +9,7 @@
 	density = TRUE
 	anchored = TRUE
 	climbable = TRUE
+	var/dynamic_layer = TRUE // Only should be false in cases of mapper shenanigans
 
 /obj/structure/platform/Initialize()
 	. = ..()
@@ -17,7 +18,8 @@
 			COMSIG_ATOM_EXIT = PROC_REF(on_exit),
 		)
 		AddElement(/datum/element/connect_loc, loc_connections)
-	update_appearance()
+	if(dynamic_layer)
+		update_appearance()
 
 /obj/structure/platform/update_appearance(updates)
 	. = ..()

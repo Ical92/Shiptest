@@ -68,7 +68,7 @@
 
 	var/area/A = loc
 	if(!IS_DYNAMIC_LIGHTING(src) && IS_DYNAMIC_LIGHTING(A))
-		add_overlay(/obj/effect/fullbright)
+		add_overlay(/obj/effect/blending/fullbright)
 
 	if (light_system == STATIC_LIGHT && light_power && light_range)
 		update_light()

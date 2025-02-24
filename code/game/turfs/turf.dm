@@ -122,7 +122,7 @@ GLOBAL_LIST_EMPTY(created_baseturf_lists)
 
 	var/area/A = loc
 	if(!IS_DYNAMIC_LIGHTING(src) && IS_DYNAMIC_LIGHTING(A))
-		add_overlay(/obj/effect/fullbright)
+		add_overlay(/obj/effect/blending/fullbright)
 
 	if(requires_activation)
 		ImmediateCalculateAdjacentTurfs()

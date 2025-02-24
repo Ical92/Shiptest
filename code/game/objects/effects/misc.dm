@@ -28,13 +28,21 @@
 	density = TRUE
 	layer = FLY_LAYER
 
-//Makes a tile fully lit no matter what
-/obj/effect/fullbright
+/obj/effect/blending
+	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 	icon = 'icons/effects/alphacolors.dmi'
-	icon_state = "white"
 	plane = LIGHTING_PLANE
 	layer = LIGHTING_LAYER
+	vis_flags = VIS_HIDE
+
+//Makes a tile fully lit no matter what
+/obj/effect/blending/fullbright
+	icon_state = "white"
 	blend_mode = BLEND_ADD
+
+/obj/effect/blending/fulldark
+	icon_state = "black"
+	blend_mode = BLEND_OVERLAY
 
 /obj/effect/abstract/marker
 	name = "marker"
