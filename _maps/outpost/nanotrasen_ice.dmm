@@ -1116,6 +1116,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/industrial/outline/yellow,
+/obj/effect/landmark/outpost/cargo,
 /turf/open/floor/plasteel/elevatorshaft,
 /area/outpost/cargo/office)
 "hG" = (
@@ -4485,6 +4486,7 @@
 "yn" = (
 /obj/effect/turf_decal/industrial/outline/yellow,
 /obj/machinery/light/directional/north,
+/obj/effect/landmark/outpost/cargo,
 /turf/open/floor/plasteel/elevatorshaft,
 /area/outpost/cargo/office)
 "yp" = (
@@ -6880,6 +6882,7 @@
 /obj/structure/platform/industrial{
 	dir = 8
 	},
+/obj/effect/landmark/outpost/cargo,
 /turf/open/floor/plasteel/elevatorshaft,
 /area/outpost/cargo/office)
 "Ol" = (
@@ -7650,6 +7653,7 @@
 /area/outpost/exterior)
 "RX" = (
 /obj/effect/turf_decal/industrial/outline/yellow,
+/obj/effect/landmark/outpost/cargo,
 /turf/open/floor/plasteel/elevatorshaft,
 /area/outpost/cargo/office)
 "Sc" = (
@@ -8836,6 +8840,7 @@
 	},
 /obj/effect/turf_decal/industrial/outline/yellow,
 /obj/machinery/light/directional/north,
+/obj/effect/landmark/outpost/cargo,
 /turf/open/floor/plasteel/elevatorshaft,
 /area/outpost/cargo/office)
 "Yb" = (

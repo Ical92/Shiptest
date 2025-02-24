@@ -58,3 +58,7 @@ GLOBAL_LIST_EMPTY(outpost_landmarks)
 /obj/machinery/light/floor/hangar/LateInitialize()
 	. = ..()
 	brightness = 20
+
+/obj/effect/landmark/outpost/cargo
+	name = "outpost cargo point"
+	icon_state = "outpost_cargo"
