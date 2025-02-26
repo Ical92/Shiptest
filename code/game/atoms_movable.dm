@@ -43,6 +43,7 @@
 	var/throwforce = 0
 	var/datum/component/orbiter/orbiting
 	var/can_be_z_moved = TRUE
+	var/stack_offset // The offset to be applied to objects loaded on top of this in /datum/component/loading
 
 	var/zfalling = FALSE
 
