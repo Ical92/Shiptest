@@ -7,17 +7,16 @@
 	var/max = 0
 
 /datum/component/loading/Initialize(list/_allowed_types, _offset = 0, _offset_each = 0, _max = 2)
+	if(!istype(parent, /atom/movable))
+		return COMPONENT_INCOMPATIBLE
 	stack = new/list(_max)
-	allowed_types = _allowed_types
+	if(!_allowed_types || !_allowed_types.len)
+		allowed_types = list(/obj)
+	else
+		allowed_types = _allowed_types
 	offset = _offset
 	offset_each = _offset_each
 	max = _max
-
-/datum/component/loading/RegisterWithParent()
-	RegisterSignal(parent, COMSIG_MOUSEDROPPED_ONTO, PROC_REF(mousedropped_onto))
-
-/datum/component/loading/proc/mousedropped_onto(datum/source, atom/movable/O, mob/M)
-	insert(O, null, M)
 
 /datum/component/loading/proc/insert(obj/O, _slot, mob/user)
 	var/slot = _slot

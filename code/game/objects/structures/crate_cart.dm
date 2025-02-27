@@ -6,13 +6,16 @@
 	icon = 'icons/mob/aibots.dmi'
 	icon_state = "mulebot0"
 	density = TRUE
-
-	var/list/cart_contents = new()
+	var/datum/component/loading/component
 
 /obj/structure/crate_cart/Initialize()
 	. = ..()
+	component = AddComponent(/datum/component/loading, _offset = 8, _offset_each = 10, _max = 2)
+	RegisterSignal(src, COMSIG_MOUSEDROPPED_ONTO, PROC_REF(mousedropped_onto))
 
-/obj/structure/crate_cart/MouseDrop_T(atom/movable/AM, mob/user)
+/obj/structure/crate_cart/proc/mousedropped_onto(datum/source, atom/movable/AM, mob/user)
+	SIGNAL_HANDLER
+
 	var/mob/living/L = user
 
 	if (!istype(L))
@@ -24,29 +27,10 @@
 	if(!istype(AM) || isdead(AM) || iscameramob(AM) || istype(AM, /obj/effect/dummy/phased_mob))
 		return
 
-	load(AM)
-
-/obj/structure/crate_cart/proc/load(atom/movable/AM)
-	if(AM.anchored)
+	if(AM.anchored || !isturf(AM.loc))
 		return
 
-	if(!isturf(AM.loc)) // To prevent the loading from stuff from someone's inventory or screen icons.
-		return
-
-	var/obj/structure/closet/crate/crate = AM
-	if(istype(crate))
-		if(cart_contents.len >= 2)
-			return
-
-	if(crate || isobj(AM))
-		var/obj/O = AM
-		if(O.has_buckled_mobs() || (locate(/mob) in AM)) // Can't load non crates objects with mobs buckled to it or inside it.
-			return
-
-		if(crate)
-			crate.close()  // Make sure the crate is closed
-
-		O.forceMove(src)
-
-		cart_contents += AM
-		update_appearance()
+	if(component.stack[1]) //Something is in the first slot
+		if(!istype(component.stack[1], /obj/structure/closet/crate) || !istype(AM, /obj/structure/closet/crate))
+			return // Something is on the cart that isn't a crate, so we can't stack it
+	component.insert(AM, null, L) // Nothing is on the cart, or it's a crate and we can stack it
