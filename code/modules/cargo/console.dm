@@ -185,7 +185,7 @@
 					beacon.update_status(SP_LAUNCH)
 				else if(!use_beacon)// find a suitable supplypod landing zone in cargobay
 					var/list/empty_turfs = list()
-					for(var/obj/effect/landmark/outpost/cargo/target in loc) // Targets in the same area
+					for(var/obj/effect/landmark/outpost/cargo/target in get_area(src)) // Targets in the same area
 						var/turf/T = get_turf(target)
 						if(T.is_blocked_turf())
 							continue
