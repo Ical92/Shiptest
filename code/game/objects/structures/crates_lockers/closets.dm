@@ -132,6 +132,8 @@
 		return TRUE
 	if(welded || locked)
 		return FALSE
+	if(!isturf(loc))
+		return FALSE
 	var/turf/T = get_turf(src)
 	for(var/mob/living/L in T)
 		if(L.anchored || horizontal && L.mob_size > MOB_SIZE_TINY && L.density)
