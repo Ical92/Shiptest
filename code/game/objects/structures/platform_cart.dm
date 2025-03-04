@@ -21,17 +21,29 @@
 
 	var/mob/living/L = user
 
-	if (!istype(L) || !istype(AM))
+	if (!istype(L) || !istype(AM)) // Type checks
 		return
 
-	if(user.incapacitated() || L.body_position == LYING_DOWN)
+	if(user.incapacitated() || L.body_position == LYING_DOWN) // User state checks
 		return
 
-	if(!AM.density || !isturf(AM.loc) || AM.anchored) // Only able to load dense atoms that aren't anchored and are on the ground
+	if(!AM.density || !isturf(AM.loc) || AM.anchored || !Adjacent(AM)) // Only able to load dense atoms that aren't anchored and are on the ground next to the cart
 		return
 
-	if(user && !do_after(user, load_time, target = src))
+	if(user && !do_after(user, load_time, target = AM))
 		return FALSE
+
+	var/obj/structure/platform_cart/other_cart = AM
+	if (istype(other_cart)) // Attempt to link/unlink two carts
+		if(pulling)
+			pulling = AM
+			AM.set_pulledby(src)
+			balloon_alert(user, "carts unlinked")
+		else
+			AM.set_pulledby(src)
+			pulling = (AM)
+			balloon_alert(user, "carts linked")
+		return TRUE
 
 	var/obj/structure/closet/crate/crate = AM
 	if(istype(crate) && crate.opened)

@@ -89,11 +89,12 @@
 	return TRUE // Stops basic interaction (such as opening a crate) with an object if it's loaded onto something
 
 /datum/component/unloading/proc/mousedrop_onto(datum/source, atom/over, mob/user)
+	if(get_dist(over, parent) != 1 || get_dist(over, user) != 1)
+		return
+
 	if(user && !do_after(user, loaded_to.unload_time, parent)) // This should be an async invoke
 		return FALSE
 
-	if(get_dist(over, parent) != 1 || get_dist(over, user) != 1)
-		return
 	unload(over, user)
 
 /datum/component/unloading/proc/unload(atom/target, mob/user)
