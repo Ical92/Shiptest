@@ -377,9 +377,7 @@
 /area/overmap_encounter/planetoid/cave/explored)
 "jp" = (
 /obj/structure/grille,
-/obj/structure/cable{
-	icon_state = "0-1"
-	},
+/obj/structure/cable,
 /turf/open/floor/plating/rust{
 	light_range = 2
 	},
@@ -439,15 +437,12 @@
 /turf/open/floor/wood,
 /area/ruin/beach/piratecrash)
 "ll" = (
-/obj/structure/fluff/broken_flooring{
-	dir = 2;
-	icon_state = "plating"
-	},
 /obj/structure/frame/computer{
 	anchored = 1;
 	dir = 4
 	},
 /obj/item/shard,
+/obj/effect/turf_decal/broken_tiling/broken_tile,
 /turf/open/floor/wood,
 /area/ruin/beach/piratecrash/shuttle)
 "ly" = (
@@ -584,9 +579,7 @@
 	},
 /area/ruin/beach/piratecrash)
 "qn" = (
-/obj/item/candle/tribal_torch{
-	light_on = 0
-	},
+/obj/item/candle/tribal_torch,
 /obj/effect/turf_decal/corner/opaque/black/diagonal,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -1004,9 +997,8 @@
 	},
 /area/overmap_encounter/planetoid/cave/explored)
 "EK" = (
-/obj/structure/fluff/broken_flooring{
-	dir = 8;
-	icon_state = "plating"
+/obj/effect/turf_decal/broken_tiling/broken_tile{
+	dir = 8
 	},
 /turf/open/floor/wood,
 /area/ruin/beach/piratecrash/shuttle)
@@ -1468,9 +1460,7 @@
 /area/overmap_encounter/planetoid/cave/explored)
 "Tx" = (
 /obj/effect/spawner/structure/window,
-/obj/structure/cable{
-	icon_state = "0-1"
-	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/beach/piratecrash/storage)
 "TA" = (

@@ -276,13 +276,12 @@
 	pixel_x = 7;
 	pixel_y = -5
 	},
-/obj/structure/fluff/broken_flooring{
-	icon_state = "plating";
-	dir = 8
-	},
 /obj/effect/decal/cleanable/garbage{
 	pixel_x = -6;
 	pixel_y = 5
+	},
+/obj/effect/turf_decal/broken_tiling/broken_tile{
+	dir = 8
 	},
 /turf/open/floor/plasteel/patterned/ridged,
 /area/ship/bridge)
@@ -495,9 +494,7 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/bridge)
 "Y" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
+/obj/machinery/power/shuttle/engine/electric,
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 1

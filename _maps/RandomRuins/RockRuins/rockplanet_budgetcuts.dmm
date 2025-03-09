@@ -566,8 +566,7 @@
 "jb" = (
 /obj/structure/bed,
 /obj/effect/turf_decal/industrial/warning{
-	color = "#808080";
-	dir = 2
+	color = "#808080"
 	},
 /obj/effect/decal/cleanable/vomit,
 /obj/effect/decal/cleanable/blood/old,
@@ -1322,8 +1321,8 @@
 /turf/open/floor/carpet/red,
 /area/ruin/rockplanet/nanotrasen)
 "vp" = (
-/obj/structure/fluff/broken_flooring,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/broken_tiling/missing_tile,
+/turf/open/floor/plasteel,
 /area/ruin/rockplanet/nanotrasen)
 "vq" = (
 /obj/structure/fermenting_barrel,
@@ -2139,8 +2138,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/turf_decal/industrial/warning{
-	color = "#808080";
-	dir = 2
+	color = "#808080"
 	},
 /turf/open/floor/plasteel,
 /area/ruin/rockplanet/nanotrasen)
@@ -2455,7 +2453,10 @@
 /turf/open/floor/plasteel,
 /area/ruin/rockplanet/nanotrasen)
 "QN" = (
-/turf/open/floor/plating,
+/obj/effect/turf_decal/broken_tiling/missing_tile{
+	dir = 9
+	},
+/turf/open/floor/plasteel,
 /area/ruin/rockplanet/nanotrasen)
 "QO" = (
 /obj/structure/table/reinforced,
@@ -2531,8 +2532,9 @@
 /turf/open/floor/plasteel/dark,
 /area/overmap_encounter/planetoid/rockplanet/explored)
 "Sd" = (
-/obj/structure/fluff/broken_flooring{
-	icon_state = "pile"
+/obj/item/stack/tile/plasteel{
+	pixel_x = -3;
+	pixel_y = -4
 	},
 /turf/open/floor/plating,
 /area/ruin/rockplanet/nanotrasen)

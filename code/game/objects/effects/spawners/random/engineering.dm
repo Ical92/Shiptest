@@ -64,7 +64,7 @@
 		/obj/item/stock_parts/manipulator/femto
 	)
 
-/obj/effect/spawner/random/materials
+/obj/effect/spawner/random/bulk_materials
 	name = "random bulk materials"
 	spawn_loot_count = 2
 	loot = list(

@@ -34,9 +34,7 @@
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
-	dir = 2
-	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /obj/structure/cable/orange{
 	icon_state = "5-8"
@@ -2774,9 +2772,11 @@
 /obj/structure/cable/blue{
 	icon_state = "5-6"
 	},
-/obj/structure/fluff/broken_flooring,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/broken_tiling/missing_tile{
+	dir = 6
+	},
+/turf/open/floor/plasteel,
 /area/ruin/unpowered/crashed_starwalker)
 "Uc" = (
 /obj/effect/decal/cleanable/oil,

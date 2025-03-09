@@ -293,7 +293,6 @@
 	dir = 5
 	},
 /obj/item/storage/case/surgery{
-	pixel_x = 0;
 	pixel_y = 4
 	},
 /turf/open/floor/pod/light,
@@ -7778,10 +7777,9 @@
 /turf/open/floor/pod/dark,
 /area/ruin/jungle/paradise/dorms)
 "Yl" = (
-/obj/structure/fluff/broken_flooring,
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
+/obj/effect/turf_decal/broken_tiling/broken_tile,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel,
 /area/overmap_encounter/planetoid/cave/explored)
 "Yo" = (
 /obj/effect/turf_decal/weather/dirt{

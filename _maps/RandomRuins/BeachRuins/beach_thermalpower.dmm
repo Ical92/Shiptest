@@ -1,0 +1,4958 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ac" = (
+/obj/effect/turf_decal/industrial/shutoff{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/binary/valve/digital{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"ad" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"ay" = (
+/obj/structure/fence/cut/large{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt/beach/lit,
+/area/ruin/jungle)
+"aB" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower/open_roof)
+"aE" = (
+/turf/open/water/beach,
+/area/template_noop)
+"aJ" = (
+/obj/effect/turf_decal/broken_tiling/missing_tile{
+	dir = 9
+	},
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"bd" = (
+/obj/structure/fence/post{
+	dir = 4
+	},
+/turf/open/floor/plating/grass/beach/lit,
+/area/ruin/jungle)
+"bn" = (
+/obj/structure/platform{
+	dir = 8
+	},
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/structure/platform/corner,
+/obj/structure/railing/thin/corner,
+/obj/effect/turf_decal/broken_tiling/broken_tile{
+	dir = 4
+	},
+/turf/open/water/beach,
+/area/ruin/jungle/thermalpower)
+"bt" = (
+/obj/effect/turf_decal/broken_tiling/broken_tile{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/jungle/thermalpower)
+"bF" = (
+/obj/structure/salvageable/safe_server,
+/obj/effect/turf_decal/corner_techfloor_gray/full{
+	dir = 4
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"bG" = (
+/obj/structure/sign/departments/mait{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 8
+	},
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"bH" = (
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"cb" = (
+/obj/effect/turf_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"cm" = (
+/obj/structure/table/reinforced,
+/obj/structure/sign/poster/ripped{
+	pixel_y = 32
+	},
+/obj/item/clothing/head/soft/utility_black{
+	pixel_x = -5;
+	pixel_y = 6
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"cn" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"cQ" = (
+/obj/structure/platform/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"cV" = (
+/obj/machinery/door/poddoor/preopen{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/jungle/thermalpower)
+"cX" = (
+/obj/machinery/door/airlock/maintenance/external,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"de" = (
+/obj/structure/railing/thin/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/template_noop)
+"dr" = (
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"dM" = (
+/obj/structure/hazard/electrical/conduit/exposed_wires_stun{
+	dir = 4;
+	id = "thermalpower";
+	on = 0
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/jungle/thermalpower)
+"dP" = (
+/obj/structure/fence/corner{
+	dir = 6
+	},
+/turf/open/floor/plating/grass/beach/lit,
+/area/ruin/jungle)
+"ei" = (
+/obj/machinery/atmospherics/pipe/manifold/orange/hidden,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/sign/warning/fire{
+	pixel_y = 24;
+	pixel_x = 24
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"eu" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/junction{
+	dir = 8
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"ew" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible{
+	dir = 9
+	},
+/turf/open/floor/plasteel/tech,
+/area/template_noop)
+"eB" = (
+/obj/structure/grille,
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"eF" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"eG" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating{
+	icon_state = "plating_rust"
+	},
+/area/ruin/jungle/thermalpower)
+"eK" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"eN" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"eQ" = (
+/obj/effect/turf_decal/broken_tiling/missing_tile{
+	dir = 4
+	},
+/obj/structure/hazard/electrical/conduit,
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"fb" = (
+/obj/structure/hazard/electrical/conduit{
+	layer = 2;
+	plane = -2
+	},
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"fj" = (
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"fm" = (
+/obj/machinery/atmospherics/pipe/manifold/orange/hidden,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"fw" = (
+/obj/structure/railing/thin,
+/turf/open/floor/plating{
+	icon_state = "plating_rust"
+	},
+/area/template_noop)
+"fz" = (
+/obj/structure/railing/thin/corner{
+	dir = 1
+	},
+/obj/structure/railing/thin/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"fO" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/junction,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"fT" = (
+/obj/structure/salvageable/machine,
+/obj/effect/turf_decal/corner_techfloor_gray/full{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"gz" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"gE" = (
+/obj/structure/hazard/electrical/conduit{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"gF" = (
+/obj/structure/fence/corner{
+	dir = 9
+	},
+/turf/open/floor/plating/grass/beach/lit,
+/area/ruin/jungle)
+"gR" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/structure/railing/thin,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"hn" = (
+/turf/open/water/beach/deep,
+/area/ruin/jungle)
+"hq" = (
+/obj/effect/decal/fakelattice{
+	icon_state = "lattice-12"
+	},
+/obj/item/stack/rods{
+	pixel_y = 12;
+	pixel_x = 12
+	},
+/obj/item/stack/rods{
+	pixel_y = 12;
+	pixel_x = 12
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/visible{
+	dir = 4
+	},
+/turf/open/water/beach,
+/area/ruin/jungle/thermalpower)
+"hD" = (
+/turf/closed/wall/r_wall,
+/area/ruin/jungle/thermalpower)
+"hT" = (
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/turf/open/floor/plating,
+/area/template_noop)
+"ig" = (
+/obj/item/stack/rods{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/turf/open/water/beach/deep,
+/area/ruin/jungle)
+"iq" = (
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"ir" = (
+/obj/effect/turf_decal/corner_techfloor_grid{
+	dir = 10
+	},
+/obj/effect/turf_decal/techfloor/hole/right,
+/obj/effect/turf_decal/techfloor/hole,
+/obj/effect/decal/cleanable/ash{
+	pixel_x = 9;
+	pixel_y = 13
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/structure/hazard/slowdown/abstract_slow{
+	id = "thermalpower";
+	on = 0;
+	slowdown = 3
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/ruin/jungle/thermalpower)
+"iu" = (
+/obj/structure/hazard/electrical/conduit{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"iG" = (
+/obj/effect/turf_decal/broken_tiling/broken_tile{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower/open_roof)
+"iK" = (
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower/open_roof)
+"iV" = (
+/obj/structure/railing/thin,
+/obj/structure/sign/warning/securearea{
+	pixel_y = 26
+	},
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"iX" = (
+/obj/structure/sign/warning/securearea{
+	pixel_y = 26
+	},
+/turf/open/water/beach/deep,
+/area/ruin/jungle)
+"js" = (
+/obj/structure/fence/door,
+/turf/open/floor/plating/grass/beach/lit,
+/area/ruin/jungle)
+"jt" = (
+/obj/structure/salvageable/machine,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/fluff/camera{
+	dir = 5
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"jB" = (
+/turf/closed/wall/r_wall/rust,
+/area/template_noop)
+"jC" = (
+/obj/effect/turf_decal/industrial/shutoff{
+	dir = 4
+	},
+/obj/structure/platform/corner{
+	dir = 1
+	},
+/obj/structure/railing/thin/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/binary/valve/digital{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"jD" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"jM" = (
+/obj/structure/salvageable/thermalpower/circulator{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"jQ" = (
+/obj/structure/salvageable/thermalpower/borg,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"kn" = (
+/obj/structure/salvageable/thermalpower/gen,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"ko" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/warning/nosmoking/circle{
+	pixel_x = -22;
+	pixel_y = -8
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"kB" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"kI" = (
+/obj/effect/turf_decal/broken_tiling/missing_tile{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ruin/jungle/thermalpower)
+"kN" = (
+/obj/structure/railing/thin/corner{
+	dir = 4
+	},
+/obj/structure/railing/thin/corner{
+	dir = 1
+	},
+/obj/structure/hazard/electrical/conduit{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"lp" = (
+/obj/effect/turf_decal/broken_tiling/missing_tile{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/jungle/thermalpower)
+"lx" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/obj/structure/platform/corner{
+	dir = 4
+	},
+/obj/structure/platform/corner{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"ly" = (
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/structure/railing/thin{
+	dir = 4
+	},
+/turf/open/floor/plasteel/stairs,
+/area/ruin/jungle/thermalpower)
+"lG" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"lK" = (
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 4
+	},
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"lL" = (
+/obj/structure/platform,
+/obj/structure/railing/thin,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"lU" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/wrench{
+	pixel_y = 8;
+	pixel_x = -10
+	},
+/obj/structure/fluff/camera{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"lX" = (
+/obj/structure/salvageable/thermalpower/circulator{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"mf" = (
+/obj/effect/turf_decal/corner_techfloor_grid{
+	dir = 5
+	},
+/obj/effect/turf_decal/techfloor/hole{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor/hole/right{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/plasma,
+/obj/machinery/light/small/directional/north{
+	bulb_colour = "#FF3232";
+	brightness = 8
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 10
+	},
+/obj/structure/hazard/slowdown/abstract_slow{
+	id = "thermalpower";
+	on = 0;
+	slowdown = 3
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/ruin/jungle/thermalpower)
+"mm" = (
+/obj/structure/grille,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"mp" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/fluff/camera{
+	dir = 10
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"mr" = (
+/obj/structure/grille/broken,
+/obj/item/stack/ore/salvage/scrapmetal{
+	pixel_x = 11
+	},
+/obj/item/stack/ore/salvage/scrapmetal{
+	pixel_x = 11
+	},
+/turf/open/water/beach/deep,
+/area/ruin/jungle/thermalpower)
+"mE" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"mM" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"nt" = (
+/obj/structure/fluff/boiler{
+	icon_state = "end_capc"
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"nu" = (
+/obj/item/chair{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"nV" = (
+/obj/effect/turf_decal/corner_techfloor_gray/full,
+/turf/open/water/beach,
+/area/ruin/jungle/thermalpower/open_roof)
+"nY" = (
+/obj/structure/railing/thin{
+	dir = 6
+	},
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"oc" = (
+/obj/structure/fence/cut/medium{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt/beach/lit,
+/area/ruin/jungle)
+"oz" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"ps" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/broken_tiling/broken_tile{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/jungle/thermalpower)
+"pz" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"pR" = (
+/obj/structure/crate_shelf,
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/solarpanel_small,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/spawner/random/salvage_manipulator,
+/obj/effect/spawner/random/salvage_laser,
+/obj/effect/spawner/random/salvage_capacitor,
+/obj/effect/spawner/random/salvage_scanning,
+/obj/effect/spawner/random/salvage_manipulator,
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"pW" = (
+/obj/structure/railing/thin/corner,
+/obj/structure/hazard/electrical/electrified_water{
+	id = "thermalpower";
+	on = 0
+	},
+/turf/open/water/beach,
+/area/template_noop)
+"qF" = (
+/obj/item/cigbutt{
+	pixel_x = -12;
+	pixel_y = -6
+	},
+/turf/open/floor/plating/asteroid/sand,
+/area/ruin/jungle/thermalpower)
+"qP" = (
+/obj/structure/hazard/electrical/conduit{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"qU" = (
+/obj/structure/hazard/electrical/conduit/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"qV" = (
+/obj/structure/hazard/electrical/conduit{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/jungle/thermalpower/open_roof)
+"qW" = (
+/obj/effect/turf_decal/corner_techfloor_gray/diagonal,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"rc" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden,
+/obj/effect/decal/fakelattice{
+	icon_state = "lattice-3"
+	},
+/turf/open/water/beach,
+/area/ruin/jungle/thermalpower)
+"rq" = (
+/obj/effect/turf_decal/industrial/shutoff{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/binary/valve/digital{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"rF" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"rX" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/template_noop)
+"sb" = (
+/obj/structure/fence,
+/turf/open/floor/plating/dirt/beach/lit,
+/area/ruin/jungle)
+"sn" = (
+/obj/effect/turf_decal/broken_tiling/missing_tile{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ruin/jungle/thermalpower)
+"sz" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden,
+/obj/structure/grille,
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"sA" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
+	},
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"sG" = (
+/obj/structure/fence/cut/large{
+	dir = 1
+	},
+/turf/open/floor/plating/grass/beach/lit,
+/area/ruin/jungle)
+"sN" = (
+/obj/effect/turf_decal/broken_tiling/missing_tile{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"tf" = (
+/obj/structure/girder/displaced,
+/turf/open/floor/plating/asteroid/sand,
+/area/ruin/jungle/thermalpower)
+"th" = (
+/obj/effect/turf_decal/broken_tiling/missing_tile{
+	dir = 9
+	},
+/turf/open/floor/plasteel,
+/area/ruin/jungle/thermalpower)
+"tz" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/bed/roller,
+/obj/item/stack/medical/suture{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/effect/mob_spawn/human/corpse/damaged{
+	husk = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"tM" = (
+/obj/structure/fluff/camera{
+	dir = 8
+	},
+/obj/structure/fluff/boiler{
+	icon_state = "emitter_center"
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"tT" = (
+/obj/structure/crate_shelf,
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/secure/engineering,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"tV" = (
+/obj/structure/grille/broken,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"tW" = (
+/obj/effect/turf_decal/corner_techfloor_grid{
+	dir = 5
+	},
+/obj/effect/turf_decal/techfloor/hole{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor/hole/right{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/structure/hazard/slowdown/abstract_slow{
+	id = "thermalpower";
+	on = 0;
+	slowdown = 3
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/ruin/jungle/thermalpower)
+"ux" = (
+/obj/structure/platform{
+	dir = 4
+	},
+/obj/structure/railing/thin{
+	dir = 4
+	},
+/obj/structure/platform{
+	dir = 8
+	},
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/turf/open/floor/plasteel/stairs{
+	dir = 1
+	},
+/area/ruin/jungle/thermalpower)
+"uB" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"uX" = (
+/turf/open/water/beach,
+/area/ruin/jungle/thermalpower)
+"vd" = (
+/obj/machinery/atmospherics/pipe/simple/orange/visible{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"vf" = (
+/obj/structure/fence/post,
+/turf/open/floor/plating/grass/beach/lit,
+/area/ruin/jungle)
+"vh" = (
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/reagent_containers/hypospray/medipen{
+	icon_state = "medipen0";
+	list_reagents = list();
+	pixel_x = 16;
+	pixel_y = -13
+	},
+/obj/structure/salvageable/thermalpower/borg,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"vk" = (
+/obj/structure/grille,
+/turf/open/water/beach,
+/area/ruin/jungle/thermalpower)
+"vB" = (
+/obj/effect/turf_decal/broken_tiling/broken_tile{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ruin/jungle/thermalpower)
+"vI" = (
+/obj/structure/hazard/electrical/conduit/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 8;
+	pixel_x = 24
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"vJ" = (
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 9
+	},
+/obj/machinery/recharge_station{
+	icon_state = "borgdecon2"
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"vM" = (
+/obj/structure/fence/door/opened,
+/turf/open/floor/plating/dirt/beach/lit,
+/area/ruin/jungle)
+"vS" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"wc" = (
+/turf/open/floor/plating/grass/beach/lit,
+/area/ruin/jungle)
+"wr" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"wE" = (
+/obj/structure/hazard/electrical/conduit{
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/loading/stripes{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"wF" = (
+/obj/structure/salvageable/machine,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/warning/securearea{
+	pixel_x = 24;
+	pixel_y = -6
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/jungle/thermalpower)
+"wZ" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/structure/railing/thin,
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"xa" = (
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 6
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"xb" = (
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/large{
+	name = "maintenance shipment crate"
+	},
+/obj/item/stack/ore/salvage/scrapgold/five,
+/obj/effect/spawner/random/materials,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"xq" = (
+/obj/effect/turf_decal/steeldecal/steel_decals_central1{
+	dir = 8
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10{
+	dir = 4
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "thermalpower_exhaust";
+	dir = 4
+	},
+/obj/machinery/power/shieldwallgen/atmos/strong{
+	active_power_usage = 0;
+	id = "thermalpower"
+	},
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"xv" = (
+/obj/structure/platform/corner,
+/obj/structure/platform/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 8
+	},
+/obj/effect/turf_decal/broken_tiling/missing_tile,
+/turf/open/water/beach,
+/area/ruin/jungle/thermalpower)
+"xw" = (
+/obj/structure/hazard/electrical/conduit,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"xA" = (
+/obj/structure/platform,
+/obj/structure/platform{
+	dir = 8
+	},
+/obj/structure/railing/thin,
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"xC" = (
+/obj/structure/salvageable/machine,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/jungle/thermalpower)
+"xX" = (
+/obj/structure/fluff/boiler{
+	icon_state = "emitter_center"
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"yb" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"yh" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower/open_roof)
+"yw" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/obj/structure/platform/corner{
+	dir = 4
+	},
+/obj/structure/platform/corner{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower/open_roof)
+"yx" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/template_noop)
+"yI" = (
+/obj/structure/fence/corner{
+	dir = 10
+	},
+/turf/open/floor/plating/grass/beach/lit,
+/area/ruin/jungle)
+"za" = (
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 6
+	},
+/obj/machinery/blackbox_recorder,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"zd" = (
+/obj/structure/grille,
+/obj/structure/catwalk/over/plated_catwalk,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"ze" = (
+/obj/effect/turf_decal/corner_techfloor_grid{
+	dir = 5
+	},
+/obj/effect/turf_decal/techfloor/hole{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor/hole/right{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/directional/north{
+	bulb_colour = "#FF3232";
+	brightness = 8
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/structure/hazard/slowdown/abstract_slow{
+	id = "thermalpower";
+	on = 0;
+	slowdown = 3
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/ruin/jungle/thermalpower)
+"zg" = (
+/obj/structure/salvageable/thermalpower/borg{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	icon_state = "plating_rust"
+	},
+/area/template_noop)
+"zQ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/button/door{
+	dir = 1;
+	pixel_y = -22;
+	pixel_x = -3;
+	id = "thermalpower_exhaust"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"zR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower/open_roof)
+"zY" = (
+/obj/structure/grille/broken,
+/obj/structure/hazard_shutoff/turn_on_others{
+	dir = 4;
+	pixel_x = -12;
+	shutoff_message = "The machinery around you shudders on as you flip the switch.";
+	id = "thermalpower";
+	door_id = "thermalpower";
+	wall_gen_id = "thermalpower"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/hazard/electrical/conduit/frayed_sparks{
+	dir = 4;
+	id = "thermalpower";
+	on = 0
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"Aa" = (
+/obj/effect/turf_decal/steeldecal/steel_decals_central1{
+	dir = 4
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10{
+	dir = 8
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "thermalpower_exhaust";
+	dir = 4
+	},
+/obj/machinery/power/shieldwallgen/atmos/strong{
+	active_power_usage = 0;
+	id = "thermalpower";
+	dir = 1
+	},
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"Ac" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"Al" = (
+/obj/effect/turf_decal/corner_techfloor_gray/diagonal{
+	dir = 4
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"Au" = (
+/obj/structure/crate_shelf,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"AO" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"AT" = (
+/obj/structure/platform,
+/obj/structure/railing/thin,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"AV" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 6
+	},
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"AY" = (
+/turf/open/floor/plating/asteroid/sand,
+/area/ruin/jungle/thermalpower)
+"Bd" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/warning/hottemp{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower/open_roof)
+"Bf" = (
+/obj/effect/turf_decal/broken_tiling/broken_tile{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower/open_roof)
+"Bl" = (
+/obj/effect/turf_decal/corner_techfloor_grid{
+	dir = 10
+	},
+/obj/effect/turf_decal/techfloor/hole/right,
+/obj/effect/turf_decal/techfloor/hole,
+/obj/effect/decal/cleanable/plasma,
+/obj/machinery/light/small/directional/south{
+	bulb_colour = "#FF3232";
+	brightness = 8
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/structure/hazard/slowdown/abstract_slow{
+	id = "thermalpower";
+	on = 0;
+	slowdown = 3
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/ruin/jungle/thermalpower)
+"Bu" = (
+/obj/effect/decal/fakelattice{
+	icon_state = "lattice-12"
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/visible{
+	dir = 4
+	},
+/turf/open/water/beach,
+/area/ruin/jungle/thermalpower)
+"BA" = (
+/obj/structure/platform{
+	dir = 4
+	},
+/obj/structure/railing/thin{
+	dir = 4
+	},
+/obj/structure/platform/corner{
+	dir = 1
+	},
+/obj/structure/railing/thin/corner{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	icon_state = "plating_rust"
+	},
+/area/ruin/jungle/thermalpower)
+"BB" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"BN" = (
+/obj/structure/railing/thin,
+/obj/machinery/atmospherics/pipe/simple/orange/visible{
+	dir = 9
+	},
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"BY" = (
+/obj/structure/salvageable/thermalpower/boiler,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"Ca" = (
+/obj/structure/railing/thin/corner,
+/obj/structure/railing/thin/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"Cc" = (
+/obj/structure/barricade/wooden{
+	layer = 4.4
+	},
+/turf/closed/mineral/random/jungle,
+/area/ruin/jungle/thermalpower)
+"Cd" = (
+/obj/structure/platform,
+/obj/structure/platform{
+	dir = 4
+	},
+/obj/structure/railing/thin,
+/obj/structure/railing/thin{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"Ci" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/structure/hazard/electrical/conduit,
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"Cr" = (
+/obj/effect/turf_decal/corner_techfloor_grid{
+	dir = 5
+	},
+/obj/effect/turf_decal/techfloor/hole{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor/hole/right{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/plasma,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/structure/hazard/slowdown/abstract_slow{
+	id = "thermalpower";
+	on = 0;
+	slowdown = 3
+	},
+/obj/structure/hazard/atmospheric/hot_gas/once{
+	id = "thermalpower";
+	on = 0
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/ruin/jungle/thermalpower)
+"Cu" = (
+/obj/effect/turf_decal/corner_techfloor_grid{
+	dir = 10
+	},
+/obj/effect/turf_decal/techfloor/hole/right,
+/obj/effect/turf_decal/techfloor/hole,
+/obj/effect/decal/cleanable/plasma,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/structure/hazard/slowdown/abstract_slow{
+	id = "thermalpower";
+	on = 0;
+	slowdown = 3
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/ruin/jungle/thermalpower)
+"CB" = (
+/obj/structure/hazard/electrical/conduit{
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/loading/stripes{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"CJ" = (
+/turf/open/floor/plasteel,
+/area/ruin/jungle/thermalpower)
+"CK" = (
+/obj/item/stack/rods{
+	pixel_x = 12
+	},
+/turf/open/water/beach/deep,
+/area/ruin/jungle)
+"CU" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/recharge_station{
+	icon_state = "borgdecon2"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"Dh" = (
+/obj/structure/platform{
+	dir = 8
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Dw" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/stack/ore/salvage/scrapmetal{
+	pixel_x = -12
+	},
+/obj/item/stack/ore/salvage/scrapmetal{
+	pixel_x = -12
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"DD" = (
+/obj/structure/hazard/electrical/electrified_water{
+	id = "thermalpower";
+	on = 0
+	},
+/turf/open/water/beach,
+/area/template_noop)
+"DE" = (
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"DH" = (
+/obj/structure/salvageable/computer{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"DR" = (
+/obj/structure/salvageable/safe_server,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/jungle/thermalpower)
+"DX" = (
+/obj/structure/platform{
+	dir = 5
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Eb" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 6
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"Ek" = (
+/obj/structure/fence/post{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt/beach/lit,
+/area/ruin/jungle)
+"En" = (
+/obj/item/storage/toolbox/fishing{
+	pixel_y = 14;
+	pixel_x = -3
+	},
+/turf/open/floor/plating/asteroid/sand,
+/area/ruin/jungle/thermalpower)
+"Ep" = (
+/obj/machinery/door/poddoor{
+	id = "thermalpower"
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Er" = (
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/template_noop)
+"Ey" = (
+/obj/effect/turf_decal/corner_techfloor_grid{
+	dir = 10
+	},
+/obj/effect/turf_decal/techfloor/hole/right,
+/obj/effect/turf_decal/techfloor/hole,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/structure/hazard/slowdown/abstract_slow{
+	id = "thermalpower";
+	on = 0;
+	slowdown = 3
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/ruin/jungle/thermalpower)
+"EE" = (
+/obj/effect/turf_decal/corner_techfloor_grid{
+	dir = 5
+	},
+/obj/effect/turf_decal/techfloor/hole{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor/hole/right{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/ash{
+	pixel_x = 7
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/structure/hazard/slowdown/abstract_slow{
+	id = "thermalpower";
+	on = 0;
+	slowdown = 3
+	},
+/obj/structure/hazard/atmospheric/hot_gas/once{
+	id = "thermalpower";
+	on = 0
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/ruin/jungle/thermalpower)
+"EG" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/fluff/camera{
+	dir = 9
+	},
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"EJ" = (
+/obj/structure/fluff/boiler{
+	icon_state = "fuel_chamber"
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"EQ" = (
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"ER" = (
+/obj/structure/hazard/electrical/conduit/manifold,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"Fb" = (
+/obj/structure/railing/thin/corner{
+	dir = 1
+	},
+/obj/structure/railing/thin/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Fg" = (
+/obj/structure/hazard/electrical/conduit/corner{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"FB" = (
+/obj/effect/turf_decal/industrial/warning/dust{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"FF" = (
+/obj/structure/salvageable/computer,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"FT" = (
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 6
+	},
+/obj/item/storage/toolbox/electrical{
+	pixel_x = 2;
+	pixel_y = 16
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"Gs" = (
+/obj/effect/turf_decal/broken_tiling/missing_tile{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/ruin/jungle/thermalpower)
+"Gz" = (
+/obj/structure/grille/broken,
+/turf/open/water/beach/deep,
+/area/ruin/jungle/thermalpower)
+"GR" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"Hg" = (
+/obj/structure/railing/thin,
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/salvageable/thermalpower/borg{
+	dir = 8
+	},
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"Hm" = (
+/obj/structure/platform/corner{
+	dir = 1
+	},
+/obj/structure/railing/thin/corner{
+	dir = 8
+	},
+/obj/structure/platform/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Hs" = (
+/obj/machinery/power/smes,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"IM" = (
+/obj/structure/platform{
+	dir = 4
+	},
+/obj/structure/hazard/electrical/conduit{
+	dir = 4
+	},
+/obj/structure/fluff/camera{
+	dir = 9
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/jungle/thermalpower)
+"IO" = (
+/turf/closed/wall/r_wall/rust,
+/area/ruin/jungle/thermalpower)
+"IR" = (
+/turf/template_noop,
+/area/template_noop)
+"IS" = (
+/obj/structure/platform{
+	dir = 8
+	},
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/structure/platform{
+	dir = 4
+	},
+/obj/structure/railing/thin{
+	dir = 4
+	},
+/turf/open/floor/plasteel/stairs{
+	dir = 1
+	},
+/area/ruin/jungle/thermalpower)
+"IW" = (
+/obj/effect/turf_decal/corner_techfloor_gray/diagonal{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"Je" = (
+/obj/structure/hazard/electrical/conduit{
+	dir = 4;
+	layer = 2.6
+	},
+/obj/machinery/door/airlock/maintenance_hatch{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"Jh" = (
+/obj/structure/hazard/electrical/conduit{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"Jk" = (
+/obj/structure/hazard/electrical/conduit/manifold{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"Jq" = (
+/turf/open/floor/plating{
+	icon_state = "plating_rust"
+	},
+/area/ruin/jungle/thermalpower)
+"Jw" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/obj/structure/grille,
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"JP" = (
+/obj/effect/turf_decal/industrial/warning/dust/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Ka" = (
+/obj/structure/platform{
+	dir = 4
+	},
+/obj/structure/railing/thin{
+	dir = 4
+	},
+/obj/structure/hazard/electrical/conduit/frayed_sparks{
+	dir = 4;
+	id = "thermalpower";
+	on = 0
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/jungle/thermalpower)
+"Km" = (
+/obj/structure/platform{
+	dir = 8
+	},
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/structure/hazard/electrical/conduit{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/jungle/thermalpower)
+"Ko" = (
+/obj/structure/platform{
+	dir = 10
+	},
+/obj/structure/railing/thin,
+/turf/open/floor/plating{
+	icon_state = "plating_rust"
+	},
+/area/ruin/jungle/thermalpower/open_roof)
+"KF" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"KI" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/hazard/electrical/conduit/exposed_wires_stun{
+	dir = 4;
+	id = "thermalpower";
+	on = 0
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"LB" = (
+/obj/structure/hazard/electrical/conduit/manifold{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	icon_state = "plating_rust"
+	},
+/area/ruin/jungle/thermalpower)
+"LD" = (
+/obj/effect/turf_decal/industrial/shutoff{
+	dir = 4
+	},
+/obj/structure/platform/corner,
+/obj/structure/railing/thin/corner,
+/obj/machinery/atmospherics/components/binary/valve/digital{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower/open_roof)
+"LG" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 5
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"LK" = (
+/obj/structure/grille,
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 8
+	},
+/turf/open/water/beach,
+/area/ruin/jungle/thermalpower)
+"LM" = (
+/obj/structure/platform{
+	dir = 8
+	},
+/obj/structure/hazard/electrical/conduit{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/ridged,
+/area/ruin/jungle/thermalpower)
+"LR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"Ma" = (
+/obj/structure/hazard/electrical/conduit/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Md" = (
+/obj/structure/grille,
+/turf/open/water/beach/deep,
+/area/ruin/jungle/thermalpower)
+"Mn" = (
+/obj/structure/platform{
+	dir = 8
+	},
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	icon_state = "plating_rust"
+	},
+/area/ruin/jungle/thermalpower)
+"Mv" = (
+/obj/structure/platform{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"MB" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"MC" = (
+/obj/structure/railing/thin/corner,
+/obj/structure/railing/thin,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/template_noop)
+"MD" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt/beach/lit,
+/area/ruin/jungle)
+"MF" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/floor/plating/grass/beach/lit,
+/area/ruin/jungle)
+"MN" = (
+/obj/structure/closet/crate/secure/plasma,
+/obj/effect/mapping_helpers/crate_shelve,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/stack/ore/salvage/scrapplasma/five{
+	pixel_x = 7;
+	pixel_y = 2
+	},
+/obj/item/stack/ore/salvage/scrapuranium/five{
+	pixel_x = -5;
+	pixel_y = -8
+	},
+/obj/item/stack/ore/salvage/scrapuranium{
+	pixel_x = -4;
+	pixel_y = -6
+	},
+/obj/item/stack/ore/salvage/scrapgold{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/stack/sheet/mineral/plasma/five,
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"MZ" = (
+/obj/effect/turf_decal/broken_tiling/broken_tile,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower/open_roof)
+"Na" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Nb" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 6
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"Nh" = (
+/obj/structure/AIcore/deactivated,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"Nw" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"NH" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"On" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"OA" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"OD" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/obj/machinery/meter,
+/turf/open/floor/plasteel/tech,
+/area/template_noop)
+"OE" = (
+/obj/item/stack/rods{
+	pixel_x = -6;
+	pixel_y = -7
+	},
+/turf/open/water/beach/deep,
+/area/ruin/jungle/thermalpower)
+"OM" = (
+/obj/effect/turf_decal/corner_techfloor_grid{
+	dir = 10
+	},
+/obj/effect/turf_decal/techfloor/hole/right,
+/obj/effect/turf_decal/techfloor/hole,
+/obj/machinery/light/small/directional/south{
+	bulb_colour = "#FF3232";
+	brightness = 8
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 9
+	},
+/obj/structure/hazard/slowdown/abstract_slow{
+	id = "thermalpower";
+	on = 0;
+	slowdown = 3
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/ruin/jungle/thermalpower)
+"OQ" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/atmospherics/components/unary/passive_vent{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"Pa" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/obj/structure/hazard/electrical/conduit/exposed_wires_stun{
+	dir = 4;
+	id = "thermalpower";
+	on = 0
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"Pb" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/turf/open/floor/plasteel/tech,
+/area/template_noop)
+"Pk" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/obj/structure/grille/broken,
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"Pw" = (
+/obj/effect/turf_decal/steeldecal/steel_decals_central1{
+	dir = 8
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10{
+	dir = 4
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "thermalpower_exhaust";
+	dir = 4
+	},
+/obj/machinery/power/shieldwallgen/atmos/strong{
+	active_power_usage = 0;
+	id = "thermalpower";
+	dir = 1
+	},
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"Py" = (
+/obj/structure/platform{
+	dir = 6
+	},
+/obj/structure/railing/thin,
+/obj/effect/turf_decal/broken_tiling/missing_tile{
+	dir = 9
+	},
+/turf/open/water/beach,
+/area/ruin/jungle/thermalpower)
+"PC" = (
+/obj/machinery/atmospherics/components/unary/passive_vent{
+	dir = 4
+	},
+/obj/effect/decal/fakelattice{
+	icon_state = "lattice-4"
+	},
+/turf/open/water/beach,
+/area/ruin/jungle/thermalpower)
+"PT" = (
+/obj/structure/hazard/electrical/conduit{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	icon_state = "plating_rust"
+	},
+/area/ruin/jungle/thermalpower)
+"PX" = (
+/obj/effect/turf_decal/industrial/loading,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"Qe" = (
+/obj/structure/fence,
+/turf/open/floor/plating/grass/beach/lit,
+/area/ruin/jungle)
+"Qg" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"Qo" = (
+/obj/structure/salvageable/machine,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/jungle/thermalpower)
+"Qw" = (
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"Qx" = (
+/turf/open/floor/plasteel/tech,
+/area/template_noop)
+"QK" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech/grid,
+/area/ruin/jungle/thermalpower)
+"Rm" = (
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"Rz" = (
+/obj/structure/hazard/electrical/conduit/exposed_wires_stun{
+	id = "thermalpower";
+	on = 0
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"Sc" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/button/door{
+	pixel_y = 23;
+	pixel_x = 3;
+	id = "thermalpower_exhaust"
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"SC" = (
+/obj/structure/grille/broken,
+/obj/item/stack/rods{
+	pixel_y = 8;
+	pixel_x = 3
+	},
+/obj/item/stack/rods{
+	pixel_y = 8;
+	pixel_x = 3
+	},
+/turf/open/water/beach/deep,
+/area/ruin/jungle/thermalpower)
+"SP" = (
+/turf/closed/wall/r_wall,
+/area/template_noop)
+"To" = (
+/obj/item/binoculars{
+	pixel_x = 8;
+	pixel_y = -6
+	},
+/turf/open/floor/plating/asteroid/sand,
+/area/ruin/jungle/thermalpower)
+"Tv" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"TI" = (
+/obj/structure/platform,
+/obj/structure/railing/thin,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"TO" = (
+/obj/machinery/atmospherics/components/binary/valve/digital{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"TY" = (
+/obj/effect/turf_decal/corner_techfloor_gray,
+/obj/structure/hazard/electrical/conduit{
+	layer = 2;
+	plane = -2
+	},
+/obj/structure/door_assembly/door_assembly_mhatch,
+/turf/open/floor/plating{
+	icon_state = "plating_rust"
+	},
+/area/ruin/jungle/thermalpower)
+"Ud" = (
+/obj/machinery/atmospherics/pipe/manifold/orange/hidden{
+	dir = 1
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/sign/warning/fire{
+	pixel_y = 24;
+	pixel_x = 8
+	},
+/obj/structure/fluff/camera,
+/obj/structure/salvageable/thermalpower/borg{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"Uq" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible{
+	dir = 6
+	},
+/turf/open/floor/plasteel/tech,
+/area/template_noop)
+"Uw" = (
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 8
+	},
+/obj/item/storage/firstaid/ancient{
+	pixel_x = -5;
+	pixel_y = -6
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ruin/jungle/thermalpower)
+"UD" = (
+/obj/structure/railing/thin,
+/turf/open/floor/plasteel/stairs{
+	dir = 8
+	},
+/area/template_noop)
+"UO" = (
+/obj/structure/railing/thin,
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"Vb" = (
+/obj/structure/hazard/electrical/conduit/frayed_sparks{
+	dir = 4;
+	id = "thermalpower";
+	on = 0
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"Ve" = (
+/obj/effect/turf_decal/corner_techfloor_gray{
+	dir = 5
+	},
+/obj/structure/fluff/camera,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/water/beach,
+/area/ruin/jungle/thermalpower/open_roof)
+"Vr" = (
+/obj/structure/grille,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"VB" = (
+/obj/structure/chair/plastic,
+/turf/open/floor/plating/asteroid/sand,
+/area/ruin/jungle/thermalpower)
+"VO" = (
+/obj/structure/closet/crate/freezer{
+	populate = 0;
+	opened = 1
+	},
+/obj/item/reagent_containers/food/drinks/beer{
+	pixel_x = -8;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/food/drinks/beer{
+	pixel_x = 6;
+	pixel_y = -1
+	},
+/turf/open/floor/plating/asteroid/sand,
+/area/ruin/jungle/thermalpower)
+"VQ" = (
+/obj/structure/hazard/electrical/conduit/corner,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"Wi" = (
+/obj/structure/platform/corner,
+/obj/structure/railing/thin/corner,
+/obj/structure/platform/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Wt" = (
+/obj/structure/grille,
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"Wu" = (
+/obj/machinery/recharge_station{
+	icon_state = "borgdecon2"
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/template_noop)
+"Wy" = (
+/obj/structure/platform{
+	dir = 4
+	},
+/obj/structure/railing/thin{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"Xj" = (
+/obj/structure/platform/corner,
+/obj/structure/platform/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/purple/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	icon_state = "plating_rust"
+	},
+/area/ruin/jungle/thermalpower)
+"Xn" = (
+/turf/open/floor/plating{
+	icon_state = "plating_rust"
+	},
+/area/template_noop)
+"XI" = (
+/obj/structure/grille/broken,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/hazard/electrical/conduit/corner{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/thermalpower)
+"XJ" = (
+/obj/effect/turf_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/large{
+	name = "fuel shipment crate"
+	},
+/obj/machinery/portable_atmospherics/canister/toxins,
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+"XR" = (
+/turf/open/floor/plating/dirt/beach/lit,
+/area/ruin/jungle)
+"Yv" = (
+/obj/structure/hazard/electrical/conduit/frayed_sparks{
+	dir = 4;
+	id = "thermalpower";
+	on = 0
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Yy" = (
+/obj/effect/turf_decal/steeldecal/steel_decals_central1{
+	dir = 4
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10{
+	dir = 8
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals10{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/door/poddoor/shutters{
+	id = "thermalpower_exhaust";
+	dir = 4
+	},
+/obj/machinery/power/shieldwallgen/atmos/strong{
+	active_power_usage = 0;
+	id = "thermalpower"
+	},
+/turf/open/floor/plasteel/patterned/grid,
+/area/ruin/jungle/thermalpower)
+"YC" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/food/drinks/mug{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/obj/structure/fluff/camera,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/thermalpower)
+"YF" = (
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"YK" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating{
+	icon_state = "plating_rust"
+	},
+/area/ruin/jungle/thermalpower)
+"YN" = (
+/obj/structure/hazard/electrical/conduit{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Zb" = (
+/obj/structure/platform/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Zd" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 5
+	},
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/thermalpower)
+"Zh" = (
+/turf/open/water/beach/deep,
+/area/ruin/jungle/thermalpower)
+"Zn" = (
+/obj/structure/railing/thin,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/template_noop)
+"Zq" = (
+/obj/effect/turf_decal/industrial/warning/dust/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/fluff/camera{
+	dir = 6
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Zu" = (
+/obj/structure/platform{
+	dir = 9
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ruin/jungle/thermalpower)
+"Zx" = (
+/turf/closed/mineral/random/jungle,
+/area/ruin/jungle)
+"ZU" = (
+/obj/structure/platform{
+	dir = 1
+	},
+/obj/machinery/recharge_station{
+	icon_state = "borgdecon1"
+	},
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/thermalpower)
+
+(1,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+wc
+wc
+wc
+wc
+wc
+wc
+wc
+wc
+wc
+wc
+wc
+wc
+wc
+wc
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(2,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+wc
+wc
+gF
+Qe
+Qe
+vf
+Qe
+sG
+Qe
+Qe
+vf
+Qe
+Qe
+yI
+wc
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(3,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+wc
+wc
+wc
+MF
+wc
+wc
+wc
+XR
+XR
+XR
+wc
+wc
+wc
+wc
+MF
+wc
+wc
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(4,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+wc
+wc
+wc
+bd
+wc
+wc
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+wc
+bd
+wc
+wc
+wc
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(5,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+IR
+IR
+IR
+IR
+wc
+wc
+wc
+wc
+wc
+MF
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+wc
+MF
+wc
+wc
+wc
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(6,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+Zx
+Zx
+IR
+IR
+wc
+wc
+wc
+wc
+wc
+MD
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+MF
+wc
+wc
+wc
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(7,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+Zx
+Zx
+XR
+XR
+wc
+wc
+wc
+wc
+wc
+wc
+ay
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+MF
+wc
+wc
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(8,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+Zx
+IR
+IR
+Zx
+Zx
+Zx
+Zx
+Zx
+XR
+XR
+XR
+XR
+XR
+wc
+wc
+wc
+wc
+oc
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+wc
+MF
+wc
+wc
+wc
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(9,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+Zx
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+wc
+wc
+MF
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+wc
+wc
+ay
+XR
+XR
+wc
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(10,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+wc
+wc
+bd
+wc
+wc
+XR
+XR
+XR
+wc
+wc
+XR
+XR
+wc
+Ek
+XR
+XR
+wc
+wc
+IR
+IR
+IR
+IR
+IR
+"}
+(11,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+Zx
+Zx
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+wc
+wc
+wc
+js
+wc
+wc
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+vM
+XR
+XR
+wc
+wc
+IR
+IR
+IR
+IR
+IR
+"}
+(12,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+XR
+XR
+XR
+XR
+XR
+XR
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+XR
+XR
+XR
+XR
+wc
+Zx
+Zx
+MF
+wc
+wc
+wc
+XR
+XR
+XR
+wc
+XR
+XR
+XR
+MD
+XR
+wc
+wc
+wc
+IR
+IR
+IR
+IR
+IR
+"}
+(13,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+hD
+IO
+IO
+hD
+cV
+cV
+cV
+cV
+IO
+IO
+hD
+sb
+dP
+wc
+wc
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(14,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+hD
+vJ
+sA
+EQ
+EQ
+EQ
+EQ
+EQ
+EQ
+EQ
+hD
+wc
+wc
+wc
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(15,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+IO
+IO
+hD
+hD
+dr
+IO
+Zx
+Zx
+Zx
+Zx
+Zx
+Zx
+hD
+xa
+sA
+EQ
+EQ
+EQ
+EQ
+EQ
+EQ
+EQ
+IO
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(16,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+Zx
+hD
+hD
+hD
+IO
+IO
+jt
+DH
+Hs
+Dw
+IO
+IO
+IO
+IO
+hD
+hD
+IO
+hD
+bG
+eF
+Au
+EQ
+EQ
+Au
+EQ
+EQ
+Au
+hD
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(17,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+Zx
+hD
+Eb
+fO
+eN
+IO
+uB
+YF
+CB
+cn
+GR
+Qw
+Qw
+Jq
+Jq
+jQ
+Qw
+GR
+EQ
+EQ
+Au
+EQ
+EQ
+Au
+EQ
+EQ
+Au
+hD
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(18,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+Zx
+IO
+TO
+gz
+BB
+Pk
+mM
+lG
+Pa
+pz
+bH
+lG
+eN
+Qw
+Rm
+Rm
+tV
+IO
+IO
+IO
+Au
+EQ
+EQ
+Au
+EQ
+EQ
+Au
+hD
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(19,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+hD
+hD
+IO
+IO
+Ud
+jD
+LG
+GR
+uB
+fj
+wE
+uB
+hD
+YK
+Ac
+On
+Qw
+Qw
+Qw
+Qw
+Jq
+IO
+hD
+hD
+hD
+IO
+IO
+IO
+hD
+hD
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(20,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+hD
+nt
+BY
+BY
+xw
+qU
+NH
+hD
+Qo
+VQ
+Fg
+DR
+hD
+hD
+Vr
+hD
+IO
+IO
+hD
+Qw
+Jq
+hD
+VO
+To
+AY
+uX
+uX
+vk
+hn
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(21,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+hD
+nt
+xX
+EJ
+fm
+Jh
+NH
+hD
+QK
+ER
+LB
+Rz
+GR
+fb
+Ac
+TY
+zR
+aB
+hD
+Qw
+Qw
+hD
+AY
+VB
+uX
+uX
+Zh
+Md
+hn
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(22,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+IO
+CU
+LR
+mE
+wr
+iu
+NH
+IO
+DR
+KI
+qP
+ps
+hD
+hD
+Vr
+IO
+Ve
+nV
+hD
+sn
+CJ
+hD
+En
+qF
+uX
+Zh
+Zh
+mr
+hn
+hn
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(23,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+IO
+nt
+BY
+BY
+xw
+Jk
+NH
+IO
+QK
+PT
+Vb
+xC
+hD
+eK
+KF
+IO
+Bd
+zQ
+hD
+CJ
+CJ
+hD
+DE
+AY
+uX
+Zh
+IO
+dr
+CK
+hn
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(24,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+IO
+nt
+tM
+EJ
+ei
+Jh
+NH
+IO
+wF
+qP
+vI
+QK
+hD
+eG
+BB
+Jw
+eN
+Nb
+bH
+Zd
+th
+IO
+iV
+uX
+uX
+Zh
+Md
+hn
+hn
+hn
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(25,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+hD
+hD
+IO
+IO
+zd
+hD
+Wt
+hD
+hD
+Je
+hD
+IO
+IO
+IO
+hD
+hD
+xq
+Pw
+hD
+eu
+Qw
+cX
+UO
+uX
+uX
+Zh
+Md
+hn
+hn
+hn
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(26,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+hD
+Zu
+lx
+LM
+yw
+Ko
+fj
+YN
+ko
+Ep
+MN
+tT
+pR
+hD
+ze
+Bl
+hD
+ad
+Gs
+IO
+nY
+uX
+uX
+Zh
+OE
+hn
+hn
+hn
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(27,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+IO
+hD
+Na
+ac
+qV
+LD
+BA
+ux
+kN
+uB
+Ep
+yb
+PX
+Qg
+hD
+EE
+Cu
+hD
+ad
+lp
+IO
+uX
+uX
+uX
+Zh
+Zh
+hn
+hn
+hn
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(28,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+IO
+Dh
+Wi
+Wy
+Ka
+Cd
+Zb
+fj
+gE
+uB
+Ep
+EG
+XJ
+xb
+IO
+tW
+Ey
+IO
+MB
+rF
+sz
+rc
+OQ
+uX
+Zh
+SC
+hn
+hn
+hn
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(29,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+IO
+JP
+TI
+vS
+kB
+gR
+ZU
+aJ
+Yv
+mp
+IO
+IO
+hD
+hD
+IO
+tW
+Ey
+IO
+CJ
+kI
+dr
+uX
+uX
+uX
+uX
+Md
+hn
+hn
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(30,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+Cc
+cb
+AT
+vd
+jM
+BN
+Ci
+eQ
+Ma
+fj
+IO
+Rm
+zY
+Rm
+hD
+Cr
+ir
+IO
+th
+Qw
+hD
+uX
+uX
+uX
+uX
+IO
+IO
+iX
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(31,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+Cc
+FB
+AT
+kB
+kn
+Ca
+ly
+fz
+uB
+fj
+IO
+Rm
+Nh
+mm
+hD
+mf
+OM
+hD
+Qw
+sn
+hD
+AY
+uX
+PC
+uX
+Zh
+Md
+hn
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(32,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+IO
+Zq
+TI
+AV
+lX
+Hg
+Nw
+yb
+fj
+fj
+hD
+Rm
+iq
+XI
+hD
+Yy
+Aa
+hD
+CJ
+vB
+IO
+AY
+uX
+Bu
+Zh
+Zh
+Zh
+hn
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(33,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+IO
+uB
+lL
+oz
+kB
+wZ
+Nw
+iG
+MZ
+fj
+hD
+cm
+vh
+tz
+hD
+Sc
+mE
+hD
+vB
+bt
+IO
+AY
+tf
+hq
+Zh
+Zh
+Gz
+ig
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(34,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+Zx
+hD
+Mv
+Hm
+Mn
+Km
+xA
+cQ
+fj
+Bf
+iK
+hD
+FF
+IW
+Uw
+AO
+mE
+sN
+IO
+hD
+OA
+IO
+IO
+IO
+Tv
+dr
+IO
+IO
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(35,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+hD
+hD
+Na
+rq
+dM
+jC
+bn
+IS
+Fb
+yh
+hD
+YC
+nu
+qW
+lK
+Al
+mE
+IO
+Er
+Zn
+DD
+DD
+DD
+DD
+DD
+jB
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(36,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+IO
+DX
+Xj
+IM
+xv
+Py
+uB
+uB
+uB
+hD
+za
+FT
+bF
+hD
+fT
+lU
+IO
+Xn
+Zn
+DD
+DD
+DD
+DD
+DD
+jB
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(37,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+Zx
+Zx
+IO
+IO
+eB
+hD
+LK
+hD
+SP
+rX
+SP
+hD
+hD
+OA
+hD
+hD
+IO
+IO
+IO
+Xn
+fw
+DD
+DD
+DD
+DD
+DD
+jB
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(38,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+SP
+Qx
+Qx
+Qx
+DD
+DD
+DD
+DD
+DD
+DD
+Qx
+Qx
+DD
+DD
+DD
+DD
+SP
+aE
+fw
+pW
+DD
+DD
+DD
+DD
+jB
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(39,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+SP
+Qx
+Qx
+Qx
+DD
+DD
+DD
+DD
+DD
+Uq
+OD
+Pb
+DD
+DD
+DD
+DD
+SP
+aE
+fw
+UD
+DD
+DD
+DD
+DD
+jB
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(40,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+SP
+Qx
+DD
+DD
+DD
+DD
+DD
+DD
+Pb
+ew
+Qx
+DD
+DD
+DD
+DD
+DD
+Qx
+Er
+de
+MC
+jB
+jB
+jB
+jB
+jB
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(41,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+SP
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+hT
+yx
+aE
+zg
+jB
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(42,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+SP
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+DD
+SP
+Wu
+Xn
+Xn
+jB
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(43,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+SP
+SP
+SP
+SP
+SP
+SP
+SP
+SP
+SP
+SP
+SP
+SP
+SP
+SP
+SP
+SP
+SP
+jB
+jB
+jB
+jB
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(44,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(45,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(46,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(47,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(48,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(49,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}
+(50,1,1) = {"
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+IR
+"}

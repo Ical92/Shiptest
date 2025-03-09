@@ -38,3 +38,10 @@
 	description = "A poorly constructed jumble of bunkers, currently held by the Frontiersmen Fleet for usage as a supply depot."
 	suffix = "beach_bunkers.dmm"
 	ruin_tags = list(RUIN_TAG_MEDIUM_COMBAT, RUIN_TAG_MEDIUM_LOOT, RUIN_TAG_LIVEABLE)
+
+/datum/map_template/ruin/beachplanet/thermalpower
+	name = "Abandoned Power Plant"
+	id = "beach_thermalpower"
+	description = "Write this later please please don't forget"
+	suffix = "beach_thermalpower.dmm"
+	ruin_tags = list(RUIN_TAG_NO_COMBAT, RUIN_TAG_MEDIUM_LOOT, RUIN_TAG_HAZARDOUS, RUIN_TAG_LIVEABLE)

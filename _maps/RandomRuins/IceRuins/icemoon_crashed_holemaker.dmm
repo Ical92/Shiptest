@@ -1038,8 +1038,14 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/structure/fluff/broken_flooring,
-/turf/open/floor/plating,
+/obj/item/stack/tile/plasteel{
+	pixel_x = -3;
+	pixel_y = -4
+	},
+/obj/effect/turf_decal/broken_tiling/missing_tile{
+	dir = 5
+	},
+/turf/open/floor/plasteel/icemoon,
 /area/ruin/unpowered/crashed_holemaker)
 "rL" = (
 /obj/effect/turf_decal/borderfloorblack{
