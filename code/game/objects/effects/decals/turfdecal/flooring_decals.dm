@@ -1560,3 +1560,12 @@ TURF_DECAL_COLOR_HELPER(transparent/cybersunteal, "#4C9C9C", 140)
 
 /obj/effect/turf_decal/arrowaxe_small/right
 	icon_state = "arrowaxe-right"
+
+/obj/effect/turf_decal/broken_tiling
+	icon = 'icons/obj/brokentiling.dmi'
+
+/obj/effect/turf_decal/broken_tiling/missing_tile
+	icon_state = "missingtile"
+
+/obj/effect/turf_decal/broken_tiling/broken_tile
+	icon_state = "plating"
