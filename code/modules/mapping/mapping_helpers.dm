@@ -531,10 +531,21 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 	name = "turf helper"
 
 /obj/effect/mapping_helpers/turf/burnt
-	name = "turf_burner"
+	name = "turf burner"
+	icon_state = "burnt"
 	desc = "burns the everliving shit out of the turf its on."
 
 /obj/effect/mapping_helpers/turf/burnt/LateInitialize()
 	var/turf/our_turf = loc
 	our_turf.burn_tile()
+	qdel(src)
+
+/obj/effect/mapping_helper/turf/broken
+	name = "turf breaker"
+	icon_state = "broken"
+	desc = "breaks the everliving shit out of the turf its on."
+
+/obj/effect/mapping_helpers/turf/broken/LateInitialize()
+	var/turf/our_turf = loc
+	our_turf.break_tile()
 	qdel(src)

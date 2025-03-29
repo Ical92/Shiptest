@@ -1,0 +1,16688 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/machinery/door/airlock/freezer{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/light/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/light/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/freezer,
+/area/space)
+"ac" = (
+/obj/structure/fluff/hedge,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 4;
+	pixel_y = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/sign/poster/clip/gold{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"ad" = (
+/obj/structure/bed{
+	dir = 1
+	},
+/obj/item/bedsheet{
+	dir = 4
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"ag" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"ah" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"aq" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"as" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/structure/closet/crate/bin,
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"at" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/closet/firecloset,
+/obj/effect/turf_decal/trimline/opaque/red/warning{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/space)
+"au" = (
+/obj/structure/platform/industrial/corner,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/space)
+"aG" = (
+/obj/structure/chair/comfy/red/corpo/directional/west,
+/turf/open/floor/wood,
+/area/space)
+"aN" = (
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
+/area/space)
+"aX" = (
+/obj/structure/railing/wood{
+	dir = 10
+	},
+/obj/machinery/power/port_gen,
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"bd" = (
+/obj/structure/table/wood/reinforced,
+/turf/open/floor/carpet/nanoweave/red,
+/area/space)
+"bf" = (
+/obj/structure/table/glass,
+/obj/item/newspaper{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_y = -28
+	},
+/turf/open/floor/plasteel/grimy,
+/area/space)
+"bs" = (
+/obj/structure/flora/ausbushes/brflowers{
+	pixel_x = -7;
+	pixel_y = -7
+	},
+/obj/structure/mecha_wreckage/durand/clip{
+	pixel_y = -7;
+	anchored = 1
+	},
+/obj/structure/flora/ausbushes/brflowers{
+	pixel_y = -2
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"bv" = (
+/obj/structure/platform/industrial/corner,
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"bw" = (
+/obj/effect/turf_decal/road/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/road/stripes,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"bz" = (
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"bA" = (
+/obj/structure/platform/industrial/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"bC" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor/southright{
+	req_access = list(3)
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"bH" = (
+/obj/structure/filingcabinet/double{
+	pixel_x = -10;
+	pixel_y = 10;
+	density = 0
+	},
+/turf/open/floor/wood,
+/area/space)
+"bM" = (
+/obj/structure/chair/office,
+/turf/open/floor/concrete,
+/area/space)
+"bW" = (
+/turf/open/floor/concrete/slab_2,
+/area/space)
+"bZ" = (
+/obj/effect/turf_decal/industrial/warning/corner,
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"ce" = (
+/obj/structure/closet/secure_closet/engineering_electrical,
+/turf/open/floor/pod/dark,
+/area/space)
+"ck" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"cm" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"co" = (
+/obj/structure/fluff/hedge,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 4;
+	pixel_y = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"cr" = (
+/obj/structure/fluff/hedge,
+/turf/open/floor/concrete,
+/area/space)
+"cy" = (
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"cI" = (
+/turf/open/floor/wood/maple,
+/area/space)
+"cJ" = (
+/obj/effect/turf_decal/corner/opaque/red/diagonal,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"cM" = (
+/obj/machinery/door/airlock/medical{
+	dir = 4
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"cV" = (
+/obj/structure/table,
+/turf/open/floor/concrete,
+/area/space)
+"cW" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/trimline/transparent/blue/filled/corner,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"cY" = (
+/obj/structure/table,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 5
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"da" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"db" = (
+/obj/structure/platform/ship_four/corner,
+/obj/structure/railing/thin/corner,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"di" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/wood/maple,
+/area/space)
+"dp" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black/corner,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"dw" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor/northleft,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"dB" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/machinery/photocopier,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"dC" = (
+/obj/structure/fluff{
+	icon = 'icons/obj/hazard/conduit.dmi';
+	icon_state = "conduit";
+	dir = 1;
+	name = "power conduit";
+	desc = "Cheap industrial cable used to transfer large volumes of power.";
+	layer = 2.4;
+	plane = -2
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 8
+	},
+/obj/structure/railing,
+/turf/open/floor/plating,
+/area/space)
+"dF" = (
+/obj/structure/filingcabinet/double{
+	pixel_y = 16
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"dH" = (
+/obj/machinery/camera{
+	dir = 8;
+	network = list("colonybank");
+	c_tag = "Side Alley"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"dR" = (
+/obj/structure/table/glass,
+/obj/item/desk_flag/trans{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/turf/open/floor/concrete,
+/area/space)
+"dY" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/pod/dark,
+/area/space)
+"eh" = (
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"ej" = (
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"en" = (
+/obj/structure/platform/industrial{
+	dir = 8
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"ep" = (
+/obj/machinery/hydroponics/soil,
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"eu" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"ex" = (
+/obj/structure/platform/ship_four{
+	dir = 1
+	},
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"ey" = (
+/obj/structure/closet/crate/large,
+/obj/structure/railing/corner/wood{
+	dir = 4
+	},
+/obj/item/circuitboard/computer/powermonitor{
+	pixel_x = -3;
+	pixel_y = -8
+	},
+/obj/item/stack/ore/salvage/scrapgold/five{
+	pixel_y = 7;
+	pixel_x = -5
+	},
+/obj/item/stack/cable_coil/yellow{
+	pixel_y = 5
+	},
+/obj/item/stack/sheet/glass/five{
+	pixel_x = 5
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"ez" = (
+/obj/structure/chair/sofa/purple/corpo/left/directional/north,
+/turf/open/floor/carpet/purple,
+/area/space)
+"eH" = (
+/obj/structure/toilet{
+	dir = 8;
+	pixel_x = 4
+	},
+/turf/open/floor/plastic,
+/area/space)
+"eJ" = (
+/obj/structure/fence/end{
+	dir = 8
+	},
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"fc" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	color = "#D2BC9D";
+	dir = 8
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"fi" = (
+/obj/effect/turf_decal/road/line,
+/obj/structure/railing/thin,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"fk" = (
+/obj/structure/platform/ship_four/corner,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"fn" = (
+/obj/structure/railing/corner/wood,
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"fv" = (
+/obj/structure/curtain{
+	pixel_y = -28
+	},
+/obj/structure/table/glass,
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"fz" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 9
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"fG" = (
+/obj/machinery/power/smes,
+/obj/structure/cable/orange{
+	icon_state = "0-4"
+	},
+/obj/effect/turf_decal/industrial/warning/fulltile,
+/turf/open/floor/engine/hull/interior,
+/area/space)
+"fI" = (
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"fJ" = (
+/obj/machinery/door/airlock/grunge{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"fO" = (
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"fQ" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-9"
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"fS" = (
+/obj/item/twenty_pounds_of_ice{
+	pixel_x = -8;
+	pixel_y = -6
+	},
+/turf/open/floor/plasteel/freezer,
+/area/space)
+"fT" = (
+/obj/structure/reagent_dispensers/cooking_oil{
+	pixel_x = 2;
+	pixel_y = 8
+	},
+/turf/open/floor/concrete,
+/area/space)
+"fV" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/spawner/north,
+/obj/machinery/button/ticket_machine{
+	pixel_y = 3;
+	pixel_x = 6;
+	id = "bank_ticket"
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"fY" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "beepsky";
+	pixel_y = 35;
+	color = "#a83632";
+	pixel_x = -5
+	},
+/obj/item/toy/crayon/spraycan{
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"gh" = (
+/obj/structure/rack,
+/obj/item/shovel{
+	pixel_x = -13;
+	pixel_y = 8
+	},
+/obj/item/wrench/crescent{
+	pixel_x = -7;
+	pixel_y = 3
+	},
+/obj/item/screwdriver{
+	pixel_x = -19;
+	pixel_y = -7
+	},
+/turf/open/floor/concrete,
+/area/space)
+"gi" = (
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/concrete,
+/area/space)
+"gk" = (
+/obj/structure/reagent_dispensers/servingdish,
+/obj/structure/table,
+/turf/open/floor/plasteel/freezer,
+/area/space)
+"go" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/space)
+"gp" = (
+/obj/structure/toilet{
+	pixel_x = 6;
+	pixel_y = 11
+	},
+/obj/structure/sink{
+	pixel_x = -9;
+	pixel_y = 23
+	},
+/turf/open/floor/plasteel/mono,
+/area/space)
+"gu" = (
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"gx" = (
+/turf/open/floor/plasteel/grimy,
+/area/space)
+"hd" = (
+/obj/structure/closet/secure_closet/freezer,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"ho" = (
+/obj/structure/fence,
+/turf/open/floor/concrete/slab_2,
+/area/space)
+"hr" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 10
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"hC" = (
+/obj/structure/railing/wood{
+	dir = 4
+	},
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"hK" = (
+/obj/structure/fence{
+	dir = 1
+	},
+/turf/open/floor/concrete/slab_2,
+/area/space)
+"hN" = (
+/obj/structure/chair/sofa/purple/corpo/right/directional/north,
+/turf/open/floor/carpet/purple,
+/area/space)
+"ie" = (
+/obj/structure/chair/handrail{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"if" = (
+/obj/structure/chair/bench/beige/directional/west,
+/turf/open/floor/concrete,
+/area/space)
+"ih" = (
+/obj/item/cigbutt{
+	pixel_x = -12;
+	pixel_y = -7
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"ir" = (
+/obj/structure/platform/ship_four/corner{
+	dir = 8
+	},
+/obj/structure/railing/thin/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"iw" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_2,
+/area/space)
+"ix" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/corner{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"iz" = (
+/obj/structure/cable/orange{
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"iC" = (
+/obj/machinery/door/airlock/public{
+	dir = 4
+	},
+/turf/open/floor/plastic,
+/area/space)
+"iM" = (
+/obj/structure/chair/bench/blue{
+	dir = 1
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"jd" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "9-10"
+	},
+/turf/open/floor/plating,
+/area/space)
+"je" = (
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"jg" = (
+/obj/structure/platform/ship_four,
+/obj/structure/railing/thin,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"ji" = (
+/turf/open/floor/plasteel/stairs/old,
+/area/space)
+"jj" = (
+/obj/structure/railing/thin,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"jo" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plasteel/stairs/left{
+	dir = 1
+	},
+/area/space)
+"jJ" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"jX" = (
+/obj/structure/fence/door{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"jZ" = (
+/obj/structure/railing/modern{
+	dir = 10
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"kb" = (
+/obj/structure/safe,
+/turf/open/floor/wood,
+/area/space)
+"kf" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	color = "#D2BC9D";
+	dir = 1
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"ko" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/concrete,
+/area/space)
+"kp" = (
+/obj/structure/railing/thick{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/space)
+"ky" = (
+/obj/item/storage/box/donkpockets{
+	pixel_x = 7;
+	pixel_y = 16
+	},
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"kz" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/trimline/transparent/blue/filled/corner,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"kA" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"kB" = (
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"kC" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"kY" = (
+/obj/machinery/door/airlock/medical/glass,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"la" = (
+/turf/closed/wall/r_wall,
+/area/space)
+"lb" = (
+/obj/structure/fence/post{
+	dir = 4
+	},
+/obj/structure/sign/warning{
+	pixel_y = 4
+	},
+/turf/open/floor/concrete/slab_2,
+/area/space)
+"li" = (
+/obj/structure/table/wood/reinforced,
+/obj/machinery/paystand{
+	pixel_y = 10
+	},
+/turf/open/floor/carpet/nanoweave/red,
+/area/space)
+"lj" = (
+/obj/structure/railing/wood{
+	dir = 5
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"ll" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/desk_flag{
+	pixel_x = 3;
+	pixel_y = 7
+	},
+/turf/open/floor/wood,
+/area/space)
+"lp" = (
+/obj/structure/railing/thick/corner{
+	dir = 4
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/space)
+"lr" = (
+/obj/structure/crate_shelf,
+/obj/structure/closet/crate/secure/owned,
+/obj/structure/closet/crate/secure/owned,
+/obj/structure/closet/crate/secure/owned,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 10
+	},
+/turf/open/floor/pod/dark,
+/area/space)
+"ls" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"lu" = (
+/turf/open/floor/carpet/blue,
+/area/space)
+"lv" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"ly" = (
+/obj/structure/cable/orange{
+	icon_state = "1-10"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"lz" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plasteel/stairs/right{
+	dir = 1
+	},
+/area/space)
+"lG" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"lI" = (
+/obj/structure/crate_shelf,
+/turf/open/floor/concrete,
+/area/space)
+"lK" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"lV" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 1
+	},
+/area/space)
+"mc" = (
+/turf/open/floor/concrete/slab_3,
+/area/space)
+"md" = (
+/obj/structure/flora/ausbushes/brflowers{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"mi" = (
+/obj/structure/table,
+/obj/structure/sign/poster/official/moth/hardhats{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"mk" = (
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 8
+	},
+/area/space)
+"mn" = (
+/obj/structure/railing/thin{
+	dir = 6
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"mo" = (
+/obj/effect/turf_decal/trimline/transparent/blue/filled/arrow_ccw{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"mu" = (
+/obj/structure/sign/warning/electricshock{
+	pixel_x = -28
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"mx" = (
+/obj/machinery/door/airlock/medical/glass,
+/turf/open/floor/plasteel/white,
+/area/space)
+"mB" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/trimline/transparent/blue/warning,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"mD" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	color = "#D2BC9D";
+	dir = 4
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"mL" = (
+/turf/open/floor/plating,
+/area/space)
+"mV" = (
+/obj/structure/chair/sofa/purple/corpo/corner/directional/north,
+/turf/open/floor/carpet/purple,
+/area/space)
+"mY" = (
+/obj/structure/rack,
+/turf/open/floor/concrete,
+/area/space)
+"mZ" = (
+/obj/structure/reagent_dispensers/fueltank{
+	pixel_y = 13;
+	pixel_x = -6
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"nc" = (
+/obj/structure/platform/ship{
+	dir = 8
+	},
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/opaque/red/diagonal,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"nd" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"ng" = (
+/obj/structure/sink/kitchen{
+	pixel_x = 7;
+	pixel_y = 20
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"no" = (
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_y = 7
+	},
+/obj/effect/turf_decal/siding/thinplating/light,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"ns" = (
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/concrete,
+/area/space)
+"nx" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/fax/ruin,
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"nz" = (
+/obj/structure/railing/corner,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"nF" = (
+/obj/effect/turf_decal/road/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"nK" = (
+/obj/structure/platform/ship_four/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"nO" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-10"
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"nS" = (
+/obj/structure/railing,
+/obj/structure/fluff/hedge,
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"ob" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/machinery/camera{
+	dir = 5;
+	network = list("colonybank");
+	c_tag = "Front Desk"
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"oe" = (
+/obj/structure/platform/ship_four/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"oi" = (
+/obj/machinery/door/airlock/public{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/light/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/light/corner,
+/turf/open/floor/plasteel/freezer,
+/area/space)
+"om" = (
+/obj/machinery/iv_drip,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"oq" = (
+/obj/structure/railing,
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"ow" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"oD" = (
+/obj/machinery/door/airlock/medical,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"oO" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"oP" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9;
+	color = "#D2BC9D"
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"oQ" = (
+/obj/structure/table/glass,
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/turf/open/floor/plasteel/grimy,
+/area/space)
+"pc" = (
+/obj/structure/table/reinforced,
+/obj/item/modular_computer/laptop{
+	pixel_y = 6
+	},
+/obj/structure/window/reinforced/spawner,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"pf" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/space)
+"pg" = (
+/obj/structure/cable/orange{
+	icon_state = "1-6"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"ph" = (
+/obj/effect/turf_decal/road{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"pi" = (
+/obj/structure/railing,
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"po" = (
+/obj/structure/platform/industrial{
+	dir = 6
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"pD" = (
+/obj/machinery/vending/boozeomat,
+/turf/open/floor/carpet/nanoweave/red,
+/area/space)
+"pE" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/grimy,
+/area/space)
+"pT" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"pU" = (
+/obj/effect/turf_decal/road/line,
+/obj/effect/turf_decal/road/stripes{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"pW" = (
+/obj/structure/chair/bench/blue{
+	dir = 4
+	},
+/turf/open/floor/plasteel/grimy,
+/area/space)
+"pZ" = (
+/obj/structure/platform/industrial{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"qc" = (
+/obj/structure/sink{
+	pixel_x = 4;
+	pixel_y = 16
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"ql" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"qs" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"qv" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"qz" = (
+/obj/structure/platform/ship_four{
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"qC" = (
+/obj/structure/flora/tree/jungle/small{
+	icon_state = "tree6"
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"qL" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-5"
+	},
+/turf/open/floor/plating,
+/area/space)
+"qP" = (
+/obj/structure/table/optable,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"qT" = (
+/obj/structure/fence/door{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/concrete/slab_2,
+/area/space)
+"qU" = (
+/obj/structure/platform/industrial{
+	dir = 8
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"qV" = (
+/obj/structure/railing/thick/corner{
+	dir = 1
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/space)
+"ra" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"rb" = (
+/obj/structure/platform/industrial{
+	dir = 1
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"rf" = (
+/obj/structure/flora/ausbushes/brflowers{
+	icon_state = "brflowers_3";
+	pixel_x = 5;
+	pixel_y = 1
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"rh" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-6"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"ri" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/plasteel/grimy,
+/area/space)
+"rk" = (
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating,
+/area/space)
+"rq" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable/orange{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/orange{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating,
+/area/space)
+"rr" = (
+/obj/structure/platform/industrial/corner{
+	dir = 4
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"rw" = (
+/obj/structure/sign/departments/engineering{
+	pixel_x = -32
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"ry" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"rA" = (
+/obj/structure/platform/industrial{
+	dir = 8
+	},
+/obj/item/cigbutt{
+	pixel_x = -1;
+	pixel_y = 4
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"rB" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"rE" = (
+/obj/structure/platform/ship_four,
+/obj/structure/chair/pew/right{
+	dir = 1
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"rO" = (
+/obj/structure/railing/wood{
+	dir = 6;
+	layer = 2.99
+	},
+/obj/structure/reagent_dispensers/plumbed,
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"rZ" = (
+/obj/effect/turf_decal/road{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"sb" = (
+/obj/structure/platform/ship_four,
+/obj/structure/chair/pew{
+	dir = 1
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"sg" = (
+/turf/open/floor/plasteel/dark,
+/area/space)
+"sl" = (
+/obj/structure/toilet{
+	dir = 4;
+	pixel_x = -5;
+	pixel_y = 7
+	},
+/turf/open/floor/concrete,
+/area/space)
+"sn" = (
+/obj/item/shovel{
+	pixel_y = 15
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"sr" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/spawner,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"su" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/floodlight,
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"sz" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"sA" = (
+/obj/structure/platform/industrial{
+	dir = 1
+	},
+/obj/structure/sign/warning/nosmoking/circle{
+	pixel_x = 9;
+	pixel_y = 14
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"sD" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable/orange{
+	icon_state = "2-5"
+	},
+/turf/open/floor/plating,
+/area/space)
+"sF" = (
+/obj/structure/platform/ship_four{
+	dir = 1;
+	layer = 2.99
+	},
+/obj/structure/chair/pew/right,
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"sH" = (
+/turf/open/floor/plasteel/stairs/mid{
+	dir = 1
+	},
+/area/space)
+"sK" = (
+/obj/structure/railing/thick{
+	dir = 8
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/space)
+"sR" = (
+/obj/machinery/door/airlock/maintenance{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"sW" = (
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"sX" = (
+/obj/effect/turf_decal/plaque{
+	desc = "<b>HERE RESTS<br>IN PEACE<br>AND GLORY<br>A MINUTEMAN<br>KNOWN ONLY<br>TO THE STARS</b>"
+	},
+/turf/open/floor/concrete,
+/area/space)
+"sZ" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable/orange{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/orange{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/space)
+"td" = (
+/obj/structure/railing,
+/obj/effect/turf_decal/trimline/transparent/blue/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
+/area/space)
+"te" = (
+/obj/structure/railing/modern,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"th" = (
+/obj/structure/window/reinforced,
+/obj/structure/chair/bench/beige/directional/west,
+/turf/open/floor/concrete,
+/area/space)
+"tp" = (
+/obj/effect/turf_decal/corner_steel_grid{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"tu" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/concrete,
+/area/space)
+"tC" = (
+/obj/structure/table,
+/obj/item/cutting_board{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/obj/item/melee/knife{
+	pixel_x = -4;
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"tE" = (
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"tF" = (
+/obj/structure/flora/ausbushes/brflowers{
+	icon_state = "brflowers_2";
+	pixel_x = -4;
+	pixel_y = -8
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"tK" = (
+/obj/machinery/camera{
+	dir = 6;
+	network = list("colonybank");
+	c_tag = "Lobby"
+	},
+/turf/open/floor/plasteel/grimy,
+/area/space)
+"tM" = (
+/obj/machinery/deepfryer,
+/obj/effect/turf_decal/siding/thinplating/light,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"ua" = (
+/obj/machinery/vending/cola{
+	pixel_y = 12
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"um" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/space)
+"un" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"uQ" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/corner{
+	dir = 8
+	},
+/obj/machinery/ticket_machine{
+	pixel_x = 32;
+	id = "bank_ticket"
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"ve" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"vg" = (
+/obj/structure/crate_shelf,
+/obj/structure/closet/crate/secure/owned,
+/obj/structure/closet/crate/secure/owned,
+/obj/structure/closet/crate/secure/owned,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
+/area/space)
+"vt" = (
+/obj/structure/table,
+/obj/item/reagent_containers/condiment/saltshaker{
+	pixel_x = 14;
+	pixel_y = -5
+	},
+/turf/open/floor/plasteel/grimy,
+/area/space)
+"vx" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"vL" = (
+/obj/effect/turf_decal/road/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/road/stripes{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"vM" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/reagent_dispensers/foamtank,
+/obj/effect/turf_decal/trimline/opaque/red/warning{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/space)
+"vT" = (
+/obj/structure/sink/kitchen{
+	pixel_y = 15;
+	pixel_x = 6
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/obj/item/towel{
+	pixel_x = -10;
+	pixel_y = 21
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"vY" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"wd" = (
+/obj/structure/chair/bench/blue{
+	dir = 1
+	},
+/turf/open/floor/concrete,
+/area/space)
+"we" = (
+/obj/structure/chair/sofa/blue/right,
+/turf/open/floor/concrete,
+/area/space)
+"wm" = (
+/obj/structure/grille,
+/obj/structure/window/fulltile,
+/turf/open/floor/concrete,
+/area/space)
+"ws" = (
+/obj/machinery/camera{
+	dir = 5;
+	network = list("colonybank");
+	c_tag = "Vault Exterior - East"
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"wu" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/space)
+"ww" = (
+/obj/structure/flora/grass/jungle{
+	icon_state = "grassa3"
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"wC" = (
+/obj/machinery/door/airlock/medical/glass,
+/obj/effect/turf_decal/siding/wood/corner{
+	color = "#D2BC9D";
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/space)
+"wK" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"wL" = (
+/obj/structure/fluff{
+	name = "storage barrel";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/objects.dmi';
+	icon_state = "barrel";
+	pixel_x = -2;
+	pixel_y = 13;
+	desc = "You know, for storing things."
+	},
+/obj/structure/fluff{
+	name = "storage barrel";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/objects.dmi';
+	icon_state = "barrel";
+	pixel_x = 14;
+	pixel_y = 13;
+	desc = "You know, for storing things."
+	},
+/obj/structure/fluff{
+	name = "storage barrel";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/objects.dmi';
+	icon_state = "barrel";
+	pixel_x = 7;
+	pixel_y = 4;
+	desc = "You know, for storing things."
+	},
+/turf/open/floor/concrete,
+/area/space)
+"xa" = (
+/turf/open/floor/concrete,
+/area/space)
+"xc" = (
+/obj/structure/table/wood/fancy/red,
+/turf/open/floor/wood,
+/area/space)
+"xk" = (
+/obj/structure/cable/orange{
+	icon_state = "4-8"
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"xn" = (
+/obj/structure/cable/yellow{
+	icon_state = "6-8"
+	},
+/turf/open/floor/plating,
+/area/space)
+"xo" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"xp" = (
+/obj/structure/railing,
+/turf/open/floor/plating,
+/area/space)
+"xq" = (
+/obj/structure/chair/bench/blue{
+	dir = 8
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"xP" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-10"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning,
+/turf/open/floor/plating,
+/area/space)
+"xW" = (
+/obj/structure/platform/ship_four{
+	dir = 1
+	},
+/obj/structure/sign/warning/nosmoking/circle{
+	pixel_y = 6
+	},
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"xY" = (
+/turf/open/floor/wood,
+/area/space)
+"xZ" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4;
+	layer = 2.456
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"yd" = (
+/obj/machinery/door/airlock/engineering{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"yg" = (
+/obj/structure/platform/ship_four{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"yn" = (
+/obj/structure/chair/bench/blue,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"yp" = (
+/obj/structure/closet/secure_closet/engineering_welding,
+/turf/open/floor/pod/dark,
+/area/space)
+"yu" = (
+/obj/structure/fence/corner{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_2,
+/area/space)
+"yx" = (
+/obj/structure/table,
+/obj/item/reagent_containers/condiment/peppermill{
+	pixel_x = -10;
+	pixel_y = -5
+	},
+/turf/open/floor/plasteel/grimy,
+/area/space)
+"yy" = (
+/obj/structure/chair/office,
+/turf/open/floor/wood/maple,
+/area/space)
+"yz" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 6
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"yD" = (
+/obj/structure/railing/thick{
+	dir = 8
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/space)
+"yG" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/trimline/transparent/blue/warning,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"yH" = (
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/turf/open/floor/wood/maple,
+/area/space)
+"yO" = (
+/obj/machinery/door/airlock/medical/glass,
+/obj/effect/turf_decal/siding/wood/corner{
+	color = "#D2BC9D";
+	dir = 8
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"yT" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/spawner/north,
+/obj/item/storage/case,
+/turf/open/floor/pod/dark,
+/area/space)
+"yU" = (
+/obj/structure/railing,
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
+/area/space)
+"yV" = (
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 4
+	},
+/area/space)
+"yY" = (
+/obj/structure/railing/corner/wood{
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"yZ" = (
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 4
+	},
+/area/space)
+"ze" = (
+/obj/structure/window/reinforced/spawner,
+/obj/structure/table/reinforced,
+/obj/item/storage/case{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/turf/open/floor/pod/dark,
+/area/space)
+"zg" = (
+/obj/structure/railing/thick{
+	dir = 8
+	},
+/obj/structure/chair,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"zj" = (
+/obj/machinery/door/window/brigdoor/security/holding,
+/turf/open/floor/concrete,
+/area/space)
+"zk" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi'
+	},
+/area/space)
+"zn" = (
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"zs" = (
+/obj/structure/chair/sofa/purple/corpo/right/directional/west,
+/turf/open/floor/carpet/purple,
+/area/space)
+"zw" = (
+/obj/structure/safe{
+	pixel_x = -6
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 9
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"zB" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8;
+	color = "#D2BC9D"
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"zD" = (
+/obj/machinery/vending/coffee,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"zE" = (
+/obj/machinery/microwave{
+	pixel_y = 8
+	},
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"zI" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"zK" = (
+/obj/machinery/power/solar/fake,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"zT" = (
+/obj/effect/turf_decal/corner/opaque/black/half{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/space)
+"Ab" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Ae" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Ai" = (
+/obj/structure/platform/ship_four{
+	dir = 10
+	},
+/obj/structure/chair/pew/left{
+	dir = 1;
+	pixel_x = 3
+	},
+/obj/structure/railing/thin{
+	dir = 10
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Ak" = (
+/obj/structure/platform/industrial{
+	dir = 1
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Ao" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Aq" = (
+/obj/structure/flora/grass/jungle{
+	icon_state = "grassa2"
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"At" = (
+/obj/machinery/power/rtg/geothermal,
+/obj/effect/turf_decal/industrial/warning/full,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Au" = (
+/obj/effect/turf_decal/trimline/transparent/blue/filled/arrow_ccw{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Av" = (
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/wood/maple,
+/area/space)
+"AK" = (
+/obj/structure/table,
+/obj/effect/turf_decal/corner/opaque/red/diagonal,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"AM" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/storage/box/drinkingglasses{
+	pixel_x = 4;
+	pixel_y = 11
+	},
+/turf/open/floor/carpet/nanoweave/red,
+/area/space)
+"AQ" = (
+/obj/effect/turf_decal/road/line{
+	dir = 1
+	},
+/obj/structure/sign/warning/securearea{
+	pixel_x = -28;
+	name = "\improper EMPLOYEE PARKING sign";
+	desc = "A warning sign which reads 'PARKING FOR EMPLOYEES ONLY'."
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Ba" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 6
+	},
+/obj/effect/turf_decal/corner/opaque/black/half{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"Bm" = (
+/obj/structure/window/reinforced,
+/turf/open/floor/concrete,
+/area/space)
+"Bt" = (
+/obj/structure/railing/corner/wood{
+	dir = 8
+	},
+/obj/item/reagent_containers/food/drinks/beer{
+	pixel_x = -6;
+	pixel_y = 17
+	},
+/obj/item/stack/cable_coil/cut/yellow{
+	pixel_y = -2;
+	pixel_x = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"Bu" = (
+/obj/effect/turf_decal/road/line{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"BL" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"BM" = (
+/obj/structure/table,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"BO" = (
+/turf/closed/wall,
+/area/space)
+"BU" = (
+/obj/machinery/power/rtg/geothermal,
+/obj/effect/turf_decal/industrial/warning/full,
+/obj/effect/decal/cleanable/ash{
+	pixel_x = -8;
+	pixel_y = 3
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"BV" = (
+/obj/structure/noticeboard{
+	pixel_y = 26
+	},
+/obj/structure/mopbucket,
+/obj/item/mop{
+	pixel_x = 13;
+	pixel_y = -8
+	},
+/turf/open/floor/carpet/nanoweave/red,
+/area/space)
+"Ca" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/reagent_containers/glass/rag{
+	pixel_x = 7;
+	pixel_y = 9
+	},
+/turf/open/floor/carpet/nanoweave/red,
+/area/space)
+"Cg" = (
+/obj/effect/turf_decal/trimline/transparent/blue/corner,
+/turf/open/floor/plating,
+/area/space)
+"Cm" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/paper_bin{
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/turf/open/floor/wood,
+/area/space)
+"Cp" = (
+/obj/structure/sign/departments/cargo{
+	pixel_y = -2
+	},
+/turf/closed/wall,
+/area/space)
+"Cq" = (
+/obj/structure/platform/industrial{
+	dir = 8
+	},
+/obj/item/cigbutt{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Cx" = (
+/obj/structure/fence/post,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"CD" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"CF" = (
+/turf/open/floor/plasteel/tech,
+/area/space)
+"CJ" = (
+/obj/structure/sign/warning/securearea{
+	pixel_y = 28
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"CK" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/corner/opaque/black/half,
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/plating,
+/area/space)
+"CP" = (
+/obj/structure/table,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 6
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"CS" = (
+/obj/structure/crate_shelf,
+/obj/structure/closet/crate/secure/owned,
+/obj/structure/closet/crate/secure/owned,
+/obj/structure/closet/crate/secure/owned,
+/obj/effect/turf_decal/spline/fancy/opaque/black,
+/turf/open/floor/pod/dark,
+/area/space)
+"CX" = (
+/obj/structure/chair/plastic,
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"Dd" = (
+/obj/structure/flora/ausbushes/brflowers{
+	icon_state = "brflowers_2";
+	pixel_x = -3;
+	pixel_y = -2
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Dk" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 1
+	},
+/area/space)
+"Dn" = (
+/obj/structure/flora/grass/jungle{
+	icon_state = "grassa1"
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Dt" = (
+/turf/open/floor/plasteel/mono,
+/area/space)
+"Dv" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning,
+/turf/open/floor/plating,
+/area/space)
+"DE" = (
+/obj/structure/chair/bench/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/grimy,
+/area/space)
+"DG" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/reagent_containers/condiment/hotsauce{
+	pixel_x = 9;
+	pixel_y = 16
+	},
+/obj/item/reagent_containers/condiment/mayonnaise{
+	pixel_y = 15
+	},
+/obj/item/reagent_containers/condiment/ketchup{
+	pixel_x = -9;
+	pixel_y = 16
+	},
+/turf/open/floor/carpet/nanoweave/red,
+/area/space)
+"DL" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/filingcabinet/double{
+	dir = 4;
+	pixel_x = -10
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"DT" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"DW" = (
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Ef" = (
+/obj/machinery/camera{
+	network = list("colonybank");
+	c_tag = "Back Alley"
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Em" = (
+/obj/structure/curtain{
+	pixel_x = 28
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"En" = (
+/obj/structure/table/glass,
+/turf/open/floor/concrete,
+/area/space)
+"Et" = (
+/obj/structure/fence,
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"Ev" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/trimline/transparent/blue/filled/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"EF" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line,
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"EG" = (
+/obj/machinery/camera{
+	dir = 1;
+	network = list("colonybank");
+	c_tag = "Front Door"
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"EN" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10;
+	color = "#D2BC9D"
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"EP" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi'
+	},
+/area/space)
+"EQ" = (
+/obj/machinery/door/airlock/grunge{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Fb" = (
+/obj/structure/railing/thin,
+/obj/structure/flora/grass/jungle{
+	icon_state = "grassa4"
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Fc" = (
+/obj/structure/table,
+/obj/item/reagent_containers/condiment/enzyme{
+	pixel_x = 6;
+	pixel_y = 10
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"Fd" = (
+/obj/structure/platform/ship_four{
+	dir = 1;
+	layer = 2.99
+	},
+/obj/structure/chair/pew/left,
+/obj/item/clothing/head/clip{
+	pixel_x = 5;
+	pixel_y = -8
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"Fs" = (
+/obj/structure/chair/bench/blue{
+	dir = 4
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"Fu" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#D2BC9D"
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"Fv" = (
+/obj/machinery/smartfridge,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 9
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"Fy" = (
+/obj/machinery/door/airlock/wood,
+/turf/open/floor/wood,
+/area/space)
+"Fz" = (
+/obj/machinery/suit_storage_unit,
+/turf/open/floor/concrete,
+/area/space)
+"FG" = (
+/obj/structure/platform/ship_four{
+	dir = 8
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"FM" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/item/newspaper{
+	pixel_x = -15;
+	pixel_y = 13
+	},
+/obj/machinery/camera{
+	dir = 6;
+	network = list("colonybank");
+	c_tag = "Vault"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"FR" = (
+/turf/open/floor/plasteel/freezer,
+/area/space)
+"Gb" = (
+/obj/structure/fluff{
+	name = "storage crate";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/crates.dmi';
+	icon_state = "crate";
+	pixel_x = -3;
+	pixel_y = 12
+	},
+/obj/structure/fluff{
+	name = "storage crate";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/crates.dmi';
+	icon_state = "crate";
+	pixel_x = 20;
+	pixel_y = 12
+	},
+/obj/structure/fluff{
+	name = "storage crate";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/crates.dmi';
+	icon_state = "crate";
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/obj/structure/fluff{
+	name = "storage crate";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/crates.dmi';
+	icon_state = "crate";
+	pixel_x = 4;
+	pixel_y = 19
+	},
+/turf/open/floor/concrete,
+/area/space)
+"Gf" = (
+/turf/open/floor/pod/dark,
+/area/space)
+"Gl" = (
+/obj/machinery/door/airlock/wood{
+	dir = 4;
+	req_access = "109"
+	},
+/turf/open/floor/wood,
+/area/space)
+"Go" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/storage/box/donkpockets{
+	pixel_x = -4;
+	pixel_y = 8
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"Gr" = (
+/obj/structure/fence/door,
+/turf/open/floor/concrete/slab_2,
+/area/space)
+"Gv" = (
+/obj/structure/platform/industrial/corner{
+	dir = 1
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"Gx" = (
+/obj/structure/platform/industrial{
+	dir = 10
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"GC" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/open/floor/plasteel/freezer,
+/area/space)
+"GJ" = (
+/obj/structure/cable/orange{
+	icon_state = "8-10"
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"GM" = (
+/obj/structure/railing/modern{
+	dir = 8
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"GU" = (
+/obj/structure/platform/ship/corner{
+	dir = 1
+	},
+/obj/structure/railing/thin/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/corner/opaque/red/diagonal,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"GW" = (
+/obj/effect/turf_decal/siding/thinplating/light/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/light/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"Hc" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"Hf" = (
+/obj/structure/bed/double{
+	dir = 4
+	},
+/obj/item/bedsheet/double/blue{
+	dir = 4
+	},
+/turf/open/floor/concrete,
+/area/space)
+"Hv" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable/orange{
+	icon_state = "2-9"
+	},
+/turf/open/floor/plating,
+/area/space)
+"Hw" = (
+/obj/structure/railing/thin{
+	dir = 4
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"HA" = (
+/obj/effect/spawner/bunk_bed,
+/turf/open/floor/concrete,
+/area/space)
+"HC" = (
+/obj/structure/sign/warning/hottemp{
+	name = "\improper HIGH AMBIENT HEAT sign";
+	pixel_x = -32
+	},
+/turf/open/floor/plating,
+/area/space)
+"HJ" = (
+/obj/structure/sign/departments/medbay,
+/turf/closed/wall,
+/area/space)
+"HS" = (
+/obj/effect/decal/cleanable/garbage{
+	pixel_y = 10;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"HZ" = (
+/obj/structure/flora/ausbushes/brflowers{
+	pixel_x = 2
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Ic" = (
+/obj/effect/turf_decal/road/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/road/stripes{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Ij" = (
+/obj/structure/platform/ship_four/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Ik" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood/maple,
+/area/space)
+"In" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/opaque/black/half,
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/plating,
+/area/space)
+"Iq" = (
+/obj/structure/sign/warning/securearea{
+	pixel_x = 28;
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/corner_steel_grid{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Ir" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/concrete,
+/area/space)
+"It" = (
+/obj/effect/turf_decal/trimline/transparent/blue/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Iv" = (
+/obj/structure/platform/ship,
+/obj/structure/railing/thin,
+/obj/effect/turf_decal/corner/opaque/red/diagonal,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"Iy" = (
+/obj/structure/rack,
+/turf/open/floor/pod/dark,
+/area/space)
+"IA" = (
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"IB" = (
+/obj/structure/platform/ship,
+/obj/effect/turf_decal/corner/opaque/red/diagonal,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"IJ" = (
+/obj/effect/turf_decal/road{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"IQ" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"IS" = (
+/obj/structure/table/wood/reinforced,
+/turf/open/floor/wood/maple,
+/area/space)
+"IU" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/structure/filingcabinet/double{
+	dir = 4;
+	pixel_x = -10
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"IV" = (
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/crate_shelf,
+/obj/structure/closet/crate/secure/owned,
+/obj/structure/closet/crate/secure/owned,
+/obj/structure/closet/crate/secure/owned,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 9
+	},
+/turf/open/floor/pod/dark,
+/area/space)
+"IZ" = (
+/obj/structure/chair/stool/bar{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/opaque/red/diagonal,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"Jh" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Ji" = (
+/obj/effect/turf_decal/road/line{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Jv" = (
+/obj/machinery/vending/coffee{
+	pixel_y = 12
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Jw" = (
+/obj/structure/window/reinforced,
+/obj/effect/spawner/bunk_bed,
+/turf/open/floor/concrete,
+/area/space)
+"JC" = (
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/corner_steel_grid{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"JI" = (
+/obj/structure/chair/bench/blue{
+	dir = 4
+	},
+/turf/open/floor/concrete,
+/area/space)
+"JV" = (
+/obj/structure/flora/tree/jungle/small{
+	icon_state = "tree4";
+	pixel_x = -38
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Kj" = (
+/obj/structure/railing/thin,
+/turf/open/floor/concrete/slab_2,
+/area/space)
+"Kn" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"Ko" = (
+/obj/structure/grille,
+/obj/structure/window/fulltile,
+/turf/open/floor/plating,
+/area/space)
+"KI" = (
+/obj/mecha/working/ripley,
+/turf/open/floor/concrete,
+/area/space)
+"KP" = (
+/obj/structure/fluff{
+	name = "storage crate";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/crates.dmi';
+	icon_state = "crate";
+	pixel_y = 15;
+	pixel_x = -8
+	},
+/obj/structure/fluff{
+	name = "storage crate";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/crates.dmi';
+	icon_state = "crate";
+	pixel_x = 2;
+	pixel_y = -4
+	},
+/obj/structure/fluff{
+	name = "storage crate";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/crates.dmi';
+	icon_state = "crate";
+	pixel_y = 25;
+	pixel_x = -7
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"KQ" = (
+/obj/structure/platform/ship_four{
+	dir = 4
+	},
+/obj/structure/railing/thin{
+	dir = 4
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"KT" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/structure/closet/crate/bin{
+	pixel_x = 6;
+	pixel_y = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Lj" = (
+/obj/structure/railing/thin,
+/obj/structure/flora/tree/jungle/small{
+	icon_state = "tree5";
+	pixel_x = -36;
+	pixel_y = 6
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Lm" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 9;
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Lq" = (
+/obj/structure/chair/bench/blue,
+/turf/open/floor/concrete,
+/area/space)
+"Lt" = (
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"Lu" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"LB" = (
+/obj/structure/platform/ship_four{
+	dir = 1;
+	layer = 2.99
+	},
+/obj/structure/chair/pew,
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"Mb" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"Mf" = (
+/obj/structure/chair/office,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Mj" = (
+/obj/structure/platform/ship_four{
+	dir = 8
+	},
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Mn" = (
+/obj/structure/platform/industrial/corner{
+	dir = 8
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"Mo" = (
+/obj/effect/turf_decal/road/stop{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Mq" = (
+/obj/structure/closet/secure_closet/engineering_personal,
+/turf/open/floor/pod/dark,
+/area/space)
+"Mr" = (
+/obj/effect/turf_decal/corner_steel_grid{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Mx" = (
+/obj/machinery/door/airlock/grunge,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"MD" = (
+/obj/effect/turf_decal/road/line,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"ME" = (
+/obj/structure/sign/warning/securearea{
+	pixel_x = -28;
+	pixel_y = -8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"MF" = (
+/obj/structure/sign/barsign,
+/turf/closed/wall,
+/area/space)
+"MG" = (
+/obj/effect/turf_decal/road/line,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"MH" = (
+/obj/machinery/power/smes,
+/obj/effect/turf_decal/industrial/warning/fulltile,
+/turf/open/floor/engine/hull/interior,
+/area/space)
+"MI" = (
+/obj/effect/turf_decal/siding/wood{
+	color = "#D2BC9D"
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"MJ" = (
+/obj/structure/platform/industrial/corner,
+/obj/structure/rack,
+/turf/open/floor/pod/dark,
+/area/space)
+"MN" = (
+/obj/structure/platform/industrial{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/space)
+"MP" = (
+/turf/open/floor/carpet/purple,
+/area/space)
+"MU" = (
+/obj/structure/railing/thick{
+	dir = 8
+	},
+/obj/structure/table,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"MV" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"MW" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/platform/industrial,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/space)
+"Ne" = (
+/obj/machinery/door/airlock/public{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono,
+/area/space)
+"No" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"Nw" = (
+/obj/structure/chair/stool{
+	dir = 4;
+	pixel_x = -12;
+	pixel_y = 10
+	},
+/turf/open/floor/pod/dark,
+/area/space)
+"NA" = (
+/obj/structure/railing,
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"NX" = (
+/obj/structure/railing/thick{
+	dir = 9;
+	layer = 2.89
+	},
+/obj/machinery/space_heater,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"Ob" = (
+/obj/structure/chair/sofa/purple/corpo/left/directional/east,
+/turf/open/floor/carpet/purple,
+/area/space)
+"Od" = (
+/obj/structure/platform/ship_four{
+	dir = 4
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Of" = (
+/obj/structure/sink/kitchen{
+	pixel_y = 20
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"Og" = (
+/turf/open/floor/concrete/pavement{
+	icon_state = "pavement"
+	},
+/area/space)
+"OD" = (
+/obj/structure/railing/thick{
+	dir = 1
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/space)
+"OG" = (
+/obj/structure/table/reinforced,
+/obj/structure/sink/chem{
+	dir = 4;
+	pixel_y = 5;
+	pixel_x = -6
+	},
+/obj/structure/mirror{
+	pixel_x = -28;
+	pixel_y = 4
+	},
+/turf/open/floor/plasteel/mono,
+/area/space)
+"OL" = (
+/obj/structure/platform/industrial,
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"OS" = (
+/obj/effect/turf_decal/corner/opaque/black/half,
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/plating,
+/area/space)
+"OX" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"OY" = (
+/obj/effect/mapping_helpers/turf/broken,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"OZ" = (
+/obj/structure/railing/thick/corner{
+	dir = 8
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/space)
+"Pa" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"Pe" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/computer/security/telescreen{
+	dir = 1;
+	pixel_y = -28
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Pj" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/space)
+"Pl" = (
+/obj/structure/railing/wood{
+	dir = 8
+	},
+/obj/structure/chair/plastic{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"Pp" = (
+/obj/effect/turf_decal/siding/thinplating/light/corner,
+/obj/effect/turf_decal/siding/thinplating/light/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"PD" = (
+/obj/structure/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"PK" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"PP" = (
+/obj/structure/platform/industrial/corner,
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"PW" = (
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Qc" = (
+/obj/machinery/computer/monitor{
+	dir = 4;
+	pixel_x = -8
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Qg" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"Qh" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/turf_decal/corner/opaque/red/diagonal,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"Ql" = (
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"Qp" = (
+/obj/machinery/door/airlock/public,
+/turf/open/floor/plasteel/mono,
+/area/space)
+"Qq" = (
+/obj/effect/turf_decal/industrial/warning,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"Qw" = (
+/obj/structure/table,
+/turf/open/floor/carpet/purple,
+/area/space)
+"QB" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-4"
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"QC" = (
+/obj/structure/fence/corner{
+	dir = 8
+	},
+/turf/open/floor/concrete/slab_2,
+/area/space)
+"QD" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"QE" = (
+/obj/structure/chair/sofa/blue/left,
+/turf/open/floor/concrete,
+/area/space)
+"QF" = (
+/obj/effect/decal/cleanable/oil/streak,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"QH" = (
+/obj/structure/closet/crate/trashcart{
+	pixel_y = 19
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"QQ" = (
+/obj/structure/table/wood/reinforced,
+/obj/machinery/microwave{
+	pixel_y = 8
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"QR" = (
+/obj/machinery/vending/dinnerware,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 10
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"Rr" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4;
+	layer = 2.456
+	},
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"Rt" = (
+/obj/structure/closet/secure_closet/wall/directional/east{
+	icon_state = "secure_wall"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"RD" = (
+/obj/structure/cable/yellow{
+	icon_state = "5-8"
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"RE" = (
+/obj/structure/closet/crate/trashcart{
+	pixel_y = 21;
+	pixel_x = 6
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"RG" = (
+/obj/structure/railing/thick{
+	dir = 9
+	},
+/turf/open/floor/plasteel/tech,
+/area/space)
+"RI" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	color = "#D2BC9D"
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"RL" = (
+/obj/structure/railing/thin,
+/turf/open/floor/concrete,
+/area/space)
+"Sa" = (
+/obj/structure/chair/sofa/purple/corpo/corner/directional/west,
+/turf/open/floor/carpet/purple,
+/area/space)
+"Sj" = (
+/turf/open/floor/carpet/nanoweave/red,
+/area/space)
+"Sk" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-5"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"Sm" = (
+/obj/structure/bed/roller,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"Sq" = (
+/obj/structure/urinal{
+	pixel_y = 24
+	},
+/turf/open/floor/plasteel/mono,
+/area/space)
+"Sr" = (
+/obj/structure/platform/industrial/corner,
+/turf/open/floor/plating,
+/area/space)
+"St" = (
+/obj/structure/fluff{
+	icon = 'icons/obj/hazard/conduit.dmi';
+	icon_state = "conduit";
+	dir = 1;
+	name = "power conduit";
+	desc = "Cheap industrial cable used to transfer large volumes of power.";
+	layer = 2.4;
+	plane = -2
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 4
+	},
+/obj/structure/railing,
+/turf/open/floor/plating,
+/area/space)
+"SB" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/space)
+"SL" = (
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"SV" = (
+/obj/effect/turf_decal/road/slow{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"SX" = (
+/obj/structure/fluff{
+	icon = 'icons/obj/hazard/conduit.dmi';
+	icon_state = "conduit";
+	dir = 1;
+	name = "power conduit";
+	desc = "Cheap industrial cable used to transfer large volumes of power.";
+	layer = 2.4;
+	plane = -2
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"Ti" = (
+/obj/structure/platform/industrial/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Tj" = (
+/obj/effect/turf_decal/corner_steel_grid{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Tq" = (
+/obj/structure/guncloset,
+/turf/open/floor/concrete,
+/area/space)
+"Tr" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/item/analyzer{
+	pixel_x = 13;
+	pixel_y = 6
+	},
+/turf/open/floor/plating,
+/area/space)
+"Tu" = (
+/obj/structure/railing/thick{
+	dir = 8
+	},
+/obj/structure/railing/thick/corner,
+/turf/open/floor/plasteel/tech,
+/area/space)
+"TC" = (
+/obj/structure/railing/thin{
+	dir = 10
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"TD" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"TK" = (
+/obj/structure/curtain{
+	pixel_y = -28
+	},
+/obj/structure/table/glass,
+/obj/item/clothing/suit/apron/surgical{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"TO" = (
+/turf/open/floor/concrete/pavement,
+/area/space)
+"TR" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"TT" = (
+/obj/machinery/door/airlock/engineering/glass{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"TU" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"Uf" = (
+/turf/template_noop,
+/area/space)
+"Ul" = (
+/obj/structure/platform/ship_four/corner{
+	dir = 1
+	},
+/obj/structure/railing/thin/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Un" = (
+/turf/open/floor/plating/dirt/old/lit,
+/area/space)
+"UJ" = (
+/obj/structure/platform/industrial/corner{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"UL" = (
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"UM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/turf/broken,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"UR" = (
+/obj/item/shovel{
+	pixel_x = 15;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/glass/bucket{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"UW" = (
+/obj/structure/chair/handrail{
+	dir = 1
+	},
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"Vb" = (
+/obj/effect/turf_decal/road/line{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Vg" = (
+/turf/open/floor/plating/grass/jungle/lit,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Vh" = (
+/obj/structure/cable/orange{
+	icon_state = "2-5"
+	},
+/obj/structure/catwalk/over,
+/turf/open/floor/plating,
+/area/space)
+"Vn" = (
+/obj/machinery/door/airlock/medical/glass,
+/obj/effect/turf_decal/siding/wood/corner{
+	color = "#D2BC9D"
+	},
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"Vy" = (
+/obj/structure/fluff{
+	icon = 'icons/obj/hazard/conduit.dmi';
+	icon_state = "conduit";
+	dir = 1;
+	name = "power conduit";
+	desc = "Cheap industrial cable used to transfer large volumes of power.";
+	layer = 2.4;
+	plane = -2
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"VA" = (
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"VD" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 10
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/space)
+"VM" = (
+/turf/closed/wall,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"VR" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/space)
+"Wc" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/concrete,
+/area/space)
+"Wf" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/turf/open/floor/plasteel/freezer,
+/area/space)
+"Wj" = (
+/obj/structure/chair/stool{
+	dir = 4;
+	pixel_x = -12;
+	pixel_y = -8
+	},
+/turf/open/floor/pod/dark,
+/area/space)
+"Wz" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/clothing/head/flatcap/clip{
+	pixel_x = 6;
+	pixel_y = 7
+	},
+/turf/open/floor/wood,
+/area/space)
+"WB" = (
+/obj/structure/filingcabinet/double{
+	pixel_y = 10;
+	density = 0
+	},
+/turf/open/floor/wood,
+/area/space)
+"WC" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor/northright,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"WD" = (
+/obj/structure/chair/sofa/purple/corpo/directional/north,
+/turf/open/floor/carpet/purple,
+/area/space)
+"WJ" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"WK" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4;
+	color = "#D2BC9D"
+	},
+/turf/open/floor/wood/maple,
+/area/space)
+"WQ" = (
+/obj/machinery/door/airlock/grunge,
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"WS" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"WT" = (
+/obj/effect/turf_decal/siding/thinplating/light,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"WW" = (
+/obj/structure/platform/ship_four,
+/obj/structure/chair/pew/left{
+	dir = 1
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Xh" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/opaque/black/half{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 26
+	},
+/turf/open/floor/plating,
+/area/space)
+"Xj" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"Xl" = (
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 8
+	},
+/area/space)
+"Xp" = (
+/obj/structure/fluff/hedge,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Xr" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder{
+	pixel_y = 10
+	},
+/obj/effect/turf_decal/siding/thinplating/light,
+/turf/open/floor/plasteel/lightgrey,
+/area/space)
+"Xu" = (
+/obj/machinery/photocopier,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Xv" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/obj/machinery/door/poddoor/shutters/preopen,
+/turf/open/floor/plating,
+/area/space)
+"Xx" = (
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/pod/dark,
+/area/space)
+"Xz" = (
+/turf/open/floor/concrete/reinforced/jungleplanet,
+/area/space)
+"XE" = (
+/obj/structure/chair/bench/blue{
+	dir = 8
+	},
+/turf/open/floor/concrete,
+/area/space)
+"XQ" = (
+/obj/structure/railing/corner/wood{
+	dir = 1
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"XR" = (
+/obj/structure/table,
+/obj/item/toy/cards/deck{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/item/spacecash/bundle/c20{
+	pixel_x = -6;
+	pixel_y = 10
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/space)
+"Yb" = (
+/obj/machinery/power/smes,
+/obj/structure/cable/orange{
+	icon_state = "0-10"
+	},
+/obj/effect/turf_decal/industrial/warning/fulltile,
+/turf/open/floor/engine/hull/interior,
+/area/space)
+"Yd" = (
+/obj/structure/platform/industrial{
+	dir = 8
+	},
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 1
+	},
+/area/space)
+"Yh" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/window/reinforced/spawner/west,
+/obj/machinery/button/ticket_machine{
+	pixel_y = 3;
+	pixel_x = -2;
+	id = "bank_ticket"
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"Yj" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"Yu" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/plasteel/grimy,
+/area/space)
+"Yz" = (
+/obj/machinery/door/poddoor/preopen,
+/turf/open/floor/concrete/pavement,
+/area/space)
+"YH" = (
+/obj/structure/fence/post{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_2,
+/area/space)
+"YT" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"YX" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/plasteel/dark,
+/area/space)
+"YZ" = (
+/obj/structure/sink{
+	pixel_x = -9;
+	pixel_y = 17
+	},
+/turf/open/floor/concrete,
+/area/space)
+"Zd" = (
+/obj/structure/fluff{
+	name = "storage crate";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/crates.dmi';
+	icon_state = "crate";
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/turf/open/floor/concrete,
+/area/space)
+"Zr" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 5
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"Zt" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/opaque/black/half,
+/obj/effect/turf_decal/industrial/warning,
+/turf/open/floor/plating,
+/area/space)
+"Zy" = (
+/obj/structure/platform/ship_four,
+/obj/structure/chair/pew/right{
+	dir = 1
+	},
+/obj/structure/railing/thin,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"Zz" = (
+/obj/structure/flora/tree/jungle/small{
+	icon_state = "tree5";
+	pixel_x = -28;
+	pixel_y = -1
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+"ZF" = (
+/obj/structure/fence/end{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_1,
+/area/space)
+"ZG" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/fluff/hedge,
+/turf/open/floor/concrete/slab_4,
+/area/space)
+"ZM" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/space)
+"ZQ" = (
+/obj/effect/decal/cleanable/crayon{
+	icon_state = "carp";
+	pixel_y = 28;
+	pixel_x = -10;
+	color = "#2f4eb5"
+	},
+/obj/item/paper/crumpled{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/structure/railing/thin{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/space)
+"ZS" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-02";
+	pixel_y = 16;
+	pixel_x = -6
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/space)
+"ZU" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 10
+	},
+/obj/effect/turf_decal/corner/opaque/black/half{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 26
+	},
+/turf/open/floor/plating,
+/area/space)
+"ZV" = (
+/obj/structure/railing/corner,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/space)
+"ZY" = (
+/obj/machinery/camera{
+	dir = 1;
+	c_tag = "Vault Exterior - North"
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/space)
+
+(1,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(2,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(3,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(4,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(5,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(6,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(7,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(8,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+VA
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+Vg
+Vg
+Vg
+Vg
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(9,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+VA
+VA
+rk
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+Vg
+Vg
+Vg
+Vg
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(10,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+BO
+Pj
+Pj
+mL
+mL
+mL
+mL
+mL
+mL
+xp
+zT
+ZV
+wK
+HC
+mL
+wK
+Yj
+OS
+xo
+xo
+Mq
+Mq
+ce
+yp
+BO
+mZ
+VA
+VA
+VA
+zn
+zn
+zn
+BO
+BO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+Vg
+Vg
+Vg
+Vg
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(11,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+BO
+Pj
+Cg
+MH
+SX
+SX
+SX
+fG
+SX
+St
+Xh
+NA
+At
+um
+sD
+At
+ah
+In
+Lt
+Lt
+Gf
+Nw
+Wj
+Gf
+BO
+KP
+Un
+VA
+VA
+Un
+zn
+BO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+Vg
+Vg
+Vg
+Vg
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(12,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+BO
+Pj
+Dv
+RD
+Lt
+Lt
+Lt
+xk
+Vh
+iz
+Lt
+Lt
+sZ
+ly
+aq
+um
+Lt
+Lt
+Lt
+Lt
+Xx
+Gf
+Iy
+MJ
+BO
+BO
+BO
+BO
+QH
+Un
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+Vg
+Vg
+Vg
+Vg
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(13,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+BO
+mL
+xP
+Pa
+Lt
+Lt
+Lt
+GJ
+Vh
+iz
+Lt
+Lt
+rq
+pg
+aq
+um
+Lt
+Lt
+Lt
+cm
+vM
+at
+DT
+MW
+OD
+PK
+CD
+BO
+HS
+VA
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+Vg
+Vg
+Vg
+Vg
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(14,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+BO
+mL
+ix
+MH
+Vy
+Vy
+Vy
+Yb
+Vy
+dC
+ZU
+pi
+BU
+Tr
+Hv
+At
+ag
+CK
+Lt
+Lt
+Lt
+Lt
+Lt
+EP
+qV
+QF
+mi
+BO
+VA
+VA
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+Vg
+Vg
+Vg
+Vg
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(15,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+BO
+mL
+xn
+mL
+qL
+Sr
+wu
+wu
+UJ
+xp
+Ba
+cm
+qv
+Lt
+Lt
+Xj
+ls
+OS
+Lt
+Lt
+bv
+un
+un
+zk
+lp
+CF
+ck
+BO
+VA
+Un
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+BO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+Vg
+Vg
+Vg
+Vg
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(16,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+BO
+au
+wu
+jd
+ZM
+MN
+RG
+Tu
+Dk
+kC
+sz
+un
+un
+un
+un
+TU
+zI
+Zt
+TR
+pf
+pZ
+NX
+zg
+MU
+qV
+CF
+CD
+BO
+VA
+OY
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+Vg
+Vg
+Vg
+Vg
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(17,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+BO
+BO
+yD
+yD
+sK
+kp
+qV
+OZ
+yD
+yD
+yD
+yD
+yD
+yD
+yD
+yD
+yD
+yD
+yD
+yD
+yD
+qV
+um
+um
+um
+CF
+lK
+BO
+Un
+UM
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+zn
+BO
+BO
+zn
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+Vg
+Vg
+Vg
+Vg
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(18,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+CF
+Jh
+VR
+Jh
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+ck
+BO
+Un
+Un
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+Vg
+Vg
+Vg
+Vg
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(19,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+sR
+BO
+BO
+BO
+BO
+ve
+ve
+ve
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+fJ
+BO
+BO
+BO
+yd
+BO
+BO
+BO
+BO
+OY
+Un
+zn
+BO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+Vg
+Vg
+Vg
+Vg
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(20,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+iw
+Un
+Mb
+mu
+Un
+Un
+Un
+Un
+Un
+VA
+VA
+VA
+VA
+VA
+VA
+BO
+WS
+Tj
+Qc
+BO
+ZS
+bz
+dp
+ac
+co
+BO
+TO
+UM
+zn
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+Vg
+Vg
+Vg
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(21,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+yY
+Pl
+aX
+zn
+zn
+iw
+Un
+Mb
+zK
+zK
+zK
+zK
+Un
+VA
+VA
+zK
+zK
+zK
+zK
+VA
+Xv
+WS
+Tj
+sg
+pc
+aN
+sg
+eu
+ri
+ri
+BO
+pT
+UM
+zn
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(22,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+CX
+XR
+Bt
+PD
+XQ
+iw
+VA
+Sk
+ql
+jJ
+vY
+jJ
+MV
+MV
+TD
+IQ
+rB
+jJ
+QB
+VA
+Xv
+Xu
+Tj
+Mf
+bC
+yU
+Au
+eu
+oQ
+bf
+BO
+pT
+TO
+VA
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+TO
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(23,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+VA
+ih
+VA
+rh
+MV
+TD
+qT
+nO
+Un
+zK
+zK
+zK
+zK
+VA
+Un
+Un
+zK
+zK
+zK
+zK
+VA
+Xv
+tp
+Mr
+sg
+sr
+td
+Au
+eu
+Yu
+Yu
+BO
+TO
+TO
+VA
+zn
+BO
+BO
+BO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(24,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+VA
+VA
+VA
+VA
+fQ
+zn
+iw
+VA
+VA
+VA
+VA
+Un
+Un
+Un
+Un
+Un
+VA
+VA
+VA
+VA
+VA
+BO
+WS
+WS
+dF
+BO
+mo
+It
+YX
+Xp
+Xp
+BO
+TO
+TO
+Un
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(25,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+hC
+ey
+fn
+Un
+su
+zn
+yu
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+ho
+BO
+ve
+ve
+BO
+BO
+BO
+TT
+TT
+BO
+BO
+BO
+TO
+pT
+Un
+VA
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(26,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+lj
+rO
+sn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+iw
+zn
+rw
+bW
+Kj
+AQ
+fi
+kB
+pT
+pT
+TO
+TO
+pT
+TO
+TO
+TO
+TO
+pT
+pT
+TO
+TO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+Vg
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(27,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+iw
+zn
+zn
+bW
+Kj
+Bu
+fi
+kB
+pT
+pT
+TO
+TO
+dH
+pT
+pT
+TO
+TO
+TO
+pT
+pT
+TO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+Vg
+QC
+ho
+ho
+ho
+ho
+ho
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(28,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+iw
+zn
+zn
+bW
+Kj
+Bu
+fi
+kB
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+jX
+Cx
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+xa
+xa
+BO
+om
+ad
+tE
+BO
+om
+ad
+tE
+BO
+oP
+EN
+BO
+BO
+BO
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(29,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+lb
+zn
+zn
+bW
+Kj
+Bu
+fi
+kB
+zn
+BO
+pW
+pW
+gx
+ME
+Mx
+ob
+DL
+IU
+BO
+CJ
+TO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+xa
+xa
+BO
+tE
+tE
+tE
+BO
+tE
+tE
+tE
+BO
+Fu
+lG
+zB
+EN
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(30,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+eJ
+kB
+kB
+kB
+kB
+vL
+vL
+kB
+zn
+BO
+gx
+gx
+gx
+cW
+kA
+YT
+lu
+EF
+WQ
+pT
+pT
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+xa
+xa
+BO
+tE
+tE
+tE
+BO
+tE
+tE
+tE
+BO
+Fu
+di
+di
+MI
+Ko
+VA
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(31,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+MG
+Mo
+TO
+TO
+TO
+TO
+TO
+kB
+EG
+BO
+Ab
+vx
+vx
+yG
+dw
+ry
+lu
+KT
+BO
+Ef
+pT
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+xa
+xa
+BO
+tE
+Em
+Em
+BO
+tE
+Em
+Em
+BO
+Fu
+cI
+cI
+MI
+Ko
+VA
+VA
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(32,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+kB
+TO
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+TO
+TO
+TO
+rZ
+MG
+TO
+TO
+rZ
+TO
+TO
+TO
+kB
+bW
+cy
+ej
+sg
+sg
+Ev
+fV
+YT
+lu
+nx
+BO
+RE
+pT
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+Vg
+YH
+xa
+xa
+xa
+xa
+BO
+BO
+cM
+Ko
+Ko
+BO
+cM
+Ko
+Ko
+BO
+Fu
+xq
+xq
+MI
+Ko
+VA
+VA
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(33,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+MG
+Mo
+TO
+TO
+TO
+TO
+TO
+kB
+bW
+cy
+PW
+QD
+QD
+kz
+Yh
+YT
+lu
+Lm
+BO
+TO
+TO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+xa
+BO
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+BO
+Fu
+Fs
+Fs
+MI
+HJ
+zn
+VA
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(34,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+TO
+TO
+TO
+kB
+kB
+ZF
+kB
+kB
+kB
+TO
+IJ
+TO
+kB
+zn
+BO
+tK
+gx
+gx
+mB
+WC
+ry
+lu
+Pe
+BO
+TO
+TO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+xa
+BO
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+yO
+kf
+cI
+cI
+fc
+wC
+VA
+VA
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(35,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+lb
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+gx
+DE
+DE
+uQ
+Ao
+JC
+Iq
+dB
+BO
+fY
+TO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+xa
+BO
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+Vn
+RI
+WK
+WK
+mD
+mx
+VA
+VA
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(36,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+EQ
+BO
+BO
+BO
+ZQ
+TO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+xa
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+VA
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(37,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+Gr
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+la
+zw
+yT
+dY
+ze
+DW
+VD
+la
+nF
+MD
+TO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+xa
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+BO
+tE
+tE
+tE
+tE
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+Et
+Et
+Et
+Et
+Et
+SB
+SB
+SB
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(38,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+xa
+xa
+xa
+xa
+BO
+xa
+xa
+xa
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+ZY
+la
+FM
+CF
+CF
+CF
+CF
+Ql
+la
+nF
+MG
+TO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+xa
+BO
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+BO
+zn
+zn
+kB
+TO
+IJ
+TO
+Bu
+TO
+lv
+TO
+TO
+TO
+Yz
+MG
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(39,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+VM
+VM
+VM
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+xa
+xa
+xa
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+la
+lr
+CF
+CF
+CF
+CF
+IV
+la
+Bu
+MG
+TO
+BO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+zn
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+Vg
+YH
+xa
+xa
+xa
+xa
+BO
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+Mo
+TO
+lv
+TO
+TO
+TO
+Yz
+MG
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(40,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+Tq
+xa
+Fz
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+la
+CS
+Rt
+Rt
+Rt
+OX
+vg
+la
+Bu
+MG
+pT
+zn
+BO
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+BO
+BO
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+BO
+tE
+tE
+tE
+tE
+BO
+zn
+zn
+kB
+TO
+IJ
+TO
+Bu
+TO
+lv
+TO
+TO
+TO
+Yz
+MG
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(41,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+Tq
+xa
+Fz
+BO
+xa
+xa
+cV
+cV
+xa
+xa
+BO
+xa
+xa
+xa
+xa
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+la
+la
+la
+la
+la
+la
+la
+la
+TO
+TO
+pT
+zn
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+BO
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+Ko
+yn
+Hc
+iM
+tE
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+Bu
+TO
+lv
+TO
+TO
+TO
+Yz
+MG
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(42,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+cV
+cV
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+ws
+zn
+TO
+TO
+TO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+BO
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+Ko
+yn
+Hc
+iM
+tE
+Ko
+zn
+zn
+kB
+TO
+IJ
+TO
+Mo
+TO
+lv
+TO
+TO
+TO
+Yz
+MG
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(43,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+cV
+xa
+Fz
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+pT
+pT
+TO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+Vg
+iw
+xa
+xa
+xa
+BO
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+Ko
+tE
+tE
+tE
+tE
+Ko
+zn
+zn
+kB
+TO
+TO
+TO
+Bu
+TO
+lv
+TO
+TO
+TO
+Yz
+MG
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(44,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+cV
+xa
+Fz
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+Ic
+vL
+vL
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+TO
+TO
+TO
+kB
+Vg
+yu
+BO
+BO
+BO
+BO
+BO
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+Ko
+tE
+tE
+tE
+tE
+Ko
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+kB
+kB
+kB
+kB
+SB
+SB
+SB
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(45,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+BO
+BO
+BO
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+kB
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+tE
+tE
+fv
+Ko
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+BO
+hd
+zE
+ky
+zD
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+SB
+ko
+ko
+SB
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(46,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+sl
+BO
+HA
+Jw
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+xa
+xa
+xa
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+kB
+TO
+TO
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+TO
+TO
+TO
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+qP
+tE
+TK
+Ko
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+BO
+BO
+BO
+BO
+BO
+BO
+TO
+TO
+pU
+TO
+IJ
+TO
+kB
+SB
+xa
+xa
+xa
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(47,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+YZ
+BO
+xa
+Bm
+xa
+xa
+cV
+cV
+cV
+xa
+BO
+xa
+xa
+xa
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+kB
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+tE
+tE
+tE
+oD
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+BO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+pU
+TO
+TO
+TO
+kB
+SB
+xa
+xa
+xa
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(48,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+xa
+xa
+xa
+zj
+xa
+xa
+xa
+xa
+cV
+xa
+BO
+xa
+xa
+xa
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+TO
+IJ
+TO
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+BO
+BO
+BO
+BO
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+Sm
+BO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+pU
+TO
+IJ
+TO
+kB
+SB
+SB
+xa
+xa
+SB
+xa
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(49,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+BO
+if
+if
+th
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+xa
+xa
+BO
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+zn
+zn
+BO
+tE
+tE
+fv
+Ko
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+Sm
+BO
+TO
+TO
+TO
+TO
+TO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+SB
+xa
+xa
+xa
+xa
+xa
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(50,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+GM
+GM
+GM
+GM
+GM
+GM
+GM
+GM
+GM
+jZ
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+qP
+tE
+TK
+Ko
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+mx
+Ji
+Ji
+Ji
+zn
+zn
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+gi
+xa
+xa
+xa
+xa
+xa
+Ae
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(51,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+ep
+ep
+ep
+ep
+ep
+ep
+zn
+zn
+te
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+BO
+BO
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+tu
+tu
+BO
+BO
+zn
+kB
+TO
+ph
+TO
+kB
+zn
+zn
+BO
+tE
+tE
+tE
+oD
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+tE
+kY
+TO
+TO
+Og
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+SB
+cV
+xa
+xa
+xa
+xa
+Ae
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(52,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+ep
+ep
+ep
+ep
+ep
+ep
+zn
+zn
+te
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+MP
+MP
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+QC
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+qc
+SL
+TO
+zn
+zn
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+SB
+Tq
+xa
+xa
+xa
+xa
+Ae
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(53,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+te
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+MP
+ez
+wm
+zn
+kB
+TO
+ph
+TO
+kB
+zn
+iw
+Gb
+xa
+xa
+xa
+iw
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+BO
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+SB
+Tq
+xa
+xa
+xa
+xa
+Ae
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(54,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+BO
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+ep
+ep
+ep
+ep
+ep
+ep
+zn
+zn
+te
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+BO
+Hf
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+MP
+WD
+wm
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+Zd
+xa
+xa
+xa
+iw
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+gi
+xa
+xa
+xa
+xa
+xa
+Ae
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(55,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+BO
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+ep
+ep
+ep
+ep
+ep
+ep
+zn
+zn
+te
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+zs
+Sa
+BO
+zn
+kB
+TO
+ph
+TO
+kB
+zn
+iw
+wL
+xa
+xa
+xa
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+SB
+xa
+xa
+xa
+xa
+xa
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(56,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+go
+go
+xY
+xY
+xY
+xY
+BO
+xY
+xY
+BO
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+te
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+BO
+we
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+BO
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+fT
+xa
+xa
+BO
+BO
+mY
+mY
+mY
+mY
+xa
+mY
+mY
+mY
+BO
+xa
+xa
+xa
+xa
+BO
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+SB
+SB
+xa
+xa
+SB
+xa
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(57,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+go
+xY
+xY
+xY
+xY
+go
+BO
+xY
+xY
+xc
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+ep
+ep
+ep
+ep
+ep
+ep
+zn
+zn
+te
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+QE
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+BO
+xa
+xa
+xa
+xa
+xa
+BO
+zn
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+zn
+iw
+xa
+xa
+xa
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+xa
+xa
+xa
+xa
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+SB
+xa
+xa
+xa
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(58,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+go
+xY
+xY
+go
+go
+go
+BO
+xY
+xY
+xc
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+ep
+ep
+ep
+ep
+ep
+ep
+zn
+zn
+te
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+RL
+mk
+BO
+xa
+ko
+xa
+xa
+xa
+BO
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+xa
+xa
+xa
+BO
+lI
+xa
+lI
+xa
+lI
+xa
+lI
+xa
+xa
+ko
+xa
+xa
+xa
+xa
+BO
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+SB
+xa
+xa
+xa
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(59,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+xY
+xY
+xY
+xY
+xY
+xY
+BO
+xY
+xY
+xc
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+RL
+Xl
+BO
+bM
+ko
+xa
+xa
+xa
+UL
+VA
+VA
+zn
+kB
+TO
+ph
+TO
+kB
+zn
+iw
+xa
+xa
+xa
+BO
+lI
+xa
+lI
+xa
+lI
+xa
+lI
+xa
+xa
+ko
+xa
+xa
+xa
+xa
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+UW
+SB
+ko
+ko
+SB
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(60,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+go
+go
+xY
+xY
+xY
+go
+BO
+xY
+xY
+xc
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+zn
+BO
+Xl
+Xl
+BO
+zn
+UR
+BO
+zn
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+RL
+Xl
+BO
+xa
+ko
+xa
+xa
+xa
+UL
+VA
+VA
+VA
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+KI
+xa
+xa
+BO
+lI
+xa
+lI
+xa
+lI
+xa
+lI
+xa
+xa
+ko
+xa
+xa
+xa
+xa
+BO
+zn
+VA
+kB
+TO
+IJ
+TO
+kB
+ie
+kB
+kB
+kB
+SB
+SB
+SB
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(61,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+go
+xY
+xY
+go
+go
+go
+BO
+xY
+xY
+xc
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+BO
+BO
+Xl
+Xl
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+xa
+ko
+xa
+xa
+xa
+BO
+VA
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+zn
+iw
+Wc
+xa
+xa
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+Cp
+xa
+xa
+xa
+xa
+ns
+VA
+zn
+kB
+TO
+TO
+TO
+Bu
+TO
+lv
+TO
+TO
+TO
+Yz
+MG
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(62,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+go
+xY
+xY
+xY
+xY
+xY
+BO
+xY
+xY
+BO
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+ri
+ri
+cJ
+cJ
+ri
+ri
+cJ
+cJ
+cJ
+Ko
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+RL
+yV
+BO
+xa
+ko
+xa
+xa
+xa
+UL
+VA
+VA
+VA
+kB
+TO
+TO
+TO
+kB
+zn
+iw
+Ir
+xa
+xa
+BO
+gh
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+ns
+VA
+VA
+kB
+TO
+IJ
+TO
+Mo
+TO
+lv
+TO
+TO
+TO
+Yz
+MG
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(63,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+BO
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+vt
+pE
+cJ
+cJ
+vt
+pE
+cJ
+cJ
+cJ
+Ko
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+RL
+yV
+BO
+bM
+ko
+xa
+xa
+xa
+UL
+VA
+VA
+VA
+kB
+TO
+ph
+TO
+kB
+zn
+iw
+xa
+xa
+xa
+BO
+mY
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+zn
+zn
+kB
+TO
+TO
+TO
+Bu
+TO
+lv
+TO
+TO
+TO
+Yz
+MG
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(64,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+BO
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+yx
+pE
+cJ
+cJ
+yx
+pE
+cJ
+cJ
+cJ
+Ko
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+RL
+yZ
+BO
+xa
+ko
+xa
+xa
+xa
+BO
+VA
+VA
+zn
+kB
+TO
+TO
+TO
+Bu
+TO
+TO
+xa
+xa
+xa
+BO
+mY
+xa
+xa
+xa
+xa
+xa
+mY
+mY
+mY
+BO
+xa
+xa
+xa
+BO
+BO
+zn
+zn
+kB
+TO
+IJ
+TO
+Bu
+TO
+lv
+TO
+TO
+TO
+Yz
+MG
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(65,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+Fy
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+Yu
+Yu
+cJ
+cJ
+Yu
+Yu
+cJ
+cJ
+cJ
+Ko
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+BO
+xa
+xa
+xa
+xa
+xa
+BO
+zn
+zn
+VA
+kB
+TO
+ph
+TO
+Bu
+TO
+TO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+mY
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+Mo
+TO
+lv
+TO
+TO
+TO
+Yz
+MG
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(66,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+BO
+BO
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+BO
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+gx
+gx
+cJ
+cJ
+gx
+gx
+IB
+yV
+yV
+BO
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+BO
+BO
+zn
+kB
+TO
+TO
+TO
+Bu
+TO
+TO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+mY
+BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+IJ
+TO
+Bu
+TO
+lv
+TO
+TO
+TO
+Yz
+MG
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(67,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+Gl
+BO
+BO
+BO
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+ri
+ri
+cJ
+cJ
+ri
+ri
+Iv
+xa
+xa
+mc
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+Ob
+mV
+BO
+zn
+kB
+TO
+ph
+TO
+kB
+zn
+iw
+xa
+xa
+xa
+BO
+xa
+mY
+mY
+xa
+mY
+BO
+zn
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+TO
+TO
+TO
+Et
+Et
+Et
+Et
+Et
+SB
+SB
+SB
+TO
+TO
+Uf
+Uf
+Uf
+"}
+(68,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+kb
+xY
+xY
+xY
+xY
+BO
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+vt
+pE
+cJ
+cJ
+vt
+pE
+Iv
+xa
+xa
+mc
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+MP
+WD
+wm
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+yu
+hK
+hK
+hK
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+kB
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+IJ
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(69,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+xY
+xY
+xY
+xY
+xY
+BO
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+yx
+pE
+cJ
+cJ
+yx
+pE
+Iv
+xa
+xa
+BO
+ua
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+MP
+hN
+wm
+zn
+kB
+TO
+ph
+TO
+kB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+TO
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(70,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+xY
+ll
+Cm
+Wz
+xY
+BO
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+Yu
+Yu
+cJ
+cJ
+Yu
+Yu
+Iv
+xa
+xa
+BO
+Jv
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+MP
+MP
+wm
+zn
+kB
+TO
+TO
+TO
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(71,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+WB
+xY
+aG
+xY
+xY
+BO
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+cJ
+cJ
+cJ
+cJ
+cJ
+cJ
+Iv
+xa
+xa
+mc
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+MP
+Qw
+wm
+zn
+kB
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(72,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+bH
+xY
+xY
+xY
+xY
+BO
+xY
+xY
+xY
+xY
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+IZ
+IZ
+IZ
+IZ
+IZ
+cJ
+Iv
+xa
+xa
+mc
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+MP
+Qw
+BO
+zn
+kB
+TO
+TO
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+TO
+TO
+kB
+PP
+ow
+ow
+ow
+ow
+ow
+ow
+ow
+ow
+ow
+ow
+ow
+Mn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(73,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+AM
+Ca
+li
+bd
+bd
+cJ
+GU
+nc
+nc
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+tu
+tu
+BO
+BO
+zn
+kB
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+SV
+Vb
+SV
+kB
+OL
+Qg
+Qg
+Qg
+Qg
+Qg
+Qg
+Qg
+Qg
+Qg
+Qg
+Qg
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(74,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+Sj
+Sj
+Sj
+Sj
+DG
+cJ
+cJ
+AK
+AK
+MF
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+BO
+xa
+xa
+xa
+BO
+BO
+wm
+wm
+wm
+BO
+Ak
+zn
+kB
+TO
+TO
+TO
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+TO
+IJ
+TO
+kB
+OL
+Xz
+fz
+BL
+BL
+BL
+BL
+BL
+BL
+BL
+hr
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(75,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+pD
+Sj
+Sj
+Sj
+Sj
+cJ
+cJ
+AK
+AK
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+BO
+BO
+xa
+xa
+xa
+xa
+xa
+cr
+Lq
+En
+wd
+nS
+Ak
+zn
+kB
+TO
+ph
+TO
+kB
+db
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+ir
+zn
+sW
+TC
+kB
+TO
+TO
+TO
+kB
+po
+Xz
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(76,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+BO
+BO
+BV
+Sj
+Sj
+Sj
+cJ
+cJ
+Qh
+Qh
+BO
+zn
+kB
+TO
+IJ
+TO
+kB
+zn
+zn
+BO
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+BO
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+cr
+Lq
+dR
+wd
+nS
+Ak
+zn
+kB
+TO
+TO
+TO
+kB
+jg
+Zz
+Un
+ww
+zn
+zn
+zn
+Un
+Un
+ji
+ji
+zn
+jj
+kB
+TO
+IJ
+TO
+Lu
+jo
+ra
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(77,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+cI
+Ik
+Ik
+Ik
+cI
+Ik
+Ik
+Ik
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+BO
+BO
+oi
+BO
+BO
+Ne
+BO
+BO
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+kB
+kB
+kB
+BO
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+BO
+cr
+cr
+cr
+xa
+xa
+xa
+xa
+xa
+xa
+cr
+Lq
+En
+wd
+nS
+Ak
+zn
+kB
+TO
+ph
+TO
+kB
+jg
+zn
+fk
+Od
+yg
+nK
+zn
+zn
+jj
+ex
+zn
+zn
+jj
+kB
+TO
+TO
+TO
+kB
+sH
+Xz
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(78,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+cI
+cI
+cI
+WJ
+Ik
+cI
+cI
+Kn
+Ik
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+Fv
+eh
+GW
+QR
+BO
+Dt
+OG
+OG
+BO
+zn
+kB
+TO
+IJ
+TO
+bw
+TO
+TO
+TO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+JI
+JI
+JI
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+oq
+Ak
+zn
+kB
+TO
+TO
+TO
+kB
+jg
+zn
+WW
+Dd
+md
+Fd
+Un
+VA
+Lj
+ex
+zn
+zn
+zn
+kB
+TO
+IJ
+TO
+nz
+lz
+No
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(79,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+cI
+cI
+cI
+cI
+cI
+cI
+cI
+cI
+cI
+cI
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+je
+tE
+tE
+no
+BO
+Sq
+Dt
+Dt
+BO
+zn
+kB
+TO
+TO
+TO
+bw
+TO
+TO
+TO
+Bu
+TO
+Bu
+TO
+Bu
+TO
+Bu
+TO
+BO
+En
+En
+En
+xa
+xa
+xa
+xa
+xa
+xa
+xa
+bZ
+nd
+oO
+as
+sA
+zn
+kB
+TO
+ph
+TO
+kB
+jg
+Dn
+sb
+bs
+rf
+LB
+sX
+zn
+jj
+xW
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+Lu
+jo
+ra
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(80,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+ng
+cI
+cI
+cI
+cI
+cI
+cI
+cI
+cI
+cI
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+fI
+tE
+tE
+tM
+BO
+Sq
+Dt
+Dt
+BO
+zn
+kB
+TO
+IJ
+TO
+bw
+TO
+TO
+TO
+Bu
+TO
+Bu
+TO
+Bu
+TO
+Bu
+TO
+BO
+XE
+XE
+XE
+xa
+xa
+cr
+cr
+cr
+xa
+xa
+IA
+Yd
+Yd
+Yd
+Ti
+zn
+kB
+TO
+TO
+TO
+kB
+jg
+Un
+rE
+tF
+HZ
+sF
+Un
+ww
+Fb
+ex
+zn
+zn
+zn
+kB
+TO
+IJ
+TO
+kB
+sH
+Xz
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(81,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+Go
+cI
+cI
+cI
+cI
+cI
+cI
+cI
+cI
+cI
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+vT
+tE
+tE
+WT
+BO
+Dt
+Dt
+Dt
+BO
+zn
+kB
+TO
+TO
+TO
+bw
+TO
+TO
+TO
+Bu
+TO
+Bu
+TO
+Bu
+TO
+Bu
+TO
+BO
+ZG
+ZG
+ZG
+oO
+oO
+oO
+oO
+oO
+oO
+oO
+Qq
+lV
+lV
+lV
+qs
+zn
+kB
+TO
+ph
+TO
+kB
+Ul
+Ai
+oe
+FG
+qz
+Ij
+Un
+qC
+jj
+ex
+zn
+zn
+jj
+kB
+TO
+TO
+TO
+nz
+lz
+No
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(82,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+QQ
+cI
+cI
+cI
+Ik
+cI
+cI
+cI
+cI
+cI
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+Fc
+tE
+tE
+WT
+BO
+iC
+BO
+iC
+BO
+zn
+kB
+TO
+IJ
+TO
+bw
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+bA
+en
+en
+en
+en
+en
+rA
+Cq
+en
+en
+en
+en
+en
+en
+en
+Ti
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+Zy
+VA
+JV
+Aq
+zn
+zn
+Un
+zn
+ji
+ji
+zn
+jj
+kB
+TO
+IJ
+TO
+Lu
+jo
+ra
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(83,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+BO
+BO
+BO
+BO
+yH
+cI
+cI
+lG
+Ik
+cI
+cI
+cI
+cI
+cI
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+tC
+tE
+tE
+Xr
+BO
+eH
+BO
+eH
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+ph
+TO
+kB
+zn
+oe
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
+Mj
+Ij
+zn
+Hw
+mn
+kB
+TO
+TO
+TO
+kB
+sH
+Xz
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(84,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+BO
+Dt
+Dt
+Qp
+cI
+cI
+cI
+Ik
+Ik
+cI
+BO
+cI
+cI
+cI
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+cY
+Pp
+BM
+CP
+BO
+BO
+BO
+BO
+BO
+zn
+kB
+TO
+IJ
+TO
+kB
+kB
+kB
+vL
+vL
+vL
+vL
+vL
+vL
+vL
+vL
+vL
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+TO
+TO
+TO
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+TO
+IJ
+TO
+nz
+lz
+No
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(85,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+BO
+gp
+Dt
+BO
+cI
+cI
+cI
+cI
+cI
+cI
+BO
+cI
+IS
+cI
+Av
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+BO
+ab
+BO
+BO
+BO
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+Lu
+jo
+ra
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(86,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+BO
+BO
+BO
+BO
+Of
+cI
+cI
+cI
+cI
+Ik
+BO
+yy
+IS
+cI
+Av
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+gk
+FR
+fS
+GC
+BO
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+TO
+TO
+TO
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+TO
+TO
+TO
+kB
+sH
+Xz
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(87,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+BO
+BO
+cI
+cI
+cI
+WJ
+Ik
+BO
+cI
+IS
+cI
+BO
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+BO
+gk
+FR
+FR
+Wf
+BO
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+nz
+lz
+No
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(88,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+Vg
+Vg
+Vg
+Vg
+Vg
+BO
+BO
+cI
+cI
+Ik
+Ik
+BO
+IS
+IS
+cI
+BO
+Vg
+kB
+kB
+kB
+kB
+kB
+zn
+QC
+BO
+BO
+BO
+BO
+BO
+BO
+zn
+zn
+zn
+zn
+zn
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+Gx
+ra
+da
+TO
+TO
+TO
+TO
+TO
+TO
+TO
+fO
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(89,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+Vg
+Vg
+zn
+zn
+zn
+zn
+zn
+iw
+gu
+gu
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+OL
+Xz
+Zr
+xZ
+xZ
+xZ
+xZ
+xZ
+xZ
+xZ
+yz
+Xz
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(90,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+zn
+zn
+zn
+zn
+zn
+iw
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+OL
+Rr
+Rr
+Rr
+Rr
+Rr
+Rr
+Rr
+Rr
+Rr
+Rr
+Rr
+rb
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(91,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+zn
+zn
+zn
+zn
+zn
+iw
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+Vg
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+Gv
+qU
+qU
+qU
+qU
+qU
+qU
+qU
+qU
+qU
+qU
+qU
+rr
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(92,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+SB
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+iw
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+zn
+Vg
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+Vg
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(93,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(94,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(95,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(96,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(97,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(98,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(99,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
+(100,1,1) = {"
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+Uf
+"}
