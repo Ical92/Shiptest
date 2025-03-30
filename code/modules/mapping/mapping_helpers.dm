@@ -535,17 +535,20 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 	icon_state = "burnt"
 	desc = "burns the everliving shit out of the turf its on."
 
-/obj/effect/mapping_helpers/turf/burnt/LateInitialize()
+/obj/effect/mapping_helpers/turf/burnt/Initialize(mapload)
+	. = ..()
 	var/turf/our_turf = loc
 	our_turf.burn_tile()
-	qdel(src)
 
-/obj/effect/mapping_helper/turf/broken
-	name = "turf breaker"
+/obj/effect/mapping_helpers/turf/broken
+	name = "floor breaker"
 	icon_state = "broken"
-	desc = "breaks the everliving shit out of the turf its on."
+	desc = "breaks the everliving shit out of the floor its on."
 
-/obj/effect/mapping_helpers/turf/broken/LateInitialize()
-	var/turf/our_turf = loc
-	our_turf.break_tile()
-	qdel(src)
+/obj/effect/mapping_helpers/turf/broken/Initialize(mapload)
+	. = ..()
+	var/turf/open/floor/our_turf = loc
+	if(istype(our_turf))
+		our_turf.break_tile()
+	else
+		log_mapping("[src] at [x], [y] could not find a floor to break.")
