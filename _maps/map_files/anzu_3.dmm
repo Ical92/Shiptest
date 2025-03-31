@@ -2286,6 +2286,12 @@
 	dir = 4;
 	pixel_x = 5
 	},
+/obj/effect/decal/cleanable/garbage{
+	pixel_y = -5;
+	pixel_x = 2;
+	layer = 4.1;
+	plane = -1
+	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
 "zs" = (
