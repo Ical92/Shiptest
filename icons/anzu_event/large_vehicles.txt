@@ -1,0 +1,1 @@
+ambulance	| modified from https://github.com/cmss13-devs/cmss13/blob/master/icons/obj/structures/props/vehicles/ambulance.dmi

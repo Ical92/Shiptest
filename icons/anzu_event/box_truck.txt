@@ -1,0 +1,2 @@
+clip_base	| modified from https://github.com/cmss13-devs/cmss13/blob/master/icons/obj/structures/props/vehicles/small_truck_blue.dmi
+clip_base_alt	| modified from https://github.com/cmss13-devs/cmss13/blob/master/icons/obj/structures/props/vehicles/small_truck_medical.dmi

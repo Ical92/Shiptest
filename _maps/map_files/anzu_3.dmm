@@ -10,7 +10,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "ac" = (
 /obj/structure/fluff/hedge,
 /obj/effect/turf_decal/spline/fancy/opaque/black{
@@ -24,7 +24,7 @@
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "ad" = (
 /obj/structure/bed{
 	dir = 1
@@ -33,7 +33,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "ag" = (
 /obj/structure/railing{
 	dir = 1
@@ -42,7 +42,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "ah" = (
 /obj/structure/railing{
 	dir = 1
@@ -51,17 +51,17 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "aq" = (
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "as" = (
 /obj/structure/railing{
 	dir = 6
 	},
 /obj/structure/closet/crate/bin,
 /turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "at" = (
 /obj/structure/railing{
 	dir = 8
@@ -71,17 +71,17 @@
 	dir = 6
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "au" = (
 /obj/structure/platform/industrial/corner,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "aG" = (
 /obj/structure/chair/comfy/red/corpo/directional/west,
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/jungle/anzu/townhall)
 "aN" = (
 /obj/effect/turf_decal/trimline/transparent/blue/line{
 	dir = 1
@@ -90,7 +90,7 @@
 	dir = 1
 	},
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "aX" = (
 /obj/structure/railing/wood{
 	dir = 10
@@ -100,11 +100,11 @@
 	icon_state = "0-4"
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "bd" = (
 /obj/structure/table/wood/reinforced,
 /turf/open/floor/carpet/nanoweave/red,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "bf" = (
 /obj/structure/table/glass,
 /obj/item/newspaper{
@@ -115,7 +115,12 @@
 	pixel_y = -28
 	},
 /turf/open/floor/plasteel/grimy,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"bh" = (
+/obj/effect/turf_decal/road/stop,
+/obj/effect/turf_decal/road/line,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "bs" = (
 /obj/structure/flora/ausbushes/brflowers{
 	pixel_x = -7;
@@ -129,19 +134,12 @@
 	pixel_y = -2
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "bv" = (
 /obj/structure/platform/industrial/corner,
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
-"bw" = (
-/obj/effect/turf_decal/road/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/road/stripes,
-/turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "bz" = (
 /obj/effect/turf_decal/trimline/transparent/blue/filled/line{
 	dir = 8
@@ -153,20 +151,20 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "bA" = (
 /obj/structure/platform/industrial/corner{
 	dir = 1
 	},
-/turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/outside)
 "bC" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/southright{
 	req_access = list(3)
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "bH" = (
 /obj/structure/filingcabinet/double{
 	pixel_x = -10;
@@ -174,32 +172,44 @@
 	density = 0
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/jungle/anzu/townhall)
 "bM" = (
 /obj/structure/chair/office,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
+"bU" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/restaurant)
 "bZ" = (
 /obj/effect/turf_decal/industrial/warning/corner,
 /turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
+"cb" = (
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/restaurant)
 "ce" = (
 /obj/structure/closet/secure_closet/engineering_electrical,
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"ci" = (
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "ck" = (
 /obj/structure/chair{
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "cm" = (
 /obj/structure/railing/corner{
 	dir = 8
 	},
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "co" = (
 /obj/structure/fluff/hedge,
 /obj/effect/turf_decal/spline/fancy/opaque/black{
@@ -209,33 +219,47 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "cr" = (
 /obj/structure/fluff/hedge,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "cy" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
+"cz" = (
+/obj/effect/turf_decal/road/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/road/stripes,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"cA" = (
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 8
+	},
+/area/ruin/jungle/anzu/restaurant)
 "cI" = (
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "cJ" = (
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "cM" = (
 /obj/machinery/door/airlock/medical{
 	dir = 4
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "cV" = (
 /obj/structure/table,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/checkpoint)
 "cW" = (
 /obj/effect/turf_decal/spline/fancy/opaque/black{
 	dir = 1
@@ -243,41 +267,41 @@
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/trimline/transparent/blue/filled/corner,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "cY" = (
 /obj/structure/table,
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 5
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "da" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "db" = (
 /obj/structure/platform/ship_four/corner,
 /obj/structure/railing/thin/corner,
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "di" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "dp" = (
 /obj/effect/turf_decal/spline/fancy/opaque/black/corner,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "dw" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/northleft,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "dB" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -287,7 +311,7 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "dC" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/hazard/conduit.dmi';
@@ -303,13 +327,13 @@
 	},
 /obj/structure/railing,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "dF" = (
 /obj/structure/filingcabinet/double{
 	pixel_y = 16
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "dH" = (
 /obj/machinery/camera{
 	dir = 8;
@@ -318,7 +342,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "dR" = (
 /obj/structure/table/glass,
 /obj/item/desk_flag/trans{
@@ -326,17 +350,17 @@
 	pixel_y = 6
 	},
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "dY" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "eh" = (
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 8
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "ej" = (
 /obj/effect/turf_decal/trimline/transparent/blue/filled/line{
 	dir = 1
@@ -345,27 +369,27 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "en" = (
 /obj/structure/platform/industrial{
 	dir = 8
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "ep" = (
 /obj/machinery/hydroponics/soil,
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/farm)
 "eu" = (
 /obj/effect/turf_decal/spline/fancy/opaque/black,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "ex" = (
 /obj/structure/platform/ship_four{
 	dir = 1
 	},
 /turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "ey" = (
 /obj/structure/closet/crate/large,
 /obj/structure/railing/corner/wood{
@@ -386,44 +410,70 @@
 	pixel_x = 5
 	},
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "ez" = (
 /obj/structure/chair/sofa/purple/corpo/left/directional/north,
 /turf/open/floor/carpet/purple,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "eH" = (
 /obj/structure/toilet{
 	dir = 8;
 	pixel_x = 4
 	},
 /turf/open/floor/plastic,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "eJ" = (
+/obj/structure/fence/end{
+	dir = 8;
+	pixel_x = 12;
+	desc = "A chain link fence. Not as effective as a wall, but generally it keeps people out. This one is placed specially by the mapper to make the illusion of a gate, wow!"
+	},
 /obj/structure/fence/end{
 	dir = 8
 	},
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"eW" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"fa" = (
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/storage)
 "fc" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	color = "#D2BC9D";
 	dir = 8
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "fi" = (
 /obj/effect/turf_decal/road/line,
 /obj/structure/railing/thin,
+/obj/structure/sign/warning/securearea{
+	pixel_x = -28;
+	name = "\improper EMPLOYEE PARKING sign";
+	desc = "A warning sign which reads 'PARKING FOR EMPLOYEES ONLY'."
+	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "fk" = (
 /obj/structure/platform/ship_four/corner,
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "fn" = (
 /obj/structure/railing/corner/wood,
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"fr" = (
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/apartments)
+"fu" = (
+/obj/structure/closet/secure_closet/engineering_personal,
+/turf/open/floor/pod/dark,
+/area/ruin/jungle/anzu/engineering)
 "fv" = (
 /obj/structure/curtain{
 	pixel_y = -28
@@ -434,13 +484,13 @@
 	pixel_y = 7
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "fz" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 9
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "fG" = (
 /obj/machinery/power/smes,
 /obj/structure/cable/orange{
@@ -448,43 +498,43 @@
 	},
 /obj/effect/turf_decal/industrial/warning/fulltile,
 /turf/open/floor/engine/hull/interior,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "fI" = (
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 1
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "fJ" = (
 /obj/machinery/door/airlock/grunge{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "fO" = (
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "fQ" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-9"
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "fS" = (
 /obj/item/twenty_pounds_of_ice{
 	pixel_x = -8;
 	pixel_y = -6
 	},
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "fT" = (
 /obj/structure/reagent_dispensers/cooking_oil{
 	pixel_x = 2;
 	pixel_y = 8
 	},
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/storage)
 "fV" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/north,
@@ -494,20 +544,21 @@
 	id = "bank_ticket"
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "fY" = (
 /obj/effect/decal/cleanable/crayon{
 	icon_state = "beepsky";
 	pixel_y = 35;
 	color = "#a83632";
-	pixel_x = -5
+	pixel_x = -5;
+	paint_colour = "#a83632"
 	},
 /obj/item/toy/crayon/spraycan{
 	pixel_x = -7;
 	pixel_y = 10
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "gh" = (
 /obj/structure/rack,
 /obj/item/shovel{
@@ -523,20 +574,20 @@
 	pixel_y = -7
 	},
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/storage)
 "gi" = (
 /obj/machinery/door/airlock/grunge,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/checkpoint)
 "gk" = (
 /obj/structure/reagent_dispensers/servingdish,
 /obj/structure/table,
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "go" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/jungle/anzu/townhall)
 "gp" = (
 /obj/structure/toilet{
 	pixel_x = 6;
@@ -547,66 +598,124 @@
 	pixel_y = 23
 	},
 /turf/open/floor/plasteel/mono,
-/area/space)
+/area/ruin/jungle/anzu/gold)
 "gu" = (
 /obj/structure/closet/crate/trashcart,
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"gw" = (
+/obj/effect/turf_decal/tiremarks{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "gx" = (
 /turf/open/floor/plasteel/grimy,
-/area/space)
+/area/ruin/jungle/anzu/bank)
+"gE" = (
+/obj/effect/turf_decal/road/stop{
+	dir = 4
+	},
+/obj/effect/turf_decal/road/line{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"gJ" = (
+/obj/effect/turf_decal/road/stop{
+	dir = 8
+	},
+/obj/effect/turf_decal/road/line{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"gW" = (
+/obj/item/clothing/head/cone{
+	pixel_y = -8;
+	pixel_x = -4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "hd" = (
 /obj/structure/closet/secure_closet/freezer,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
-"hj" = (
-/obj/structure/closet/crate/trashcart,
-/turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "ho" = (
 /obj/structure/fence,
 /turf/open/floor/concrete/slab_2,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "hr" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 10
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"hw" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "hC" = (
 /obj/structure/railing/wood{
 	dir = 4
 	},
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"hI" = (
+/turf/closed/wall,
+/area/ruin/jungle/anzu/engineering)
 "hK" = (
 /obj/structure/fence{
 	dir = 1
 	},
 /turf/open/floor/concrete/slab_2,
-/area/space)
+/area/ruin/jungle/anzu/storage)
 "hN" = (
 /obj/structure/chair/sofa/purple/corpo/right/directional/north,
 /turf/open/floor/carpet/purple,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
+"hO" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tiremarks{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/bank)
+"ib" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "ie" = (
 /obj/structure/chair/handrail{
 	dir = 4
 	},
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "if" = (
 /obj/structure/chair/bench/beige/directional/west,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/cmm)
 "ih" = (
 /obj/item/cigbutt{
 	pixel_x = -12;
 	pixel_y = -7
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"io" = (
+/obj/item/trash/can{
+	icon_state = "dr_gibb";
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/bank)
 "ir" = (
 /obj/structure/platform/ship_four/corner{
 	dir = 8
@@ -615,13 +724,13 @@
 	dir = 4
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "iw" = (
 /obj/structure/fence{
 	dir = 4
 	},
 /turf/open/floor/concrete/slab_2,
-/area/space)
+/area/ruin/jungle/anzu/storage)
 "ix" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -630,26 +739,44 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "iz" = (
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"iA" = (
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 1;
+	color = "#666863"
+	},
+/obj/effect/turf_decal/road{
+	dir = 4
+	},
+/obj/structure/railing/thin/corner{
+	dir = 4;
+	layer = 2.99
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = 15;
+	pixel_y = 5
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "iC" = (
 /obj/machinery/door/airlock/public{
 	dir = 4
 	},
 /turf/open/floor/plastic,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "iM" = (
 /obj/structure/chair/bench/blue{
 	dir = 1
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "jd" = (
 /obj/structure/platform/industrial{
 	dir = 4
@@ -658,26 +785,26 @@
 	icon_state = "9-10"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "je" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 1
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "jg" = (
 /obj/structure/platform/ship_four,
 /obj/structure/railing/thin,
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "ji" = (
 /turf/open/floor/plasteel/stairs/old,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "jj" = (
 /obj/structure/railing/thin,
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "jo" = (
 /obj/structure/railing{
 	dir = 8
@@ -685,7 +812,21 @@
 /turf/open/floor/plasteel/stairs/left{
 	dir = 1
 	},
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"jq" = (
+/obj/effect/turf_decal/road/line,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
+"ju" = (
+/obj/effect/turf_decal/road/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"jz" = (
+/turf/open/floor/plasteel/lightgrey,
+/area/ruin/jungle/anzu/restaurant)
 "jJ" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
@@ -697,34 +838,34 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "jX" = (
 /obj/structure/fence/door{
 	dir = 4
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "jZ" = (
 /obj/structure/railing/modern{
 	dir = 10
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/farm)
 "kb" = (
 /obj/structure/safe,
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/jungle/anzu/townhall)
 "kf" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	color = "#D2BC9D";
 	dir = 1
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "ko" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/checkpoint)
 "kp" = (
 /obj/structure/railing/thick{
 	dir = 8
@@ -732,7 +873,25 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"kt" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/ruin/jungle/anzu/bank)
+"kv" = (
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 1;
+	color = "#666863"
+	},
+/obj/effect/turf_decal/road{
+	dir = 4
+	},
+/obj/structure/railing/thin{
+	dir = 1;
+	layer = 2.99
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "ky" = (
 /obj/item/storage/box/donkpockets{
 	pixel_x = 7;
@@ -740,7 +899,7 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "kz" = (
 /obj/effect/turf_decal/spline/fancy/opaque/black/corner{
 	dir = 4
@@ -748,16 +907,16 @@
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/trimline/transparent/blue/filled/corner,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "kA" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/west,
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "kB" = (
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "kC" = (
 /obj/structure/platform/industrial{
 	dir = 4
@@ -770,32 +929,33 @@
 	},
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "la" = (
 /turf/closed/wall/r_wall,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "lb" = (
 /obj/structure/fence/post{
 	dir = 4
 	},
 /obj/structure/sign/warning{
-	pixel_y = 4
+	pixel_y = 4;
+	name = "\improper AUTOMATIC GATE sign"
 	},
 /turf/open/floor/concrete/slab_2,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "li" = (
 /obj/structure/table/wood/reinforced,
 /obj/machinery/paystand{
 	pixel_y = 10
 	},
 /turf/open/floor/carpet/nanoweave/red,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "lj" = (
 /obj/structure/railing/wood{
 	dir = 5
 	},
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "ll" = (
 /obj/structure/table/wood/reinforced,
 /obj/item/desk_flag{
@@ -803,45 +963,56 @@
 	pixel_y = 7
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/jungle/anzu/townhall)
 "lp" = (
 /obj/structure/railing/thick/corner{
 	dir = 4
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "lr" = (
 /obj/structure/crate_shelf,
-/obj/structure/closet/crate/secure/owned,
-/obj/structure/closet/crate/secure/owned,
-/obj/structure/closet/crate/secure/owned,
+/obj/structure/closet/crate/secure/owned{
+	name = "cash crate"
+	},
+/obj/structure/closet/crate/secure/owned{
+	name = "cash crate"
+	},
+/obj/structure/closet/crate/secure/owned{
+	name = "cash crate"
+	},
 /obj/effect/turf_decal/spline/fancy/opaque/black{
 	dir = 10
 	},
+/obj/machinery/light/directional/north,
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "ls" = (
 /obj/structure/railing/corner{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"lt" = (
+/obj/structure/guncloset,
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/cmm)
 "lu" = (
 /turf/open/floor/carpet/blue,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "lv" = (
 /obj/effect/turf_decal/road/stripes{
 	dir = 1
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "ly" = (
 /obj/structure/cable/orange{
 	icon_state = "1-10"
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "lz" = (
 /obj/structure/railing{
 	dir = 4
@@ -849,24 +1020,24 @@
 /turf/open/floor/plasteel/stairs/right{
 	dir = 1
 	},
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "lG" = (
 /obj/structure/chair/office{
 	dir = 4
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "lI" = (
 /obj/structure/crate_shelf,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/storage)
 "lJ" = (
 /turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "lK" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "lV" = (
 /obj/structure/railing{
 	dir = 4
@@ -875,37 +1046,37 @@
 	icon = 'icons/obj/stairs.dmi';
 	dir = 1
 	},
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "mc" = (
 /turf/open/floor/concrete/slab_3,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "md" = (
 /obj/structure/flora/ausbushes/brflowers{
 	pixel_x = 4;
 	pixel_y = 2
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "mi" = (
 /obj/structure/table,
 /obj/structure/sign/poster/official/moth/hardhats{
 	pixel_y = -32
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "mk" = (
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/plasteel/stairs{
 	icon = 'icons/obj/stairs.dmi';
 	dir = 8
 	},
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "mn" = (
 /obj/structure/railing/thin{
 	dir = 6
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "mo" = (
 /obj/effect/turf_decal/trimline/transparent/blue/filled/arrow_ccw{
 	dir = 8
@@ -913,18 +1084,19 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 5
 	},
+/obj/machinery/light/directional/north,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "mu" = (
 /obj/structure/sign/warning/electricshock{
 	pixel_x = -28
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "mx" = (
 /obj/machinery/door/airlock/medical/glass,
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "mB" = (
 /obj/effect/turf_decal/spline/fancy/opaque/black{
 	dir = 1
@@ -932,32 +1104,32 @@
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/trimline/transparent/blue/warning,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "mD" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	color = "#D2BC9D";
 	dir = 4
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "mL" = (
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "mV" = (
 /obj/structure/chair/sofa/purple/corpo/corner/directional/north,
 /turf/open/floor/carpet/purple,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "mY" = (
 /obj/structure/rack,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/storage)
 "mZ" = (
 /obj/structure/reagent_dispensers/fueltank{
 	pixel_y = 13;
 	pixel_x = -6
 	},
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "nc" = (
 /obj/structure/platform/ship{
 	dir = 8
@@ -970,7 +1142,7 @@
 	},
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "nd" = (
 /obj/structure/railing{
 	dir = 4
@@ -979,14 +1151,26 @@
 	dir = 4
 	},
 /turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
+"nf" = (
+/obj/effect/turf_decal/road{
+	dir = 5
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "ng" = (
 /obj/structure/sink/kitchen{
 	pixel_x = 7;
 	pixel_y = 20
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/gold)
+"nn" = (
+/obj/structure/fence/corner{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/storage)
 "no" = (
 /obj/structure/table,
 /obj/machinery/microwave{
@@ -994,11 +1178,11 @@
 	},
 /obj/effect/turf_decal/siding/thinplating/light,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "ns" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/storage)
 "nx" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -1007,35 +1191,44 @@
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "nz" = (
 /obj/structure/railing/corner,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "nF" = (
 /obj/effect/turf_decal/road/line{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/structure/fluff/anzu/small_truck{
+	pixel_x = 6
+	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "nK" = (
 /obj/structure/platform/ship_four/corner{
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "nO" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-10"
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"nR" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/jungle/anzu/checkpoint)
 "nS" = (
 /obj/structure/railing,
 /obj/structure/fluff/hedge,
 /turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "ob" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/machinery/camera{
@@ -1052,14 +1245,15 @@
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
 	},
+/obj/machinery/light/small/directional/west,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "oe" = (
 /obj/structure/platform/ship_four/corner{
 	dir = 1
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "oi" = (
 /obj/machinery/door/airlock/public{
 	dir = 4
@@ -1069,38 +1263,54 @@
 	},
 /obj/effect/turf_decal/siding/thinplating/light/corner,
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "om" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
+"oo" = (
+/obj/effect/turf_decal/road/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/road/stripes{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "oq" = (
 /obj/structure/railing,
 /turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
+"ot" = (
+/obj/effect/turf_decal/road{
+	dir = 1
+	},
+/obj/effect/turf_decal/road/line,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "ow" = (
 /obj/structure/platform/industrial{
 	dir = 4
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "oD" = (
 /obj/machinery/door/airlock/medical,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "oO" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "oP" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 9;
 	color = "#D2BC9D"
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "oQ" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/food/drinks/coffee{
@@ -1108,7 +1318,20 @@
 	pixel_y = 7
 	},
 /turf/open/floor/plasteel/grimy,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"oR" = (
+/obj/item/clothing/head/cone{
+	pixel_x = -10;
+	pixel_y = -8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"pa" = (
+/obj/effect/turf_decal/road/line,
+/obj/structure/janitorialcart,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "pc" = (
 /obj/structure/table/reinforced,
 /obj/item/modular_computer/laptop{
@@ -1116,7 +1339,7 @@
 	},
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "pf" = (
 /obj/structure/platform/industrial{
 	dir = 4
@@ -1126,55 +1349,73 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "pg" = (
 /obj/structure/cable/orange{
 	icon_state = "1-6"
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
-"ph" = (
-/obj/effect/turf_decal/road{
-	dir = 8
-	},
-/turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "pi" = (
 /obj/structure/railing,
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "po" = (
 /obj/structure/platform/industrial{
 	dir = 6
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"pp" = (
+/obj/structure/chair/bench/blue{
+	dir = 8
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/bank)
+"ps" = (
+/obj/effect/turf_decal/road{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "pD" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/carpet/nanoweave/red,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "pE" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/grimy,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
+"pF" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/outside)
+"pI" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/engineering)
 "pT" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "pU" = (
-/obj/effect/turf_decal/road/line,
 /obj/effect/turf_decal/road/stripes{
 	dir = 1
 	},
+/obj/effect/turf_decal/road/line,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "pW" = (
 /obj/structure/chair/bench/blue{
 	dir = 4
 	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/plasteel/grimy,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "pZ" = (
 /obj/structure/platform/industrial{
 	dir = 6
@@ -1183,7 +1424,13 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"qc" = (
+/obj/effect/turf_decal/road{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "ql" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -1195,42 +1442,48 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"qo" = (
+/obj/effect/turf_decal/road/line{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "qs" = (
 /obj/structure/railing/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/turf/open/floor/concrete/slab_4,
+/area/ruin/jungle/anzu/outside)
 "qv" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "qz" = (
 /obj/structure/platform/ship_four{
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "qC" = (
 /obj/structure/flora/tree/jungle/small{
 	icon_state = "tree6"
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "qL" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-5"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "qP" = (
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "qT" = (
 /obj/structure/fence/door{
 	dir = 1
@@ -1239,32 +1492,32 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/concrete/slab_2,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "qU" = (
 /obj/structure/platform/industrial{
 	dir = 8
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "qV" = (
 /obj/structure/railing/thick/corner{
 	dir = 1
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "ra" = (
 /obj/structure/railing/corner{
 	dir = 1
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "rb" = (
 /obj/structure/platform/industrial{
 	dir = 1
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "rf" = (
 /obj/structure/flora/ausbushes/brflowers{
 	icon_state = "brflowers_3";
@@ -1272,7 +1525,7 @@
 	pixel_y = 1
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "rh" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-6"
@@ -1281,17 +1534,17 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "ri" = (
 /obj/structure/chair{
 	dir = 4
 	},
 /turf/open/floor/plasteel/grimy,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "rk" = (
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "rq" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable/orange{
@@ -1301,19 +1554,19 @@
 	icon_state = "1-4"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "rr" = (
 /obj/structure/platform/industrial/corner{
 	dir = 4
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "rw" = (
 /obj/structure/sign/departments/engineering{
 	pixel_x = -32
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "ry" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -1323,7 +1576,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "rA" = (
 /obj/structure/platform/industrial{
 	dir = 8
@@ -1333,7 +1586,7 @@
 	pixel_y = 4
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "rB" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -1345,14 +1598,25 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "rE" = (
 /obj/structure/platform/ship_four,
 /obj/structure/chair/pew/right{
 	dir = 1
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"rL" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 4
+	},
+/obj/structure/fluff/anzu/ambulance{
+	dir = 1;
+	pixel_x = 10;
+	pixel_y = 5
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "rO" = (
 /obj/structure/railing/wood{
 	dir = 6;
@@ -1360,23 +1624,23 @@
 	},
 /obj/structure/reagent_dispensers/plumbed,
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "rZ" = (
 /obj/effect/turf_decal/road{
 	dir = 1
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "sb" = (
 /obj/structure/platform/ship_four,
 /obj/structure/chair/pew{
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "sg" = (
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "sl" = (
 /obj/structure/toilet{
 	dir = 4;
@@ -1384,25 +1648,31 @@
 	pixel_y = 7
 	},
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/cmm)
 "sn" = (
 /obj/item/shovel{
 	pixel_y = 15
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "sr" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"ss" = (
+/obj/structure/chair/bench/blue{
+	dir = 4
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/bank)
 "su" = (
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
 /obj/machinery/power/floodlight,
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "sz" = (
 /obj/structure/platform/industrial{
 	dir = 4
@@ -1412,7 +1682,7 @@
 	},
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "sA" = (
 /obj/structure/platform/industrial{
 	dir = 1
@@ -1422,14 +1692,14 @@
 	pixel_y = 14
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "sD" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable/orange{
 	icon_state = "2-5"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "sF" = (
 /obj/structure/platform/ship_four{
 	dir = 1;
@@ -1437,12 +1707,12 @@
 	},
 /obj/structure/chair/pew/right,
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "sH" = (
 /turf/open/floor/plasteel/stairs/mid{
 	dir = 1
 	},
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "sK" = (
 /obj/structure/railing/thick{
 	dir = 8
@@ -1452,25 +1722,25 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "sR" = (
 /obj/machinery/door/airlock/maintenance{
 	dir = 4
 	},
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "sW" = (
 /obj/structure/railing/thin{
 	dir = 8
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "sX" = (
 /obj/effect/turf_decal/plaque{
 	desc = "<b>HERE RESTS<br>IN PEACE<br>AND GLORY<br>A MINUTEMAN<br>KNOWN ONLY<br>TO THE STARS</b>"
 	},
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "sZ" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable/orange{
@@ -1480,7 +1750,7 @@
 	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "td" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/trimline/transparent/blue/corner{
@@ -1490,26 +1760,35 @@
 	dir = 1
 	},
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "te" = (
 /obj/structure/railing/modern,
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/farm)
 "th" = (
 /obj/structure/window/reinforced,
 /obj/structure/chair/bench/beige/directional/west,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/cmm)
+"to" = (
+/turf/closed/wall,
+/area/ruin/jungle/anzu/restaurant)
 "tp" = (
 /obj/effect/turf_decal/corner_steel_grid{
 	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "tu" = (
 /obj/structure/bookcase/random,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
+"tw" = (
+/obj/effect/turf_decal/road{
+	dir = 6
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "tC" = (
 /obj/structure/table,
 /obj/item/cutting_board{
@@ -1524,10 +1803,10 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "tE" = (
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "tF" = (
 /obj/structure/flora/ausbushes/brflowers{
 	icon_state = "brflowers_2";
@@ -1535,7 +1814,7 @@
 	pixel_y = -8
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "tK" = (
 /obj/machinery/camera{
 	dir = 6;
@@ -1543,36 +1822,48 @@
 	c_tag = "Lobby"
 	},
 /turf/open/floor/plasteel/grimy,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "tM" = (
 /obj/machinery/deepfryer,
 /obj/effect/turf_decal/siding/thinplating/light,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
+"tW" = (
+/obj/structure/platform/industrial/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/ruin/jungle/anzu/outside)
 "ua" = (
 /obj/machinery/vending/cola{
 	pixel_y = 12
 	},
-/turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/restaurant)
 "um" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "un" = (
 /obj/structure/platform/industrial{
 	dir = 4
 	},
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "uG" = (
+/obj/effect/turf_decal/road/line,
 /obj/effect/turf_decal/road/stripes{
 	dir = 1
 	},
-/obj/effect/turf_decal/road/line,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"uI" = (
+/obj/effect/turf_decal/road/line,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "uQ" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 6
@@ -1588,7 +1879,7 @@
 	id = "bank_ticket"
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "ve" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
@@ -1596,17 +1887,33 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"vf" = (
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/restaurant)
 "vg" = (
 /obj/structure/crate_shelf,
-/obj/structure/closet/crate/secure/owned,
-/obj/structure/closet/crate/secure/owned,
-/obj/structure/closet/crate/secure/owned,
+/obj/structure/closet/crate/secure/owned{
+	name = "cash crate"
+	},
+/obj/structure/closet/crate/secure/owned{
+	name = "cash crate"
+	},
+/obj/structure/closet/crate/secure/owned{
+	name = "cash crate"
+	},
 /obj/effect/turf_decal/spline/fancy/opaque/black{
 	dir = 1
 	},
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
+"vk" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 1
+	},
+/obj/effect/turf_decal/road/line,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "vt" = (
 /obj/structure/table,
 /obj/item/reagent_containers/condiment/saltshaker{
@@ -1614,13 +1921,19 @@
 	pixel_y = -5
 	},
 /turf/open/floor/plasteel/grimy,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "vx" = (
 /obj/effect/turf_decal/spline/fancy/opaque/black{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
+"vA" = (
+/obj/structure/fence/corner{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/outside)
 "vL" = (
 /obj/effect/turf_decal/road/line{
 	dir = 4
@@ -1629,7 +1942,7 @@
 	dir = 8
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "vM" = (
 /obj/structure/railing{
 	dir = 8
@@ -1639,7 +1952,7 @@
 	dir = 5
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "vT" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 15;
@@ -1653,7 +1966,7 @@
 	pixel_y = 21
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "vY" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -1665,22 +1978,22 @@
 	icon_state = "2-4"
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "wd" = (
 /obj/structure/chair/bench/blue{
 	dir = 1
 	},
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "we" = (
 /obj/structure/chair/sofa/blue/right,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "wm" = (
 /obj/structure/grille,
 /obj/structure/window/fulltile,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "ws" = (
 /obj/machinery/camera{
 	dir = 5;
@@ -1688,20 +2001,20 @@
 	c_tag = "Vault Exterior - East"
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "wu" = (
 /obj/structure/platform/industrial{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "ww" = (
 /obj/structure/flora/grass/jungle{
 	icon_state = "grassa3"
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "wC" = (
 /obj/machinery/door/airlock/medical/glass,
 /obj/effect/turf_decal/siding/wood/corner{
@@ -1709,13 +2022,13 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "wK" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "wL" = (
 /obj/structure/fluff{
 	name = "storage barrel";
@@ -1748,43 +2061,56 @@
 	desc = "You know, for storing things."
 	},
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/storage)
+"wP" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/wood/maple,
+/area/ruin/jungle/anzu/gold)
 "xa" = (
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/checkpoint)
 "xc" = (
 /obj/structure/table/wood/fancy/red,
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/jungle/anzu/townhall)
 "xk" = (
 /obj/structure/cable/orange{
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "xn" = (
 /obj/structure/cable/yellow{
 	icon_state = "6-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "xo" = (
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "xp" = (
 /obj/structure/railing,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "xq" = (
 /obj/structure/chair/bench/blue{
 	dir = 8
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
+"xw" = (
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/storage)
+"xy" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/apartments)
 "xP" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-10"
@@ -1794,7 +2120,7 @@
 	},
 /obj/effect/turf_decal/trimline/transparent/blue/warning,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "xW" = (
 /obj/structure/platform/ship_four{
 	dir = 1
@@ -1803,43 +2129,46 @@
 	pixel_y = 6
 	},
 /turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "xY" = (
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/jungle/anzu/townhall)
 "xZ" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4;
 	layer = 2.456
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "yd" = (
 /obj/machinery/door/airlock/engineering{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "yg" = (
 /obj/structure/platform/ship_four{
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"yl" = (
+/turf/open/floor/plating/grass/jungle/lit,
+/area/ruin/jungle/anzu/commercial)
 "yn" = (
 /obj/structure/chair/bench/blue,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "yp" = (
 /obj/structure/closet/secure_closet/engineering_welding,
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "yu" = (
 /obj/structure/fence/corner{
 	dir = 4
 	},
 /turf/open/floor/concrete/slab_2,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "yx" = (
 /obj/structure/table,
 /obj/item/reagent_containers/condiment/peppermill{
@@ -1847,24 +2176,24 @@
 	pixel_y = -5
 	},
 /turf/open/floor/plasteel/grimy,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "yy" = (
 /obj/structure/chair/office,
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/gold)
 "yz" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 6
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "yD" = (
 /obj/structure/railing/thick{
 	dir = 8
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "yG" = (
 /obj/effect/turf_decal/spline/fancy/opaque/black/corner{
 	dir = 1
@@ -1872,11 +2201,11 @@
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/trimline/transparent/blue/warning,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "yH" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/gold)
 "yO" = (
 /obj/machinery/door/airlock/medical/glass,
 /obj/effect/turf_decal/siding/wood/corner{
@@ -1884,13 +2213,13 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "yT" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/north,
 /obj/item/storage/case,
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "yU" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/trimline/transparent/blue/line{
@@ -1900,26 +2229,26 @@
 	dir = 1
 	},
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "yV" = (
 /turf/open/floor/plasteel/stairs{
 	icon = 'icons/obj/stairs.dmi';
 	dir = 4
 	},
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "yY" = (
 /obj/structure/railing/corner/wood{
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "yZ" = (
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/plasteel/stairs{
 	icon = 'icons/obj/stairs.dmi';
 	dir = 4
 	},
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "ze" = (
 /obj/structure/window/reinforced/spawner,
 /obj/structure/table/reinforced,
@@ -1928,18 +2257,18 @@
 	pixel_y = 3
 	},
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "zg" = (
 /obj/structure/railing/thick{
 	dir = 8
 	},
 /obj/structure/chair,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "zj" = (
 /obj/machinery/door/window/brigdoor/security/holding,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/cmm)
 "zk" = (
 /obj/structure/platform/industrial{
 	dir = 4
@@ -1947,14 +2276,22 @@
 /turf/open/floor/plasteel/stairs{
 	icon = 'icons/obj/stairs.dmi'
 	},
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "zn" = (
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"zo" = (
+/obj/effect/turf_decal/road/line,
+/obj/structure/fluff/anzu/small_truck/alt{
+	dir = 4;
+	pixel_x = 5
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "zs" = (
 /obj/structure/chair/sofa/purple/corpo/right/directional/west,
 /turf/open/floor/carpet/purple,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "zw" = (
 /obj/structure/safe{
 	pixel_x = -6
@@ -1963,7 +2300,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "zB" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/siding/wood{
@@ -1971,28 +2308,35 @@
 	color = "#D2BC9D"
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "zD" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "zE" = (
 /obj/machinery/microwave{
 	pixel_y = 8
 	},
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "zI" = (
 /obj/structure/platform/industrial{
 	dir = 4
 	},
+/obj/machinery/light/floor,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "zK" = (
 /obj/machinery/power/solar/fake,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"zO" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "zT" = (
 /obj/effect/turf_decal/corner/opaque/black/half{
 	dir = 1
@@ -2002,7 +2346,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Ab" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -2011,12 +2355,12 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "Ae" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/checkpoint)
 "Ai" = (
 /obj/structure/platform/ship_four{
 	dir = 10
@@ -2029,44 +2373,48 @@
 	dir = 10
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Ak" = (
 /obj/structure/platform/industrial{
 	dir = 1
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Ao" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "Aq" = (
 /obj/structure/flora/grass/jungle{
 	icon_state = "grassa2"
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "At" = (
 /obj/machinery/power/rtg/geothermal,
 /obj/effect/turf_decal/industrial/warning/full,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Au" = (
 /obj/effect/turf_decal/trimline/transparent/blue/filled/arrow_ccw{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Av" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/gold)
+"AE" = (
+/obj/structure/table,
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/cmm)
 "AK" = (
 /obj/structure/table,
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "AM" = (
 /obj/structure/table/wood/reinforced,
 /obj/item/storage/box/drinkingglasses{
@@ -2074,18 +2422,18 @@
 	pixel_y = 11
 	},
 /turf/open/floor/carpet/nanoweave/red,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "AQ" = (
-/obj/effect/turf_decal/road/line{
-	dir = 1
+/obj/effect/turf_decal/borderfloorwhite{
+	dir = 1;
+	color = "#666863"
 	},
-/obj/structure/sign/warning/securearea{
-	pixel_x = -28;
-	name = "\improper EMPLOYEE PARKING sign";
-	desc = "A warning sign which reads 'PARKING FOR EMPLOYEES ONLY'."
+/obj/effect/turf_decal/road{
+	dir = 4
 	},
+/obj/machinery/light/small/directional/west,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Ba" = (
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 6
@@ -2097,11 +2445,26 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"Bb" = (
+/obj/effect/turf_decal/road/line,
+/obj/structure/railing/thin,
+/obj/structure/closet/crate/large{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"Bd" = (
+/obj/structure/fence/corner{
+	dir = 8
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/outside)
 "Bm" = (
 /obj/structure/window/reinforced,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/cmm)
 "Bt" = (
 /obj/structure/railing/corner/wood{
 	dir = 8
@@ -2118,29 +2481,29 @@
 	icon_state = "0-8"
 	},
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Bu" = (
 /obj/effect/turf_decal/road/line{
 	dir = 1
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "BL" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "BM" = (
 /obj/structure/table,
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 4
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "BO" = (
 /turf/closed/wall,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "BU" = (
 /obj/machinery/power/rtg/geothermal,
 /obj/effect/turf_decal/industrial/warning/full,
@@ -2149,7 +2512,7 @@
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "BV" = (
 /obj/structure/noticeboard{
 	pixel_y = 26
@@ -2160,7 +2523,7 @@
 	pixel_y = -8
 	},
 /turf/open/floor/carpet/nanoweave/red,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "Ca" = (
 /obj/structure/table/wood/reinforced,
 /obj/item/reagent_containers/glass/rag{
@@ -2168,11 +2531,17 @@
 	pixel_y = 9
 	},
 /turf/open/floor/carpet/nanoweave/red,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "Cg" = (
 /obj/effect/turf_decal/trimline/transparent/blue/corner,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"Cl" = (
+/obj/effect/turf_decal/road/slow{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Cm" = (
 /obj/structure/table/wood/reinforced,
 /obj/item/paper_bin{
@@ -2184,13 +2553,13 @@
 	pixel_y = 6
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/jungle/anzu/townhall)
 "Cp" = (
 /obj/structure/sign/departments/cargo{
 	pixel_y = -2
 	},
 /turf/closed/wall,
-/area/space)
+/area/ruin/jungle/anzu/storage)
 "Cq" = (
 /obj/structure/platform/industrial{
 	dir = 8
@@ -2200,27 +2569,39 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Cx" = (
 /obj/structure/fence/post,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"CC" = (
+/obj/effect/turf_decal/tiremarks{
+	dir = 5
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "CD" = (
 /obj/structure/chair{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "CF" = (
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/bank)
+"CH" = (
+/obj/effect/turf_decal/road/line{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "CJ" = (
 /obj/structure/sign/warning/securearea{
 	pixel_y = 28
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "CK" = (
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 8
@@ -2228,26 +2609,32 @@
 /obj/effect/turf_decal/corner/opaque/black/half,
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "CP" = (
 /obj/structure/table,
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 6
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "CS" = (
 /obj/structure/crate_shelf,
-/obj/structure/closet/crate/secure/owned,
-/obj/structure/closet/crate/secure/owned,
-/obj/structure/closet/crate/secure/owned,
+/obj/structure/closet/crate/secure/owned{
+	name = "cash crate"
+	},
+/obj/structure/closet/crate/secure/owned{
+	name = "cash crate"
+	},
+/obj/structure/closet/crate/secure/owned{
+	name = "cash crate"
+	},
 /obj/effect/turf_decal/spline/fancy/opaque/black,
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "CX" = (
 /obj/structure/chair/plastic,
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Dd" = (
 /obj/structure/flora/ausbushes/brflowers{
 	icon_state = "brflowers_2";
@@ -2255,7 +2642,7 @@
 	pixel_y = -2
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Dk" = (
 /obj/structure/railing{
 	dir = 8
@@ -2270,26 +2657,36 @@
 	icon = 'icons/obj/stairs.dmi';
 	dir = 1
 	},
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Dn" = (
 /obj/structure/flora/grass/jungle{
 	icon_state = "grassa1"
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Dt" = (
 /turf/open/floor/plasteel/mono,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "Dv" = (
 /obj/effect/turf_decal/trimline/transparent/blue/warning,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"Dw" = (
+/obj/effect/turf_decal/road/line{
+	dir = 1
+	},
+/obj/structure/closet/crate/medical{
+	pixel_y = 8;
+	pixel_x = 2
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "DE" = (
 /obj/structure/chair/bench/blue{
 	dir = 8
 	},
 /turf/open/floor/plasteel/grimy,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "DG" = (
 /obj/structure/table/wood/reinforced,
 /obj/item/reagent_containers/condiment/hotsauce{
@@ -2304,7 +2701,7 @@
 	pixel_y = 16
 	},
 /turf/open/floor/carpet/nanoweave/red,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "DL" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -2317,13 +2714,17 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "DT" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"DU" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/storage)
 "DW" = (
 /obj/effect/turf_decal/techfloor/corner{
 	dir = 1
@@ -2332,35 +2733,44 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/bank)
+"DZ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "Ef" = (
 /obj/machinery/camera{
 	network = list("colonybank");
 	c_tag = "Back Alley"
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "Em" = (
 /obj/structure/curtain{
 	pixel_x = 28
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "En" = (
 /obj/structure/table/glass,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "Et" = (
 /obj/structure/fence,
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Ev" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/trimline/transparent/blue/filled/corner{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
+"EC" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "EF" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -2371,22 +2781,23 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "EG" = (
 /obj/machinery/camera{
 	dir = 1;
 	network = list("colonybank");
 	c_tag = "Front Door"
 	},
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "EN" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10;
 	color = "#D2BC9D"
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "EP" = (
 /obj/structure/railing{
 	dir = 8
@@ -2394,20 +2805,20 @@
 /turf/open/floor/plasteel/stairs{
 	icon = 'icons/obj/stairs.dmi'
 	},
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "EQ" = (
 /obj/machinery/door/airlock/grunge{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "Fb" = (
 /obj/structure/railing/thin,
 /obj/structure/flora/grass/jungle{
 	icon_state = "grassa4"
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Fc" = (
 /obj/structure/table,
 /obj/item/reagent_containers/condiment/enzyme{
@@ -2418,7 +2829,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "Fd" = (
 /obj/structure/platform/ship_four{
 	dir = 1;
@@ -2430,41 +2841,47 @@
 	pixel_y = -8
 	},
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"Ff" = (
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/cmm)
 "Fs" = (
 /obj/structure/chair/bench/blue{
 	dir = 4
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "Fu" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1;
 	color = "#D2BC9D"
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "Fv" = (
 /obj/machinery/smartfridge,
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 9
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "Fy" = (
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/jungle/anzu/townhall)
 "Fz" = (
 /obj/machinery/suit_storage_unit,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/cmm)
 "FG" = (
 /obj/structure/platform/ship_four{
 	dir = 8
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"FI" = (
+/turf/closed/wall,
+/area/ruin/jungle/anzu/townhall)
 "FM" = (
 /obj/effect/turf_decal/techfloor{
 	dir = 1
@@ -2479,10 +2896,22 @@
 	c_tag = "Vault"
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/ruin/jungle/anzu/bank)
+"FP" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/farm)
 "FR" = (
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
+"FX" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/restaurant)
 "Gb" = (
 /obj/structure/fluff{
 	name = "storage crate";
@@ -2521,17 +2950,17 @@
 	pixel_y = 19
 	},
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/storage)
 "Gf" = (
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Gl" = (
 /obj/machinery/door/airlock/wood{
 	dir = 4;
 	req_access = "109"
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/jungle/anzu/townhall)
 "Go" = (
 /obj/structure/table/wood/reinforced,
 /obj/item/storage/box/donkpockets{
@@ -2539,40 +2968,43 @@
 	pixel_y = 8
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/gold)
 "Gr" = (
 /obj/structure/fence/door,
 /turf/open/floor/concrete/slab_2,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Gv" = (
 /obj/structure/platform/industrial/corner{
 	dir = 1
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Gx" = (
 /obj/structure/platform/industrial{
 	dir = 10
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "GC" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "GJ" = (
 /obj/structure/cable/orange{
 	icon_state = "8-10"
 	},
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"GK" = (
+/turf/open/floor/plasteel/mono,
+/area/ruin/jungle/anzu/gold)
 "GM" = (
 /obj/structure/railing/modern{
 	dir = 8
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/farm)
 "GU" = (
 /obj/structure/platform/ship/corner{
 	dir = 1
@@ -2582,7 +3014,7 @@
 	},
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "GW" = (
 /obj/effect/turf_decal/siding/thinplating/light/corner{
 	dir = 1
@@ -2591,11 +3023,11 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "Hc" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "Hf" = (
 /obj/structure/bed/double{
 	dir = 4
@@ -2604,48 +3036,74 @@
 	dir = 4
 	},
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "Hv" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable/orange{
 	icon_state = "2-9"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Hw" = (
 /obj/structure/railing/thin{
 	dir = 4
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "HA" = (
 /obj/effect/spawner/bunk_bed,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/cmm)
 "HC" = (
 /obj/structure/sign/warning/hottemp{
 	name = "\improper HIGH AMBIENT HEAT sign";
 	pixel_x = -32
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "HJ" = (
 /obj/structure/sign/departments/medbay,
 /turf/closed/wall,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
+"HN" = (
+/obj/effect/turf_decal/road/line{
+	dir = 1
+	},
+/obj/structure/fluff{
+	name = "cash crate";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/crates.dmi';
+	icon_state = "privatecrate";
+	pixel_x = 6;
+	pixel_y = 13;
+	desc = "A crate cover designed to only open for who purchased its contents."
+	},
+/obj/structure/fluff{
+	name = "cash crate";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/crates.dmi';
+	icon_state = "privatecrate";
+	pixel_x = 5;
+	pixel_y = 23;
+	desc = "A crate cover designed to only open for who purchased its contents."
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "HS" = (
 /obj/effect/decal/cleanable/garbage{
 	pixel_y = 10;
 	pixel_x = -9
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "HZ" = (
 /obj/structure/flora/ausbushes/brflowers{
 	pixel_x = 2
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Ic" = (
 /obj/effect/turf_decal/road/line{
 	dir = 4
@@ -2655,17 +3113,17 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Ij" = (
 /obj/structure/platform/ship_four/corner{
 	dir = 4
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Ik" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/gold)
 "In" = (
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 4
@@ -2673,7 +3131,7 @@
 /obj/effect/turf_decal/corner/opaque/black/half,
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Iq" = (
 /obj/structure/sign/warning/securearea{
 	pixel_x = 28;
@@ -2689,11 +3147,11 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "Ir" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/storage)
 "It" = (
 /obj/effect/turf_decal/trimline/transparent/blue/filled/corner{
 	dir = 1
@@ -2705,32 +3163,35 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Iv" = (
 /obj/structure/platform/ship,
 /obj/structure/railing/thin,
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "Iy" = (
 /obj/structure/rack,
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "IA" = (
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "IB" = (
 /obj/structure/platform/ship,
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
+"ID" = (
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/engineering)
 "IJ" = (
 /obj/effect/turf_decal/road{
 	dir = 4
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "IQ" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
@@ -2742,11 +3203,14 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"IR" = (
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/hospital)
 "IS" = (
 /obj/structure/table/wood/reinforced,
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/gold)
 "IU" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -2759,40 +3223,47 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "IV" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/structure/crate_shelf,
-/obj/structure/closet/crate/secure/owned,
-/obj/structure/closet/crate/secure/owned,
-/obj/structure/closet/crate/secure/owned,
+/obj/structure/closet/crate/secure/owned{
+	name = "cash crate"
+	},
+/obj/structure/closet/crate/secure/owned{
+	name = "cash crate"
+	},
+/obj/structure/closet/crate/secure/owned{
+	name = "cash crate"
+	},
 /obj/effect/turf_decal/spline/fancy/opaque/black{
 	dir = 9
 	},
+/obj/machinery/light/directional/south,
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "IZ" = (
 /obj/structure/chair/stool/bar{
 	dir = 4
 	},
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "Jh" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Jv" = (
 /obj/machinery/vending/coffee{
 	pixel_y = 12
 	},
-/turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/restaurant)
 "Jw" = (
 /obj/structure/window/reinforced,
 /obj/effect/spawner/bunk_bed,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/cmm)
 "JC" = (
 /obj/effect/turf_decal/trimline/transparent/blue/filled/line{
 	dir = 4
@@ -2808,39 +3279,45 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "JI" = (
 /obj/structure/chair/bench/blue{
 	dir = 4
 	},
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "JV" = (
 /obj/structure/flora/tree/jungle/small{
 	icon_state = "tree4";
 	pixel_x = -38
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
-"Kj" = (
-/obj/structure/railing/thin,
-/turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"Kk" = (
+/obj/effect/turf_decal/road/line,
+/obj/structure/railing/thin{
+	layer = 4.1
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"Kl" = (
+/turf/closed/wall,
+/area/ruin/jungle/anzu/storage)
 "Kn" = (
 /obj/structure/chair/office{
 	dir = 1
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/gold)
 "Ko" = (
 /obj/structure/grille,
 /obj/structure/window/fulltile,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "KI" = (
 /obj/mecha/working/ripley,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/storage)
 "KP" = (
 /obj/structure/fluff{
 	name = "storage crate";
@@ -2871,7 +3348,7 @@
 	},
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "KQ" = (
 /obj/structure/platform/ship_four{
 	dir = 4
@@ -2880,7 +3357,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "KT" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -2891,7 +3368,29 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
+"Lh" = (
+/obj/effect/turf_decal/road{
+	dir = 4
+	},
+/obj/item/spacecash/bundle/c100{
+	pixel_x = -7;
+	pixel_y = 14
+	},
+/obj/item/spacecash/bundle/c10{
+	pixel_x = -7
+	},
+/obj/item/spacecash/bundle/c1{
+	pixel_x = -13;
+	pixel_y = -5
+	},
+/obj/item/clothing/head/cone{
+	pixel_x = -8;
+	pixel_y = -14
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Lj" = (
 /obj/structure/railing/thin,
 /obj/structure/flora/tree/jungle/small{
@@ -2900,7 +3399,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Lm" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -2912,21 +3411,21 @@
 	},
 /obj/effect/turf_decal/siding/thinplating/dark,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "Lq" = (
 /obj/structure/chair/bench/blue,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "Lt" = (
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Lu" = (
 /obj/structure/railing/corner{
 	dir = 8
 	},
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "LB" = (
 /obj/structure/platform/ship_four{
 	dir = 1;
@@ -2934,17 +3433,24 @@
 	},
 /obj/structure/chair/pew,
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Mb" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"Md" = (
+/obj/effect/turf_decal/road{
+	dir = 4
+	},
+/obj/structure/bed/roller,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "Mf" = (
 /obj/structure/chair/office,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Mj" = (
 /obj/structure/platform/ship_four{
 	dir = 8
@@ -2953,41 +3459,65 @@
 	dir = 8
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Mn" = (
 /obj/structure/platform/industrial/corner{
 	dir = 8
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Mo" = (
 /obj/effect/turf_decal/road/stop{
 	dir = 1
 	},
+/obj/effect/turf_decal/road/line{
+	dir = 1
+	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Mq" = (
 /obj/structure/closet/secure_closet/engineering_personal,
+/obj/machinery/light/directional/west,
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Mr" = (
 /obj/effect/turf_decal/corner_steel_grid{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Mx" = (
 /obj/machinery/door/airlock/grunge,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "MD" = (
-/obj/effect/turf_decal/road/line,
+/obj/effect/turf_decal/road{
+	dir = 4
+	},
+/obj/structure/railing/thin{
+	dir = 10
+	},
+/obj/structure/fluff{
+	name = "cash crate";
+	max_integrity = 200;
+	integrity_failure = 0.25;
+	icon = 'icons/obj/crates.dmi';
+	icon_state = "privatecrateopen";
+	pixel_x = 1;
+	pixel_y = 12;
+	layer = 3;
+	desc = "A crate cover designed to only open for who purchased its contents. This one has been broken open."
+	},
+/obj/item/spacecash/bundle/loadsamoney{
+	pixel_x = -4;
+	pixel_y = 16
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "ME" = (
 /obj/structure/sign/warning/securearea{
 	pixel_x = -28;
@@ -3002,53 +3532,53 @@
 	},
 /obj/effect/turf_decal/siding/thinplating/dark/corner,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "MF" = (
 /obj/structure/sign/barsign,
 /turf/closed/wall,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "MG" = (
 /obj/effect/turf_decal/road/line,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "MH" = (
 /obj/machinery/power/smes,
 /obj/effect/turf_decal/industrial/warning/fulltile,
 /turf/open/floor/engine/hull/interior,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "MI" = (
 /obj/effect/turf_decal/siding/wood{
 	color = "#D2BC9D"
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "MJ" = (
 /obj/structure/platform/industrial/corner,
 /obj/structure/rack,
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "MN" = (
 /obj/structure/platform/industrial{
 	dir = 6
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "MP" = (
 /turf/open/floor/carpet/purple,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "MU" = (
 /obj/structure/railing/thick{
 	dir = 8
 	},
 /obj/structure/table,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "MV" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "MW" = (
 /obj/structure/railing{
 	dir = 8
@@ -3057,19 +3587,33 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"Na" = (
+/obj/structure/fence,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/outside)
+"Nd" = (
+/obj/effect/turf_decal/road/line,
+/obj/structure/fluff/anzu/small_truck{
+	dir = 1
+	},
+/obj/structure/railing/thin{
+	layer = 4.1
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Ne" = (
 /obj/machinery/door/airlock/public{
 	dir = 4
 	},
 /turf/open/floor/plasteel/mono,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "No" = (
 /obj/structure/railing/corner{
 	dir = 4
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Nw" = (
 /obj/structure/chair/stool{
 	dir = 4;
@@ -3077,14 +3621,17 @@
 	pixel_y = 10
 	},
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"Nz" = (
+/turf/closed/wall,
+/area/ruin/jungle/anzu/apartments)
 "NA" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "NX" = (
 /obj/structure/railing/thick{
 	dir = 9;
@@ -3092,38 +3639,42 @@
 	},
 /obj/machinery/space_heater,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Ob" = (
 /obj/structure/chair/sofa/purple/corpo/left/directional/east,
 /turf/open/floor/carpet/purple,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "Od" = (
 /obj/structure/platform/ship_four{
 	dir = 4
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Of" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 20
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/gold)
 "Og" = (
-/obj/effect/turf_decal/road/line{
-	dir = 1
-	},
+/obj/effect/turf_decal/road/line,
 /turf/open/floor/concrete/pavement{
 	icon_state = "pavement"
 	},
-/area/space)
+/area/ruin/jungle/anzu/hospital)
+"OB" = (
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 4
+	},
+/area/ruin/jungle/anzu/restaurant)
 "OD" = (
 /obj/structure/railing/thick{
 	dir = 1
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "OG" = (
 /obj/structure/table/reinforced,
 /obj/structure/sink/chem{
@@ -3136,40 +3687,40 @@
 	pixel_y = 4
 	},
 /turf/open/floor/plasteel/mono,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "OL" = (
 /obj/structure/platform/industrial,
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "OS" = (
 /obj/effect/turf_decal/corner/opaque/black/half,
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "OX" = (
 /obj/effect/turf_decal/techfloor{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "OY" = (
 /obj/effect/mapping_helpers/turf/broken,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "OZ" = (
 /obj/structure/railing/thick/corner{
 	dir = 8
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Pa" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Pe" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -3180,12 +3731,13 @@
 	dir = 1;
 	pixel_y = -28
 	},
+/obj/machinery/light/directional/south,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "Pj" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Pl" = (
 /obj/structure/railing/wood{
 	dir = 8
@@ -3194,28 +3746,32 @@
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Pp" = (
 /obj/effect/turf_decal/siding/thinplating/light/corner,
 /obj/effect/turf_decal/siding/thinplating/light/corner{
 	dir = 4
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "PD" = (
 /obj/structure/railing/wood{
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "PK" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/directional/west,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "PP" = (
 /obj/structure/platform/industrial/corner,
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"PT" = (
+/turf/template_noop,
+/area/ruin/jungle/anzu/outside)
 "PW" = (
 /obj/effect/turf_decal/trimline/transparent/blue/filled/line{
 	dir = 1
@@ -3227,46 +3783,55 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "Qc" = (
 /obj/machinery/computer/monitor{
 	dir = 4;
 	pixel_x = -8
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Qg" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Qh" = (
 /obj/structure/chair{
 	dir = 8
 	},
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "Ql" = (
 /obj/effect/turf_decal/techfloor,
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "Qp" = (
 /obj/machinery/door/airlock/public,
 /turf/open/floor/plasteel/mono,
-/area/space)
+/area/ruin/jungle/anzu/gold)
 "Qq" = (
 /obj/effect/turf_decal/industrial/warning,
 /obj/structure/railing{
 	dir = 4
 	},
 /turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
+"Qt" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/hospital)
 "Qw" = (
 /obj/structure/table,
 /turf/open/floor/carpet/purple,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
+"Qz" = (
+/turf/open/floor/plating/grass/jungle/lit,
+/area/ruin/jungle/anzu/farm)
 "QB" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -3275,54 +3840,59 @@
 	icon_state = "1-4"
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "QC" = (
 /obj/structure/fence/corner{
 	dir = 8
 	},
 /turf/open/floor/concrete/slab_2,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "QD" = (
 /obj/effect/turf_decal/spline/fancy/opaque/black{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "QE" = (
 /obj/structure/chair/sofa/blue/left,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "QF" = (
 /obj/effect/decal/cleanable/oil/streak,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "QH" = (
 /obj/structure/closet/crate/trashcart{
 	pixel_y = 19
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "QQ" = (
 /obj/structure/table/wood/reinforced,
 /obj/machinery/microwave{
 	pixel_y = 8
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/gold)
 "QR" = (
 /obj/machinery/vending/dinnerware,
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 10
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
+"Rp" = (
+/obj/structure/grille,
+/obj/structure/window/fulltile,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/restaurant)
 "Rr" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 4;
 	layer = 2.456
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Rt" = (
 /obj/structure/closet/secure_closet/wall/directional/east{
 	icon_state = "secure_wall"
@@ -3331,44 +3901,55 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "RD" = (
 /obj/structure/cable/yellow{
 	icon_state = "5-8"
 	},
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "RE" = (
 /obj/structure/closet/crate/trashcart{
 	pixel_y = 21;
 	pixel_x = 6
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "RG" = (
 /obj/structure/railing/thick{
 	dir = 9
 	},
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "RI" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	color = "#D2BC9D"
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "RL" = (
 /obj/structure/railing/thin,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
+"RY" = (
+/obj/item/clothing/head/cone{
+	pixel_y = -8;
+	pixel_x = -15
+	},
+/obj/effect/mapping_helpers/turf/broken,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Sa" = (
 /obj/structure/chair/sofa/purple/corpo/corner/directional/west,
 /turf/open/floor/carpet/purple,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
+"Se" = (
+/turf/open/floor/wood/maple,
+/area/ruin/jungle/anzu/gold)
 "Sj" = (
 /turf/open/floor/carpet/nanoweave/red,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "Sk" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-5"
@@ -3377,21 +3958,21 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Sm" = (
 /obj/structure/bed/roller,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "Sq" = (
 /obj/structure/urinal{
 	pixel_y = 24
 	},
 /turf/open/floor/plasteel/mono,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "Sr" = (
 /obj/structure/platform/industrial/corner,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "St" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/hazard/conduit.dmi';
@@ -3407,16 +3988,19 @@
 	},
 /obj/structure/railing,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "SB" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"ST" = (
+/turf/closed/wall,
+/area/ruin/jungle/anzu/commercial)
 "SV" = (
 /obj/effect/turf_decal/road/slow{
 	dir = 4
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "SX" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/hazard/conduit.dmi';
@@ -3431,23 +4015,41 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"SZ" = (
+/turf/closed/wall,
+/area/ruin/jungle/anzu/farm)
+"Tb" = (
+/turf/closed/wall,
+/area/ruin/jungle/anzu/gold)
 "Ti" = (
 /obj/structure/platform/industrial/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/turf/open/floor/concrete/slab_4,
+/area/ruin/jungle/anzu/outside)
 "Tj" = (
 /obj/effect/turf_decal/corner_steel_grid{
 	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"Tk" = (
+/turf/open/floor/concrete/slab_4,
+/area/ruin/jungle/anzu/hospital)
+"To" = (
+/obj/effect/turf_decal/road/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tiremarks{
+	dir = 10
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Tq" = (
 /obj/structure/guncloset,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/checkpoint)
 "Tr" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/item/analyzer{
@@ -3455,26 +4057,35 @@
 	pixel_y = 6
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Tu" = (
 /obj/structure/railing/thick{
 	dir = 8
 	},
 /obj/structure/railing/thick/corner,
 /turf/open/floor/plasteel/tech,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"Tz" = (
+/obj/effect/turf_decal/road/line{
+	dir = 1
+	},
+/obj/structure/fluff/anzu/small_truck/alt{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "TC" = (
 /obj/structure/railing/thin{
 	dir = 10
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "TD" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "TK" = (
 /obj/structure/curtain{
 	pixel_y = -28
@@ -3485,10 +4096,10 @@
 	pixel_y = 6
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "TO" = (
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "TR" = (
 /obj/structure/platform/industrial{
 	dir = 4
@@ -3497,13 +4108,13 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "TT" = (
 /obj/machinery/door/airlock/engineering/glass{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "TU" = (
 /obj/structure/platform/industrial{
 	dir = 4
@@ -3512,10 +4123,10 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Uf" = (
 /turf/template_noop,
-/area/space)
+/area/template_noop)
 "Ul" = (
 /obj/structure/platform/ship_four/corner{
 	dir = 1
@@ -3524,25 +4135,31 @@
 	dir = 8
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Un" = (
 /turf/open/floor/plating/dirt/old/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"UC" = (
+/obj/effect/turf_decal/road/edge{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "UJ" = (
 /obj/structure/platform/industrial/corner{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "UL" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "UM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/turf/broken,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "UR" = (
 /obj/item/shovel{
 	pixel_x = 15;
@@ -3553,37 +4170,41 @@
 	pixel_y = 4
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/farm)
 "UW" = (
 /obj/structure/chair/handrail{
 	dir = 1
 	},
 /turf/open/floor/concrete/slab_1,
-/area/space)
-"Vb" = (
-/obj/effect/turf_decal/road/line{
-	dir = 4
+/area/ruin/jungle/anzu/outside)
+"Vd" = (
+/obj/structure/fence/corner{
+	dir = 8
 	},
-/turf/open/floor/concrete/pavement,
-/area/space)
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/storage)
 "Vg" = (
 /turf/open/floor/plating/grass/jungle/lit,
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Vh" = (
 /obj/structure/cable/orange{
 	icon_state = "2-5"
 	},
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Vn" = (
 /obj/machinery/door/airlock/medical/glass,
 /obj/effect/turf_decal/siding/wood/corner{
 	color = "#D2BC9D"
 	},
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
+"Vv" = (
+/obj/effect/turf_decal/road/edge,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Vy" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/hazard/conduit.dmi';
@@ -3598,20 +4219,33 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "VA" = (
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "VD" = (
 /obj/effect/turf_decal/techfloor{
 	dir = 10
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/ruin/jungle/anzu/bank)
+"VG" = (
+/turf/closed/wall,
+/area/ruin/jungle/anzu/cmm)
+"VJ" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/engineering)
 "VM" = (
 /turf/closed/wall,
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/cmm)
+"VN" = (
+/obj/effect/turf_decal/road/edge{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "VR" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable/yellow{
@@ -3619,15 +4253,24 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"VV" = (
+/obj/effect/turf_decal/road{
+	dir = 4
+	},
+/obj/effect/turf_decal/road/line{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Wc" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/storage)
 "Wf" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/open/floor/plasteel/freezer,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "Wj" = (
 /obj/structure/chair/stool{
 	dir = 4;
@@ -3635,13 +4278,13 @@
 	pixel_y = -8
 	},
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Wr" = (
 /obj/structure/fence/end{
 	dir = 4
 	},
 /turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "Wz" = (
 /obj/structure/table/wood/reinforced,
 /obj/item/clothing/head/flatcap/clip{
@@ -3649,56 +4292,76 @@
 	pixel_y = 7
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/jungle/anzu/townhall)
 "WB" = (
 /obj/structure/filingcabinet/double{
 	pixel_y = 10;
 	density = 0
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/jungle/anzu/townhall)
 "WC" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/northright,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "WD" = (
 /obj/structure/chair/sofa/purple/corpo/directional/north,
 /turf/open/floor/carpet/purple,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
+"WG" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 4
+	},
+/obj/structure/closet/crate/trashcart{
+	pixel_y = 24;
+	pixel_x = 3
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "WJ" = (
 /obj/structure/chair/office{
 	dir = 8
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/gold)
 "WK" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4;
 	color = "#D2BC9D"
 	},
 /turf/open/floor/wood/maple,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "WQ" = (
 /obj/machinery/door/airlock/grunge,
 /obj/effect/mapping_helpers/airlock/locked,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "WS" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "WT" = (
 /obj/effect/turf_decal/siding/thinplating/light,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "WW" = (
 /obj/structure/platform/ship_four,
 /obj/structure/chair/pew/left{
 	dir = 1
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
+"Xb" = (
+/turf/open/floor/concrete/slab_4,
+/area/ruin/jungle/anzu/restaurant)
+"Xc" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Xh" = (
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 4
@@ -3713,7 +4376,7 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Xj" = (
 /obj/structure/railing{
 	dir = 8
@@ -3722,13 +4385,13 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Xl" = (
 /turf/open/floor/plasteel/stairs{
 	icon = 'icons/obj/stairs.dmi';
 	dir = 8
 	},
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "Xp" = (
 /obj/structure/fluff/hedge,
 /obj/effect/turf_decal/spline/fancy/opaque/black{
@@ -3737,8 +4400,9 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Xr" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder{
@@ -3746,36 +4410,49 @@
 	},
 /obj/effect/turf_decal/siding/thinplating/light,
 /turf/open/floor/plasteel/lightgrey,
-/area/space)
+/area/ruin/jungle/anzu/restaurant)
 "Xu" = (
 /obj/machinery/photocopier,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Xv" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /obj/machinery/door/poddoor/shutters/preopen,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Xx" = (
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/pod/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Xz" = (
 /turf/open/floor/concrete/reinforced/jungleplanet,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "XE" = (
 /obj/structure/chair/bench/blue{
 	dir = 8
 	},
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
+"XF" = (
+/obj/structure/fluff/hedge,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/engineering)
+"XK" = (
+/turf/closed/wall,
+/area/ruin/jungle/anzu/bank)
 "XQ" = (
 /obj/structure/railing/corner/wood{
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "XR" = (
 /obj/structure/table,
 /obj/item/toy/cards/deck{
@@ -3787,7 +4464,7 @@
 	pixel_y = 10
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Yb" = (
 /obj/machinery/power/smes,
 /obj/structure/cable/orange{
@@ -3795,7 +4472,7 @@
 	},
 /obj/effect/turf_decal/industrial/warning/fulltile,
 /turf/open/floor/engine/hull/interior,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Yd" = (
 /obj/structure/platform/industrial{
 	dir = 8
@@ -3804,7 +4481,7 @@
 	icon = 'icons/obj/stairs.dmi';
 	dir = 1
 	},
-/area/space)
+/area/ruin/jungle/anzu/apartments)
 "Yh" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/north,
@@ -3815,36 +4492,42 @@
 	id = "bank_ticket"
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "Yj" = (
 /obj/structure/railing/corner{
 	dir = 4
 	},
+/obj/machinery/light/floor,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
+"Yr" = (
+/obj/effect/turf_decal/road/slow,
+/obj/effect/turf_decal/road/line,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Yu" = (
 /obj/structure/chair{
 	dir = 8
 	},
 /turf/open/floor/plasteel/grimy,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Yz" = (
 /obj/machinery/door/poddoor/preopen,
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "YH" = (
 /obj/structure/fence/post{
 	dir = 4
 	},
 /turf/open/floor/concrete/slab_2,
-/area/space)
+/area/ruin/jungle/anzu/hospital)
 "YT" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 "YX" = (
 /obj/effect/turf_decal/spline/fancy/opaque/black/corner{
 	dir = 8
@@ -3854,14 +4537,14 @@
 	},
 /obj/effect/turf_decal/siding/thinplating/dark/corner,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "YZ" = (
 /obj/structure/sink{
 	pixel_x = -9;
 	pixel_y = 17
 	},
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/cmm)
 "Zd" = (
 /obj/structure/fluff{
 	name = "storage crate";
@@ -3873,13 +4556,16 @@
 	pixel_y = 4
 	},
 /turf/open/floor/concrete,
-/area/space)
+/area/ruin/jungle/anzu/storage)
+"Zh" = (
+/turf/closed/wall,
+/area/ruin/jungle/anzu/hospital)
 "Zr" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 5
 	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Zt" = (
 /obj/structure/platform/industrial{
 	dir = 4
@@ -3887,7 +4573,7 @@
 /obj/effect/turf_decal/corner/opaque/black/half,
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "Zy" = (
 /obj/structure/platform/ship_four,
 /obj/structure/chair/pew/right{
@@ -3895,7 +4581,7 @@
 	},
 /obj/structure/railing/thin,
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "Zz" = (
 /obj/structure/flora/tree/jungle/small{
 	icon_state = "tree5";
@@ -3903,20 +4589,32 @@
 	pixel_y = -1
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "ZF" = (
 /obj/structure/fence/end{
 	dir = 4
 	},
 /turf/open/floor/concrete/slab_1,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "ZG" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /obj/structure/fluff/hedge,
 /turf/open/floor/concrete/slab_4,
-/area/space)
+/area/ruin/jungle/anzu/apartments)
+"ZH" = (
+/obj/effect/turf_decal/road/line{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
+"ZK" = (
+/obj/effect/turf_decal/tiremarks{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "ZM" = (
 /obj/structure/platform/industrial{
 	dir = 4
@@ -3925,23 +4623,21 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "ZQ" = (
 /obj/effect/decal/cleanable/crayon{
 	icon_state = "carp";
 	pixel_y = 28;
 	pixel_x = -10;
-	color = "#2f4eb5"
+	color = "#2f4eb5";
+	paint_colour = "#2f4eb5"
 	},
 /obj/item/paper/crumpled{
 	pixel_x = 6;
 	pixel_y = 6
 	},
-/obj/structure/railing/thin{
-	dir = 4
-	},
 /turf/open/floor/concrete/pavement,
-/area/space)
+/area/ruin/jungle/anzu/outside)
 "ZS" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-02";
@@ -3954,8 +4650,9 @@
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 9
 	},
+/obj/machinery/light/directional/north,
 /turf/open/floor/plasteel/dark,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "ZU" = (
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 10
@@ -3970,20 +4667,21 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "ZV" = (
 /obj/structure/railing/corner,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/floor,
 /turf/open/floor/plating,
-/area/space)
+/area/ruin/jungle/anzu/engineering)
 "ZY" = (
 /obj/machinery/camera{
 	dir = 1;
 	c_tag = "Vault Exterior - North"
 	},
 /turf/open/floor/plating/grass/jungle/lit,
-/area/space)
+/area/ruin/jungle/anzu/bank)
 
 (1,1,1) = {"
 Uf
@@ -5017,31 +5715,31 @@ zn
 zn
 zn
 zn
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+hI
 VA
 VA
 rk
@@ -5051,36 +5749,36 @@ zn
 zn
 zn
 zn
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 zn
 zn
 zn
@@ -5144,15 +5842,15 @@ zn
 zn
 zn
 zn
-BO
+hI
 Pj
 Pj
 mL
+ib
 mL
 mL
 mL
-mL
-mL
+ib
 xp
 zT
 ZV
@@ -5164,11 +5862,11 @@ Yj
 OS
 xo
 xo
-Mq
+fu
 Mq
 ce
 yp
-BO
+hI
 mZ
 VA
 VA
@@ -5176,39 +5874,39 @@ VA
 zn
 zn
 zn
-BO
-BO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
-BO
+ST
+ST
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
+ST
 zn
 zn
 zn
@@ -5271,8 +5969,8 @@ zn
 zn
 zn
 zn
-BO
-Pj
+hI
+DZ
 Cg
 MH
 SX
@@ -5295,47 +5993,47 @@ Gf
 Nw
 Wj
 Gf
-BO
+hI
 KP
 Un
 VA
 VA
 Un
 zn
-BO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 zn
@@ -5398,7 +6096,7 @@ zn
 zn
 zn
 zn
-BO
+hI
 Pj
 Dv
 RD
@@ -5422,47 +6120,47 @@ Xx
 Gf
 Iy
 MJ
-BO
-BO
-BO
-BO
+hI
+hI
+hI
+hI
 QH
 Un
 zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 zn
@@ -5525,7 +6223,7 @@ zn
 zn
 zn
 zn
-BO
+hI
 mL
 xP
 Pa
@@ -5552,44 +6250,44 @@ MW
 OD
 PK
 CD
-BO
+hI
 HS
 VA
 zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 zn
@@ -5652,7 +6350,7 @@ zn
 zn
 zn
 zn
-BO
+hI
 mL
 ix
 MH
@@ -5679,44 +6377,44 @@ EP
 qV
 QF
 mi
-BO
+hI
 VA
 VA
 zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 zn
@@ -5779,8 +6477,8 @@ zn
 zn
 zn
 zn
-BO
-mL
+hI
+EC
 xn
 mL
 qL
@@ -5804,46 +6502,46 @@ un
 un
 zk
 lp
-CF
+ID
 ck
-BO
+hI
 VA
 Un
 zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 zn
@@ -5906,7 +6604,7 @@ zn
 zn
 zn
 zn
-BO
+hI
 au
 wu
 jd
@@ -5931,46 +6629,46 @@ NX
 zg
 MU
 qV
-CF
+ID
 CD
-BO
+hI
 VA
 OY
 zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 zn
@@ -6033,8 +6731,8 @@ zn
 zn
 zn
 zn
-BO
-BO
+hI
+hI
 yD
 yD
 sK
@@ -6058,46 +6756,46 @@ qV
 um
 um
 um
-CF
+ID
 lK
-BO
+hI
 Un
 UM
 zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 zn
@@ -6161,70 +6859,70 @@ zn
 zn
 zn
 zn
-BO
-CF
+hI
+ID
 Jh
 VR
 Jh
-CF
-CF
-CF
-CF
-CF
-CF
-CF
-CF
-CF
-CF
-CF
-CF
-CF
-CF
-CF
-CF
-CF
-CF
-CF
-CF
+ID
+VJ
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+VJ
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+VJ
+ID
 ck
-BO
+hI
 Un
 Un
 zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
-BO
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
+ST
+ST
 zn
 zn
 zn
@@ -6288,68 +6986,68 @@ zn
 zn
 zn
 zn
-BO
-BO
-BO
+hI
+hI
+hI
 sR
-BO
-BO
-BO
-BO
+hI
+hI
+hI
+hI
 ve
 ve
 ve
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+hI
+hI
+hI
+hI
+hI
+hI
+hI
 fJ
-BO
-BO
-BO
+hI
+hI
+hI
 yd
-BO
-BO
-BO
-BO
+hI
+hI
+hI
+hI
 OY
 Un
 zn
-BO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 zn
@@ -6416,7 +7114,7 @@ zn
 zn
 zn
 zn
-iw
+pF
 Un
 Mb
 mu
@@ -6431,52 +7129,52 @@ VA
 VA
 VA
 VA
-BO
+hI
 WS
 Tj
 Qc
-BO
+hI
 ZS
 bz
 dp
 ac
 co
-BO
+hI
 TO
 UM
 zn
 zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
@@ -6543,7 +7241,7 @@ Pl
 aX
 zn
 zn
-iw
+pF
 Un
 Mb
 zK
@@ -6561,49 +7259,49 @@ VA
 Xv
 WS
 Tj
-sg
+pI
 pc
 aN
-sg
+pI
 eu
 ri
 ri
-BO
+hI
 pT
 UM
 zn
 zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
@@ -6670,7 +7368,7 @@ XR
 Bt
 PD
 XQ
-iw
+pF
 VA
 Sk
 ql
@@ -6695,49 +7393,47 @@ Au
 eu
 oQ
 bf
-BO
+hI
 pT
 TO
 VA
 zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
 TO
-TO
-TO
-rZ
+VN
 TO
 rZ
 TO
@@ -6763,7 +7459,9 @@ rZ
 TO
 rZ
 TO
+rZ
 TO
+UC
 TO
 kB
 zn
@@ -6815,54 +7513,54 @@ VA
 Xv
 tp
 Mr
-sg
+pI
 sr
 td
 Au
 eu
 Yu
 Yu
-BO
+hI
 TO
 TO
 VA
 zn
-BO
-BO
-BO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+ST
+ST
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
 TO
-TO
+ps
 TO
 TO
 TO
@@ -6924,7 +7622,7 @@ VA
 VA
 fQ
 zn
-iw
+pF
 VA
 VA
 VA
@@ -6939,17 +7637,17 @@ VA
 VA
 VA
 VA
-BO
+hI
 WS
 WS
 dF
-BO
+hI
 mo
 It
 YX
+XF
 Xp
-Xp
-BO
+hI
 TO
 TO
 Un
@@ -6957,34 +7655,34 @@ zn
 zn
 zn
 zn
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
@@ -7051,32 +7749,32 @@ fn
 Un
 su
 zn
-yu
-ho
-ho
-ho
-ho
-ho
-ho
-ho
-ho
-ho
-ho
-ho
-ho
-ho
-ho
-BO
+vA
+Na
+Na
+Na
+Na
+Na
+Na
+Na
+Na
+Na
+Na
+Na
+Na
+Na
+Na
+hI
 ve
 ve
-BO
-BO
-BO
+hI
+hI
+hI
 TT
 TT
-BO
-BO
-BO
+hI
+hI
+hI
 TO
 pT
 Un
@@ -7090,33 +7788,33 @@ zn
 zn
 zn
 zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 Vg
@@ -7196,11 +7894,11 @@ zn
 zn
 zn
 zn
-iw
+pF
 zn
 rw
 lJ
-Kj
+lJ
 AQ
 fi
 kB
@@ -7217,28 +7915,28 @@ pT
 pT
 TO
 TO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
@@ -7323,13 +8021,13 @@ zn
 zn
 zn
 zn
-iw
+pF
 zn
 zn
 lJ
-Kj
-Bu
-fi
+lJ
+iA
+Bb
 kB
 pT
 pT
@@ -7344,33 +8042,33 @@ TO
 pT
 pT
 TO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 Vg
@@ -7380,18 +8078,18 @@ ho
 ho
 ho
 ho
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
 zn
 zn
 zn
@@ -7450,49 +8148,49 @@ zn
 zn
 zn
 zn
-iw
+pF
 zn
 zn
 lJ
-Kj
-Bu
-fi
+lJ
+kv
+Nd
 kB
 zn
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+XK
+XK
+XK
+XK
+XK
+XK
+XK
+XK
+XK
+XK
 jX
 Cx
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
@@ -7501,26 +8199,26 @@ TO
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-xa
-xa
-BO
+Qt
+IR
+IR
+IR
+IR
+IR
+Zh
 om
 ad
 tE
-BO
+Zh
 om
 ad
 tE
-BO
+Zh
 oP
 EN
-BO
-BO
-BO
+Zh
+Zh
+Zh
 zn
 zn
 kB
@@ -7581,13 +8279,13 @@ lb
 zn
 zn
 lJ
-Kj
-Bu
-fi
+lJ
+kv
+Kk
 kB
 zn
-BO
-pW
+XK
+ss
 pW
 gx
 ME
@@ -7595,59 +8293,59 @@ Mx
 ob
 DL
 IU
-BO
+XK
 CJ
 TO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-xa
-xa
-BO
+Qt
+IR
+IR
+IR
+IR
+IR
+Zh
 tE
 tE
 tE
-BO
+Zh
 tE
 tE
 tE
-BO
+Zh
 Fu
 lG
 zB
 EN
-BO
+Zh
 zn
 zn
 kB
@@ -7713,7 +8411,7 @@ vL
 vL
 kB
 zn
-BO
+XK
 gx
 gx
 gx
@@ -7725,28 +8423,28 @@ EF
 WQ
 pT
 pT
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
@@ -7755,21 +8453,21 @@ TO
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-xa
-xa
-BO
+Qt
+IR
+IR
+IR
+IR
+IR
+Zh
 tE
 tE
 tE
-BO
+Zh
 tE
 tE
 tE
-BO
+Zh
 Fu
 di
 di
@@ -7825,14 +8523,14 @@ TO
 TO
 TO
 TO
+bh
 TO
 TO
 TO
 TO
 TO
+Yr
 TO
-MG
-Mo
 TO
 TO
 TO
@@ -7840,7 +8538,7 @@ TO
 TO
 kB
 EG
-BO
+XK
 Ab
 vx
 vx
@@ -7849,54 +8547,54 @@ dw
 ry
 lu
 KT
-BO
+XK
 Ef
 pT
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-xa
-hj
-BO
+Qt
+IR
+IR
+IR
+IR
+IR
+Zh
 tE
 Em
 Em
-BO
+Zh
 tE
 Em
 Em
-BO
+Zh
 Fu
 cI
 cI
@@ -7939,7 +8637,6 @@ zn
 zn
 kB
 TO
-TO
 rZ
 TO
 rZ
@@ -7951,19 +8648,20 @@ TO
 rZ
 TO
 rZ
-TO
-rZ
-TO
-TO
-TO
 TO
 rZ
 MG
 TO
 TO
+TO
+Bu
+rZ
+MG
+TO
 rZ
 TO
-TO
+rZ
+UC
 TO
 kB
 lJ
@@ -7976,31 +8674,31 @@ fV
 YT
 lu
 nx
-BO
+XK
 RE
 pT
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
@@ -8010,20 +8708,20 @@ TO
 kB
 Vg
 YH
-xa
-xa
-xa
-xa
-BO
-BO
+IR
+IR
+IR
+IR
+Zh
+Zh
 cM
 Ko
 Ko
-BO
+Zh
 cM
 Ko
 Ko
-BO
+Zh
 Fu
 xq
 xq
@@ -8083,10 +8781,10 @@ TO
 TO
 TO
 TO
-TO
+Mo
 TO
 MG
-Mo
+Cl
 TO
 TO
 TO
@@ -8103,45 +8801,45 @@ Yh
 YT
 lu
 Lm
-BO
+XK
+io
 TO
-TO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-xa
-BO
+Qt
+IR
+IR
+IR
+IR
+Zh
 tE
 tE
 tE
@@ -8150,7 +8848,7 @@ tE
 tE
 tE
 tE
-BO
+Zh
 Fu
 Fs
 Fs
@@ -8207,8 +8905,8 @@ kB
 kB
 kB
 kB
-TO
-TO
+gJ
+VV
 TO
 kB
 kB
@@ -8220,8 +8918,8 @@ TO
 IJ
 TO
 kB
-zn
-BO
+kt
+XK
 tK
 gx
 gx
@@ -8230,31 +8928,31 @@ WC
 ry
 lu
 Pe
-BO
+XK
 TO
 TO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
@@ -8263,12 +8961,12 @@ TO
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-xa
-BO
+Qt
+IR
+IR
+IR
+IR
+Zh
 tE
 tE
 tE
@@ -8348,54 +9046,54 @@ TO
 TO
 kB
 zn
-BO
+XK
 gx
-DE
+pp
 DE
 uQ
 Ao
 JC
 Iq
 dB
-BO
+XK
 fY
-TO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+pT
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-xa
-BO
+Qt
+IR
+IR
+IR
+IR
+Zh
 tE
 tE
 tE
@@ -8462,11 +9160,11 @@ zn
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
-iw
+pF
 zn
 zn
 kB
@@ -8475,40 +9173,40 @@ IJ
 TO
 kB
 zn
-BO
-BO
-BO
-BO
-BO
-BO
+XK
+XK
+XK
+XK
+XK
+XK
 EQ
-BO
-BO
-BO
+XK
+XK
+XK
 ZQ
-TO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+pT
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
@@ -8517,11 +9215,11 @@ TO
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-xa
+Qt
+IR
+IR
+IR
+IR
 tE
 tE
 tE
@@ -8531,12 +9229,12 @@ tE
 tE
 tE
 tE
-BO
-BO
-BO
-BO
-BO
-BO
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
 Un
 VA
 kB
@@ -8576,16 +9274,16 @@ zn
 zn
 zn
 zn
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+VG
+VG
+VG
+VG
+VG
+VG
+VG
+VG
+VG
+VG
 zn
 kB
 TO
@@ -8614,41 +9312,41 @@ la
 nF
 MD
 TO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-xa
+Qt
+IR
+IR
+IR
+IR
 tE
 tE
 tE
@@ -8658,12 +9356,12 @@ tE
 tE
 tE
 tE
-BO
+Zh
 tE
 tE
 tE
 tE
-BO
+Zh
 Un
 zn
 kB
@@ -8701,26 +9399,26 @@ zn
 zn
 zn
 zn
-BO
-BO
-BO
-xa
-xa
-xa
-xa
-BO
-xa
-xa
-xa
-BO
+VG
+VG
+VG
+Ff
+Ff
+Ff
+Ff
+VG
+Ff
+Ff
+Ff
+VG
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
-iw
+pF
 zn
 zn
 kB
@@ -8738,31 +9436,31 @@ CF
 CF
 Ql
 la
-nF
-MG
+ju
+Lh
 TO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
-BO
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
+ST
 zn
 zn
 kB
@@ -8771,12 +9469,12 @@ TO
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-xa
-BO
+Qt
+IR
+IR
+IR
+IR
+Zh
 tE
 tE
 tE
@@ -8790,7 +9488,7 @@ tE
 tE
 tE
 tE
-BO
+Zh
 VA
 zn
 kB
@@ -8824,22 +9522,22 @@ SB
 SB
 SB
 zn
-BO
+VG
 VM
 VM
 VM
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-BO
-xa
-xa
-xa
-BO
+VG
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+VG
+Ff
+Ff
+Ff
+VG
 zn
 kB
 TO
@@ -8847,7 +9545,7 @@ TO
 TO
 kB
 zn
-iw
+pF
 zn
 zn
 kB
@@ -8865,45 +9563,45 @@ CF
 CF
 IV
 la
-Bu
-MG
+HN
+IJ
 TO
-BO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
+ST
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
 zn
 zn
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 Vg
 YH
-xa
-xa
-xa
-xa
-BO
+IR
+IR
+IR
+IR
+Zh
 tE
 tE
 tE
@@ -8917,7 +9615,7 @@ tE
 tE
 tE
 tE
-BO
+Zh
 zn
 zn
 kB
@@ -8951,30 +9649,30 @@ SB
 SB
 SB
 zn
-BO
-Tq
-xa
+VG
+lt
+Ff
 Fz
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+VG
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
-iw
+pF
 zn
 zn
 kB
@@ -8992,30 +9690,30 @@ Rt
 OX
 vg
 la
-Bu
-MG
+hO
+Xc
 pT
 zn
-BO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
-BO
-BO
+ST
+ST
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+yl
+ST
+ST
+ST
 zn
 zn
 zn
@@ -9025,12 +9723,12 @@ TO
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-BO
-BO
+Qt
+IR
+IR
+IR
+Zh
+Zh
 tE
 tE
 tE
@@ -9039,12 +9737,12 @@ tE
 tE
 tE
 tE
-BO
+Zh
 tE
 tE
 tE
 tE
-BO
+Zh
 zn
 zn
 kB
@@ -9078,22 +9776,22 @@ SB
 SB
 SB
 zn
-BO
-Tq
-xa
+VG
+lt
+Ff
 Fz
-BO
-xa
-xa
-cV
-cV
-xa
-xa
-BO
-xa
-xa
-xa
-xa
+VG
+Ff
+Ff
+AE
+AE
+Ff
+Ff
+VG
+Ff
+Ff
+Ff
+Ff
 zn
 kB
 TO
@@ -9101,7 +9799,7 @@ TO
 TO
 kB
 zn
-iw
+pF
 zn
 zn
 kB
@@ -9119,28 +9817,28 @@ la
 la
 la
 la
-TO
+gw
 TO
 pT
 zn
 zn
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
+ST
 zn
 zn
 zn
@@ -9148,15 +9846,15 @@ zn
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-BO
+Qt
+IR
+IR
+IR
+Zh
 tE
 tE
 tE
@@ -9171,7 +9869,7 @@ yn
 Hc
 iM
 tE
-BO
+Zh
 zn
 zn
 kB
@@ -9205,30 +9903,30 @@ SB
 SB
 SB
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-cV
-cV
-xa
-xa
-xa
-xa
-xa
-xa
-BO
+VG
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+AE
+AE
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+VG
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
-iw
+pF
 zn
 zn
 kB
@@ -9279,11 +9977,11 @@ TO
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-BO
+Qt
+IR
+IR
+IR
+Zh
 tE
 tE
 tE
@@ -9332,22 +10030,22 @@ SB
 SB
 SB
 zn
-BO
-cV
-xa
+VG
+AE
+Ff
 Fz
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
+VG
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+VG
 zn
 kB
 TO
@@ -9355,7 +10053,7 @@ TO
 TO
 kB
 zn
-iw
+pF
 zn
 zn
 kB
@@ -9402,15 +10100,15 @@ zn
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 Vg
-iw
-xa
-xa
-xa
-BO
+Qt
+IR
+IR
+IR
+Zh
 tE
 tE
 tE
@@ -9459,30 +10157,30 @@ SB
 SB
 SB
 zn
-BO
-cV
-xa
+VG
+AE
+Ff
 Fz
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
+VG
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+VG
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
-iw
+pF
 zn
 zn
 kB
@@ -9529,16 +10227,16 @@ kB
 kB
 kB
 TO
-TO
-TO
+CH
+gE
 kB
 Vg
 yu
-BO
-BO
-BO
-BO
-BO
+Zh
+Zh
+Zh
+Zh
+Zh
 tE
 tE
 tE
@@ -9564,9 +10262,9 @@ kB
 kB
 kB
 kB
-SB
-SB
-SB
+nR
+nR
+nR
 TO
 TO
 Uf
@@ -9586,22 +10284,22 @@ SB
 SB
 SB
 zn
-BO
-BO
-BO
-BO
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
+VG
+VG
+VG
+VG
+VG
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+VG
 zn
 kB
 TO
@@ -9609,7 +10307,7 @@ TO
 TO
 kB
 zn
-iw
+pF
 zn
 zn
 kB
@@ -9621,6 +10319,7 @@ TO
 TO
 TO
 TO
+bh
 TO
 TO
 TO
@@ -9653,15 +10352,14 @@ TO
 TO
 TO
 TO
-TO
-TO
+bh
 TO
 TO
 TO
 kB
 zn
 zn
-BO
+Zh
 tE
 tE
 fv
@@ -9674,12 +10372,12 @@ tE
 tE
 tE
 tE
-BO
+Zh
 hd
 zE
 ky
 zD
-BO
+Zh
 zn
 zn
 kB
@@ -9687,13 +10385,13 @@ TO
 TO
 TO
 kB
-SB
+nR
 ko
 ko
-SB
-SB
-SB
-SB
+nR
+nR
+nR
+nR
 Uf
 Uf
 Uf
@@ -9713,82 +10411,82 @@ SB
 SB
 SB
 zn
-BO
+VG
 sl
-BO
+VG
 HA
 Jw
-xa
-xa
-xa
-xa
-xa
-xa
-BO
-xa
-xa
-xa
-BO
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+VG
+Ff
+Ff
+Ff
+VG
 zn
 kB
 TO
+IJ
+TO
+kB
+zn
+pF
+zn
+zn
+kB
+TO
+nf
+TO
+rZ
+TO
+rZ
+TO
+rZ
+MG
+TO
+TO
+TO
+Bu
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+rZ
+TO
+ot
+TO
 TO
 TO
 kB
 zn
-iw
 zn
-zn
-kB
-TO
-TO
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-TO
-TO
-TO
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-rZ
-TO
-TO
-TO
-kB
-zn
-zn
-BO
+Zh
 qP
 tE
 TK
@@ -9801,12 +10499,12 @@ tE
 tE
 tE
 tE
-BO
-BO
-BO
-BO
-BO
-BO
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
 zn
 zn
 kB
@@ -9814,13 +10512,13 @@ TO
 IJ
 TO
 kB
-SB
+nR
 xa
 xa
 xa
-SB
-SB
-SB
+nR
+nR
+nR
 Uf
 Uf
 Uf
@@ -9840,22 +10538,22 @@ SB
 SB
 SB
 zn
-BO
+VG
 YZ
-BO
-xa
+VG
+Ff
 Bm
-xa
-xa
-cV
-cV
-cV
-xa
-BO
-xa
-xa
-xa
-BO
+Ff
+Ff
+AE
+AE
+AE
+Ff
+VG
+Ff
+Ff
+Ff
+VG
 zn
 kB
 TO
@@ -9863,7 +10561,7 @@ TO
 TO
 kB
 zn
-iw
+pF
 zn
 zn
 kB
@@ -9879,7 +10577,7 @@ TO
 TO
 TO
 TO
-TO
+Mo
 TO
 TO
 TO
@@ -9915,7 +10613,7 @@ TO
 kB
 zn
 zn
-BO
+Zh
 tE
 tE
 tE
@@ -9929,11 +10627,11 @@ tE
 tE
 tE
 mx
-TO
-TO
-TO
-TO
-TO
+ci
+ci
+ci
+hw
+hw
 TO
 TO
 pU
@@ -9941,13 +10639,13 @@ TO
 TO
 TO
 kB
-SB
+nR
 xa
 xa
 xa
-SB
-SB
-SB
+nR
+nR
+nR
 Uf
 Uf
 Uf
@@ -9967,46 +10665,32 @@ SB
 SB
 SB
 zn
-BO
-xa
-xa
-xa
+VG
+Ff
+Ff
+Ff
 zj
-xa
-xa
-xa
-xa
-cV
-xa
-BO
-xa
-xa
-xa
-BO
+Ff
+Ff
+Ff
+Ff
+AE
+Ff
+VG
+Ff
+Ff
+Ff
+VG
 zn
-kB
-TO
-TO
-TO
-kB
-zn
-iw
-zn
-zn
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
 kB
 TO
 IJ
 TO
 kB
+zn
+pF
+zn
+zn
 kB
 kB
 kB
@@ -10017,36 +10701,50 @@ kB
 kB
 kB
 kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
+gJ
+qo
 TO
-TO
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+gJ
+qo
 TO
 kB
 zn
 zn
-BO
-BO
-BO
-BO
-BO
+Zh
+Zh
+Zh
+Zh
+Zh
 tE
 tE
 tE
@@ -10056,25 +10754,25 @@ tE
 tE
 tE
 mx
+ci
+ci
+ci
+ci
+ci
 TO
 TO
-TO
-TO
-TO
-TO
-TO
-pU
+vk
 TO
 IJ
 TO
 kB
-SB
-SB
+nR
+nR
 xa
 xa
-SB
+nR
 xa
-SB
+nR
 Uf
 Uf
 Uf
@@ -10094,22 +10792,22 @@ SB
 SB
 SB
 zn
-BO
-BO
+VG
+VG
 if
 if
 th
-xa
-xa
-xa
-xa
-xa
-xa
-BO
-xa
-xa
-BO
-BO
+Ff
+Ff
+Ff
+Ff
+Ff
+Ff
+VG
+Ff
+Ff
+VG
+VG
 zn
 kB
 TO
@@ -10117,40 +10815,7 @@ TO
 TO
 kB
 zn
-iw
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-kB
-TO
-TO
-TO
-kB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+pF
 zn
 zn
 zn
@@ -10164,12 +10829,45 @@ zn
 zn
 kB
 TO
-ph
+IJ
 TO
 kB
 zn
 zn
-BO
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+zn
+kB
+TO
+ps
+TO
+kB
+zn
+zn
+Zh
 tE
 tE
 fv
@@ -10182,12 +10880,12 @@ tE
 tE
 tE
 tE
-BO
-TO
-TO
-TO
-TO
-TO
+Zh
+WG
+zO
+rL
+ci
+ci
 TO
 TO
 uG
@@ -10195,13 +10893,13 @@ TO
 TO
 TO
 kB
-SB
+nR
 xa
 xa
 xa
 xa
 xa
-SB
+nR
 Uf
 Uf
 Uf
@@ -10222,29 +10920,29 @@ SB
 SB
 zn
 zn
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+VG
+VG
+VG
+VG
+VG
+VG
+VG
+VG
+VG
+VG
+VG
+VG
+VG
+VG
 zn
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
-iw
+FP
 GM
 GM
 GM
@@ -10258,45 +10956,45 @@ jZ
 zn
 kB
 TO
-IJ
-TO
-kB
-zn
-zn
-zn
-zn
-zn
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-zn
-zn
-kB
-TO
 TO
 TO
 kB
 zn
 zn
-BO
+zn
+zn
+zn
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+zn
+zn
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+Zh
 qP
 tE
 TK
@@ -10309,14 +11007,14 @@ tE
 tE
 tE
 Sm
-BO
-Bu
-TO
-Bu
-MG
-TO
-TO
-TO
+Zh
+Dw
+Md
+jq
+ci
+gW
+RY
+oR
 kB
 TO
 IJ
@@ -10371,59 +11069,59 @@ TO
 TO
 kB
 zn
-iw
-zn
+FP
+Qz
 ep
 ep
 ep
 ep
 ep
 ep
-zn
-zn
+Qz
+Qz
 te
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
-BO
-BO
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+Nz
+Nz
+Nz
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 tu
 tu
-BO
-BO
+Nz
+Nz
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 zn
 zn
-BO
+Zh
 tE
 tE
 tE
@@ -10436,12 +11134,12 @@ tE
 tE
 tE
 Sm
-BO
-Bu
-TO
+Zh
+Tz
+qc
 Og
-MG
-lJ
+hw
+Tk
 lJ
 lJ
 kB
@@ -10449,7 +11147,7 @@ TO
 TO
 TO
 kB
-SB
+nR
 cV
 xa
 xa
@@ -10494,54 +11192,21 @@ zn
 zn
 kB
 TO
-TO
-TO
-kB
-zn
-iw
-zn
-ep
-ep
-ep
-ep
-ep
-ep
-zn
-zn
-te
-zn
-kB
-TO
 IJ
 TO
 kB
 zn
-zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-MP
-MP
-BO
+FP
+Qz
+ep
+ep
+ep
+ep
+ep
+ep
+Qz
+Qz
+te
 zn
 kB
 TO
@@ -10549,25 +11214,58 @@ TO
 TO
 kB
 zn
-QC
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-Bu
+zn
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+MP
+MP
+Nz
+zn
+kB
 TO
-Bu
-MG
+TO
+TO
+kB
+zn
+Vd
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+Zh
+ZH
+qc
+uI
+hw
 Wr
 zn
 zn
@@ -10576,7 +11274,7 @@ TO
 IJ
 TO
 kB
-SB
+nR
 Tq
 xa
 xa
@@ -10602,22 +11300,22 @@ SB
 SB
 SB
 zn
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
 zn
 kB
 TO
@@ -10625,62 +11323,62 @@ TO
 TO
 kB
 zn
-iw
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+FP
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
 te
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 MP
 ez
 wm
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 zn
 iw
 Gb
-xa
-xa
-xa
+xw
+xw
+xw
 iw
 zn
 zn
@@ -10703,7 +11401,7 @@ TO
 TO
 TO
 kB
-SB
+nR
 Tq
 xa
 xa
@@ -10729,7 +11427,7 @@ SB
 SB
 SB
 zn
-BO
+FI
 xY
 xY
 xY
@@ -10739,30 +11437,12 @@ xY
 xY
 xY
 xY
-BO
+FI
 xY
 xY
 xY
 xY
-BO
-zn
-kB
-TO
-TO
-TO
-kB
-zn
-iw
-zn
-ep
-ep
-ep
-ep
-ep
-ep
-zn
-zn
-te
+FI
 zn
 kB
 TO
@@ -10770,29 +11450,47 @@ IJ
 TO
 kB
 zn
+FP
+Qz
+ep
+ep
+ep
+ep
+ep
+ep
+Qz
+Qz
+te
 zn
-BO
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+Nz
 Hf
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 MP
 WD
 wm
@@ -10800,14 +11498,14 @@ zn
 kB
 TO
 TO
-TO
+ZK
 kB
-zn
+kB
 iw
 Zd
-xa
-xa
-xa
+xw
+xw
+xw
 iw
 zn
 zn
@@ -10856,7 +11554,7 @@ SB
 SB
 SB
 zn
-BO
+FI
 xY
 xY
 xY
@@ -10866,12 +11564,12 @@ xY
 xY
 xY
 xY
-BO
+FI
 xY
 xY
 xY
 xY
-BO
+FI
 zn
 kB
 TO
@@ -10879,77 +11577,77 @@ TO
 TO
 kB
 zn
-iw
-zn
+FP
+Qz
 ep
 ep
 ep
 ep
 ep
 ep
-zn
-zn
+Qz
+Qz
 te
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 zs
 Sa
-BO
+Nz
 zn
 kB
 TO
-ph
-TO
-kB
-zn
+ps
+CC
+oo
+qo
 iw
 wL
-xa
-xa
-xa
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+xw
+xw
+xw
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 zn
 zn
 kB
@@ -10957,13 +11655,13 @@ TO
 TO
 TO
 kB
-SB
+nR
 xa
 xa
 xa
 xa
 xa
-SB
+nR
 Uf
 Uf
 Uf
@@ -10983,100 +11681,100 @@ SB
 SB
 SB
 zn
-BO
+FI
 go
 go
 xY
 xY
 xY
 xY
-BO
+FI
 xY
 xY
-BO
+FI
 xY
 xY
 xY
 xY
-BO
+FI
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
-iw
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+FP
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
 te
 zn
 kB
 TO
-IJ
+TO
 TO
 kB
 zn
 zn
-BO
+Nz
 we
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
-BO
-BO
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+Nz
+Nz
+Nz
 zn
 kB
 TO
 TO
 TO
-kB
-zn
+lv
+TO
 iw
 fT
-xa
-xa
-BO
-BO
+xw
+xw
+Kl
+Kl
 mY
 mY
 mY
 mY
-xa
+xw
 mY
 mY
 mY
-BO
-xa
-xa
-xa
-xa
-BO
+Kl
+xw
+xw
+xw
+xw
+Kl
 zn
 zn
 kB
@@ -11084,13 +11782,13 @@ TO
 IJ
 TO
 kB
-SB
-SB
+nR
+nR
 xa
 xa
-SB
+nR
 xa
-SB
+nR
 Uf
 Uf
 Uf
@@ -11110,14 +11808,14 @@ SB
 SB
 SB
 zn
-BO
+FI
 go
 xY
 xY
 xY
 xY
 go
-BO
+FI
 xY
 xY
 xc
@@ -11125,7 +11823,7 @@ xY
 xY
 xY
 xY
-BO
+FI
 zn
 kB
 TO
@@ -11133,77 +11831,77 @@ TO
 TO
 kB
 zn
-iw
-zn
+FP
+Qz
 ep
 ep
 ep
 ep
 ep
 ep
-zn
-zn
+Qz
+Qz
 te
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
+Nz
 QE
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
-BO
-xa
-xa
-xa
-xa
-xa
-BO
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+Nz
+Nz
+fr
+fr
+fr
+fr
+fr
+Nz
 zn
 zn
 zn
 kB
 TO
-ph
+ps
 TO
-kB
-zn
+lv
+TO
 iw
-xa
-xa
-xa
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
-xa
-xa
-xa
-xa
-BO
+xw
+xw
+xw
+Kl
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+Kl
+xw
+xw
+xw
+xw
+Kl
 zn
 zn
 kB
@@ -11211,13 +11909,13 @@ TO
 TO
 TO
 kB
-SB
+nR
 xa
 xa
 xa
-SB
-SB
-SB
+nR
+nR
+nR
 Uf
 Uf
 Uf
@@ -11237,14 +11935,14 @@ SB
 SB
 SB
 zn
-BO
+FI
 go
 xY
 xY
 go
 go
 go
-BO
+FI
 xY
 xY
 xc
@@ -11252,56 +11950,56 @@ xY
 xY
 xY
 xY
-BO
+FI
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
-iw
-zn
+FP
+Qz
 ep
 ep
 ep
 ep
 ep
 ep
-zn
-zn
+Qz
+Qz
 te
 zn
 kB
 TO
-IJ
+TO
 TO
 kB
 zn
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 RL
 mk
-BO
-xa
-ko
-xa
-xa
-xa
-BO
+Nz
+fr
+xy
+fr
+fr
+fr
+Nz
 zn
 zn
 zn
@@ -11309,28 +12007,28 @@ kB
 TO
 TO
 TO
-kB
-zn
+lv
+TO
 iw
-xa
-xa
-xa
-BO
+xw
+xw
+xw
+Kl
 lI
-xa
+xw
 lI
-xa
+xw
 lI
-xa
+xw
 lI
-xa
-xa
-ko
-xa
-xa
-xa
-xa
-BO
+xw
+xw
+DU
+xw
+xw
+xw
+xw
+Kl
 zn
 zn
 kB
@@ -11338,13 +12036,13 @@ TO
 IJ
 TO
 kB
-SB
+nR
 xa
 xa
 xa
-SB
-SB
-SB
+nR
+nR
+nR
 Uf
 Uf
 Uf
@@ -11364,14 +12062,14 @@ SB
 SB
 SB
 zn
-BO
+FI
 xY
 xY
 xY
 xY
 xY
 xY
-BO
+FI
 xY
 xY
 xc
@@ -11379,7 +12077,7 @@ xY
 xY
 xY
 xY
-BO
+FI
 zn
 kB
 TO
@@ -11387,77 +12085,77 @@ TO
 TO
 kB
 zn
-iw
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+FP
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 RL
 Xl
-BO
+Nz
 bM
-ko
-xa
-xa
-xa
+xy
+fr
+fr
+fr
 UL
-VA
-VA
-zn
+lJ
+lJ
+lJ
 kB
 TO
-ph
+ps
 TO
-kB
-zn
+oo
+To
 iw
-xa
-xa
-xa
-BO
+xw
+xw
+xw
+Kl
 lI
-xa
+xw
 lI
-xa
+xw
 lI
-xa
+xw
 lI
-xa
-xa
-ko
-xa
-xa
-xa
-xa
-BO
+xw
+xw
+DU
+xw
+xw
+xw
+xw
+Kl
 zn
 zn
 kB
@@ -11465,13 +12163,13 @@ TO
 TO
 TO
 UW
-SB
+nR
 ko
 ko
-SB
-SB
-SB
-SB
+nR
+nR
+nR
+nR
 Uf
 Uf
 Uf
@@ -11491,14 +12189,14 @@ SB
 SB
 SB
 zn
-BO
+FI
 go
 go
 xY
 xY
 xY
 go
-BO
+FI
 xY
 xY
 xc
@@ -11506,25 +12204,7 @@ xY
 xY
 xY
 xY
-BO
-zn
-kB
-TO
-TO
-TO
-kB
-zn
-iw
-zn
-BO
-Xl
-Xl
-BO
-zn
-UR
-BO
-zn
-zn
+FI
 zn
 kB
 TO
@@ -11532,61 +12212,79 @@ IJ
 TO
 kB
 zn
+FP
+Qz
+to
+cA
+cA
+to
+Qz
+UR
+SZ
+Qz
+Qz
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 RL
 Xl
-BO
-xa
-ko
-xa
-xa
-xa
+Nz
+fr
+xy
+fr
+fr
+fr
 UL
-VA
-VA
-VA
+lJ
+lJ
+lJ
 kB
 TO
 TO
 TO
-kB
-zn
+lv
+gw
 iw
 KI
-xa
-xa
-BO
+xw
+xw
+Kl
 lI
-xa
+xw
 lI
-xa
+xw
 lI
-xa
+xw
 lI
-xa
-xa
-ko
-xa
-xa
-xa
-xa
-BO
+xw
+xw
+DU
+xw
+xw
+xw
+xw
+Kl
 zn
-VA
+zn
 kB
 TO
 IJ
@@ -11596,9 +12294,9 @@ ie
 kB
 kB
 kB
-SB
-SB
-SB
+nR
+nR
+nR
 TO
 TO
 Uf
@@ -11618,14 +12316,14 @@ SB
 SB
 SB
 zn
-BO
+FI
 go
 xY
 xY
 go
 go
 go
-BO
+FI
 xY
 xY
 xc
@@ -11633,7 +12331,7 @@ xY
 xY
 xY
 xY
-BO
+FI
 zn
 kB
 TO
@@ -11641,79 +12339,79 @@ TO
 TO
 kB
 zn
-BO
-BO
-BO
-Xl
-Xl
-BO
-BO
-BO
-BO
-BO
-BO
+to
+to
+to
+cA
+cA
+to
+to
+to
+to
+to
+to
 zn
 kB
 TO
-TO
-TO
-kB
-zn
-zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
-xa
-ko
-xa
-xa
-xa
-BO
-VA
-zn
-zn
-kB
-TO
-ph
+IJ
 TO
 kB
 zn
+zn
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+Nz
+fr
+xy
+fr
+fr
+fr
+Nz
+zn
+zn
+zn
+kB
+TO
+ps
+TO
+lv
+gw
 iw
 Wc
-xa
-xa
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+xw
+xw
+Kl
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
 Cp
-xa
-xa
-xa
-xa
+xw
+xw
+xw
+xw
 ns
-VA
-zn
+lJ
+lJ
 kB
 TO
 TO
@@ -11745,40 +12443,22 @@ SB
 SB
 SB
 zn
-BO
+FI
 go
 xY
 xY
 xY
 xY
 xY
-BO
+FI
 xY
 xY
-BO
+FI
 xY
 xY
 xY
 xY
-BO
-zn
-kB
-TO
-TO
-TO
-kB
-zn
-BO
-ri
-ri
-cJ
-cJ
-ri
-ri
-cJ
-cJ
-cJ
-Ko
+FI
 zn
 kB
 TO
@@ -11786,61 +12466,79 @@ IJ
 TO
 kB
 zn
+to
+bU
+bU
+cJ
+cJ
+bU
+bU
+cJ
+cJ
+cJ
+Rp
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+kB
+TO
+TO
+TO
+kB
+zn
+zn
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 RL
 yV
-BO
-xa
-ko
-xa
-xa
-xa
+Nz
+fr
+xy
+fr
+fr
+fr
 UL
-VA
-VA
-VA
+lJ
+lJ
+lJ
 kB
 TO
 TO
 TO
-kB
-zn
+lv
+TO
 iw
 Ir
-xa
-xa
-BO
+xw
+xw
+Kl
 gh
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
 ns
-VA
-VA
+lJ
+lJ
 kB
 TO
 IJ
@@ -11872,7 +12570,7 @@ SB
 SB
 SB
 zn
-BO
+FI
 xY
 xY
 xY
@@ -11882,12 +12580,12 @@ xY
 xY
 xY
 xY
-BO
+FI
 xY
 xY
 xY
 xY
-BO
+FI
 zn
 kB
 TO
@@ -11895,7 +12593,7 @@ TO
 TO
 kB
 zn
-BO
+to
 vt
 pE
 cJ
@@ -11905,67 +12603,67 @@ pE
 cJ
 cJ
 cJ
-Ko
+Rp
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 RL
 yV
-BO
+Nz
 bM
-ko
-xa
-xa
-xa
+xy
+fr
+fr
+fr
 UL
-VA
-VA
-VA
+lJ
+lJ
+lJ
 kB
 TO
-ph
+ps
 TO
 kB
-zn
+kB
 iw
-xa
-xa
-xa
-BO
+xw
+xw
+xw
+Kl
 mY
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+Kl
 zn
 zn
 kB
@@ -11999,7 +12697,7 @@ SB
 SB
 SB
 zn
-BO
+FI
 xY
 xY
 xY
@@ -12009,30 +12707,12 @@ xY
 xY
 xY
 xY
-BO
+FI
 xY
 xY
 xY
 xY
-BO
-zn
-kB
-TO
-TO
-TO
-kB
-zn
-BO
-yx
-pE
-cJ
-cJ
-yx
-pE
-cJ
-cJ
-cJ
-Ko
+FI
 zn
 kB
 TO
@@ -12040,59 +12720,77 @@ IJ
 TO
 kB
 zn
-zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-RL
-yZ
-BO
-xa
-ko
-xa
-xa
-xa
-BO
-VA
-VA
+to
+yx
+pE
+cJ
+cJ
+yx
+pE
+cJ
+cJ
+cJ
+Rp
 zn
 kB
 TO
 TO
 TO
-Bu
+kB
+zn
+zn
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+RL
+yZ
+Nz
+fr
+xy
+fr
+fr
+fr
+Nz
+zn
+zn
+zn
+kB
 TO
 TO
-xa
-xa
-xa
-BO
+TO
+cz
+TO
+fa
+xw
+xw
+xw
+Kl
 mY
-xa
-xa
-xa
-xa
-xa
+xw
+xw
+xw
+xw
+xw
 mY
 mY
 mY
-BO
-xa
-xa
-xa
-BO
-BO
+Kl
+xw
+xw
+xw
+Kl
+Kl
 zn
 zn
 kB
@@ -12126,7 +12824,7 @@ SB
 SB
 SB
 zn
-BO
+FI
 xY
 xY
 xY
@@ -12141,7 +12839,7 @@ xY
 xY
 xY
 xY
-BO
+FI
 zn
 kB
 TO
@@ -12149,76 +12847,76 @@ TO
 TO
 kB
 zn
-BO
-Yu
-Yu
+to
+FX
+FX
 cJ
 cJ
-Yu
-Yu
+FX
+FX
 cJ
 cJ
 cJ
-Ko
+Rp
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
-BO
-xa
-xa
-xa
-xa
-xa
-BO
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+Nz
+Nz
+fr
+fr
+fr
+fr
+fr
+Nz
 zn
 zn
-VA
+zn
 kB
 TO
-ph
+ps
 TO
-Bu
+cz
 TO
-TO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+fa
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
 mY
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 zn
 zn
 zn
@@ -12253,8 +12951,8 @@ SB
 SB
 SB
 zn
-BO
-BO
+FI
+FI
 xY
 xY
 xY
@@ -12263,30 +12961,12 @@ xY
 xY
 xY
 xY
-BO
+FI
 xY
 xY
 xY
 xY
-BO
-zn
-kB
-TO
-TO
-TO
-kB
-zn
-BO
-gx
-gx
-cJ
-cJ
-gx
-gx
-IB
-yV
-yV
-BO
+FI
 zn
 kB
 TO
@@ -12294,50 +12974,68 @@ IJ
 TO
 kB
 zn
+to
+vf
+vf
+cJ
+cJ
+vf
+vf
+IB
+OB
+OB
+to
+to
+kB
+TO
+TO
+TO
+kB
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
-BO
-BO
+zn
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+Nz
+Nz
+Nz
 zn
 kB
 TO
 TO
 TO
-Bu
+cz
 TO
-TO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+fa
+xw
+xw
+xw
+xw
+xw
+xw
+xw
+xw
 mY
-BO
+Kl
 zn
 zn
 zn
@@ -12381,21 +13079,21 @@ SB
 SB
 zn
 zn
-BO
-BO
-BO
-BO
-BO
-BO
+FI
+FI
+FI
+FI
+FI
+FI
 Gl
-BO
-BO
-BO
+FI
+FI
+FI
 xY
 xY
 xY
 xY
-BO
+FI
 zn
 kB
 TO
@@ -12403,68 +13101,68 @@ TO
 TO
 kB
 zn
-BO
-ri
-ri
+to
+bU
+bU
 cJ
 cJ
-ri
-ri
+bU
+bU
 Iv
-xa
-xa
+cb
+cb
 mc
-zn
+Xb
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 Ob
 mV
-BO
+Nz
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 zn
 iw
-xa
-xa
-xa
-BO
-xa
+xw
+xw
+xw
+Kl
+xw
 mY
 mY
-xa
+xw
 mY
-BO
+Kl
 zn
 kB
 kB
@@ -12511,36 +13209,18 @@ zn
 zn
 zn
 zn
-BO
+FI
 kb
 xY
 xY
 xY
 xY
-BO
+FI
 xY
 xY
 xY
 xY
-BO
-zn
-kB
-TO
-TO
-TO
-kB
-zn
-BO
-vt
-pE
-cJ
-cJ
-vt
-pE
-Iv
-xa
-xa
-mc
+FI
 zn
 kB
 TO
@@ -12548,29 +13228,47 @@ IJ
 TO
 kB
 zn
+to
+vt
+pE
+cJ
+cJ
+vt
+pE
+Iv
+cb
+cb
+mc
+Xb
+kB
+TO
+TO
+TO
+kB
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+zn
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 MP
 WD
 wm
@@ -12581,17 +13279,17 @@ TO
 TO
 kB
 zn
-yu
+nn
 hK
 hK
 hK
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 zn
 kB
 TO
@@ -12638,18 +13336,18 @@ zn
 zn
 zn
 zn
-BO
+FI
 xY
 xY
 xY
 xY
 xY
-BO
+FI
 xY
 xY
 xY
 xY
-BO
+FI
 zn
 kB
 TO
@@ -12657,7 +13355,7 @@ TO
 TO
 kB
 zn
-BO
+to
 yx
 pE
 cJ
@@ -12665,46 +13363,46 @@ cJ
 yx
 pE
 Iv
-xa
-xa
-BO
+cb
+cb
+to
 ua
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 MP
 hN
 wm
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 zn
@@ -12722,9 +13420,7 @@ zn
 zn
 kB
 TO
-TO
-TO
-rZ
+VN
 TO
 rZ
 TO
@@ -12732,7 +13428,9 @@ rZ
 TO
 rZ
 TO
+rZ
 TO
+Vv
 TO
 kB
 zn
@@ -12765,74 +13463,74 @@ zn
 zn
 zn
 zn
-BO
+FI
 xY
 ll
 Cm
 Wz
 xY
-BO
+FI
 xY
 xY
 xY
 xY
-BO
+FI
 zn
-kB
-TO
-TO
-TO
-kB
-zn
-BO
-Yu
-Yu
-cJ
-cJ
-Yu
-Yu
-Iv
-xa
-xa
-BO
-Jv
 kB
 TO
 IJ
 TO
 kB
 zn
+to
+FX
+FX
+cJ
+cJ
+FX
+FX
+Iv
+cb
+cb
+to
+Jv
+kB
+TO
+TO
+TO
+kB
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+zn
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 MP
 MP
 wm
 zn
 kB
 TO
-TO
-TO
+CH
+gE
 kB
 kB
 kB
@@ -12892,18 +13590,18 @@ zn
 zn
 zn
 zn
-BO
+FI
 WB
 xY
 aG
 xY
 xY
-BO
+FI
 xY
 xY
 xY
 xY
-BO
+FI
 zn
 kB
 TO
@@ -12911,7 +13609,7 @@ TO
 TO
 kB
 zn
-BO
+to
 cJ
 cJ
 cJ
@@ -12919,39 +13617,39 @@ cJ
 cJ
 cJ
 Iv
-xa
-xa
+cb
+cb
 mc
-zn
+Xb
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 MP
 Qw
 wm
@@ -13019,36 +13717,18 @@ zn
 zn
 zn
 zn
-BO
+FI
 bH
 xY
 xY
 xY
 xY
-BO
+FI
 xY
 xY
 xY
 xY
-BO
-zn
-kB
-TO
-TO
-TO
-kB
-zn
-BO
-IZ
-IZ
-IZ
-IZ
-IZ
-cJ
-Iv
-xa
-xa
-mc
+FI
 zn
 kB
 TO
@@ -13056,37 +13736,56 @@ IJ
 TO
 kB
 zn
+to
+IZ
+IZ
+IZ
+IZ
+IZ
+cJ
+Iv
+cb
+cb
+mc
+Xb
+kB
+TO
+TO
+TO
+kB
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+zn
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 MP
 Qw
-BO
+Nz
 zn
 kB
 TO
 TO
 TO
+Bu
 rZ
 TO
 rZ
@@ -13101,9 +13800,8 @@ rZ
 TO
 rZ
 TO
-rZ
 TO
-TO
+tw
 TO
 kB
 PP
@@ -13146,18 +13844,18 @@ zn
 zn
 zn
 zn
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
 zn
 kB
 TO
@@ -13165,7 +13863,7 @@ TO
 TO
 kB
 zn
-BO
+to
 AM
 Ca
 li
@@ -13175,45 +13873,46 @@ cJ
 GU
 nc
 nc
-BO
-zn
+to
+to
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 tu
 tu
-BO
-BO
+Nz
+Nz
 zn
 kB
 TO
 TO
 TO
+Mo
 TO
 TO
 TO
@@ -13229,8 +13928,7 @@ TO
 TO
 TO
 TO
-SV
-Vb
+TO
 SV
 kB
 OL
@@ -13288,11 +13986,11 @@ zn
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
-BO
+to
 Sj
 Sj
 Sj
@@ -13306,41 +14004,41 @@ MF
 zn
 kB
 TO
-IJ
+TO
 TO
 kB
 zn
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
-BO
-xa
-xa
-xa
-BO
-BO
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+Nz
+Nz
+fr
+fr
+fr
+Nz
+Nz
 wm
 wm
 wm
-BO
+Nz
 Ak
 zn
 kB
+gJ
+qo
 TO
-TO
-TO
 kB
 kB
 kB
@@ -13356,8 +14054,8 @@ kB
 kB
 kB
 kB
-TO
-IJ
+gJ
+qo
 TO
 kB
 OL
@@ -13419,7 +14117,7 @@ TO
 TO
 kB
 zn
-BO
+to
 pD
 Sj
 Sj
@@ -13429,34 +14127,34 @@ cJ
 cJ
 AK
 AK
-BO
+to
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
-BO
-BO
-xa
-xa
-xa
-xa
-xa
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+Nz
+Nz
+Nz
+fr
+fr
+fr
+fr
+fr
 cr
 Lq
 En
@@ -13466,7 +14164,7 @@ Ak
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 db
@@ -13484,7 +14182,7 @@ sW
 TC
 kB
 TO
-TO
+IJ
 TO
 kB
 po
@@ -13529,25 +14227,25 @@ zn
 zn
 zn
 zn
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+Tb
+Tb
+Tb
+Tb
+Tb
+Tb
+Tb
+Tb
+Tb
+Tb
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
-BO
-BO
+to
+to
 BV
 Sj
 Sj
@@ -13556,34 +14254,34 @@ cJ
 cJ
 Qh
 Qh
-BO
+to
 zn
 kB
 TO
-IJ
+TO
 TO
 kB
 zn
 zn
-BO
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
-BO
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+Nz
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+Nz
+Nz
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 cr
 Lq
 dR
@@ -13611,7 +14309,7 @@ zn
 jj
 kB
 TO
-IJ
+TO
 TO
 Lu
 jo
@@ -13655,17 +14353,17 @@ zn
 zn
 zn
 zn
-BO
-BO
-cI
+Tb
+Tb
+Se
 Ik
 Ik
 Ik
-cI
+Se
 Ik
 Ik
 Ik
-BO
+Tb
 zn
 kB
 TO
@@ -13674,43 +14372,43 @@ TO
 kB
 zn
 zn
-BO
-BO
-BO
+to
+to
+to
 oi
-BO
-BO
+to
+to
 Ne
-BO
-BO
-BO
+to
+to
+to
 zn
 kB
 TO
+IJ
 TO
-TO
 kB
 kB
 kB
 kB
-BO
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-BO
+Nz
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+Nz
 cr
 cr
 cr
-xa
-xa
-xa
-xa
-xa
-xa
+fr
+fr
+fr
+fr
+fr
+fr
 cr
 Lq
 En
@@ -13720,7 +14418,7 @@ Ak
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 jg
@@ -13738,7 +14436,7 @@ zn
 jj
 kB
 TO
-TO
+IJ
 TO
 kB
 sH
@@ -13781,67 +14479,67 @@ zn
 zn
 zn
 zn
-BO
-BO
-cI
-cI
-cI
+Tb
+Tb
+Se
+Se
+Se
 WJ
 Ik
-cI
-cI
+Se
+Se
 Kn
 Ik
-BO
-zn
-kB
-TO
-TO
-TO
-kB
-zn
-zn
-BO
-Fv
-eh
-GW
-QR
-BO
-Dt
-OG
-OG
-BO
+Tb
 zn
 kB
 TO
 IJ
 TO
-bw
+kB
+zn
+zn
+to
+Fv
+eh
+GW
+QR
+to
+Dt
+OG
+OG
+to
+zn
+kB
 TO
 TO
 TO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+cz
+TO
+TO
+TO
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
 JI
 JI
 JI
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 oq
 Ak
 zn
@@ -13865,7 +14563,7 @@ zn
 zn
 kB
 TO
-IJ
+TO
 TO
 nz
 lz
@@ -13908,18 +14606,18 @@ zn
 zn
 zn
 zn
-BO
-cI
-cI
-cI
-cI
-cI
-cI
-cI
-cI
-cI
-cI
-BO
+Tb
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Tb
 zn
 kB
 TO
@@ -13928,44 +14626,44 @@ TO
 kB
 zn
 zn
-BO
+to
 je
-tE
-tE
+jz
+jz
 no
-BO
+to
 Sq
 Dt
 Dt
-BO
+to
 zn
 kB
 TO
+IJ
+TO
+cz
 TO
 TO
-bw
 TO
 TO
-TO
-Bu
-TO
-Bu
 TO
 Bu
+IJ
+MG
 TO
-Bu
-TO
-BO
+IJ
+pa
+Nz
 En
 En
 En
-xa
-xa
-xa
-xa
-xa
-xa
-xa
+fr
+fr
+fr
+fr
+fr
+fr
+fr
 bZ
 nd
 oO
@@ -13974,7 +14672,7 @@ sA
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 jg
@@ -13992,7 +14690,7 @@ zn
 zn
 kB
 TO
-TO
+IJ
 TO
 Lu
 jo
@@ -14035,70 +14733,70 @@ zn
 zn
 zn
 zn
-BO
+Tb
 ng
-cI
-cI
-cI
-cI
-cI
-cI
-cI
-cI
-cI
-BO
-zn
-kB
-TO
-TO
-TO
-kB
-zn
-zn
-BO
-fI
-tE
-tE
-tM
-BO
-Sq
-Dt
-Dt
-BO
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Tb
 zn
 kB
 TO
 IJ
 TO
-bw
+kB
+zn
+zn
+to
+fI
+jz
+jz
+tM
+to
+Sq
+Dt
+Dt
+to
+zn
+kB
+TO
+TO
+TO
+cz
+TO
+TO
 TO
 TO
 TO
 Bu
+IJ
+MG
 TO
-Bu
-TO
-Bu
-TO
-Bu
-TO
-BO
+IJ
+zo
+Nz
 XE
 XE
 XE
-xa
-xa
+fr
+fr
 cr
 cr
 cr
-xa
-xa
+fr
+fr
 IA
 Yd
 Yd
 Yd
 Ti
-zn
+lJ
 kB
 TO
 TO
@@ -14119,7 +14817,7 @@ zn
 zn
 kB
 TO
-IJ
+TO
 TO
 kB
 sH
@@ -14162,18 +14860,18 @@ zn
 zn
 zn
 zn
-BO
+Tb
 Go
-cI
-cI
-cI
-cI
-cI
-cI
-cI
-cI
-cI
-BO
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Tb
 zn
 kB
 TO
@@ -14182,34 +14880,34 @@ TO
 kB
 zn
 zn
-BO
+to
 vT
-tE
-tE
+jz
+jz
 WT
-BO
+to
 Dt
 Dt
 Dt
-BO
+to
 zn
 kB
 TO
+IJ
+TO
+cz
 TO
 TO
-bw
 TO
 TO
-TO
-Bu
-TO
-Bu
 TO
 Bu
+IJ
+MG
 TO
-Bu
-TO
-BO
+IJ
+MG
+Nz
 ZG
 ZG
 ZG
@@ -14225,10 +14923,10 @@ lV
 lV
 lV
 qs
-zn
+lJ
 kB
 TO
-ph
+ps
 TO
 kB
 Ul
@@ -14246,7 +14944,7 @@ zn
 jj
 kB
 TO
-TO
+IJ
 TO
 nz
 lz
@@ -14289,53 +14987,53 @@ zn
 zn
 zn
 zn
-BO
+Tb
 QQ
-cI
-cI
-cI
+Se
+Se
+Se
 Ik
-cI
-cI
-cI
-cI
-cI
-BO
-zn
-kB
-TO
-TO
-TO
-kB
-zn
-zn
-BO
-Fc
-tE
-tE
-WT
-BO
-iC
-BO
-iC
-BO
+Se
+Se
+Se
+Se
+Se
+Tb
 zn
 kB
 TO
 IJ
 TO
-bw
+kB
+zn
+zn
+to
+Fc
+jz
+jz
+WT
+to
+iC
+to
+iC
+to
+zn
+kB
+TO
+TO
+TO
+cz
 TO
 TO
 TO
 TO
 TO
-TO
-TO
-TO
-TO
-TO
-TO
+eW
+eW
+eW
+eW
+eW
+eW
 bA
 en
 en
@@ -14351,7 +15049,7 @@ en
 en
 en
 en
-Ti
+tW
 zn
 kB
 TO
@@ -14373,7 +15071,7 @@ zn
 jj
 kB
 TO
-IJ
+TO
 TO
 Lu
 jo
@@ -14413,21 +15111,21 @@ SB
 SB
 zn
 zn
-BO
-BO
-BO
-BO
+Tb
+Tb
+Tb
+Tb
 yH
-cI
-cI
-lG
+Se
+Se
+wP
 Ik
-cI
-cI
-cI
-cI
-cI
-BO
+Se
+Se
+Se
+Se
+Se
+Tb
 zn
 kB
 TO
@@ -14436,20 +15134,20 @@ TO
 kB
 zn
 zn
-BO
+to
 tC
-tE
-tE
+jz
+jz
 Xr
-BO
+to
 eH
-BO
+to
 eH
-BO
+to
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
@@ -14463,7 +15161,7 @@ TO
 TO
 TO
 TO
-zn
+kB
 zn
 zn
 zn
@@ -14482,7 +15180,7 @@ zn
 zn
 kB
 TO
-ph
+ps
 TO
 kB
 zn
@@ -14500,7 +15198,7 @@ Hw
 mn
 kB
 TO
-TO
+IJ
 TO
 kB
 sH
@@ -14540,77 +15238,59 @@ SB
 SB
 zn
 zn
-BO
-Dt
-Dt
+Tb
+GK
+GK
 Qp
-cI
-cI
-cI
+Se
+Se
+Se
 Ik
 Ik
-cI
-BO
-cI
-cI
-cI
-BO
+Se
+Tb
+Se
+Se
+Se
+Tb
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
+to
 cY
 Pp
 BM
 CP
-BO
-BO
-BO
-BO
-BO
+to
+to
+to
+to
+to
 zn
 kB
 TO
-IJ
-TO
-kB
-kB
-kB
-vL
-vL
-vL
-vL
-vL
-vL
-vL
-vL
-vL
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
 TO
 TO
-TO
+kB
+kB
+kB
+vL
+vL
+vL
+vL
+vL
+vL
+vL
+vL
+vL
+kB
+kB
+kB
 kB
 kB
 kB
@@ -14627,7 +15307,25 @@ kB
 kB
 kB
 TO
-IJ
+CH
+gE
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+TO
+TO
 TO
 nz
 lz
@@ -14667,20 +15365,20 @@ SB
 SB
 zn
 zn
-BO
+Tb
 gp
-Dt
-BO
-cI
-cI
-cI
-cI
-cI
-cI
-BO
-cI
+GK
+Tb
+Se
+Se
+Se
+Se
+Se
+Se
+Tb
+Se
 IS
-cI
+Se
 Av
 zn
 kB
@@ -14690,12 +15388,12 @@ TO
 kB
 zn
 zn
-BO
-BO
+to
+to
 ab
-BO
-BO
-BO
+to
+to
+to
 zn
 zn
 zn
@@ -14703,6 +15401,7 @@ zn
 zn
 kB
 TO
+IJ
 TO
 TO
 TO
@@ -14733,6 +15432,7 @@ TO
 TO
 TO
 TO
+bh
 TO
 TO
 TO
@@ -14752,9 +15452,7 @@ TO
 TO
 TO
 TO
-TO
-TO
-TO
+IJ
 TO
 Lu
 jo
@@ -14794,35 +15492,35 @@ SB
 SB
 zn
 zn
-BO
-BO
-BO
-BO
+Tb
+Tb
+Tb
+Tb
 Of
-cI
-cI
-cI
-cI
+Se
+Se
+Se
+Se
 Ik
-BO
+Tb
 yy
 IS
-cI
+Se
 Av
 zn
 kB
 TO
-TO
+IJ
 TO
 kB
 zn
 zn
-BO
+to
 gk
 FR
 fS
 GC
-BO
+to
 zn
 zn
 zn
@@ -14830,9 +15528,7 @@ zn
 zn
 kB
 TO
-TO
-TO
-rZ
+nf
 TO
 rZ
 TO
@@ -14862,10 +15558,12 @@ rZ
 TO
 rZ
 TO
+rZ
+MG
 TO
 TO
 TO
-TO
+Bu
 rZ
 TO
 rZ
@@ -14880,7 +15578,7 @@ rZ
 TO
 rZ
 TO
-TO
+rZ
 TO
 TO
 kB
@@ -14924,18 +15622,18 @@ zn
 zn
 zn
 zn
-BO
-BO
-cI
-cI
-cI
+Tb
+Tb
+Se
+Se
+Se
 WJ
 Ik
-BO
-cI
+Tb
+Se
 IS
-cI
-BO
+Se
+Tb
 zn
 kB
 TO
@@ -14944,12 +15642,12 @@ TO
 kB
 zn
 zn
-BO
+to
 gk
 FR
 FR
 Wf
-BO
+to
 zn
 zn
 zn
@@ -14992,7 +15690,7 @@ TO
 TO
 TO
 TO
-TO
+Mo
 TO
 TO
 TO
@@ -15052,17 +15750,17 @@ Vg
 Vg
 Vg
 Vg
-BO
-BO
-cI
-cI
+Tb
+Tb
+Se
+Se
 Ik
 Ik
-BO
+Tb
 IS
 IS
-cI
-BO
+Se
+Tb
 Vg
 kB
 kB
@@ -15070,13 +15768,13 @@ kB
 kB
 kB
 zn
-QC
-BO
-BO
-BO
-BO
-BO
-BO
+Bd
+to
+to
+to
+to
+to
+to
 zn
 zn
 zn
@@ -15180,16 +15878,16 @@ Vg
 Vg
 Vg
 Vg
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
+Tb
+Tb
+Tb
+Tb
+Tb
+Tb
+Tb
+Tb
+Tb
+Tb
 Vg
 Vg
 zn
@@ -15197,7 +15895,7 @@ zn
 zn
 zn
 zn
-iw
+pF
 gu
 gu
 zn
@@ -15324,7 +16022,7 @@ zn
 zn
 zn
 zn
-iw
+pF
 zn
 zn
 zn
@@ -15451,7 +16149,7 @@ zn
 zn
 zn
 zn
-iw
+pF
 zn
 zn
 zn
@@ -15578,7 +16276,7 @@ zn
 zn
 zn
 zn
-iw
+pF
 zn
 zn
 zn
@@ -15980,30 +16678,30 @@ SB
 SB
 SB
 SB
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
+PT
 SB
 SB
 SB
