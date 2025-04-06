@@ -1,4 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 4
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
 "ab" = (
 /obj/machinery/door/airlock/freezer{
 	dir = 4
@@ -26,34 +32,89 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/engineering)
 "ad" = (
-/obj/structure/bed{
-	dir = 1
-	},
-/obj/item/bedsheet{
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white/corner{
 	dir = 4
 	},
-/turf/open/floor/plasteel/lightgrey,
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
+"ae" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
+"af" = (
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "ag" = (
-/obj/structure/railing{
-	dir = 1
-	},
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/opaque/black{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "ah" = (
-/obj/structure/railing{
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/opaque/black{
 	dir = 1
 	},
-/obj/effect/turf_decal/trimline/transparent/blue/warning{
+/obj/effect/turf_decal/corner/opaque/blue{
 	dir = 4
 	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"ai" = (
+/obj/structure/fence,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/hospital)
+"an" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 1
+	},
+/obj/effect/turf_decal/road/stripes,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "aq" = (
-/turf/open/floor/plasteel/tech/grid,
+/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer5,
+/turf/open/floor/plasteel/elevatorshaft,
 /area/ruin/jungle/anzu/engineering)
 "as" = (
 /obj/structure/railing{
@@ -78,6 +139,25 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"az" = (
+/obj/structure/fluff/anzu/lattice/pipe{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"aA" = (
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/engineering)
+"aF" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "aG" = (
 /obj/structure/chair/comfy/red/corpo/directional/west,
 /turf/open/floor/wood,
@@ -91,20 +171,52 @@
 	},
 /turf/open/floor/pod/dark,
 /area/ruin/jungle/anzu/engineering)
+"aR" = (
+/obj/structure/table,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
 "aX" = (
 /obj/structure/railing/wood{
 	dir = 10
 	},
-/obj/machinery/power/port_gen,
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
 	},
+/obj/machinery/power/port_gen/pacman,
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"bb" = (
+/obj/structure/chair/bench/blue,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/directional/north,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
+"bc" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/case/surgery{
+	pixel_x = 2;
+	pixel_y = 7
+	},
+/obj/item/clothing/gloves/color/latex/nitrile/clip,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 5
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "bd" = (
 /obj/structure/table/wood/reinforced,
 /turf/open/floor/carpet/nanoweave/red,
 /area/ruin/jungle/anzu/restaurant)
+"be" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/road{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "bf" = (
 /obj/structure/table/glass,
 /obj/item/newspaper{
@@ -117,10 +229,24 @@
 /turf/open/floor/plasteel/grimy,
 /area/ruin/jungle/anzu/engineering)
 "bh" = (
-/obj/effect/turf_decal/road/stop,
-/obj/effect/turf_decal/road/line,
-/turf/open/floor/concrete/pavement,
-/area/ruin/jungle/anzu/outside)
+/obj/structure/railing/thin/corner{
+	dir = 8
+	},
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/hospital)
+"bl" = (
+/obj/structure/fence/door,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/hospital)
+"bq" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "bs" = (
 /obj/structure/flora/ausbushes/brflowers{
 	pixel_x = -7;
@@ -163,8 +289,17 @@
 /obj/machinery/door/window/brigdoor/southright{
 	req_access = list(3)
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"bD" = (
+/obj/structure/curtain{
+	opaque_closed = 1;
+	open = 0
+	},
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/hospital)
 "bH" = (
 /obj/structure/filingcabinet/double{
 	pixel_x = -10;
@@ -177,12 +312,43 @@
 /obj/structure/chair/office,
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/apartments)
+"bP" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"bT" = (
+/obj/effect/turf_decal/industrial/warning/full,
+/obj/structure/railing/thin{
+	dir = 9
+	},
+/obj/machinery/power/rtg/geothermal{
+	layer = 3.09
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/engineering)
 "bU" = (
 /obj/structure/chair{
 	dir = 4
 	},
 /turf/open/floor/plasteel/grimy,
 /area/ruin/jungle/anzu/restaurant)
+"bX" = (
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "bZ" = (
 /obj/effect/turf_decal/industrial/warning/corner,
 /turf/open/floor/concrete/slab_4,
@@ -208,6 +374,12 @@
 	dir = 8
 	},
 /obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "co" = (
@@ -243,18 +415,39 @@
 	dir = 8
 	},
 /area/ruin/jungle/anzu/restaurant)
+"cC" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/hospital)
 "cI" = (
-/turf/open/floor/wood/maple,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "cJ" = (
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /turf/open/floor/plasteel/lightgrey,
 /area/ruin/jungle/anzu/restaurant)
 "cM" = (
-/obj/machinery/door/airlock/medical{
+/obj/machinery/door/airlock/grunge{
 	dir = 4
 	},
-/turf/open/floor/plasteel/lightgrey,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/hospital)
+"cU" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line,
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "cV" = (
 /obj/structure/table,
@@ -286,21 +479,61 @@
 /obj/structure/railing/thin/corner,
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"df" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/hospital)
+"dh" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer5,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "di" = (
 /obj/structure/table/reinforced,
-/turf/open/floor/wood/maple,
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/window/reinforced/spawner,
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/turf/open/floor/plating,
 /area/ruin/jungle/anzu/hospital)
 "dp" = (
 /obj/effect/turf_decal/spline/fancy/opaque/black/corner,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
 	},
+/obj/machinery/firealarm/directional/west,
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/engineering)
+"du" = (
+/obj/effect/turf_decal/tiremarks{
+	dir = 9
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
+"dv" = (
+/obj/structure/rack,
+/obj/item/wheelchair{
+	pixel_y = 4
+	},
+/obj/item/wheelchair{
+	pixel_y = 9
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/end{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/end{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "dw" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/northleft,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/ruin/jungle/anzu/bank)
 "dB" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -313,15 +546,6 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/bank)
 "dC" = (
-/obj/structure/fluff{
-	icon = 'icons/obj/hazard/conduit.dmi';
-	icon_state = "conduit";
-	dir = 1;
-	name = "power conduit";
-	desc = "Cheap industrial cable used to transfer large volumes of power.";
-	layer = 2.4;
-	plane = -2
-	},
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 8
 	},
@@ -341,6 +565,7 @@
 	c_tag = "Side Alley"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/bank)
 "dR" = (
@@ -351,10 +576,41 @@
 	},
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/apartments)
+"dU" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating/dirt/old/lit,
+/area/ruin/jungle/anzu/outside)
+"dX" = (
+/obj/machinery/firealarm/directional/south,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "dY" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/pod/dark,
 /area/ruin/jungle/anzu/bank)
+"ea" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"ef" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "eh" = (
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 8
@@ -415,6 +671,32 @@
 /obj/structure/chair/sofa/purple/corpo/left/directional/north,
 /turf/open/floor/carpet/purple,
 /area/ruin/jungle/anzu/apartments)
+"eA" = (
+/obj/structure/sign/departments/chemistry{
+	pixel_x = -32;
+	name = "\improper Chemical Storage sign"
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"eF" = (
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"eG" = (
+/obj/effect/turf_decal/road/stripes,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "eH" = (
 /obj/structure/toilet{
 	dir = 8;
@@ -422,6 +704,10 @@
 	},
 /turf/open/floor/plastic,
 /area/ruin/jungle/anzu/restaurant)
+"eI" = (
+/obj/structure/fluff/anzu/lattice/pipe/end,
+/turf/closed/wall,
+/area/ruin/jungle/anzu/hospital)
 "eJ" = (
 /obj/structure/fence/end{
 	dir = 8;
@@ -433,6 +719,15 @@
 	},
 /turf/open/floor/concrete/slab_1,
 /area/ruin/jungle/anzu/outside)
+"eM" = (
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "eW" = (
 /obj/effect/turf_decal/road/stripes{
 	dir = 8
@@ -443,11 +738,18 @@
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/storage)
 "fc" = (
-/obj/effect/turf_decal/siding/wood/corner{
-	color = "#D2BC9D";
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 8
 	},
-/turf/open/floor/wood/maple,
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"fh" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "fi" = (
 /obj/effect/turf_decal/road/line,
@@ -475,15 +777,11 @@
 /turf/open/floor/pod/dark,
 /area/ruin/jungle/anzu/engineering)
 "fv" = (
-/obj/structure/curtain{
-	pixel_y = -28
-	},
-/obj/structure/table/glass,
-/obj/item/storage/backpack/duffelbag/med/surgery{
-	pixel_x = 9;
-	pixel_y = 7
-	},
-/turf/open/floor/plasteel/lightgrey,
+/obj/structure/table/reinforced,
+/obj/structure/window/spawner/west,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/trimline/transparent/blue/line,
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "fz" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -491,12 +789,36 @@
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
-"fG" = (
-/obj/machinery/power/smes,
-/obj/structure/cable/orange{
-	icon_state = "0-4"
+"fE" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"fG" = (
 /obj/effect/turf_decal/industrial/warning/fulltile,
+/obj/structure/fluff/anzu/boiler/flipped{
+	pixel_x = 2
+	},
+/obj/structure/fluff{
+	icon = 'icons/obj/hazard/conduit.dmi';
+	icon_state = "conduit";
+	dir = 1;
+	name = "power conduit";
+	desc = "Cheap industrial cable used to transfer large volumes of power.";
+	layer = 2.4;
+	plane = -2;
+	pixel_y = 8;
+	pixel_x = -4
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer5{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer4,
 /turf/open/floor/engine/hull/interior,
 /area/ruin/jungle/anzu/engineering)
 "fI" = (
@@ -511,6 +833,25 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/engineering)
+"fK" = (
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/poster/clip/maxin{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"fM" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "fO" = (
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/concrete/pavement,
@@ -543,7 +884,7 @@
 	pixel_x = 6;
 	id = "bank_ticket"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/ruin/jungle/anzu/bank)
 "fY" = (
 /obj/effect/decal/cleanable/crayon{
@@ -558,6 +899,18 @@
 	pixel_y = 10
 	},
 /turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"ge" = (
+/obj/structure/platform/ship{
+	dir = 1
+	},
+/obj/structure/railing/thick{
+	dir = 1
+	},
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 4
+	},
 /area/ruin/jungle/anzu/outside)
 "gh" = (
 /obj/structure/rack,
@@ -599,6 +952,14 @@
 	},
 /turf/open/floor/plasteel/mono,
 /area/ruin/jungle/anzu/gold)
+"gq" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "gu" = (
 /obj/structure/closet/crate/trashcart,
 /turf/open/floor/plating/grass/jungle/lit,
@@ -613,23 +974,29 @@
 /turf/open/floor/plasteel/grimy,
 /area/ruin/jungle/anzu/bank)
 "gE" = (
-/obj/effect/turf_decal/road/stop{
-	dir = 4
-	},
-/obj/effect/turf_decal/road/line{
-	dir = 4
+/obj/effect/turf_decal/road/line,
+/obj/structure/fluff/anzu/small_truck/alt{
+	pixel_x = -12;
+	pixel_y = -3
 	},
 /turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
+"gG" = (
+/obj/structure/fluff/anzu/lattice/inlay,
+/turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
 "gJ" = (
-/obj/effect/turf_decal/road/stop{
-	dir = 8
+/obj/structure/reagent_dispensers/foamtank,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/hospital)
+"gR" = (
+/obj/machinery/firealarm/directional/north,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 9
 	},
-/obj/effect/turf_decal/road/line{
-	dir = 8
-	},
-/turf/open/floor/concrete/pavement,
-/area/ruin/jungle/anzu/outside)
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "gW" = (
 /obj/item/clothing/head/cone{
 	pixel_y = -8;
@@ -637,13 +1004,43 @@
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
-"hd" = (
-/obj/structure/closet/secure_closet/freezer,
-/turf/open/floor/plasteel/lightgrey,
+"hb" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
+"hd" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 4
+	},
+/obj/effect/turf_decal/road/stripes{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "ho" = (
 /obj/structure/fence,
 /turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/hospital)
+"hp" = (
+/obj/structure/fluff/anzu/lattice/wires/end{
+	dir = 8
+	},
+/turf/closed/wall,
+/area/ruin/jungle/anzu/engineering)
+"hq" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 4
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "hr" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -655,6 +1052,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
+"hB" = (
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "hC" = (
 /obj/structure/railing/wood{
 	dir = 4
@@ -662,6 +1068,15 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"hH" = (
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "hI" = (
 /turf/closed/wall,
 /area/ruin/jungle/anzu/engineering)
@@ -686,10 +1101,34 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/bank)
+"hP" = (
+/obj/effect/turf_decal/trimline/transparent/blue/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "ib" = (
 /obj/machinery/light/directional/west,
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer4{
+	dir = 5
+	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"id" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "ie" = (
 /obj/structure/chair/handrail{
 	dir = 4
@@ -713,7 +1152,7 @@
 	pixel_x = -8;
 	pixel_y = 6
 	},
-/obj/machinery/light/small/directional/north,
+/obj/machinery/light/small/broken/directional/north,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/bank)
 "ir" = (
@@ -741,10 +1180,8 @@
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "iz" = (
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
-/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer2,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "iA" = (
@@ -772,10 +1209,23 @@
 /turf/open/floor/plastic,
 /area/ruin/jungle/anzu/restaurant)
 "iM" = (
-/obj/structure/chair/bench/blue{
+/turf/closed/wall,
+/area/ruin/jungle/anzu/hospital)
+"iP" = (
+/obj/effect/turf_decal/trimline/transparent/blue/filled/arrow_ccw{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"iT" = (
+/obj/effect/turf_decal/industrial/stand_clear/white{
+	color = "#75A2BB";
+	alpha = 180
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 1
 	},
-/turf/open/floor/plasteel/lightgrey,
+/turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
 "jd" = (
 /obj/structure/platform/industrial{
@@ -793,6 +1243,13 @@
 	},
 /turf/open/floor/plasteel/lightgrey,
 /area/ruin/jungle/anzu/restaurant)
+"jf" = (
+/obj/effect/turf_decal/industrial/fire/corner{
+	dir = 1
+	},
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "jg" = (
 /obj/structure/platform/ship_four,
 /obj/structure/railing/thin,
@@ -805,6 +1262,11 @@
 /obj/structure/railing/thin,
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"jk" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer5,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "jo" = (
 /obj/structure/railing{
 	dir = 8
@@ -815,6 +1277,9 @@
 /area/ruin/jungle/anzu/outside)
 "jq" = (
 /obj/effect/turf_decal/road/line,
+/obj/effect/turf_decal/tiremarks{
+	dir = 4
+	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
 "ju" = (
@@ -824,9 +1289,44 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"jv" = (
+/obj/structure/fluff/anzu/lattice/inlay,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/ruin/jungle/anzu/outside)
+"jx" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/hospital)
 "jz" = (
 /turf/open/floor/plasteel/lightgrey,
 /area/ruin/jungle/anzu/restaurant)
+"jA" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
+"jC" = (
+/obj/machinery/portable_atmospherics/scrubber/huge,
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/hospital)
+"jF" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"jI" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/jungle/anzu/hospital)
 "jJ" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
@@ -839,6 +1339,16 @@
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"jM" = (
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance/external{
+	name = "external fire door";
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "jX" = (
 /obj/structure/fence/door{
 	dir = 4
@@ -855,13 +1365,34 @@
 /obj/structure/safe,
 /turf/open/floor/wood,
 /area/ruin/jungle/anzu/townhall)
+"kc" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/obj/machinery/photocopier,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "kf" = (
-/obj/effect/turf_decal/siding/wood/corner{
-	color = "#D2BC9D";
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 1
 	},
-/turf/open/floor/wood/maple,
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
+"kg" = (
+/obj/effect/turf_decal/road/stop{
+	dir = 8
+	},
+/obj/effect/turf_decal/road/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/road/stripes{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "ko" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/concrete,
@@ -874,10 +1405,29 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"ks" = (
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/white,
+/obj/machinery/light/directional/south,
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "kt" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/bank)
+"ku" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "kv" = (
 /obj/effect/turf_decal/borderfloorwhite{
 	dir = 1;
@@ -893,12 +1443,18 @@
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
 "ky" = (
-/obj/item/storage/box/donkpockets{
-	pixel_x = 7;
-	pixel_y = 16
+/obj/structure/table/chem,
+/obj/structure/sink/chem{
+	dir = 8
 	},
-/obj/structure/table/wood,
-/turf/open/floor/plasteel/lightgrey,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
 /area/ruin/jungle/anzu/hospital)
 "kz" = (
 /obj/effect/turf_decal/spline/fancy/opaque/black/corner{
@@ -912,7 +1468,7 @@
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/west,
 /obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/ruin/jungle/anzu/bank)
 "kB" = (
 /turf/open/floor/concrete/slab_1,
@@ -930,6 +1486,37 @@
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"kI" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/concrete/tiles,
+/area/ruin/jungle/anzu/outside)
+"kL" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
+"kS" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/corner{
+	dir = 1
+	},
+/turf/open/floor/pod/dark,
+/area/ruin/jungle/anzu/hospital)
+"kV" = (
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 9
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "la" = (
 /turf/closed/wall/r_wall,
 /area/ruin/jungle/anzu/bank)
@@ -989,9 +1576,11 @@
 /turf/open/floor/pod/dark,
 /area/ruin/jungle/anzu/bank)
 "ls" = (
-/obj/structure/railing/corner{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 9
 	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "lt" = (
@@ -1008,10 +1597,14 @@
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
 "ly" = (
-/obj/structure/cable/orange{
-	icon_state = "1-10"
+/obj/effect/turf_decal/corner/opaque/black{
+	dir = 9
 	},
-/turf/open/floor/plasteel/tech/grid,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4,
+/turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "lz" = (
 /obj/structure/railing{
@@ -1025,7 +1618,7 @@
 /obj/structure/chair/office{
 	dir = 4
 	},
-/turf/open/floor/wood/maple,
+/turf/open/floor/carpet/blue,
 /area/ruin/jungle/anzu/hospital)
 "lI" = (
 /obj/structure/crate_shelf,
@@ -1038,6 +1631,16 @@
 /obj/structure/table,
 /turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/engineering)
+"lS" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/road{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "lV" = (
 /obj/structure/railing{
 	dir = 4
@@ -1057,6 +1660,16 @@
 	},
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"mh" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/hospital)
 "mi" = (
 /obj/structure/table,
 /obj/structure/sign/poster/official/moth/hardhats{
@@ -1095,8 +1708,12 @@
 /area/ruin/jungle/anzu/outside)
 "mx" = (
 /obj/machinery/door/airlock/medical/glass,
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/hospital)
+"mz" = (
+/obj/structure/fluff/anzu/lattice/inlay,
+/turf/open/floor/plating/dirt/old/lit,
+/area/ruin/jungle/anzu/outside)
 "mB" = (
 /obj/effect/turf_decal/spline/fancy/opaque/black{
 	dir = 1
@@ -1106,15 +1723,25 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/bank)
 "mD" = (
-/obj/effect/turf_decal/siding/wood/corner{
-	color = "#D2BC9D";
+/obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
-/turf/open/floor/wood/maple,
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "mL" = (
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"mN" = (
+/obj/machinery/atmospherics/pipe/simple/dark/visible/layer4{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/dark/visible/layer2{
+	dir = 6
+	},
+/turf/open/floor/concrete/tiles,
+/area/ruin/jungle/anzu/outside)
 "mV" = (
 /obj/structure/chair/sofa/purple/corpo/corner/directional/north,
 /turf/open/floor/carpet/purple,
@@ -1165,6 +1792,40 @@
 	},
 /turf/open/floor/wood/maple,
 /area/ruin/jungle/anzu/gold)
+"nh" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/hospital)
+"ni" = (
+/obj/machinery/firealarm/directional/east,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
+"nj" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/corner,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"nm" = (
+/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "nn" = (
 /obj/structure/fence/corner{
 	dir = 4
@@ -1205,10 +1866,19 @@
 	dir = 8
 	},
 /obj/structure/fluff/anzu/small_truck{
-	pixel_x = 6
+	pixel_x = 6;
+	layer = 3
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"nH" = (
+/obj/structure/curtain{
+	opaque_closed = 1
+	},
+/obj/structure/window/reinforced/fulltile,
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/hospital)
 "nK" = (
 /obj/structure/platform/ship_four/corner{
 	dir = 8
@@ -1265,15 +1935,28 @@
 /turf/open/floor/plasteel/freezer,
 /area/ruin/jungle/anzu/restaurant)
 "om" = (
-/obj/machinery/iv_drip,
-/turf/open/floor/plasteel/lightgrey,
+/obj/structure/bed{
+	dir = 1;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/corner/transparent/blue/mono,
+/obj/effect/turf_decal/spline/fancy/opaque/black,
+/obj/structure/curtain{
+	opaque_closed = 1;
+	open = 0
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/jungle/anzu/hospital)
+"on" = (
+/obj/effect/turf_decal/tiremarks,
+/turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
 "oo" = (
-/obj/effect/turf_decal/road/line{
-	dir = 8
-	},
 /obj/effect/turf_decal/road/stripes{
 	dir = 1
+	},
+/obj/effect/turf_decal/road/line/half{
+	dir = 9
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
@@ -1282,10 +1965,13 @@
 /turf/open/floor/concrete/slab_4,
 /area/ruin/jungle/anzu/apartments)
 "ot" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 1
+	},
 /obj/effect/turf_decal/road{
 	dir = 1
 	},
-/obj/effect/turf_decal/road/line,
+/obj/effect/turf_decal/road/line/half,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
 "ow" = (
@@ -1296,7 +1982,13 @@
 /area/ruin/jungle/anzu/outside)
 "oD" = (
 /obj/machinery/door/airlock/medical,
-/turf/open/floor/plasteel/lightgrey,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/hospital)
+"oL" = (
+/obj/structure/chair/bench/blue{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grimy,
 /area/ruin/jungle/anzu/hospital)
 "oO" = (
 /obj/structure/railing{
@@ -1305,11 +1997,15 @@
 /turf/open/floor/concrete/slab_4,
 /area/ruin/jungle/anzu/apartments)
 "oP" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 9;
-	color = "#D2BC9D"
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
 	},
-/turf/open/floor/wood/maple,
+/obj/structure/filingcabinet/double{
+	pixel_y = 14
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "oQ" = (
 /obj/structure/table/glass,
@@ -1338,7 +2034,7 @@
 	pixel_y = 6
 	},
 /obj/structure/window/reinforced/spawner,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "pf" = (
 /obj/structure/platform/industrial{
@@ -1348,19 +2044,33 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating,
+/obj/structure/reagent_dispensers/plumbed,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/pod/dark,
 /area/ruin/jungle/anzu/engineering)
 "pg" = (
-/obj/structure/cable/orange{
-	icon_state = "1-6"
-	},
-/turf/open/floor/plasteel/tech/grid,
+/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1,
+/turf/open/floor/plasteel/elevatorshaft,
 /area/ruin/jungle/anzu/engineering)
 "pi" = (
-/obj/structure/railing,
-/obj/structure/catwalk/over,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/corner/opaque/black{
+	dir = 10
+	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"pn" = (
+/obj/structure/fluff/anzu/lattice/pipe/end,
+/turf/closed/wall,
+/area/ruin/jungle/anzu/commercial)
 "po" = (
 /obj/structure/platform/industrial{
 	dir = 6
@@ -1380,6 +2090,12 @@
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"pu" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/hospital)
 "pD" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/carpet/nanoweave/red,
@@ -1397,6 +2113,55 @@
 "pI" = (
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/engineering)
+"pJ" = (
+/obj/structure/bed{
+	dir = 1;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/corner/transparent/blue/mono,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
+	},
+/obj/structure/curtain{
+	opaque_closed = 1;
+	open = 0
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/jungle/anzu/hospital)
+"pM" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/arrow_cw{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"pO" = (
+/obj/structure/fluff{
+	icon = 'icons/obj/hazard/conduit.dmi';
+	icon_state = "conduit";
+	dir = 1;
+	name = "power conduit";
+	desc = "Cheap industrial cable used to transfer large volumes of power.";
+	layer = 2.4;
+	plane = -2;
+	pixel_x = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
+"pQ" = (
+/obj/structure/fluff/anzu/lattice/pipe,
+/turf/open/floor/plating/dirt/old/lit,
+/area/ruin/jungle/anzu/outside)
 "pT" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
@@ -1431,6 +2196,10 @@
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
+"qj" = (
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/hospital)
 "ql" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -1443,10 +2212,21 @@
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"qn" = (
+/obj/effect/decal/cleanable/oil/streak,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/hospital)
 "qo" = (
 /obj/effect/turf_decal/road/line{
 	dir = 8
 	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"qp" = (
+/obj/effect/turf_decal/road/line/half{
+	dir = 10
+	},
+/obj/effect/turf_decal/road/stripes,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
 "qs" = (
@@ -1456,10 +2236,18 @@
 /turf/open/floor/concrete/slab_4,
 /area/ruin/jungle/anzu/outside)
 "qv" = (
-/obj/structure/railing{
+/obj/effect/turf_decal/corner/opaque/black{
 	dir = 8
 	},
-/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 10
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/corner/opaque/blue{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "qz" = (
@@ -1474,6 +2262,21 @@
 	},
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"qE" = (
+/obj/structure/fluff/anzu/lattice/pipe/end{
+	dir = 8
+	},
+/turf/closed/wall,
+/area/ruin/jungle/anzu/commercial)
+"qI" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 1
+	},
+/area/ruin/jungle/anzu/hospital)
 "qL" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-5"
@@ -1481,8 +2284,26 @@
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "qP" = (
-/obj/structure/table/optable,
-/turf/open/floor/plasteel/lightgrey,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 1
+	},
+/obj/machinery/light/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"qS" = (
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/directional/west,
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "qT" = (
 /obj/structure/fence/door{
@@ -1526,6 +2347,12 @@
 	},
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"rg" = (
+/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "rh" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-6"
@@ -1545,15 +2372,26 @@
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/outside)
+"rm" = (
+/obj/effect/turf_decal/road/line/half{
+	dir = 8
+	},
+/obj/effect/turf_decal/road/stripes{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"rp" = (
+/obj/structure/railing,
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/ruin/jungle/anzu/outside)
 "rq" = (
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/structure/cable/orange{
-	icon_state = "1-2"
+/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer2{
+	dir = 5
 	},
-/obj/structure/cable/orange{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/elevatorshaft,
 /area/ruin/jungle/anzu/engineering)
 "rr" = (
 /obj/structure/platform/industrial/corner{
@@ -1561,6 +2399,10 @@
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
 /area/ruin/jungle/anzu/outside)
+"ru" = (
+/obj/machinery/door/airlock/command,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/hospital)
 "rw" = (
 /obj/structure/sign/departments/engineering{
 	pixel_x = -32
@@ -1599,6 +2441,10 @@
 	},
 /turf/open/floor/plating/dirt/old/lit,
 /area/ruin/jungle/anzu/outside)
+"rC" = (
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/bank)
 "rE" = (
 /obj/structure/platform/ship_four,
 /obj/structure/chair/pew/right{
@@ -1612,8 +2458,10 @@
 	},
 /obj/structure/fluff/anzu/ambulance{
 	dir = 1;
-	pixel_x = 10;
-	pixel_y = 5
+	pixel_x = -6
+	},
+/obj/effect/turf_decal/tiremarks{
+	dir = 4
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
@@ -1625,6 +2473,25 @@
 /obj/structure/reagent_dispensers/plumbed,
 /turf/open/floor/plating/dirt/old/lit,
 /area/ruin/jungle/anzu/outside)
+"rW" = (
+/obj/structure/chair/bench/blue{
+	dir = 8
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
+"rY" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "rZ" = (
 /obj/effect/turf_decal/road{
 	dir = 1
@@ -1641,6 +2508,10 @@
 "sg" = (
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/bank)
+"si" = (
+/obj/effect/decal/cleanable/plastic,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/hospital)
 "sl" = (
 /obj/structure/toilet{
 	dir = 4;
@@ -1649,6 +2520,13 @@
 	},
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/cmm)
+"sm" = (
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 5
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "sn" = (
 /obj/item/shovel{
 	pixel_y = 15
@@ -1658,7 +2536,7 @@
 "sr" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "ss" = (
 /obj/structure/chair/bench/blue{
@@ -1673,6 +2551,13 @@
 /obj/machinery/power/floodlight,
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"sy" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/obj/structure/sign/warning/securearea,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/hospital)
 "sz" = (
 /obj/structure/platform/industrial{
 	dir = 4
@@ -1694,10 +2579,8 @@
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
 "sD" = (
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/structure/cable/orange{
-	icon_state = "2-5"
-	},
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "sF" = (
@@ -1723,12 +2606,43 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"sO" = (
+/obj/structure/sign/warning/hottemp{
+	name = "\improper HIGH AMBIENT HEAT sign";
+	pixel_x = -32
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/corner/opaque/black{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/opaque/blue,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "sR" = (
 /obj/machinery/door/airlock/maintenance{
 	dir = 4
 	},
 /turf/open/floor/concrete/slab_1,
 /area/ruin/jungle/anzu/engineering)
+"sS" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"sV" = (
+/obj/machinery/door/airlock/grunge{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/hospital)
 "sW" = (
 /obj/structure/railing/thin{
 	dir = 8
@@ -1742,14 +2656,12 @@
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/outside)
 "sZ" = (
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/structure/cable/orange{
-	icon_state = "1-2"
+/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer5,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer4{
+	dir = 9
 	},
-/obj/structure/cable/orange{
-	icon_state = "1-8"
-	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/elevatorshaft,
 /area/ruin/jungle/anzu/engineering)
 "td" = (
 /obj/structure/railing,
@@ -1805,7 +2717,10 @@
 /turf/open/floor/plasteel/lightgrey,
 /area/ruin/jungle/anzu/restaurant)
 "tE" = (
-/turf/open/floor/plasteel/lightgrey,
+/obj/effect/turf_decal/trimline/transparent/blue/line,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "tF" = (
 /obj/structure/flora/ausbushes/brflowers{
@@ -1815,6 +2730,10 @@
 	},
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"tI" = (
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/plasteel/freezer,
+/area/ruin/jungle/anzu/hospital)
 "tK" = (
 /obj/machinery/camera{
 	dir = 6;
@@ -1828,6 +2747,15 @@
 /obj/effect/turf_decal/siding/thinplating/light,
 /turf/open/floor/plasteel/lightgrey,
 /area/ruin/jungle/anzu/restaurant)
+"tQ" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black,
+/obj/effect/turf_decal/corner/transparent/blue/mono,
+/obj/machinery/iv_drip{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/jungle/anzu/hospital)
 "tW" = (
 /obj/structure/platform/industrial/corner{
 	dir = 4
@@ -1840,6 +2768,12 @@
 	},
 /turf/open/floor/concrete/slab_1,
 /area/ruin/jungle/anzu/restaurant)
+"uf" = (
+/obj/structure/fluff/anzu/lattice/wires{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/ruin/jungle/anzu/outside)
 "um" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
@@ -1851,6 +2785,13 @@
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"uz" = (
+/obj/machinery/firealarm/directional/south,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "uG" = (
 /obj/effect/turf_decal/road/line,
 /obj/effect/turf_decal/road/stripes{
@@ -1859,10 +2800,36 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"uH" = (
+/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "uI" = (
 /obj/effect/turf_decal/road/line,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
+"uM" = (
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/pump,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/hospital)
+"uP" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "uQ" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -1880,6 +2847,22 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/bank)
+"uW" = (
+/obj/structure/table/optable,
+/obj/effect/turf_decal/corner/transparent/blue/mono,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/jungle/anzu/hospital)
+"uY" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/pod/dark,
+/area/ruin/jungle/anzu/engineering)
+"va" = (
+/obj/structure/table/glass,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
 "ve" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
@@ -1914,6 +2897,17 @@
 /obj/effect/turf_decal/road/line,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"vn" = (
+/obj/structure/table/chem,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "vt" = (
 /obj/structure/table,
 /obj/item/reagent_containers/condiment/saltshaker{
@@ -1934,6 +2928,22 @@
 	},
 /turf/open/floor/concrete/slab_2,
 /area/ruin/jungle/anzu/outside)
+"vD" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 4
+	},
+/obj/structure/fluff{
+	icon = 'icons/obj/hazard/conduit.dmi';
+	icon_state = "conduit";
+	dir = 1;
+	name = "power conduit";
+	desc = "Cheap industrial cable used to transfer large volumes of power.";
+	layer = 2.4;
+	plane = -2;
+	pixel_x = -4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "vL" = (
 /obj/effect/turf_decal/road/line{
 	dir = 4
@@ -1989,11 +2999,32 @@
 /obj/structure/chair/sofa/blue/right,
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/apartments)
+"wk" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/hospital)
 "wm" = (
 /obj/structure/grille,
 /obj/structure/window/fulltile,
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/apartments)
+"wq" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 8
+	},
+/obj/structure/fluff{
+	icon = 'icons/obj/hazard/conduit.dmi';
+	icon_state = "conduit";
+	dir = 1;
+	name = "power conduit";
+	desc = "Cheap industrial cable used to transfer large volumes of power.";
+	layer = 2.4;
+	plane = -2;
+	pixel_x = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "ws" = (
 /obj/machinery/camera{
 	dir = 5;
@@ -2021,11 +3052,20 @@
 	color = "#D2BC9D";
 	dir = 1
 	},
-/turf/open/floor/plasteel/white,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/hospital)
+"wD" = (
+/obj/structure/table/optable,
+/obj/effect/turf_decal/corner/transparent/blue/mono,
+/turf/open/floor/plasteel/mono/white,
 /area/ruin/jungle/anzu/hospital)
 "wK" = (
-/obj/structure/railing{
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
+	},
+/obj/effect/turf_decal/corner/opaque/black{
+	dir = 6
 	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
@@ -2068,20 +3108,52 @@
 	},
 /turf/open/floor/wood/maple,
 /area/ruin/jungle/anzu/gold)
+"wR" = (
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"wY" = (
+/turf/open/floor/concrete/tiles,
+/area/ruin/jungle/anzu/outside)
 "xa" = (
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/checkpoint)
+"xb" = (
+/obj/structure/chair/comfy/blue/directional/west,
+/turf/open/floor/carpet/blue,
+/area/ruin/jungle/anzu/hospital)
 "xc" = (
 /obj/structure/table/wood/fancy/red,
 /turf/open/floor/wood,
 /area/ruin/jungle/anzu/townhall)
 "xk" = (
-/obj/structure/cable/orange{
-	icon_state = "4-8"
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer4{
+	dir = 10
 	},
-/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer5{
+	dir = 10
+	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"xm" = (
+/obj/item/spacecash/bundle/c5{
+	pixel_x = 13;
+	pixel_y = 5;
+	layer = 2.9
+	},
+/obj/machinery/vending/cola/starkist{
+	pixel_y = 12;
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "xn" = (
 /obj/structure/cable/yellow{
 	icon_state = "6-8"
@@ -2092,6 +3164,10 @@
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 4
 	},
+/obj/effect/turf_decal/industrial/fire/corner{
+	dir = 8
+	},
+/obj/machinery/firealarm/directional/west,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "xp" = (
@@ -2099,11 +3175,20 @@
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "xq" = (
-/obj/structure/chair/bench/blue{
+/obj/effect/turf_decal/trimline/transparent/blue/filled/arrow_cw{
 	dir = 8
 	},
-/turf/open/floor/wood/maple,
+/obj/structure/chair/bench/blue{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
+"xv" = (
+/obj/effect/turf_decal/road/line/half{
+	dir = 6
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "xw" = (
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/storage)
@@ -2111,6 +3196,16 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/apartments)
+"xF" = (
+/obj/structure/fence/door{
+	dir = 8
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/hospital)
+"xI" = (
+/obj/structure/fluff/anzu/lattice/inlay/end,
+/turf/closed/wall,
+/area/ruin/jungle/anzu/commercial)
 "xP" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-10"
@@ -2140,6 +3235,16 @@
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"yb" = (
+/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "yd" = (
 /obj/machinery/door/airlock/engineering{
 	dir = 4
@@ -2152,12 +3257,32 @@
 	},
 /turf/open/floor/plating/dirt/old/lit,
 /area/ruin/jungle/anzu/outside)
+"yk" = (
+/obj/structure/table/chem,
+/obj/structure/sink/chem{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "yl" = (
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/commercial)
 "yn" = (
-/obj/structure/chair/bench/blue,
-/turf/open/floor/plasteel/lightgrey,
+/turf/open/floor/plasteel/freezer,
+/area/ruin/jungle/anzu/hospital)
+"yo" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/trimline/transparent/blue/filled/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "yp" = (
 /obj/structure/closet/secure_closet/engineering_welding,
@@ -2212,7 +3337,7 @@
 	color = "#D2BC9D";
 	dir = 8
 	},
-/turf/open/floor/plasteel/lightgrey,
+/turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/hospital)
 "yT" = (
 /obj/structure/table/reinforced,
@@ -2277,9 +3402,6 @@
 	icon = 'icons/obj/stairs.dmi'
 	},
 /area/ruin/jungle/anzu/engineering)
-"zn" = (
-/turf/open/floor/plating/grass/jungle/lit,
-/area/ruin/jungle/anzu/outside)
 "zo" = (
 /obj/effect/turf_decal/road/line,
 /obj/structure/fluff/anzu/small_truck/alt{
@@ -2298,6 +3420,13 @@
 /obj/structure/chair/sofa/purple/corpo/right/directional/west,
 /turf/open/floor/carpet/purple,
 /area/ruin/jungle/anzu/apartments)
+"zu" = (
+/obj/machinery/power/solar/fake,
+/obj/structure/fluff/anzu/lattice/wires{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/outside)
 "zw" = (
 /obj/structure/safe{
 	pixel_x = -6
@@ -2307,24 +3436,54 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/anzu/bank)
+"zx" = (
+/obj/structure/closet/crate/freezer/blood,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/freezer,
+/area/ruin/jungle/anzu/hospital)
 "zB" = (
 /obj/structure/table/reinforced,
-/obj/effect/turf_decal/siding/wood{
-	dir = 8;
-	color = "#D2BC9D"
+/obj/structure/window/reinforced/spawner,
+/obj/item/phone{
+	pixel_x = -3
 	},
-/turf/open/floor/wood/maple,
+/turf/open/floor/plating,
 /area/ruin/jungle/anzu/hospital)
 "zD" = (
-/obj/machinery/vending/coffee,
-/turf/open/floor/plasteel/lightgrey,
+/obj/structure/table/chem,
+/obj/item/reagent_containers/medigel/sterilizine{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 6
+	},
+/turf/open/floor/plasteel/white,
 /area/ruin/jungle/anzu/hospital)
 "zE" = (
-/obj/machinery/microwave{
-	pixel_y = 8
+/obj/structure/table/chem,
+/obj/item/storage/case/surgery{
+	pixel_y = 5
 	},
-/obj/structure/table/wood,
-/turf/open/floor/plasteel/lightgrey,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 5
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
+"zG" = (
+/obj/structure/table,
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/grimy,
 /area/ruin/jungle/anzu/hospital)
 "zI" = (
 /obj/structure/platform/industrial{
@@ -2337,12 +3496,28 @@
 /obj/machinery/power/solar/fake,
 /turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/outside)
+"zN" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/trimline/transparent/blue/line,
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "zO" = (
 /obj/effect/turf_decal/road/stripes{
 	dir = 4
 	},
+/obj/structure/bed/roller{
+	pixel_x = 13;
+	pixel_y = -9
+	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
+"zR" = (
+/obj/effect/turf_decal/road/line/half{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "zT" = (
 /obj/effect/turf_decal/corner/opaque/black/half{
 	dir = 1
@@ -2389,7 +3564,11 @@
 "Ao" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/plasteel/dark,
+/obj/item/paper_bin{
+	pixel_y = 5;
+	pixel_x = 3
+	},
+/turf/open/floor/plating,
 /area/ruin/jungle/anzu/bank)
 "Aq" = (
 /obj/structure/flora/grass/jungle{
@@ -2400,6 +3579,10 @@
 "At" = (
 /obj/machinery/power/rtg/geothermal,
 /obj/effect/turf_decal/industrial/warning/full,
+/obj/structure/railing/thin{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4,
 /turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/engineering)
 "Au" = (
@@ -2412,10 +3595,37 @@
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/wood/maple,
 /area/ruin/jungle/anzu/gold)
+"AD" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 1
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "AE" = (
 /obj/structure/table,
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/cmm)
+"AI" = (
+/obj/effect/turf_decal/industrial/stand_clear/white{
+	color = "#75A2BB";
+	alpha = 180;
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "AK" = (
 /obj/structure/table,
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
@@ -2467,10 +3677,37 @@
 	},
 /turf/open/floor/concrete/slab_2,
 /area/ruin/jungle/anzu/outside)
+"Bl" = (
+/obj/effect/turf_decal/road/line/half{
+	dir = 5
+	},
+/obj/effect/turf_decal/road/stripes{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Bm" = (
 /obj/structure/window/reinforced,
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/cmm)
+"Bq" = (
+/obj/structure/chair/stool/bar{
+	dir = 8;
+	pixel_x = -10
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
+"Br" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "Bt" = (
 /obj/structure/railing/corner/wood{
 	dir = 8
@@ -2494,6 +3731,35 @@
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"Bv" = (
+/obj/structure/table/glass,
+/obj/item/newspaper{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
+"BC" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/industrial/fire/corner{
+	dir = 4
+	},
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 28
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
+"BK" = (
+/obj/structure/closet/crate,
+/obj/effect/turf_decal/trimline/transparent/yellow/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/yellow/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/hospital)
 "BL" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
@@ -2507,15 +3773,32 @@
 	},
 /turf/open/floor/plasteel/lightgrey,
 /area/ruin/jungle/anzu/restaurant)
+"BN" = (
+/obj/structure/railing/thin/corner,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/hospital)
 "BO" = (
 /turf/closed/wall,
 /area/ruin/jungle/anzu/outside)
+"BS" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/hospital)
 "BU" = (
-/obj/machinery/power/rtg/geothermal,
 /obj/effect/turf_decal/industrial/warning/full,
 /obj/effect/decal/cleanable/ash{
 	pixel_x = -8;
 	pixel_y = 3
+	},
+/obj/structure/railing/thin{
+	dir = 5
+	},
+/obj/machinery/power/rtg/geothermal{
+	layer = 3.09
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/engineering)
@@ -2542,6 +3825,15 @@
 /obj/effect/turf_decal/trimline/transparent/blue/corner,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"Ci" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 1
+	},
+/obj/structure/fluff/anzu/small_truck/alt{
+	pixel_x = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Cl" = (
 /obj/effect/turf_decal/road/slow{
 	dir = 1
@@ -2576,10 +3868,28 @@
 	},
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"Cr" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "Cx" = (
 /obj/structure/fence/post,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"CA" = (
+/obj/effect/turf_decal/road/line,
+/obj/structure/closet/crate/large{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "CC" = (
 /obj/effect/turf_decal/tiremarks{
 	dir = 5
@@ -2596,11 +3906,8 @@
 /turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/bank)
 "CH" = (
-/obj/effect/turf_decal/road/line{
-	dir = 4
-	},
-/turf/open/floor/concrete/pavement,
-/area/ruin/jungle/anzu/outside)
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/hospital)
 "CJ" = (
 /obj/structure/sign/warning/securearea{
 	pixel_y = 28
@@ -2614,6 +3921,9 @@
 	},
 /obj/effect/turf_decal/corner/opaque/black/half,
 /obj/effect/turf_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "CP" = (
@@ -2637,10 +3947,33 @@
 /obj/effect/turf_decal/spline/fancy/opaque/black,
 /turf/open/floor/pod/dark,
 /area/ruin/jungle/anzu/bank)
+"CT" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "CX" = (
 /obj/structure/chair/plastic,
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"Da" = (
+/obj/effect/turf_decal/industrial/stand_clear/white{
+	color = "#75A2BB";
+	alpha = 180;
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "Dd" = (
 /obj/structure/flora/ausbushes/brflowers{
 	icon_state = "brflowers_2";
@@ -2670,6 +4003,22 @@
 	},
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"Do" = (
+/obj/effect/turf_decal/road/line/half{
+	dir = 10
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"Dp" = (
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "Dt" = (
 /turf/open/floor/plasteel/mono,
 /area/ruin/jungle/anzu/restaurant)
@@ -2685,7 +4034,14 @@
 	pixel_y = 8;
 	pixel_x = 2
 	},
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
+"Dy" = (
+/obj/structure/chair/bench/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/grimy,
 /area/ruin/jungle/anzu/hospital)
 "DE" = (
 /obj/structure/chair/bench/blue{
@@ -2740,11 +4096,36 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/bank)
+"DY" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "DZ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"Eb" = (
+/obj/effect/turf_decal/corner/opaque/black/half,
+/obj/effect/turf_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
+"Ee" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/spawner/west,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "Ef" = (
 /obj/machinery/camera{
 	network = list("colonybank");
@@ -2752,11 +4133,24 @@
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/bank)
-"Em" = (
-/obj/structure/curtain{
-	pixel_x = 28
+"Eh" = (
+/obj/structure/chair/stool/bar{
+	dir = 8;
+	pixel_x = -10
 	},
-/turf/open/floor/plasteel/lightgrey,
+/obj/machinery/light/directional/north,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
+"Em" = (
+/obj/structure/table/chem,
+/obj/structure/sink/chem{
+	dir = 8
+	},
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
 /area/ruin/jungle/anzu/hospital)
 "En" = (
 /obj/structure/table/glass,
@@ -2797,12 +4191,35 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/bank)
-"EN" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 10;
-	color = "#D2BC9D"
+"EH" = (
+/obj/structure/closet/secure_closet/medical3,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
 	},
-/turf/open/floor/wood/maple,
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"EL" = (
+/obj/effect/mapping_helpers/airlock/unres,
+/obj/machinery/door/airlock/maintenance/external{
+	name = "external fire door"
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
+"EM" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/blue,
+/area/ruin/jungle/anzu/hospital)
+"EN" = (
+/obj/effect/turf_decal/siding/thinplating/dark/end{
+	dir = 8
+	},
+/obj/structure/closet/crate/bin,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "EP" = (
 /obj/structure/railing{
@@ -2851,18 +4268,28 @@
 "Ff" = (
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/cmm)
+"Fp" = (
+/obj/machinery/door/airlock/maintenance/external{
+	name = "external fire door"
+	},
+/obj/effect/mapping_helpers/airlock/unres,
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/hospital)
 "Fs" = (
-/obj/structure/chair/bench/blue{
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 4
 	},
-/turf/open/floor/wood/maple,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "Fu" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1;
-	color = "#D2BC9D"
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
 	},
-/turf/open/floor/wood/maple,
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "Fv" = (
 /obj/machinery/smartfridge,
@@ -2903,6 +4330,13 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/anzu/bank)
+"FN" = (
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "FP" = (
 /obj/structure/fence{
 	dir = 4
@@ -2960,6 +4394,29 @@
 "Gf" = (
 /turf/open/floor/pod/dark,
 /area/ruin/jungle/anzu/engineering)
+"Gg" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/arrow_ccw{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"Gh" = (
+/obj/structure/closet/secure_closet/medical3,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "Gl" = (
 /obj/machinery/door/airlock/wood{
 	dir = 4;
@@ -2985,6 +4442,19 @@
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
 /area/ruin/jungle/anzu/outside)
+"Gw" = (
+/obj/structure/closet/wall/directional/west,
+/obj/item/tank/internals/anesthetic,
+/obj/item/clothing/mask/breath/medical,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "Gx" = (
 /obj/structure/platform/industrial{
 	dir = 10
@@ -2995,11 +4465,43 @@
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/open/floor/plasteel/freezer,
 /area/ruin/jungle/anzu/restaurant)
-"GJ" = (
-/obj/structure/cable/orange{
-	icon_state = "8-10"
+"GD" = (
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 9
 	},
-/obj/structure/catwalk/over,
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
+"GE" = (
+/obj/structure/railing/corner,
+/turf/open/floor/concrete/tiles,
+/area/ruin/jungle/anzu/outside)
+"GG" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/arrow_cw{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"GI" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 1
+	},
+/area/ruin/jungle/anzu/hospital)
+"GJ" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer2{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1{
+	dir = 6
+	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "GK" = (
@@ -3011,6 +4513,44 @@
 	},
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/farm)
+"GP" = (
+/obj/effect/turf_decal/industrial/fire{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"GQ" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 1
+	},
+/obj/machinery/door/airlock/public/glass{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/hospital)
+"GT" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/door/window/brigdoor/eastleft,
+/obj/effect/turf_decal/trimline/transparent/blue/filled/warning{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "GU" = (
 /obj/structure/platform/ship/corner{
 	dir = 1
@@ -3031,8 +4571,13 @@
 /turf/open/floor/plasteel/lightgrey,
 /area/ruin/jungle/anzu/restaurant)
 "Hc" = (
-/obj/structure/table,
-/turf/open/floor/plasteel/lightgrey,
+/obj/machinery/firealarm/directional/west,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white/corner,
+/obj/effect/turf_decal/siding/white{
+	dir = 9
+	},
+/turf/open/floor/plasteel/white,
 /area/ruin/jungle/anzu/hospital)
 "Hf" = (
 /obj/structure/bed/double{
@@ -3043,12 +4588,19 @@
 	},
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/apartments)
-"Hv" = (
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/structure/cable/orange{
-	icon_state = "2-9"
+"Hs" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
 	},
-/turf/open/floor/plating,
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 8
+	},
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"Hv" = (
+/obj/structure/catwalk/over,
+/turf/open/floor/plasteel/elevatorshaft,
 /area/ruin/jungle/anzu/engineering)
 "Hw" = (
 /obj/structure/railing/thin{
@@ -3061,16 +4613,36 @@
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/cmm)
 "HC" = (
-/obj/structure/sign/warning/hottemp{
-	name = "\improper HIGH AMBIENT HEAT sign";
-	pixel_x = -32
+/obj/effect/turf_decal/corner/opaque/black{
+	dir = 6
 	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
-"HJ" = (
-/obj/structure/sign/departments/medbay,
-/turf/closed/wall,
+"HF" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/trimline/transparent/blue/line,
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
+"HH" = (
+/obj/machinery/firealarm/directional/east,
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"HJ" = (
+/obj/structure/sign/departments/medbay/alt{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/ruin/jungle/anzu/outside)
 "HN" = (
 /obj/effect/turf_decal/road/line{
 	dir = 1
@@ -3104,6 +4676,17 @@
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"HT" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor/eastright,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/hospital)
+"HW" = (
+/obj/structure/fluff/anzu/lattice/pipe/end{
+	dir = 4
+	},
+/turf/closed/wall,
+/area/ruin/jungle/anzu/bank)
 "HZ" = (
 /obj/structure/flora/ausbushes/brflowers{
 	pixel_x = 2
@@ -3120,6 +4703,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"Ie" = (
+/obj/effect/turf_decal/corner/transparent/blue/mono,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/jungle/anzu/hospital)
 "Ij" = (
 /obj/structure/platform/ship_four/corner{
 	dir = 4
@@ -3138,6 +4725,10 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"Io" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/hospital)
 "Iq" = (
 /obj/structure/sign/warning/securearea{
 	pixel_x = 28;
@@ -3168,6 +4759,7 @@
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/engineering)
 "Iv" = (
@@ -3176,6 +4768,12 @@
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /turf/open/floor/plasteel/lightgrey,
 /area/ruin/jungle/anzu/restaurant)
+"Ix" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/trimline/transparent/blue/line,
+/obj/machinery/light/directional/south,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "Iy" = (
 /obj/structure/rack,
 /turf/open/floor/pod/dark,
@@ -3192,12 +4790,26 @@
 "ID" = (
 /turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/engineering)
+"II" = (
+/obj/structure/railing/thin{
+	dir = 8
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/hospital)
 "IJ" = (
 /obj/effect/turf_decal/road{
 	dir = 4
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"IO" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/turf_decal/trimline/transparent/blue/line,
+/obj/machinery/door/airlock/public/glass{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/hospital)
 "IQ" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
@@ -3208,6 +4820,9 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/structure/fluff/anzu/lattice/wires{
+	dir = 4
+	},
 /turf/open/floor/plating/dirt/old/lit,
 /area/ruin/jungle/anzu/outside)
 "IR" = (
@@ -3217,6 +4832,15 @@
 /obj/structure/table/wood/reinforced,
 /turf/open/floor/wood/maple,
 /area/ruin/jungle/anzu/gold)
+"IT" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 8
+	},
+/obj/effect/turf_decal/road{
+	dir = 4
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "IU" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -3255,10 +4879,47 @@
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /turf/open/floor/plasteel/lightgrey,
 /area/ruin/jungle/anzu/restaurant)
+"Jg" = (
+/obj/structure/fluff/anzu/lattice/inlay/end{
+	dir = 1
+	},
+/turf/closed/wall,
+/area/ruin/jungle/anzu/bank)
 "Jh" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/engineering)
+"Ji" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 8
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
+"Jj" = (
+/obj/structure/table/chem,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 6
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
+"Jk" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"Jn" = (
+/obj/machinery/firealarm/directional/east,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "Jv" = (
 /obj/machinery/vending/coffee{
 	pixel_y = 12
@@ -3270,6 +4931,29 @@
 /obj/effect/spawner/bunk_bed,
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/cmm)
+"Jy" = (
+/obj/effect/turf_decal/trimline/transparent/yellow/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/yellow/line{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/south,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/hospital)
+"Jz" = (
+/obj/structure/catwalk/over,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
+"JA" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "JC" = (
 /obj/effect/turf_decal/trimline/transparent/blue/filled/line{
 	dir = 4
@@ -3292,6 +4976,28 @@
 	},
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/apartments)
+"JP" = (
+/obj/structure/fluff/anzu/lattice/wires/end{
+	dir = 4
+	},
+/turf/closed/wall,
+/area/ruin/jungle/anzu/outside)
+"JR" = (
+/obj/structure/fluff/anzu/lattice/inlay,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"JT" = (
+/obj/machinery/defibrillator_mount/charging{
+	pixel_y = -25
+	},
+/obj/item/defibrillator/loaded,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/white,
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "JV" = (
 /obj/structure/flora/tree/jungle/small{
 	icon_state = "tree4";
@@ -3299,10 +5005,26 @@
 	},
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"JW" = (
+/obj/structure/fluff/hedge,
+/obj/structure/window/spawner/west,
+/obj/structure/window/spawner/east,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/hospital)
+"JY" = (
+/obj/effect/turf_decal/road/stop{
+	dir = 1
+	},
+/obj/effect/turf_decal/road/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/road/stripes,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Kk" = (
 /obj/effect/turf_decal/road/line,
 /obj/structure/railing/thin{
-	layer = 4.1
+	layer = 4
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
@@ -3320,10 +5042,50 @@
 /obj/structure/window/fulltile,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/hospital)
+"Kv" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"KB" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"KE" = (
+/obj/effect/turf_decal/industrial/fire{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "KI" = (
 /obj/mecha/working/ripley,
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/storage)
+"KN" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 8
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"KO" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "KP" = (
 /obj/structure/fluff{
 	name = "storage crate";
@@ -3340,19 +5102,11 @@
 	integrity_failure = 0.25;
 	icon = 'icons/obj/crates.dmi';
 	icon_state = "crate";
-	pixel_x = 2;
-	pixel_y = -4
-	},
-/obj/structure/fluff{
-	name = "storage crate";
-	max_integrity = 200;
-	integrity_failure = 0.25;
-	icon = 'icons/obj/crates.dmi';
-	icon_state = "crate";
 	pixel_y = 25;
 	pixel_x = -7
 	},
 /obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/structure/closet/crate,
 /turf/open/floor/plating/dirt/old/lit,
 /area/ruin/jungle/anzu/outside)
 "KQ" = (
@@ -3373,8 +5127,12 @@
 	pixel_x = 6;
 	pixel_y = 5
 	},
+/obj/machinery/firealarm/directional/south,
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/bank)
+"KW" = (
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "Lh" = (
 /obj/effect/turf_decal/road{
 	dir = 4
@@ -3397,6 +5155,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"Li" = (
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/white,
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "Lj" = (
 /obj/structure/railing/thin,
 /obj/structure/flora/tree/jungle/small{
@@ -3406,6 +5172,28 @@
 	},
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"Lk" = (
+/obj/structure/table/chem,
+/obj/item/storage/case/surgery{
+	pixel_y = 5;
+	pixel_x = -2
+	},
+/obj/item/reagent_containers/medigel/sterilizine{
+	pixel_x = -6
+	},
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/white/corner,
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
+"Ll" = (
+/obj/structure/railing/thin{
+	dir = 6
+	},
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/hospital)
 "Lm" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -3416,8 +5204,19 @@
 	pixel_y = 5
 	},
 /obj/effect/turf_decal/siding/thinplating/dark,
+/obj/machinery/computer/security/telescreen{
+	dir = 1;
+	pixel_y = -28
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/bank)
+"Ln" = (
+/obj/effect/turf_decal/road/line/half,
+/obj/effect/turf_decal/road/stripes{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Lq" = (
 /obj/structure/chair/bench/blue,
 /turf/open/floor/concrete,
@@ -3440,6 +5239,24 @@
 /obj/structure/chair/pew,
 /turf/open/floor/plating/dirt/old/lit,
 /area/ruin/jungle/anzu/outside)
+"LE" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/directional/west,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"LF" = (
+/obj/structure/fluff/anzu/lattice/pipe,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/ruin/jungle/anzu/outside)
+"LK" = (
+/obj/effect/turf_decal/trimline/transparent/blue/filled/arrow_cw{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "Mb" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -3447,11 +5264,16 @@
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
 "Md" = (
-/obj/effect/turf_decal/road{
-	dir = 4
+/obj/structure/sign/departments/examroom{
+	pixel_x = -32
 	},
-/obj/structure/bed/roller,
-/turf/open/floor/concrete/pavement,
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "Mf" = (
 /obj/structure/chair/office,
@@ -3492,10 +5314,28 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/engineering)
+"Mv" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line,
+/obj/effect/turf_decal/trimline/transparent/blue/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "Mx" = (
 /obj/machinery/door/airlock/grunge,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/bank)
@@ -3514,14 +5354,14 @@
 	icon_state = "privatecrateopen";
 	pixel_x = 1;
 	pixel_y = 12;
-	layer = 3;
+	layer = 3.1;
 	desc = "A crate cover designed to only open for who purchased its contents. This one has been broken open."
 	},
-/obj/item/spacecash/bundle/loadsamoney{
-	pixel_x = -4;
-	pixel_y = 16
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/spacecash/bundle/loadsamoney{
+	pixel_y = -6;
+	pixel_x = -6
+	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
 "ME" = (
@@ -3553,10 +5393,15 @@
 /turf/open/floor/engine/hull/interior,
 /area/ruin/jungle/anzu/engineering)
 "MI" = (
-/obj/effect/turf_decal/siding/wood{
-	color = "#D2BC9D"
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 4
 	},
-/turf/open/floor/wood/maple,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "MJ" = (
 /obj/structure/platform/industrial/corner,
@@ -3604,7 +5449,7 @@
 	dir = 1
 	},
 /obj/structure/railing/thin{
-	layer = 4.1
+	layer = 4
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
@@ -3614,12 +5459,27 @@
 	},
 /turf/open/floor/plasteel/mono,
 /area/ruin/jungle/anzu/restaurant)
+"Nh" = (
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer4,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "No" = (
 /obj/structure/railing/corner{
 	dir = 4
 	},
 /turf/open/floor/concrete/reinforced/jungleplanet,
 /area/ruin/jungle/anzu/outside)
+"Nq" = (
+/obj/machinery/firealarm/directional/west,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "Nw" = (
 /obj/structure/chair/stool{
 	dir = 4;
@@ -3628,16 +5488,44 @@
 	},
 /turf/open/floor/pod/dark,
 /area/ruin/jungle/anzu/engineering)
+"Nx" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "Nz" = (
 /turf/closed/wall,
 /area/ruin/jungle/anzu/apartments)
 "NA" = (
-/obj/structure/railing,
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 4
 	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/corner/opaque/black{
+	dir = 10
+	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"NH" = (
+/obj/structure/table/reinforced,
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/engineering)
+"NK" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/jungle/anzu/hospital)
+"NS" = (
+/turf/open/floor/carpet/blue,
+/area/ruin/jungle/anzu/hospital)
 "NX" = (
 /obj/structure/railing/thick{
 	dir = 9;
@@ -3656,6 +5544,21 @@
 	},
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"Oe" = (
+/obj/effect/turf_decal/corner/opaque/black{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "Of" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 20
@@ -3668,6 +5571,48 @@
 	icon_state = "pavement"
 	},
 /area/ruin/jungle/anzu/hospital)
+"Ol" = (
+/obj/structure/railing/thin,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/hospital)
+"Om" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_y = 6;
+	pixel_x = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/engineering)
+"Oo" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/ruin/jungle/anzu/outside)
+"Or" = (
+/obj/machinery/computer/operating{
+	dir = 8;
+	pixel_x = 6
+	},
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 6
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
+"Ou" = (
+/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer5{
+	dir = 9
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/ruin/jungle/anzu/engineering)
+"Oy" = (
+/obj/machinery/door/airlock/medical{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned,
+/area/ruin/jungle/anzu/hospital)
 "OB" = (
 /turf/open/floor/plasteel/stairs{
 	icon = 'icons/obj/stairs.dmi';
@@ -3679,6 +5624,7 @@
 	dir = 1
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/firealarm/directional/west,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "OG" = (
@@ -3698,6 +5644,19 @@
 /obj/structure/platform/industrial,
 /turf/open/floor/concrete/reinforced/jungleplanet,
 /area/ruin/jungle/anzu/outside)
+"OP" = (
+/obj/structure/platform/industrial{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
+"OQ" = (
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "OS" = (
 /obj/effect/turf_decal/corner/opaque/black/half,
 /obj/effect/turf_decal/industrial/warning,
@@ -3727,21 +5686,34 @@
 /obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"Pc" = (
+/obj/effect/turf_decal/road/stop{
+	dir = 4
+	},
+/obj/effect/turf_decal/road/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/road/stripes{
+	dir = 8
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Pe" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/siding/thinplating/dark,
-/obj/machinery/computer/security/telescreen{
-	dir = 1;
-	pixel_y = -28
-	},
 /obj/machinery/light/directional/south,
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/bank)
+"Pf" = (
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
 "Pj" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer4,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "Pl" = (
@@ -3760,12 +5732,41 @@
 	},
 /turf/open/floor/plasteel/lightgrey,
 /area/ruin/jungle/anzu/restaurant)
+"Pz" = (
+/obj/structure/table/wood/reinforced,
+/turf/open/floor/carpet/blue,
+/area/ruin/jungle/anzu/hospital)
 "PD" = (
 /obj/structure/railing/wood{
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/old/lit,
 /area/ruin/jungle/anzu/outside)
+"PE" = (
+/obj/machinery/vending/wallmed{
+	name = "\improper ColonyMed";
+	desc = "A vending machine filled with medical supplies, provided to you free of charge by the Anzu Colony Hospital.";
+	pixel_y = 28
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"PH" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "PK" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/directional/west,
@@ -3775,9 +5776,25 @@
 /obj/structure/platform/industrial/corner,
 /turf/open/floor/concrete/reinforced/jungleplanet,
 /area/ruin/jungle/anzu/outside)
+"PS" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "PT" = (
 /turf/template_noop,
 /area/ruin/jungle/anzu/outside)
+"PV" = (
+/obj/structure/sink{
+	pixel_y = 26
+	},
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 9
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "PW" = (
 /obj/effect/turf_decal/trimline/transparent/blue/filled/line{
 	dir = 1
@@ -3790,6 +5807,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/bank)
+"Qa" = (
+/obj/structure/fluff/anzu/lattice/inlay/end{
+	dir = 1
+	},
+/turf/closed/wall,
+/area/ruin/jungle/anzu/engineering)
 "Qc" = (
 /obj/machinery/computer/monitor{
 	dir = 4;
@@ -3810,6 +5833,25 @@
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /turf/open/floor/plasteel/lightgrey,
 /area/ruin/jungle/anzu/restaurant)
+"Qj" = (
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
+"Qk" = (
+/obj/effect/turf_decal/corner/opaque/black{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer5,
+/obj/effect/turf_decal/corner/opaque/orange,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "Ql" = (
 /obj/effect/turf_decal/techfloor,
 /turf/open/floor/plasteel/tech/grid,
@@ -3825,6 +5867,12 @@
 	},
 /turf/open/floor/concrete/slab_4,
 /area/ruin/jungle/anzu/apartments)
+"Qr" = (
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "Qt" = (
 /obj/structure/fence{
 	dir = 4
@@ -3835,6 +5883,14 @@
 /obj/structure/table,
 /turf/open/floor/carpet/purple,
 /area/ruin/jungle/anzu/apartments)
+"Qx" = (
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "Qz" = (
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/farm)
@@ -3873,6 +5929,16 @@
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"QL" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/structure/sign/poster/clip/serene{
+	pixel_x = 32
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "QQ" = (
 /obj/structure/table/wood/reinforced,
 /obj/machinery/microwave{
@@ -3887,6 +5953,15 @@
 	},
 /turf/open/floor/plasteel/lightgrey,
 /area/ruin/jungle/anzu/restaurant)
+"Rc" = (
+/obj/structure/platform/ship{
+	dir = 9
+	},
+/obj/structure/railing/thick/corner{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/outside)
 "Rp" = (
 /obj/structure/grille,
 /obj/structure/window/fulltile,
@@ -3908,6 +5983,29 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/anzu/bank)
+"Rw" = (
+/obj/structure/fluff/anzu/lattice/wires{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt/old/lit,
+/area/ruin/jungle/anzu/outside)
+"Rx" = (
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
+"Ry" = (
+/obj/effect/turf_decal/road/line/half,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"Rz" = (
+/obj/effect/turf_decal/industrial/warning/fulltile,
+/obj/machinery/power/smes,
+/turf/open/floor/engine/hull/interior,
+/area/ruin/jungle/anzu/engineering)
 "RD" = (
 /obj/structure/cable/yellow{
 	icon_state = "5-8"
@@ -3929,15 +6027,37 @@
 /turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/engineering)
 "RI" = (
-/obj/effect/turf_decal/siding/wood/corner{
-	color = "#D2BC9D"
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
 	},
-/turf/open/floor/wood/maple,
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "RL" = (
 /obj/structure/railing/thin,
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/apartments)
+"RT" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"RX" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/transparent/blue/mono,
+/obj/machinery/iv_drip,
+/turf/open/floor/plasteel/mono/white,
+/area/ruin/jungle/anzu/hospital)
 "RY" = (
 /obj/item/clothing/head/cone{
 	pixel_y = -8;
@@ -3950,6 +6070,21 @@
 /obj/structure/chair/sofa/purple/corpo/corner/directional/west,
 /turf/open/floor/carpet/purple,
 /area/ruin/jungle/anzu/apartments)
+"Sc" = (
+/obj/structure/chair/bench/blue{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
+"Sd" = (
+/obj/structure/chair/bench/blue{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/directional/west,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
 "Se" = (
 /turf/open/floor/wood/maple,
 /area/ruin/jungle/anzu/gold)
@@ -3966,8 +6101,16 @@
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
 "Sm" = (
-/obj/structure/bed/roller,
-/turf/open/floor/plasteel/lightgrey,
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = -12;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/turf/open/floor/plasteel/white,
 /area/ruin/jungle/anzu/hospital)
 "Sq" = (
 /obj/structure/urinal{
@@ -3980,15 +6123,6 @@
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "St" = (
-/obj/structure/fluff{
-	icon = 'icons/obj/hazard/conduit.dmi';
-	icon_state = "conduit";
-	dir = 1;
-	name = "power conduit";
-	desc = "Cheap industrial cable used to transfer large volumes of power.";
-	layer = 2.4;
-	plane = -2
-	},
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 4
 	},
@@ -3997,6 +6131,22 @@
 /area/ruin/jungle/anzu/engineering)
 "SB" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/jungle/anzu/outside)
+"SE" = (
+/obj/machinery/firealarm/directional/north,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"SP" = (
+/obj/effect/turf_decal/trimline/transparent/blue/corner,
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"SQ" = (
+/obj/structure/fluff/anzu/exhaust,
+/turf/open/floor/concrete/tiles,
 /area/ruin/jungle/anzu/outside)
 "ST" = (
 /turf/closed/wall,
@@ -4007,6 +6157,13 @@
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"SW" = (
+/obj/structure/reagent_dispensers/watertank,
+/obj/effect/turf_decal/trimline/transparent/yellow/end{
+	dir = 1
+	},
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/hospital)
 "SX" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/hazard/conduit.dmi';
@@ -4015,7 +6172,8 @@
 	name = "power conduit";
 	desc = "Cheap industrial cable used to transfer large volumes of power.";
 	layer = 2.4;
-	plane = -2
+	plane = -2;
+	pixel_x = -4
 	},
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 4
@@ -4043,6 +6201,18 @@
 "Tk" = (
 /turf/open/floor/concrete/slab_4,
 /area/ruin/jungle/anzu/hospital)
+"Tm" = (
+/obj/machinery/defibrillator_mount/charging{
+	pixel_y = -25
+	},
+/obj/item/defibrillator/loaded,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "To" = (
 /obj/effect/turf_decal/road/line{
 	dir = 8
@@ -4057,13 +6227,19 @@
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/checkpoint)
 "Tr" = (
-/obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/item/analyzer{
 	pixel_x = 13;
 	pixel_y = 6
 	},
-/turf/open/floor/plating,
+/obj/structure/catwalk/over,
+/turf/open/floor/plasteel/elevatorshaft,
 /area/ruin/jungle/anzu/engineering)
+"Ts" = (
+/obj/structure/sign/poster/clip/lanchester{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
 "Tu" = (
 /obj/structure/railing/thick{
 	dir = 8
@@ -4092,17 +6268,42 @@
 	},
 /turf/open/floor/plating/dirt/old/lit,
 /area/ruin/jungle/anzu/outside)
+"TG" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/fire{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "TK" = (
-/obj/structure/curtain{
-	pixel_y = -28
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
 	},
-/obj/structure/table/glass,
-/obj/item/clothing/suit/apron/surgical{
-	pixel_x = -3;
-	pixel_y = 6
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 4
 	},
-/turf/open/floor/plasteel/lightgrey,
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
+"TL" = (
+/obj/structure/closet/crate,
+/obj/effect/turf_decal/trimline/transparent/yellow/end{
+	dir = 1
+	},
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/hospital)
+"TM" = (
+/obj/machinery/power/rtg/geothermal,
+/obj/effect/turf_decal/industrial/warning/full,
+/obj/structure/railing/thin{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ruin/jungle/anzu/engineering)
 "TO" = (
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
@@ -4113,7 +6314,14 @@
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 8
 	},
-/turf/open/floor/plating,
+/obj/structure/reagent_dispensers/plumbed,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/pod/dark,
 /area/ruin/jungle/anzu/engineering)
 "TT" = (
 /obj/machinery/door/airlock/engineering/glass{
@@ -4130,9 +6338,21 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"TV" = (
+/obj/structure/chair/bench/blue,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
 "Uf" = (
 /turf/template_noop,
 /area/template_noop)
+"Uj" = (
+/obj/structure/fence/post{
+	dir = 4
+	},
+/obj/structure/fence,
+/turf/open/floor/concrete/slab_2,
+/area/ruin/jungle/anzu/hospital)
 "Ul" = (
 /obj/structure/platform/ship_four/corner{
 	dir = 1
@@ -4144,6 +6364,14 @@
 /area/ruin/jungle/anzu/outside)
 "Un" = (
 /turf/open/floor/plating/dirt/old/lit,
+/area/ruin/jungle/anzu/outside)
+"Uz" = (
+/obj/effect/turf_decal/road/stop,
+/obj/effect/turf_decal/road/line,
+/obj/effect/turf_decal/road/stripes{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
 "UC" = (
 /obj/effect/turf_decal/road/edge{
@@ -4191,26 +6419,44 @@
 /area/ruin/jungle/anzu/storage)
 "Vg" = (
 /turf/open/floor/plating/grass/jungle/lit,
-/turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
 "Vh" = (
-/obj/structure/cable/orange{
-	icon_state = "2-5"
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2{
+	dir = 4
 	},
-/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer5,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"Vm" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/directional/east,
+/turf/open/floor/carpet/blue,
+/area/ruin/jungle/anzu/hospital)
 "Vn" = (
 /obj/machinery/door/airlock/medical/glass,
 /obj/effect/turf_decal/siding/wood/corner{
 	color = "#D2BC9D"
 	},
-/turf/open/floor/plasteel/lightgrey,
+/turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/hospital)
 "Vv" = (
 /obj/effect/turf_decal/road/edge,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"Vw" = (
+/obj/structure/closet/wall/directional/east,
+/obj/item/tank/internals/anesthetic,
+/obj/item/clothing/mask/breath/medical,
+/obj/effect/turf_decal/corner/transparent/blue/diagonal,
+/obj/effect/turf_decal/siding/white{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/jungle/anzu/hospital)
 "Vy" = (
 /obj/structure/fluff{
 	icon = 'icons/obj/hazard/conduit.dmi';
@@ -4219,7 +6465,8 @@
 	name = "power conduit";
 	desc = "Cheap industrial cable used to transfer large volumes of power.";
 	layer = 2.4;
-	plane = -2
+	plane = -2;
+	pixel_x = 4
 	},
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 8
@@ -4233,6 +6480,7 @@
 /obj/effect/turf_decal/techfloor{
 	dir = 10
 	},
+/obj/machinery/firealarm/directional/west,
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/anzu/bank)
 "VG" = (
@@ -4242,10 +6490,6 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/engineering)
-"VM" = (
-/turf/closed/wall,
-/turf/open/floor/plating/grass/jungle/lit,
-/area/ruin/jungle/anzu/cmm)
 "VN" = (
 /obj/effect/turf_decal/road/edge{
 	dir = 8
@@ -4261,14 +6505,39 @@
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "VV" = (
+/obj/effect/turf_decal/road/line/half{
+	dir = 8
+	},
+/obj/effect/turf_decal/road/stripes{
+	dir = 4
+	},
 /obj/effect/turf_decal/road{
 	dir = 4
 	},
-/obj/effect/turf_decal/road/line{
-	dir = 8
-	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"VW" = (
+/obj/effect/turf_decal/trimline/transparent/blue/warning{
+	dir = 5
+	},
+/obj/effect/turf_decal/industrial/fire{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"Wb" = (
+/obj/machinery/light/directional/west,
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "Wc" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/concrete,
@@ -4285,11 +6554,19 @@
 	},
 /turf/open/floor/pod/dark,
 /area/ruin/jungle/anzu/engineering)
+"Wq" = (
+/obj/effect/turf_decal/road/line,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "Wr" = (
 /obj/structure/fence/end{
 	dir = 4
 	},
 /turf/open/floor/concrete/slab_4,
+/area/ruin/jungle/anzu/hospital)
+"Wu" = (
+/obj/structure/railing/corner,
+/turf/open/floor/concrete,
 /area/ruin/jungle/anzu/hospital)
 "Wz" = (
 /obj/structure/table/wood/reinforced,
@@ -4299,6 +6576,12 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/jungle/anzu/townhall)
+"WA" = (
+/obj/structure/fluff/anzu/lattice/pipe{
+	dir = 4
+	},
+/turf/open/floor/plating/grass/jungle/lit,
+/area/ruin/jungle/anzu/outside)
 "WB" = (
 /obj/structure/filingcabinet/double{
 	pixel_y = 10;
@@ -4309,7 +6592,7 @@
 "WC" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/northright,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/ruin/jungle/anzu/bank)
 "WD" = (
 /obj/structure/chair/sofa/purple/corpo/directional/north,
@@ -4321,7 +6604,14 @@
 	},
 /obj/structure/closet/crate/trashcart{
 	pixel_y = 24;
-	pixel_x = 3
+	pixel_x = 3;
+	layer = 3.5
+	},
+/obj/structure/sign/departments/medbay/alt{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/corner{
+	dir = 1
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
@@ -4332,15 +6622,56 @@
 /turf/open/floor/wood/maple,
 /area/ruin/jungle/anzu/gold)
 "WK" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 4;
-	color = "#D2BC9D"
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
 	},
-/turf/open/floor/wood/maple,
+/obj/machinery/light/directional/east,
+/turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
+"WM" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/filled/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"WN" = (
+/obj/effect/turf_decal/corner/opaque/black{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
+"WP" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/structure/fluff/anzu/lattice/wires{
+	dir = 4
+	},
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/ruin/jungle/anzu/outside)
 "WQ" = (
 /obj/machinery/door/airlock/grunge,
-/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/bank)
 "WS" = (
@@ -4358,6 +6689,12 @@
 	},
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"WY" = (
+/obj/structure/fluff/anzu/lattice/pipe/end{
+	dir = 1
+	},
+/turf/closed/wall,
+/area/ruin/jungle/anzu/engineering)
 "Xb" = (
 /turf/open/floor/concrete/slab_4,
 /area/ruin/jungle/anzu/restaurant)
@@ -4368,6 +6705,23 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
+"Xd" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
+"Xf" = (
+/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1{
+	dir = 5
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/ruin/jungle/anzu/engineering)
 "Xh" = (
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 4
@@ -4378,17 +6732,34 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
 	},
-/obj/structure/sign/warning/electricshock{
-	pixel_y = 26
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
+"Xi" = (
+/obj/effect/turf_decal/corner/opaque/black,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer2,
+/obj/effect/turf_decal/corner/opaque/orange{
+	dir = 8
 	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "Xj" = (
-/obj/structure/railing{
-	dir = 8
-	},
 /obj/effect/turf_decal/trimline/transparent/blue/warning{
 	dir = 1
+	},
+/obj/effect/turf_decal/corner/opaque/black{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4,
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/opaque/blue{
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
@@ -4434,6 +6805,10 @@
 "Xz" = (
 /turf/open/floor/concrete/reinforced/jungleplanet,
 /area/ruin/jungle/anzu/outside)
+"XB" = (
+/obj/structure/fluff/anzu/lattice/inlay/end,
+/turf/closed/wall,
+/area/ruin/jungle/anzu/hospital)
 "XE" = (
 /obj/structure/chair/bench/blue{
 	dir = 8
@@ -4453,6 +6828,16 @@
 "XK" = (
 /turf/closed/wall,
 /area/ruin/jungle/anzu/bank)
+"XP" = (
+/obj/effect/turf_decal/trimline/transparent/blue/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/ruin/jungle/anzu/hospital)
 "XQ" = (
 /obj/structure/railing/corner/wood{
 	dir = 1
@@ -4472,11 +6857,26 @@
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
 "Yb" = (
-/obj/machinery/power/smes,
-/obj/structure/cable/orange{
-	icon_state = "0-10"
-	},
 /obj/effect/turf_decal/industrial/warning/fulltile,
+/obj/structure/fluff/anzu/boiler,
+/obj/structure/fluff{
+	icon = 'icons/obj/hazard/conduit.dmi';
+	icon_state = "conduit";
+	dir = 1;
+	name = "power conduit";
+	desc = "Cheap industrial cable used to transfer large volumes of power.";
+	layer = 2.4;
+	plane = -2;
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2,
 /turf/open/floor/engine/hull/interior,
 /area/ruin/jungle/anzu/engineering)
 "Yd" = (
@@ -4488,6 +6888,15 @@
 	dir = 1
 	},
 /area/ruin/jungle/anzu/apartments)
+"Yg" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/fluff/steam_vent{
+	pixel_x = -4
+	},
+/turf/open/floor/concrete/tiles,
+/area/ruin/jungle/anzu/outside)
 "Yh" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/north,
@@ -4497,18 +6906,17 @@
 	pixel_x = -2;
 	id = "bank_ticket"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/ruin/jungle/anzu/bank)
 "Yj" = (
-/obj/structure/railing/corner{
-	dir = 4
-	},
 /obj/machinery/light/floor,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 5
+	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "Yr" = (
 /obj/effect/turf_decal/road/slow,
-/obj/effect/turf_decal/road/line,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
 "Yu" = (
@@ -4534,6 +6942,16 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/bank)
+"YU" = (
+/obj/structure/catwalk/over,
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/plating,
+/area/ruin/jungle/anzu/engineering)
 "YX" = (
 /obj/effect/turf_decal/spline/fancy/opaque/black/corner{
 	dir = 8
@@ -4563,8 +6981,24 @@
 	},
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/storage)
+"Ze" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/turf/broken,
+/obj/structure/fluff/anzu/lattice/pipe,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Zh" = (
-/turf/closed/wall,
+/obj/structure/chair/bench/blue{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/grimy,
+/area/ruin/jungle/anzu/hospital)
+"Zm" = (
+/obj/machinery/door/airlock/freezer{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/hospital)
 "Zr" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -4580,6 +7014,18 @@
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"Zx" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/transparent/blue/warning,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/dark,
+/area/ruin/jungle/anzu/hospital)
 "Zy" = (
 /obj/structure/platform/ship_four,
 /obj/structure/chair/pew/right{
@@ -4669,13 +7115,9 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
 	},
-/obj/structure/sign/warning/electricshock{
-	pixel_y = 26
-	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
 "ZV" = (
-/obj/structure/railing/corner,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/floor,
@@ -4693,123 +7135,112 @@
 Uf
 Uf
 Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
 Uf
 Uf
 Uf
@@ -4818,909 +7249,476 @@ Uf
 "}
 (2,1,1) = {"
 Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
 Uf
 Uf
 Uf
 "}
 (3,1,1) = {"
 Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
 Uf
 Uf
 Uf
 "}
 (4,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
 SB
 SB
 SB
 SB
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+VA
+Vg
+VA
+VA
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
 SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
 (5,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
 SB
 SB
 SB
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Un
+VA
+VA
+Un
+Vg
+Vg
+VA
+VA
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+BO
+Vg
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-Uf
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
 (6,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
 SB
 SB
 SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-"}
-(7,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-SB
-SB
-SB
-SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-SB
-SB
-SB
-SB
-Uf
-Uf
-Uf
-Uf
-Uf
-"}
-(8,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-SB
-SB
-SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-VA
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
-BO
 Vg
 Vg
 Vg
 Vg
-zn
-SB
-SB
-SB
-Uf
-Uf
-Uf
-Uf
-Uf
-"}
-(9,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-SB
-SB
-SB
-zn
-zn
-zn
-zn
 hI
 hI
 hI
@@ -5740,7 +7738,7 @@ hI
 hI
 hI
 hI
-hI
+jM
 hI
 hI
 hI
@@ -5749,12 +7747,12 @@ hI
 VA
 VA
 rk
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 ST
 ST
 ST
@@ -5785,89 +7783,78 @@ ST
 ST
 ST
 ST
-zn
-zn
-zn
-zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 BO
 Vg
 Vg
 Vg
 Vg
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+BO
+Vg
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(10,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(7,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
+Vg
+Vg
+wY
+mN
 hI
 Pj
 Pj
-mL
-ib
-mL
-mL
-mL
+Nh
+Wb
+Nh
+Nh
+sD
 ib
 xp
 zT
 ZV
-wK
+sO
 HC
-mL
+HC
 wK
 Yj
 OS
 xo
-xo
+TG
 fu
 Mq
 ce
@@ -5877,9 +7864,9 @@ mZ
 VA
 VA
 VA
-zn
-zn
-zn
+Vg
+Vg
+Vg
 ST
 ST
 ST
@@ -5913,89 +7900,78 @@ yl
 yl
 ST
 ST
-zn
-zn
-zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
 BO
 Vg
 Vg
 Vg
 Vg
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+BO
+Vg
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(11,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(8,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
+Vg
+Vg
+wY
+SQ
 hI
 DZ
 Cg
 MH
-SX
-SX
+vD
+vD
 SX
 fG
-SX
+ae
 St
 Xh
 NA
-At
-um
-sD
+bT
+Hv
+Hv
 At
 ah
 In
+Jz
 Lt
-Lt
-Gf
+uY
 Nw
 Wj
 Gf
@@ -6005,7 +7981,7 @@ Un
 VA
 VA
 Un
-zn
+Vg
 ST
 ST
 yl
@@ -6040,70 +8016,59 @@ yl
 yl
 yl
 ST
-zn
-zn
-zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
 BO
 Vg
 Vg
 Vg
 Vg
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+BO
+Vg
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(12,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(9,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
+Vg
+Vg
+GE
+Yg
 hI
-Pj
+BC
 Dv
 RD
 Lt
@@ -6111,17 +8076,17 @@ Lt
 Lt
 xk
 Vh
-iz
-Lt
-Lt
+jk
+dh
+Qk
 sZ
-ly
 aq
-um
-Lt
-Lt
-Lt
-Lt
+aq
+Ou
+Oe
+kL
+rg
+uH
 Xx
 Gf
 Iy
@@ -6132,7 +8097,7 @@ hI
 hI
 QH
 Un
-zn
+Vg
 ST
 yl
 yl
@@ -6167,87 +8132,76 @@ yl
 yl
 yl
 ST
-zn
-zn
-zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
 BO
 Vg
 Vg
 Vg
 Vg
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+BO
+Vg
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(13,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(10,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-hI
-mL
+Vg
+Vg
+rp
+Rc
+EL
+KE
 xP
 Pa
 Lt
 Lt
 Lt
 GJ
-Vh
+PH
+Qr
 iz
-Lt
-Lt
+Xi
 rq
 pg
-aq
-um
-Lt
-Lt
-Lt
+pg
+Xf
+WN
+JA
+YU
 cm
 vM
 at
@@ -6259,7 +8213,7 @@ CD
 hI
 HS
 VA
-zn
+Vg
 ST
 yl
 yl
@@ -6294,88 +8248,77 @@ yl
 yl
 yl
 ST
-zn
-zn
-zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
 BO
 Vg
 Vg
 Vg
 Vg
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+BO
+Vg
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(14,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(11,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
+Vg
+Vg
+rp
+ge
 hI
-mL
+jf
 ix
-MH
-Vy
-Vy
+Rz
+wq
+pO
 Vy
 Yb
-Vy
+bq
 dC
 ZU
 pi
 BU
 Tr
 Hv
-At
+TM
 ag
 CK
-Lt
-Lt
+nm
+yb
 Lt
 Lt
 Lt
@@ -6386,7 +8329,7 @@ mi
 hI
 VA
 VA
-zn
+Vg
 ST
 yl
 yl
@@ -6421,68 +8364,57 @@ yl
 yl
 yl
 ST
-zn
-zn
-zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
 BO
 Vg
 Vg
 Vg
 Vg
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+BO
+Vg
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(15,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(12,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Oo
+kI
 hI
 EC
 xn
@@ -6494,15 +8426,15 @@ wu
 UJ
 xp
 Ba
-cm
+mL
 qv
-Lt
-Lt
+ly
+ly
 Xj
 ls
-OS
-Lt
-Lt
+Eb
+nm
+yb
 bv
 un
 un
@@ -6510,11 +8442,11 @@ zk
 lp
 ID
 ck
-hI
-VA
-Un
-zn
-ST
+Qa
+gG
+mz
+jv
+xI
 yl
 yl
 yl
@@ -6548,68 +8480,57 @@ yl
 yl
 yl
 ST
-zn
-zn
-zn
+Vg
+Vg
+Vg
 BO
 BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 BO
 Vg
 Vg
 Vg
 Vg
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(16,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(13,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+wY
 hI
 au
 wu
@@ -6621,10 +8542,10 @@ Tu
 Dk
 kC
 sz
-un
-un
-un
-un
+OP
+OP
+OP
+OP
 TU
 zI
 Zt
@@ -6635,12 +8556,12 @@ NX
 zg
 MU
 qV
-ID
+Jh
 CD
 hI
 VA
 OY
-zn
+Vg
 ST
 yl
 yl
@@ -6675,68 +8596,57 @@ yl
 yl
 yl
 ST
-zn
-zn
-zn
-zn
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 BO
 Vg
 Vg
 Vg
 Vg
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+BO
+Vg
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(17,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(14,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Un
 hI
 hI
 yD
@@ -6764,11 +8674,11 @@ um
 um
 ID
 lK
-hI
-Un
-UM
-zn
-ST
+WY
+pQ
+Ze
+LF
+pn
 yl
 yl
 yl
@@ -6802,14 +8712,14 @@ yl
 yl
 yl
 ST
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 BO
 BO
-zn
-zn
+Vg
+Vg
 BO
 BO
 BO
@@ -6838,63 +8748,52 @@ Vg
 Vg
 Vg
 Vg
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(18,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(15,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Un
+Un
+Vg
 hI
 ID
 Jh
 VR
 Jh
+aA
+VJ
+ID
+ID
+Jh
+ID
+Jh
+ID
+Jh
 ID
 VJ
 ID
 ID
+Jh
+Jh
 ID
 ID
-ID
-ID
-ID
-ID
-VJ
-ID
-ID
-ID
-ID
-ID
-ID
-ID
+Jh
 VJ
 ID
 ck
 hI
 Un
 Un
-zn
+Vg
 ST
 yl
 yl
@@ -6929,69 +8828,58 @@ yl
 ST
 ST
 ST
-zn
-zn
-zn
-zn
-zn
-BO
-BO
-BO
-BO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
 Vg
 Vg
 Vg
 Vg
-zn
+Vg
+BO
+BO
+BO
+BO
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(19,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(16,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+VA
+VA
 hI
 hI
 hI
@@ -6999,11 +8887,11 @@ sR
 hI
 hI
 hI
-hI
+hp
 ve
 ve
 ve
-hI
+hp
 hI
 hI
 hI
@@ -7021,7 +8909,7 @@ hI
 hI
 OY
 Un
-zn
+Vg
 ST
 ST
 yl
@@ -7054,89 +8942,78 @@ yl
 yl
 yl
 ST
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
 Vg
 Vg
 Vg
 Vg
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(20,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(17,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+VA
+VA
 pF
 Un
 Mb
 mu
 Un
 Un
-Un
+Rw
 Un
 Un
 VA
-VA
+uf
 VA
 VA
 VA
 VA
 hI
-WS
+NH
 Tj
 Qc
 hI
@@ -7148,8 +9025,8 @@ co
 hI
 TO
 UM
-zn
-zn
+Vg
+Vg
 ST
 yl
 yl
@@ -7181,8 +9058,8 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 kB
 kB
@@ -7219,51 +9096,40 @@ kB
 Vg
 Vg
 Vg
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(21,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(18,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 yY
 Pl
 aX
-zn
-zn
+VA
+Vg
 pF
 Un
 Mb
 zK
 zK
 zK
-zK
+zu
 Un
 VA
 VA
-zK
+zu
 zK
 zK
 zK
 VA
 Xv
-WS
+Om
 Tj
 pI
 pc
@@ -7275,8 +9141,8 @@ ri
 hI
 pT
 UM
-zn
-zn
+Vg
+Vg
 ST
 yl
 yl
@@ -7308,8 +9174,8 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
@@ -7343,32 +9209,21 @@ TO
 TO
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(22,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(19,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 CX
 XR
 Bt
@@ -7380,7 +9235,7 @@ Sk
 ql
 jJ
 vY
-jJ
+WP
 MV
 MV
 TD
@@ -7403,7 +9258,7 @@ hI
 pT
 TO
 VA
-zn
+Vg
 ST
 yl
 yl
@@ -7435,8 +9290,8 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 VN
@@ -7470,28 +9325,17 @@ TO
 UC
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(23,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(20,1,1) = {"
 SB
 SB
 SB
@@ -7507,11 +9351,11 @@ Un
 zK
 zK
 zK
-zK
+zu
 VA
 Un
 Un
-zK
+zu
 zK
 zK
 zK
@@ -7530,7 +9374,7 @@ hI
 TO
 TO
 VA
-zn
+Vg
 ST
 ST
 ST
@@ -7562,8 +9406,8 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 ps
@@ -7597,28 +9441,17 @@ TO
 TO
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(24,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(21,1,1) = {"
 SB
 SB
 SB
@@ -7627,18 +9460,18 @@ VA
 VA
 VA
 fQ
-zn
+Vg
 pF
 VA
 VA
 VA
 VA
 Un
+Rw
 Un
 Un
 Un
-Un
-VA
+uf
 VA
 VA
 VA
@@ -7657,17 +9490,17 @@ hI
 TO
 TO
 Un
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+ST
+qE
 ST
 ST
 ST
 ST
 ST
-ST
-ST
 yl
 yl
 yl
@@ -7689,8 +9522,8 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
@@ -7701,8 +9534,8 @@ kB
 kB
 kB
 kB
-kB
-kB
+TO
+TO
 kB
 kB
 kB
@@ -7724,28 +9557,17 @@ TO
 IJ
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(25,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(22,1,1) = {"
 SB
 SB
 SB
@@ -7754,18 +9576,18 @@ ey
 fn
 Un
 su
-zn
+Vg
 vA
 Na
 Na
 Na
 Na
 Na
+JP
 Na
 Na
 Na
-Na
-Na
+JP
 Na
 Na
 Na
@@ -7785,15 +9607,15 @@ TO
 pT
 Un
 VA
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+WA
+Vg
+Vg
+Vg
+Vg
 ST
 yl
 yl
@@ -7816,8 +9638,8 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 ps
@@ -7827,6 +9649,10 @@ Vg
 Vg
 Vg
 Vg
+kB
+TO
+pT
+kB
 Vg
 Vg
 Vg
@@ -7837,71 +9663,56 @@ Vg
 Vg
 Vg
 Vg
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(26,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(23,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 lj
 rO
 sn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 pF
-zn
+Vg
 rw
 lJ
 lJ
@@ -7916,7 +9727,7 @@ pT
 TO
 TO
 TO
-TO
+az
 pT
 pT
 TO
@@ -7943,93 +9754,82 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
 TO
 kB
 Vg
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+kB
+pT
+TO
+kB
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(27,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(24,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 pF
-zn
-zn
+Vg
+Vg
 lJ
 lJ
 iA
@@ -8043,7 +9843,7 @@ dH
 pT
 pT
 TO
-TO
+az
 TO
 pT
 pT
@@ -8070,8 +9870,8 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 ps
@@ -8081,88 +9881,77 @@ Vg
 QC
 ho
 ho
-ho
-ho
-ho
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-zn
-zn
-zn
-zn
+iM
+ef
+ef
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(28,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(25,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 pF
-zn
-zn
+Vg
+Vg
 lJ
 lJ
 kv
 Nd
 kB
-zn
+Vg
 XK
 XK
 XK
@@ -8170,7 +9959,7 @@ XK
 XK
 XK
 XK
-XK
+HW
 XK
 XK
 jX
@@ -8197,8 +9986,8 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
@@ -8206,94 +9995,83 @@ TO
 kB
 Vg
 Qt
-IR
-IR
-IR
-IR
-IR
-Zh
+nh
+nh
+Ol
+hw
+ci
+iM
 om
-ad
-tE
-Zh
-om
-ad
-tE
-Zh
+Pf
+oL
+iM
+TV
+jA
+pJ
+iM
 oP
-EN
-Zh
-Zh
-Zh
-zn
-zn
+kc
+iM
+iM
+iM
+Vg
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(29,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(26,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 lb
-zn
-zn
+Vg
+Vg
 lJ
 lJ
 kv
 Kk
 kB
-zn
+Vg
 XK
 ss
 pW
-gx
+rC
 ME
 Mx
 ob
@@ -8324,69 +10102,58 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 ps
 TO
 kB
-Vg
-Qt
-IR
-IR
-IR
-IR
-IR
-Zh
-tE
-tE
-tE
-Zh
-tE
-tE
-tE
-Zh
+LF
+eI
+BS
+BN
+Ll
+qc
+gE
+iM
+tQ
+jA
+Sc
+iM
+bb
+Pf
+RX
+iM
 Fu
-lG
+uP
 zB
 EN
-Zh
-zn
-zn
+iM
+Vg
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(30,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(27,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 kB
 kB
@@ -8416,7 +10183,7 @@ kB
 vL
 vL
 kB
-zn
+Vg
 XK
 gx
 gx
@@ -8451,8 +10218,8 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
@@ -8461,59 +10228,48 @@ kB
 Vg
 Qt
 IR
-IR
-IR
-IR
-IR
-Zh
-tE
-tE
-tE
-Zh
-tE
-tE
-tE
-Zh
-Fu
+pu
+GI
+be
+Wq
+iM
+GD
+Qj
+dX
+iM
+gR
+Qj
+OQ
+iM
+GT
+HT
 di
-di
-MI
-Ko
+gq
+df
 VA
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(31,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(28,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 TO
@@ -8529,14 +10285,14 @@ TO
 TO
 TO
 TO
-bh
+Uz
 TO
 TO
 TO
-TO
+eG
 TO
 Yr
-TO
+Do
 TO
 TO
 TO
@@ -8578,69 +10334,58 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 ps
 TO
 kB
+jv
+XB
+nh
+Wu
+qI
+lS
+CA
+iM
+sm
+Em
+Jj
+iM
+sm
+Em
+Jj
+iM
+KN
+jI
+kS
+GG
+df
+VA
+VA
+kB
+TO
+TO
+TO
+kB
 Vg
-Qt
-IR
-IR
-IR
-IR
-IR
-Zh
-tE
-Em
-Em
-Zh
-tE
-Em
-Em
-Zh
-Fu
-cI
-cI
-MI
-Ko
-VA
-VA
-kB
-TO
-TO
-TO
-kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(32,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(29,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 rZ
@@ -8656,14 +10401,14 @@ TO
 rZ
 TO
 rZ
-MG
+Ln
 TO
 TO
 TO
-Bu
+qp
 rZ
-MG
-TO
+xv
+zR
 rZ
 TO
 rZ
@@ -8705,34 +10450,34 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
 TO
 kB
 Vg
-YH
-IR
-IR
-IR
-IR
-Zh
-Zh
+Qt
+nh
+bh
+II
+uM
+iM
+iM
 cM
-Ko
-Ko
-Zh
+iM
+iM
+iM
 cM
-Ko
-Ko
-Zh
-Fu
+iM
+iM
+iM
+SE
 xq
 xq
-MI
-Ko
+yo
+df
 Un
 VA
 kB
@@ -8740,34 +10485,23 @@ TO
 IJ
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(33,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(30,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 TO
@@ -8783,13 +10517,13 @@ TO
 TO
 TO
 TO
+lv
 TO
 TO
 TO
+JY
 TO
-Mo
-TO
-MG
+Ry
 Cl
 TO
 TO
@@ -8832,69 +10566,58 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 ps
 TO
 kB
-Vg
-Qt
+VA
+bl
 IR
 IR
-IR
-IR
-Zh
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-Zh
-Fu
+nh
+nh
+iM
+fK
+rY
+Md
+qS
+af
+rY
+Md
+eM
+iM
+PE
 Fs
 Fs
 MI
+iM
 HJ
 Un
-Un
 kB
 TO
 TO
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(34,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(31,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 kB
 kB
@@ -8911,9 +10634,9 @@ kB
 kB
 kB
 kB
-gJ
+kg
 VV
-TO
+CT
 kB
 kB
 ZF
@@ -8934,10 +10657,10 @@ WC
 ry
 lu
 Pe
-XK
-TO
-TO
-ST
+Jg
+JR
+JR
+xI
 yl
 yl
 yl
@@ -8959,99 +10682,88 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
+kB
+TO
+TO
+TO
+kB
+VA
+Qt
+IR
+IR
+IR
+IR
+iM
+XP
+wk
+wk
+wk
+wk
+wk
+wk
+Kv
+yO
+kf
+KW
+KW
+fc
+wC
+lJ
+lJ
+kB
+eW
+IT
+eW
+kB
+Vg
+Vg
+Vg
+Vg
+SB
+SB
+SB
+Uf
+Uf
+"}
+(32,1,1) = {"
+SB
+SB
+SB
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 TO
 TO
 kB
 Vg
-Qt
-IR
-IR
-IR
-IR
-Zh
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-yO
-kf
-cI
-cI
-fc
-wC
-lJ
-lJ
-kB
-TO
-IJ
-TO
-kB
-zn
-zn
-zn
-zn
-SB
-SB
-SB
-Uf
-Uf
-Uf
-Uf
-Uf
-"}
-(35,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-SB
-SB
-SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-kB
-TO
-TO
-TO
-kB
-zn
 lb
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 XK
 gx
 pp
@@ -9086,8 +10798,8 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 ps
@@ -9097,88 +10809,77 @@ Vg
 Qt
 IR
 IR
+nh
 IR
-IR
-Zh
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
+Fp
+VW
+bX
+eF
+HH
+hP
+SP
+hq
+KB
 Vn
 RI
-WK
+QL
 WK
 mD
 mx
 lJ
 lJ
 kB
-TO
-TO
-TO
+CT
+CT
+CT
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(36,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(33,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 pF
-zn
-zn
+Vg
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 XK
 XK
 XK
@@ -9213,8 +10914,8 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
@@ -9222,64 +10923,53 @@ TO
 kB
 Vg
 Qt
+nh
 IR
 IR
-IR
-IR
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Un
+jC
+iM
+iM
+iM
+iM
+iM
+GQ
+IO
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+dU
 VA
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(37,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(34,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 VG
 VG
 VG
@@ -9290,23 +10980,23 @@ VG
 VG
 VG
 VG
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 Gr
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+kB
+Vg
 la
 zw
 yT
@@ -9340,36 +11030,36 @@ yl
 yl
 yl
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 ps
 TO
 kB
 Vg
-Qt
-IR
-IR
-IR
-IR
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
+Uj
+ho
+xF
+ai
+ho
+iM
+zG
+aR
+fM
+df
+hH
+HF
+iM
+Sd
 Zh
-tE
-tE
-tE
-tE
-Zh
+iM
+Lk
+yk
+vn
+iM
 Un
-zn
+Vg
 kB
 TO
 TO
@@ -9384,27 +11074,16 @@ SB
 SB
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(38,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(35,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 VG
 VG
 VG
@@ -9417,22 +11096,22 @@ Ff
 Ff
 Ff
 VG
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 pF
-zn
-zn
+Vg
+Vg
 kB
 TO
 IJ
 TO
+Ci
 kB
-zn
 ZY
 la
 FM
@@ -9467,36 +11146,36 @@ yl
 yl
 ST
 ST
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
 TO
 kB
 Vg
-Qt
-IR
-IR
-IR
-IR
-Zh
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-Zh
+sy
+Io
+CH
+Io
+gJ
+iM
+Eh
+Bq
+fE
+df
+ea
+HF
+iM
+Pf
+Bv
+nH
+Qx
+Ie
+ks
+iM
 VA
-zn
+Vg
 kB
 TO
 IJ
@@ -9511,56 +11190,45 @@ Yz
 MG
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(39,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(36,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 VG
-VM
-VM
-VM
 VG
-Ff
-Ff
-Ff
-Ff
-Ff
-Ff
+VG
+VG
 VG
 Ff
 Ff
 Ff
+Ff
+Ff
+Ff
 VG
-zn
+Ff
+Ff
+Ff
+VG
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 pF
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
 TO
+lv
 kB
-zn
-zn
+Vg
 la
 lr
 CF
@@ -9593,37 +11261,37 @@ yl
 yl
 yl
 ST
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 ps
 TO
 kB
 Vg
-YH
-IR
-IR
-IR
-IR
-Zh
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-Zh
-zn
-zn
+Qt
+CH
+qn
+CH
+jx
+iM
+xm
+fh
+jF
+qj
+FN
+HF
+df
+aa
+aa
+bD
+Qx
+wD
+JT
+iM
+Vg
+Vg
 kB
 TO
 TO
@@ -9638,23 +11306,12 @@ Yz
 MG
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(40,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(37,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 VG
 lt
 Ff
@@ -9671,23 +11328,23 @@ Ff
 Ff
 Ff
 Ff
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 pF
-zn
-zn
+Vg
+Vg
 kB
 TO
 IJ
 TO
+lv
 kB
-zn
-zn
+Vg
 la
 CS
 Rt
@@ -9699,7 +11356,7 @@ la
 hO
 Xc
 pT
-zn
+Vg
 ST
 ST
 yl
@@ -9720,9 +11377,9 @@ yl
 ST
 ST
 ST
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 TO
@@ -9730,27 +11387,27 @@ TO
 kB
 Vg
 Qt
-IR
-IR
-IR
-Zh
-Zh
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-Zh
-tE
-tE
-tE
-tE
-Zh
-zn
-zn
+CH
+TL
+Jy
+iM
+iM
+iM
+iM
+iM
+iM
+AD
+bP
+cC
+Gg
+iP
+oD
+Vw
+ni
+Dp
+iM
+Vg
+Vg
 kB
 TO
 IJ
@@ -9765,23 +11422,12 @@ Yz
 MG
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(41,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(38,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 VG
 lt
 Ff
@@ -9798,23 +11444,23 @@ Ff
 Ff
 Ff
 Ff
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 pF
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
 TO
+oo
 kB
-zn
-zn
+Vg
 la
 la
 la
@@ -9826,8 +11472,8 @@ la
 gw
 TO
 pT
-zn
-zn
+Vg
+Vg
 ST
 ST
 ST
@@ -9845,11 +11491,11 @@ ST
 ST
 ST
 ST
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 ps
@@ -9857,27 +11503,27 @@ TO
 kB
 Vg
 Qt
-IR
-IR
-IR
-Zh
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-Ko
-yn
-Hc
+CH
+Io
+Io
+df
+NS
+EM
+LE
+KW
+ru
+wR
+zN
 iM
-tE
-Zh
-zn
-zn
+JW
+JW
+iM
+iM
+iM
+iM
+iM
+Vg
+Vg
 kB
 TO
 TO
@@ -9892,23 +11538,12 @@ Yz
 MG
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(42,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(39,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 VG
 Ff
 Ff
@@ -9925,58 +11560,58 @@ Ff
 Ff
 Ff
 VG
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 pF
-zn
-zn
+Vg
+Vg
 kB
 TO
 IJ
 TO
+lv
 kB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 ws
-zn
+Vg
 TO
 TO
 TO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 TO
@@ -9984,27 +11619,27 @@ TO
 kB
 Vg
 Qt
-IR
-IR
-IR
-Zh
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-Ko
-yn
+CH
+CH
+si
+df
+lG
+lG
+Nx
+cI
+df
+Cr
+cU
+mh
+pM
+LK
+oD
 Hc
+Gw
+ad
 iM
-tE
-Ko
-zn
-zn
+Vg
+Vg
 kB
 TO
 IJ
@@ -10019,23 +11654,12 @@ Yz
 MG
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(43,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(40,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 VG
 AE
 Ff
@@ -10052,58 +11676,58 @@ Ff
 Ff
 Ff
 VG
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 pF
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
 TO
+lv
 kB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 pT
 pT
 TO
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 ps
@@ -10111,27 +11735,27 @@ TO
 kB
 Vg
 Qt
-IR
-IR
-IR
-Zh
+Io
+SW
+BK
+iM
+Pz
+Pz
+Pz
+PS
+df
+Cr
 tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-Ko
-tE
-tE
-tE
-tE
-Ko
-zn
-zn
+df
+Ji
+Ji
+bD
+Li
+wD
+Tm
+iM
+Vg
+Vg
 kB
 TO
 TO
@@ -10146,23 +11770,12 @@ Yz
 MG
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(44,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(41,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 VG
 AE
 Ff
@@ -10179,16 +11792,16 @@ Ff
 Ff
 Ff
 VG
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 pF
-zn
-zn
+Vg
+Vg
 kB
 TO
 IJ
@@ -10232,33 +11845,33 @@ kB
 kB
 kB
 kB
-TO
-CH
-gE
+eW
+Bl
+Pc
 kB
 Vg
 yu
-Zh
-Zh
-Zh
-Zh
-Zh
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-Ko
-tE
-tE
-tE
-tE
-Ko
-zn
-zn
+iM
+iM
+iM
+iM
+EM
+xb
+Pz
+uz
+iM
+Da
+AI
+iM
+Ts
+va
+bD
+Li
+Ie
+hB
+iM
+Vg
+Vg
 kB
 TO
 IJ
@@ -10273,23 +11886,12 @@ nR
 nR
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(45,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(42,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 VG
 VG
 VG
@@ -10306,16 +11908,16 @@ Ff
 Ff
 Ff
 VG
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 pF
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
@@ -10325,7 +11927,11 @@ TO
 TO
 TO
 TO
-bh
+Uz
+TO
+TO
+TO
+eG
 TO
 TO
 TO
@@ -10354,38 +11960,34 @@ TO
 TO
 TO
 TO
-TO
-TO
-TO
-TO
-bh
+Uz
 TO
 TO
 TO
 kB
-zn
-zn
-Zh
-tE
-tE
-fv
-Ko
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-Zh
-hd
+Vg
+Vg
+iM
+zx
+tI
+iM
+NS
+Vm
+EM
+Jk
+iM
+sV
+sV
+iM
+rW
+Dy
+iM
 zE
 ky
 zD
-Zh
-zn
-zn
+iM
+Vg
+Vg
 kB
 TO
 TO
@@ -10398,25 +12000,14 @@ nR
 nR
 nR
 nR
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(46,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(43,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 VG
 sl
 VG
@@ -10433,16 +12024,16 @@ Ff
 Ff
 Ff
 VG
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 pF
-zn
-zn
+Vg
+Vg
 kB
 TO
 nf
@@ -10452,11 +12043,11 @@ TO
 rZ
 TO
 rZ
-MG
+Ln
 TO
 TO
 TO
-Bu
+qp
 rZ
 TO
 rZ
@@ -10490,29 +12081,29 @@ TO
 TO
 TO
 kB
-zn
-zn
-Zh
-qP
-tE
-TK
-Ko
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-zn
-zn
+Vg
+Vg
+iM
+yn
+yn
+iM
+iM
+iM
+iM
+iM
+iM
+DY
+nj
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+Vg
+Vg
 kB
 TO
 IJ
@@ -10527,23 +12118,12 @@ nR
 nR
 Uf
 Uf
-Uf
-Uf
-Uf
 "}
-(47,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(44,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 VG
 YZ
 VG
@@ -10560,16 +12140,16 @@ Ff
 Ff
 Ff
 VG
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 pF
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
@@ -10579,16 +12159,11 @@ TO
 TO
 TO
 TO
+lv
 TO
 TO
 TO
-TO
-Mo
-TO
-TO
-TO
-TO
-TO
+JY
 TO
 TO
 TO
@@ -10613,28 +12188,33 @@ TO
 TO
 TO
 TO
+TO
+TO
+TO
+TO
+lv
 TO
 TO
 TO
 kB
-zn
-zn
-Zh
-tE
-tE
-tE
-oD
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
+VA
+Un
+iM
+iM
+Zm
+iM
+dv
+Ko
+hb
+Hs
+id
+aF
+Xd
+Hs
+NK
 mx
-ci
-ci
+iT
+KO
 ci
 hw
 hw
@@ -10654,23 +12234,12 @@ nR
 nR
 Uf
 Uf
-Uf
-Uf
-Uf
 "}
-(48,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(45,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 VG
 Ff
 Ff
@@ -10687,16 +12256,16 @@ Ff
 Ff
 Ff
 VG
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 pF
-zn
-zn
+Vg
+Vg
 kB
 kB
 kB
@@ -10707,20 +12276,9 @@ kB
 kB
 kB
 kB
-gJ
-qo
-TO
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
-kB
+kg
+rm
+CT
 kB
 kB
 kB
@@ -10740,31 +12298,42 @@ kB
 kB
 kB
 kB
-gJ
-qo
-TO
 kB
-zn
-zn
-Zh
-Zh
-Zh
-Zh
-Zh
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kB
+kg
+rm
+CT
+kB
+VA
+VA
+iM
+eA
+WM
+Nq
+Mv
 mx
+RT
+TK
+sS
+Jn
+sS
+TK
+Zx
+mx
+iT
 ci
-ci
-ci
-ci
-ci
+du
+on
+on
 TO
 TO
 vk
@@ -10781,23 +12350,12 @@ xa
 nR
 Uf
 Uf
-Uf
-Uf
-Uf
 "}
-(49,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(46,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 VG
 VG
 if
@@ -10814,79 +12372,79 @@ Ff
 Ff
 VG
 VG
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 pF
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 ps
 TO
 kB
-zn
-zn
-Zh
-tE
-tE
+Un
+VA
+Fp
+GP
+KW
+Ee
 fv
+iM
+iM
 Ko
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-Zh
+Oy
+iM
+Oy
+Ko
+iM
+iM
 WG
 zO
 rL
@@ -10908,24 +12466,13 @@ xa
 nR
 Uf
 Uf
-Uf
-Uf
-Uf
 "}
-(50,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(47,1,1) = {"
 SB
 SB
 SB
-zn
-zn
+Vg
+Vg
 VG
 VG
 VG
@@ -10940,14 +12487,14 @@ VG
 VG
 VG
 VG
-zn
-zn
+Vg
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 FP
 GM
 GM
@@ -10959,17 +12506,17 @@ GM
 GM
 GM
 jZ
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 Nz
 Nz
 Nz
@@ -10991,31 +12538,31 @@ Nz
 Nz
 Nz
 Nz
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
-Zh
+Vg
+VA
+iM
 qP
-tE
-TK
-Ko
-tE
-tE
-tE
-tE
-tE
-tE
-tE
+KW
+KW
+Ix
+iM
+PV
+Qj
+Rx
+iM
+kV
+Qj
 Sm
-Zh
+iM
 Dw
-Md
+qc
 jq
 ci
 gW
@@ -11035,46 +12582,35 @@ xa
 Ae
 Uf
 Uf
-Uf
-Uf
-Uf
 "}
-(51,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(48,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 FP
 Qz
 ep
@@ -11086,14 +12622,14 @@ ep
 Qz
 Qz
 te
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 Nz
 Nz
@@ -11119,28 +12655,28 @@ tu
 tu
 Nz
 Nz
-zn
+Vg
 kB
 TO
 ps
 TO
 kB
-zn
-zn
-Zh
-tE
-tE
-tE
-oD
-tE
-tE
-tE
-tE
-tE
-tE
-tE
-Sm
-Zh
+Vg
+Vg
+iM
+Br
+ku
+Gh
+EH
+iM
+bc
+uW
+Or
+iM
+bc
+uW
+Or
+iM
 Tz
 qc
 Og
@@ -11162,46 +12698,35 @@ xa
 Ae
 Uf
 Uf
-Uf
-Uf
-Uf
 "}
-(52,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(49,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 FP
 Qz
 ep
@@ -11213,14 +12738,14 @@ ep
 Qz
 Qz
 te
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -11246,35 +12771,35 @@ fr
 MP
 MP
 Nz
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 Vd
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
-Zh
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
+iM
 ZH
 qc
 uI
 hw
 Wr
-zn
-zn
+Vg
+Vg
 kB
 TO
 IJ
@@ -11289,23 +12814,12 @@ xa
 Ae
 Uf
 Uf
-Uf
-Uf
-Uf
 "}
-(53,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(50,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 FI
 FI
@@ -11322,13 +12836,13 @@ FI
 FI
 FI
 FI
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 FP
 Qz
 Qz
@@ -11340,14 +12854,14 @@ Qz
 Qz
 Qz
 te
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -11373,35 +12887,35 @@ fr
 MP
 ez
 wm
-zn
+Vg
 kB
 TO
 ps
 TO
 kB
-zn
+Vg
 iw
 Gb
 xw
 xw
 xw
 iw
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 yu
 ho
 ho
 ho
 ho
 YH
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
@@ -11416,23 +12930,12 @@ xa
 Ae
 Uf
 Uf
-Uf
-Uf
-Uf
 "}
-(54,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(51,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 xY
 xY
@@ -11449,13 +12952,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 FP
 Qz
 ep
@@ -11467,14 +12970,14 @@ ep
 Qz
 Qz
 te
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 Hf
 fr
@@ -11500,7 +13003,7 @@ fr
 MP
 WD
 wm
-zn
+Vg
 kB
 TO
 TO
@@ -11513,22 +13016,22 @@ xw
 xw
 xw
 iw
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 Gr
-zn
-zn
+Vg
+Vg
 kB
 TO
 IJ
@@ -11543,23 +13046,12 @@ xa
 Ae
 Uf
 Uf
-Uf
-Uf
-Uf
 "}
-(55,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(52,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 xY
 xY
@@ -11576,13 +13068,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 FP
 Qz
 ep
@@ -11594,14 +13086,14 @@ ep
 Qz
 Qz
 te
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -11627,7 +13119,7 @@ fr
 zs
 Sa
 Nz
-zn
+Vg
 kB
 TO
 ps
@@ -11654,8 +13146,8 @@ Kl
 Kl
 Kl
 Kl
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
@@ -11668,25 +13160,14 @@ xa
 xa
 xa
 nR
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(56,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(53,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 go
 go
@@ -11703,13 +13184,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 FP
 Qz
 Qz
@@ -11721,14 +13202,14 @@ Qz
 Qz
 Qz
 te
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 we
 fr
@@ -11754,7 +13235,7 @@ fr
 Nz
 Nz
 Nz
-zn
+Vg
 kB
 TO
 TO
@@ -11781,8 +13262,8 @@ xw
 xw
 xw
 Kl
-zn
-zn
+Vg
+Vg
 kB
 TO
 IJ
@@ -11797,23 +13278,12 @@ xa
 nR
 Uf
 Uf
-Uf
-Uf
-Uf
 "}
-(57,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(54,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 go
 xY
@@ -11830,13 +13300,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 FP
 Qz
 ep
@@ -11848,14 +13318,14 @@ ep
 Qz
 Qz
 te
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 QE
 fr
@@ -11879,9 +13349,9 @@ fr
 fr
 fr
 Nz
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 ps
@@ -11908,8 +13378,8 @@ xw
 xw
 xw
 Kl
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
@@ -11922,25 +13392,14 @@ xa
 nR
 nR
 nR
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(58,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(55,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 go
 xY
@@ -11957,13 +13416,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 FP
 Qz
 ep
@@ -11975,14 +13434,14 @@ ep
 Qz
 Qz
 te
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -12006,9 +13465,9 @@ fr
 fr
 fr
 Nz
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 TO
@@ -12035,8 +13494,8 @@ xw
 xw
 xw
 Kl
-zn
-zn
+Vg
+Vg
 kB
 TO
 IJ
@@ -12051,23 +13510,12 @@ nR
 nR
 Uf
 Uf
-Uf
-Uf
-Uf
 "}
-(59,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(56,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 xY
 xY
@@ -12084,13 +13532,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 FP
 Qz
 Qz
@@ -12102,14 +13550,14 @@ Qz
 Qz
 Qz
 Qz
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -12162,8 +13610,8 @@ xw
 xw
 xw
 Kl
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
@@ -12178,23 +13626,12 @@ nR
 nR
 Uf
 Uf
-Uf
-Uf
-Uf
 "}
-(60,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(57,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 go
 go
@@ -12211,13 +13648,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 FP
 Qz
 to
@@ -12229,14 +13666,14 @@ UR
 SZ
 Qz
 Qz
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -12289,8 +13726,8 @@ xw
 xw
 xw
 Kl
-zn
-zn
+Vg
+Vg
 kB
 TO
 IJ
@@ -12305,23 +13742,12 @@ nR
 nR
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(61,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(58,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 go
 xY
@@ -12338,13 +13764,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 to
 to
 to
@@ -12356,14 +13782,14 @@ to
 to
 to
 to
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -12387,9 +13813,9 @@ fr
 fr
 fr
 Nz
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 ps
@@ -12432,23 +13858,12 @@ Yz
 MG
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(62,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(59,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 go
 xY
@@ -12465,13 +13880,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 to
 bU
 bU
@@ -12483,14 +13898,14 @@ cJ
 cJ
 cJ
 Rp
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -12559,23 +13974,12 @@ Yz
 MG
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(63,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(60,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 xY
 xY
@@ -12592,13 +13996,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 to
 vt
 pE
@@ -12610,14 +14014,14 @@ cJ
 cJ
 cJ
 Rp
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -12670,8 +14074,8 @@ xw
 xw
 xw
 Kl
-zn
-zn
+Vg
+Vg
 kB
 TO
 TO
@@ -12686,23 +14090,12 @@ Yz
 MG
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(64,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(61,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 xY
 xY
@@ -12719,13 +14112,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 to
 yx
 pE
@@ -12737,14 +14130,14 @@ cJ
 cJ
 cJ
 Rp
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -12768,9 +14161,9 @@ fr
 fr
 fr
 Nz
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 TO
@@ -12797,8 +14190,8 @@ xw
 xw
 Kl
 Kl
-zn
-zn
+Vg
+Vg
 kB
 TO
 IJ
@@ -12813,23 +14206,12 @@ Yz
 MG
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(65,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(62,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 xY
 xY
@@ -12846,13 +14228,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 to
 FX
 FX
@@ -12864,14 +14246,14 @@ cJ
 cJ
 cJ
 Rp
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -12895,9 +14277,9 @@ fr
 fr
 fr
 Nz
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 ps
@@ -12923,9 +14305,9 @@ Kl
 Kl
 Kl
 Kl
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 TO
@@ -12940,23 +14322,12 @@ Yz
 MG
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(66,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(63,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 FI
 FI
 xY
@@ -12973,13 +14344,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 to
 vf
 vf
@@ -12997,8 +14368,8 @@ TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -13024,7 +14395,7 @@ fr
 Nz
 Nz
 Nz
-zn
+Vg
 kB
 TO
 TO
@@ -13042,17 +14413,17 @@ xw
 xw
 mY
 Kl
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 IJ
@@ -13067,24 +14438,13 @@ Yz
 MG
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(67,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(64,1,1) = {"
 SB
 SB
 SB
-zn
-zn
+Vg
+Vg
 FI
 FI
 FI
@@ -13100,13 +14460,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 to
 bU
 bU
@@ -13124,8 +14484,8 @@ TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -13151,13 +14511,13 @@ fr
 Ob
 mV
 Nz
-zn
+Vg
 kB
 TO
 ps
 TO
 kB
-zn
+Vg
 iw
 xw
 xw
@@ -13169,7 +14529,7 @@ mY
 xw
 mY
 Kl
-zn
+Vg
 kB
 kB
 kB
@@ -13181,9 +14541,9 @@ kB
 kB
 kB
 kB
-TO
-TO
-TO
+hd
+hd
+hd
 Et
 Et
 Et
@@ -13194,27 +14554,16 @@ SB
 SB
 TO
 TO
-Uf
-Uf
-Uf
 "}
-(68,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(65,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 FI
 kb
 xY
@@ -13227,13 +14576,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 to
 vt
 pE
@@ -13251,8 +14600,8 @@ TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -13278,13 +14627,13 @@ fr
 MP
 WD
 wm
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 nn
 hK
 hK
@@ -13296,7 +14645,7 @@ Kl
 Kl
 Kl
 Kl
-zn
+Vg
 kB
 TO
 TO
@@ -13312,36 +14661,25 @@ TO
 IJ
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(69,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(66,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 FI
 xY
 xY
@@ -13354,13 +14692,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 to
 yx
 pE
@@ -13378,8 +14716,8 @@ TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -13405,25 +14743,25 @@ fr
 MP
 hN
 wm
-zn
+Vg
 kB
 TO
 ps
 TO
 kB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 VN
@@ -13439,36 +14777,25 @@ TO
 Vv
 TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(70,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(67,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 FI
 xY
 ll
@@ -13481,13 +14808,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 to
 FX
 FX
@@ -13505,8 +14832,8 @@ TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -13532,13 +14859,11 @@ fr
 MP
 MP
 wm
-zn
+Vg
 kB
-TO
-CH
-gE
-kB
-kB
+eW
+Bl
+Pc
 kB
 kB
 kB
@@ -13552,8 +14877,8 @@ kB
 kB
 kB
 kB
-TO
-TO
+kB
+kB
 TO
 TO
 TO
@@ -13565,37 +14890,28 @@ TO
 TO
 TO
 TO
+TO
+TO
 kB
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(71,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(68,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 FI
 WB
 xY
@@ -13608,13 +14924,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 to
 cJ
 cJ
@@ -13632,8 +14948,8 @@ TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -13659,11 +14975,12 @@ fr
 MP
 Qw
 wm
-zn
+Vg
 kB
 TO
 TO
 TO
+eG
 TO
 TO
 TO
@@ -13677,13 +14994,10 @@ TO
 TO
 TO
 TO
+an
 TO
 TO
 TO
-TO
-TO
-kB
-kB
 kB
 kB
 kB
@@ -13693,36 +15007,27 @@ kB
 kB
 kB
 kB
-zn
-zn
-zn
-zn
+kB
+kB
+Vg
+Vg
+Vg
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(72,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(69,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 FI
 bH
 xY
@@ -13735,13 +15040,13 @@ xY
 xY
 xY
 FI
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 to
 IZ
 IZ
@@ -13759,8 +15064,8 @@ TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -13786,12 +15091,12 @@ fr
 MP
 Qw
 Nz
-zn
+Vg
 kB
 TO
 TO
 TO
-Bu
+qp
 rZ
 TO
 rZ
@@ -13805,7 +15110,7 @@ TO
 rZ
 TO
 rZ
-TO
+an
 TO
 tw
 TO
@@ -13823,33 +15128,22 @@ ow
 ow
 ow
 Mn
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(73,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(70,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 FI
 FI
 FI
@@ -13862,13 +15156,13 @@ FI
 FI
 FI
 FI
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 to
 AM
 Ca
@@ -13886,8 +15180,8 @@ TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -13913,12 +15207,12 @@ tu
 tu
 Nz
 Nz
-zn
+Vg
 kB
 TO
 TO
 TO
-Mo
+JY
 TO
 TO
 TO
@@ -13932,7 +15226,7 @@ TO
 TO
 TO
 TO
-TO
+an
 TO
 TO
 SV
@@ -13950,52 +15244,41 @@ Qg
 Qg
 Qg
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(74,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(71,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 to
 Sj
 Sj
@@ -14007,14 +15290,14 @@ cJ
 AK
 AK
 MF
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -14040,13 +15323,11 @@ wm
 wm
 Nz
 Ak
-zn
+Vg
 kB
-gJ
-qo
-TO
-kB
-kB
+kg
+rm
+CT
 kB
 kB
 kB
@@ -14060,9 +15341,11 @@ kB
 kB
 kB
 kB
-gJ
-qo
-TO
+kB
+kB
+kg
+rm
+CT
 kB
 OL
 Xz
@@ -14077,52 +15360,41 @@ BL
 hr
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(75,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(72,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 to
 pD
 Sj
@@ -14134,14 +15406,14 @@ cJ
 AK
 AK
 to
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 fr
 fr
@@ -14167,7 +15439,7 @@ En
 wd
 nS
 Ak
-zn
+Vg
 kB
 TO
 ps
@@ -14183,7 +15455,7 @@ KQ
 KQ
 KQ
 ir
-zn
+Vg
 sW
 TC
 kB
@@ -14204,35 +15476,24 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(76,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(73,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 Tb
 Tb
 Tb
@@ -14243,13 +15504,13 @@ Tb
 Tb
 Tb
 Tb
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
+Vg
 to
 to
 BV
@@ -14261,14 +15522,14 @@ cJ
 Qh
 Qh
 to
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 Nz
 Nz
 fr
@@ -14294,7 +15555,7 @@ dR
 wd
 nS
 Ak
-zn
+Vg
 kB
 TO
 TO
@@ -14304,14 +15565,14 @@ jg
 Zz
 Un
 ww
-zn
-zn
-zn
+Vg
+Vg
+Vg
 Un
 Un
 ji
 ji
-zn
+Vg
 jj
 kB
 TO
@@ -14331,34 +15592,23 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(77,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(74,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 Tb
 Tb
 Se
@@ -14370,14 +15620,14 @@ Ik
 Ik
 Ik
 Tb
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 to
 to
 to
@@ -14388,7 +15638,7 @@ Ne
 to
 to
 to
-zn
+Vg
 kB
 TO
 IJ
@@ -14421,24 +15671,24 @@ En
 wd
 nS
 Ak
-zn
+Vg
 kB
 TO
 ps
 TO
 kB
 jg
-zn
+Vg
 fk
 Od
 yg
 nK
-zn
-zn
+Vg
+Vg
 jj
 ex
-zn
-zn
+Vg
+Vg
 jj
 kB
 TO
@@ -14458,33 +15708,22 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(78,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(75,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 Tb
 Tb
 Se
@@ -14497,14 +15736,14 @@ Se
 Kn
 Ik
 Tb
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 to
 Fv
 eh
@@ -14515,7 +15754,7 @@ Dt
 OG
 OG
 to
-zn
+Vg
 kB
 TO
 TO
@@ -14548,14 +15787,14 @@ fr
 fr
 oq
 Ak
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
 jg
-zn
+Vg
 WW
 Dd
 md
@@ -14564,9 +15803,9 @@ Un
 VA
 Lj
 ex
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 TO
@@ -14585,33 +15824,22 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(79,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(76,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 Tb
 Se
 Se
@@ -14624,14 +15852,14 @@ Se
 Se
 Se
 Tb
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 to
 je
 jz
@@ -14642,7 +15870,7 @@ Sq
 Dt
 Dt
 to
-zn
+Vg
 kB
 TO
 IJ
@@ -14675,7 +15903,7 @@ nd
 oO
 as
 sA
-zn
+Vg
 kB
 TO
 ps
@@ -14688,12 +15916,12 @@ bs
 rf
 LB
 sX
-zn
+Vg
 jj
 xW
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 IJ
@@ -14712,33 +15940,22 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(80,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(77,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 Tb
 ng
 Se
@@ -14751,14 +15968,14 @@ Se
 Se
 Se
 Tb
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 to
 fI
 jz
@@ -14769,7 +15986,7 @@ Sq
 Dt
 Dt
 to
-zn
+Vg
 kB
 TO
 TO
@@ -14818,9 +16035,9 @@ Un
 ww
 Fb
 ex
-zn
-zn
-zn
+Vg
+Vg
+Vg
 kB
 TO
 TO
@@ -14839,33 +16056,22 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(81,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(78,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 Tb
 Go
 Se
@@ -14878,14 +16084,14 @@ Se
 Se
 Se
 Tb
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 to
 vT
 jz
@@ -14896,7 +16102,7 @@ Dt
 Dt
 Dt
 to
-zn
+Vg
 kB
 TO
 IJ
@@ -14945,8 +16151,8 @@ Un
 qC
 jj
 ex
-zn
-zn
+Vg
+Vg
 jj
 kB
 TO
@@ -14966,33 +16172,22 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(82,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(79,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 Tb
 QQ
 Se
@@ -15005,14 +16200,14 @@ Se
 Se
 Se
 Tb
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 to
 Fc
 jz
@@ -15023,7 +16218,7 @@ iC
 to
 iC
 to
-zn
+Vg
 kB
 TO
 TO
@@ -15056,24 +16251,24 @@ en
 en
 en
 tW
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
+Vg
 Zy
 VA
 JV
 Aq
-zn
-zn
+Vg
+Vg
 Un
-zn
+Vg
 ji
 ji
-zn
+Vg
 jj
 kB
 TO
@@ -15093,30 +16288,19 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(83,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(80,1,1) = {"
 SB
 SB
 SB
-zn
-zn
+Vg
+Vg
 Tb
 Tb
 Tb
@@ -15132,14 +16316,14 @@ Se
 Se
 Se
 Tb
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 to
 tC
 jz
@@ -15150,14 +16334,14 @@ eH
 to
 eH
 to
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 TO
 TO
 TO
@@ -15168,28 +16352,28 @@ TO
 TO
 TO
 kB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 ps
 TO
 kB
-zn
+Vg
 oe
 Mj
 Mj
@@ -15199,7 +16383,7 @@ Mj
 Mj
 Mj
 Ij
-zn
+Vg
 Hw
 mn
 kB
@@ -15220,30 +16404,19 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(84,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(81,1,1) = {"
 SB
 SB
 SB
-zn
-zn
+Vg
+Vg
 Tb
 GK
 GK
@@ -15259,14 +16432,14 @@ Se
 Se
 Se
 Tb
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 to
 cY
 Pp
@@ -15277,7 +16450,7 @@ to
 to
 to
 to
-zn
+Vg
 kB
 TO
 TO
@@ -15312,9 +16485,9 @@ kB
 kB
 kB
 kB
-TO
-CH
-gE
+eW
+Bl
+Pc
 kB
 kB
 kB
@@ -15347,30 +16520,19 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(85,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(82,1,1) = {"
 SB
 SB
 SB
-zn
-zn
+Vg
+Vg
 Tb
 gp
 GK
@@ -15386,25 +16548,25 @@ Se
 IS
 Se
 Av
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 to
 to
 ab
 to
 to
 to
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 IJ
@@ -15438,11 +16600,11 @@ TO
 TO
 TO
 TO
-bh
+Uz
 TO
 TO
 TO
-TO
+eG
 TO
 TO
 TO
@@ -15474,30 +16636,19 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(86,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(83,1,1) = {"
 SB
 SB
 SB
-zn
-zn
+Vg
+Vg
 Tb
 Tb
 Tb
@@ -15513,25 +16664,25 @@ yy
 IS
 Se
 Av
-zn
+Vg
 kB
 TO
 IJ
 TO
 kB
-zn
-zn
+Vg
+Vg
 to
 gk
 FR
 fS
 GC
 to
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 nf
@@ -15565,11 +16716,11 @@ TO
 rZ
 TO
 rZ
-MG
+Ln
 TO
 TO
 TO
-Bu
+qp
 rZ
 TO
 rZ
@@ -15601,33 +16752,22 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(87,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(84,1,1) = {"
 SB
 SB
 SB
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 Tb
 Tb
 Se
@@ -15640,25 +16780,25 @@ Se
 IS
 Se
 Tb
-zn
+Vg
 kB
 TO
 TO
 TO
 kB
-zn
-zn
+Vg
+Vg
 to
 gk
 FR
 FR
 Wf
 to
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 TO
 TO
@@ -15692,11 +16832,11 @@ TO
 TO
 TO
 TO
+lv
 TO
 TO
 TO
-TO
-Mo
+JY
 TO
 TO
 TO
@@ -15728,29 +16868,18 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(88,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(85,1,1) = {"
 SB
 SB
 SB
-zn
+Vg
 Vg
 Vg
 Vg
@@ -15773,7 +16902,7 @@ kB
 kB
 kB
 kB
-zn
+Vg
 Bd
 to
 to
@@ -15781,11 +16910,11 @@ to
 to
 to
 to
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 kB
 kB
 kB
@@ -15855,35 +16984,24 @@ TO
 fO
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(89,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(86,1,1) = {"
 SB
 SB
 SB
-zn
 Vg
 Vg
 Vg
 Vg
 Vg
 Vg
+Vg
 Tb
 Tb
 Tb
@@ -15896,79 +17014,79 @@ Tb
 Tb
 Vg
 Vg
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
 pF
 gu
 gu
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 OL
 Xz
 Zr
@@ -15982,29 +17100,17 @@ xZ
 yz
 Xz
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(90,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(87,1,1) = {"
 SB
 SB
 SB
-zn
 Vg
 Vg
 Vg
@@ -16023,79 +17129,80 @@ Vg
 Vg
 Vg
 Vg
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 pF
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 OL
 Rr
 Rr
@@ -16109,29 +17216,17 @@ Rr
 Rr
 Rr
 rb
-zn
+Vg
 SB
 SB
 SB
-Uf
-Uf
-Uf
 Uf
 Uf
 "}
-(91,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
+(88,1,1) = {"
 SB
 SB
 SB
-zn
 Vg
 Vg
 Vg
@@ -16150,79 +17245,80 @@ Vg
 Vg
 Vg
 Vg
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 pF
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
 Vg
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
 Gv
 qU
 qU
@@ -16236,12 +17332,357 @@ qU
 qU
 qU
 rr
-zn
+Vg
 SB
 SB
 SB
 Uf
 Uf
+"}
+(89,1,1) = {"
+SB
+SB
+SB
+SB
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+pF
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+SB
+SB
+SB
+Uf
+Uf
+"}
+(90,1,1) = {"
+Uf
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+Uf
+Uf
+"}
+(91,1,1) = {"
+Uf
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
 Uf
 Uf
 Uf
@@ -16250,395 +17691,6 @@ Uf
 Uf
 Uf
 Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-SB
-SB
-SB
-SB
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-pF
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-zn
-Vg
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-Vg
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-zn
-SB
-SB
-SB
-Uf
-Uf
-Uf
-Uf
-Uf
-"}
-(93,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-Uf
-Uf
-Uf
-Uf
-Uf
-"}
-(94,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-SB
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-"}
-(95,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
 SB
 SB
 SB
@@ -16746,644 +17798,6 @@ SB
 SB
 SB
 SB
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-"}
-(96,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-"}
-(97,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-"}
-(98,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-"}
-(99,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-"}
-(100,1,1) = {"
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
-Uf
 Uf
 Uf
 Uf
