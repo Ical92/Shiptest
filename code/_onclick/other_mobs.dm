@@ -43,13 +43,13 @@
 		return interact(user)
 	return FALSE
 
-/atom/proc/can_interact(mob/user)
-	if(!user.can_interact_with(src))
-		return FALSE
+/atom/proc/can_interact(mob/user, ignore_reach = FALSE)
 	if((interaction_flags_atom & INTERACT_ATOM_REQUIRES_DEXTERITY) && !user.IsAdvancedToolUser())
-		to_chat(user, "<span class='warning'>You don't have the dexterity to do this!</span>")
+		to_chat(user, span_warning("You don't have the dexterity to do this!"))
 		return FALSE
 	if(!(interaction_flags_atom & INTERACT_ATOM_IGNORE_INCAPACITATED) && user.incapacitated((interaction_flags_atom & INTERACT_ATOM_IGNORE_RESTRAINED), !(interaction_flags_atom & INTERACT_ATOM_CHECK_GRAB)))
+		return FALSE
+	if(!((interaction_flags_atom & INTERACT_ATOM_IGNORE_REACH) || ignore_reach) && !user.CanReach(src, view_only = TRUE))
 		return FALSE
 	return TRUE
 

@@ -67,7 +67,7 @@
 
 /obj/structure/flippedtable/CtrlShiftClick(mob/user)
 	. = ..()
-	if(!istype(user) || !user.can_interact_with(src))
+	if(!istype(user) || !can_interact(user))
 		return FALSE
 	user.visible_message(span_danger("[user] starts flipping [src]!"), span_notice("You start flipping over the [src]!"))
 	if(do_after(user, max_integrity/4))

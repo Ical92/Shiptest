@@ -243,7 +243,7 @@
 
 /obj/structure/table/CtrlShiftClick(mob/living/user) // table flipping
 	. = ..()
-	if(!istype(user) || !user.can_interact_with(src))
+	if(!istype(user) || !can_interact(user))
 		return
 	if(can_flip)
 		user.visible_message("<span class='danger'>[user] starts flipping [src]!</span>", "<span class='notice'>You start flipping over the [src]!</span>")

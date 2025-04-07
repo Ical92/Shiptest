@@ -327,17 +327,10 @@ Class Procs:
 			return FALSE
 
 	else if(isliving(user)) // If we are a living human
-		var/mob/living/L = user
-
 		if(interaction_flags_machine & INTERACT_MACHINE_REQUIRES_SILICON) // First make sure the machine doesn't require silicon interaction
 			return FALSE
 
-		if(!Adjacent(user)) // Next make sure we are next to the machine unless we have telekinesis
-			var/mob/living/carbon/H = L
-			if(!(istype(H) && H.has_dna() && H.dna.check_mutation(TK)))
-				return FALSE
-
-		if(L.incapacitated()) // Finally make sure we aren't incapacitated
+		if(!..()) // Do regular interaction checks
 			return FALSE
 
 	else // If we aren't a silicon, living, or admin ghost, bad!

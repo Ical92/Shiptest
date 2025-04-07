@@ -320,6 +320,9 @@
 	return
 
 /atom/proc/CtrlClick(mob/user)
+	if(!can_interact(user))
+		return
+
 	SEND_SIGNAL(src, COMSIG_CLICK_CTRL, user)
 	var/mob/living/ML = user
 	if(istype(ML))
@@ -345,6 +348,11 @@
 	A.AltClick(src)
 
 /atom/proc/AltClick(mob/user)
+	// SHOULD_CALL_PARENT(TRUE)
+
+	if(!can_interact(user))
+		return
+
 	. = SEND_SIGNAL(src, COMSIG_CLICK_ALT, user)
 	if(. & COMPONENT_CANCEL_CLICK_ALT)
 		return
