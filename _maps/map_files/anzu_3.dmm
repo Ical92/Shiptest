@@ -175,6 +175,13 @@
 /obj/structure/table,
 /turf/open/floor/plasteel/grimy,
 /area/ruin/jungle/anzu/hospital)
+"aV" = (
+/obj/effect/turf_decal/road{
+	dir = 8
+	},
+/obj/structure/fluff/anzu/lattice/inlay,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "aX" = (
 /obj/structure/railing/wood{
 	dir = 10
@@ -209,11 +216,14 @@
 /turf/open/floor/carpet/nanoweave/red,
 /area/ruin/jungle/anzu/restaurant)
 "be" = (
-/obj/structure/railing/corner{
-	dir = 1
-	},
 /obj/effect/turf_decal/road{
 	dir = 4
+	},
+/obj/structure/platform/ship_two/corner{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 1
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
@@ -704,10 +714,6 @@
 	},
 /turf/open/floor/plastic,
 /area/ruin/jungle/anzu/restaurant)
-"eI" = (
-/obj/structure/fluff/anzu/lattice/pipe/end,
-/turf/closed/wall,
-/area/ruin/jungle/anzu/hospital)
 "eJ" = (
 /obj/structure/fence/end{
 	dir = 8;
@@ -728,6 +734,18 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
+"eN" = (
+/obj/structure/fluff/anzu/lattice/wires{
+	dir = 4
+	},
+/obj/structure/fluff/anzu/lattice/wires/east,
+/turf/open/floor/plating/dirt/old/lit,
+/area/ruin/jungle/anzu/outside)
+"eV" = (
+/obj/structure/fluff/anzu/lattice/inlay,
+/obj/structure/fluff/anzu/lattice/inlay/north,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "eW" = (
 /obj/effect/turf_decal/road/stripes{
 	dir = 8
@@ -983,6 +1001,7 @@
 /area/ruin/jungle/anzu/hospital)
 "gG" = (
 /obj/structure/fluff/anzu/lattice/inlay,
+/obj/structure/fluff/anzu/lattice/inlay/north,
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
 "gJ" = (
@@ -1026,12 +1045,6 @@
 /obj/structure/fence,
 /turf/open/floor/concrete/slab_2,
 /area/ruin/jungle/anzu/hospital)
-"hp" = (
-/obj/structure/fluff/anzu/lattice/wires/end{
-	dir = 8
-	},
-/turf/closed/wall,
-/area/ruin/jungle/anzu/engineering)
 "hq" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
@@ -1632,13 +1645,16 @@
 /turf/open/floor/plasteel/tech,
 /area/ruin/jungle/anzu/engineering)
 "lS" = (
-/obj/structure/railing/corner{
-	dir = 4
-	},
 /obj/effect/turf_decal/road{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/platform/ship_two{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
 "lV" = (
@@ -1857,6 +1873,11 @@
 /obj/structure/railing/corner,
 /turf/open/floor/concrete/slab_1,
 /area/ruin/jungle/anzu/outside)
+"nE" = (
+/obj/structure/fluff/anzu/lattice/inlay/north,
+/obj/structure/fluff/anzu/lattice/inlay,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/ruin/jungle/anzu/outside)
 "nF" = (
 /obj/effect/turf_decal/road/line{
 	dir = 1
@@ -2067,10 +2088,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
-"pn" = (
-/obj/structure/fluff/anzu/lattice/pipe/end,
-/turf/closed/wall,
-/area/ruin/jungle/anzu/commercial)
 "po" = (
 /obj/structure/platform/industrial{
 	dir = 6
@@ -2160,6 +2177,7 @@
 /area/ruin/jungle/anzu/engineering)
 "pQ" = (
 /obj/structure/fluff/anzu/lattice/pipe,
+/obj/structure/fluff/anzu/lattice/pipe/north,
 /turf/open/floor/plating/dirt/old/lit,
 /area/ruin/jungle/anzu/outside)
 "pT" = (
@@ -2262,13 +2280,10 @@
 	},
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
-"qE" = (
-/obj/structure/fluff/anzu/lattice/pipe/end{
-	dir = 8
-	},
-/turf/closed/wall,
-/area/ruin/jungle/anzu/commercial)
 "qI" = (
+/obj/structure/platform/ship_two{
+	dir = 4
+	},
 /obj/structure/railing{
 	dir = 4
 	},
@@ -2455,10 +2470,6 @@
 "rL" = (
 /obj/effect/turf_decal/road/stripes{
 	dir = 4
-	},
-/obj/structure/fluff/anzu/ambulance{
-	dir = 1;
-	pixel_x = -6
 	},
 /obj/effect/turf_decal/tiremarks{
 	dir = 4
@@ -2772,6 +2783,7 @@
 /obj/structure/fluff/anzu/lattice/wires{
 	dir = 4
 	},
+/obj/structure/fluff/anzu/lattice/wires/west,
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
 "um" = (
@@ -2999,6 +3011,13 @@
 /obj/structure/chair/sofa/blue/right,
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/apartments)
+"wj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/platform/ship_two{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "wk" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
@@ -3137,6 +3156,13 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"xl" = (
+/obj/effect/turf_decal/road{
+	dir = 8
+	},
+/obj/structure/fluff/anzu/lattice/pipe,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "xm" = (
 /obj/item/spacecash/bundle/c5{
 	pixel_x = 13;
@@ -3202,10 +3228,6 @@
 	},
 /turf/open/floor/concrete/slab_2,
 /area/ruin/jungle/anzu/hospital)
-"xI" = (
-/obj/structure/fluff/anzu/lattice/inlay/end,
-/turf/closed/wall,
-/area/ruin/jungle/anzu/commercial)
 "xP" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-10"
@@ -3216,6 +3238,13 @@
 /obj/effect/turf_decal/trimline/transparent/blue/warning,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/engineering)
+"xQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 26
+	},
+/turf/open/floor/concrete,
+/area/ruin/jungle/anzu/hospital)
 "xW" = (
 /obj/structure/platform/ship_four{
 	dir = 1
@@ -3402,6 +3431,11 @@
 	icon = 'icons/obj/stairs.dmi'
 	},
 /area/ruin/jungle/anzu/engineering)
+"zn" = (
+/obj/structure/fluff/anzu/lattice/pipe,
+/obj/structure/fluff/anzu/lattice/pipe/south,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/ruin/jungle/anzu/outside)
 "zo" = (
 /obj/effect/turf_decal/road/line,
 /obj/structure/fluff/anzu/small_truck/alt{
@@ -3507,8 +3541,8 @@
 	dir = 4
 	},
 /obj/structure/bed/roller{
-	pixel_x = 13;
-	pixel_y = -9
+	pixel_x = 20;
+	pixel_y = -8
 	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
@@ -3884,10 +3918,13 @@
 "CA" = (
 /obj/effect/turf_decal/road/line,
 /obj/structure/closet/crate/large{
-	pixel_x = 3;
-	pixel_y = 5
+	pixel_x = -4;
+	pixel_y = 2
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/platform/ship_two{
+	dir = 4
+	},
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
 "CC" = (
@@ -4424,6 +4461,10 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/jungle/anzu/townhall)
+"Gn" = (
+/obj/structure/fluff/anzu/lattice/pipe,
+/turf/open/floor/concrete/slab_1,
+/area/ruin/jungle/anzu/outside)
 "Go" = (
 /obj/structure/table/wood/reinforced,
 /obj/item/storage/box/donkpockets{
@@ -4432,6 +4473,11 @@
 	},
 /turf/open/floor/wood/maple,
 /area/ruin/jungle/anzu/gold)
+"Gp" = (
+/obj/structure/fluff/anzu/lattice/inlay,
+/obj/structure/fluff/anzu/lattice/inlay/south,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "Gr" = (
 /obj/structure/fence/door,
 /turf/open/floor/concrete/slab_2,
@@ -4487,6 +4533,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
 "GI" = (
+/obj/structure/platform/ship_two{
+	dir = 8
+	},
 /obj/structure/railing{
 	dir = 8
 	},
@@ -4681,12 +4730,6 @@
 /obj/machinery/door/window/brigdoor/eastright,
 /turf/open/floor/plating,
 /area/ruin/jungle/anzu/hospital)
-"HW" = (
-/obj/structure/fluff/anzu/lattice/pipe/end{
-	dir = 4
-	},
-/turf/closed/wall,
-/area/ruin/jungle/anzu/bank)
 "HZ" = (
 /obj/structure/flora/ausbushes/brflowers{
 	pixel_x = 2
@@ -4879,12 +4922,6 @@
 /obj/effect/turf_decal/corner/opaque/red/diagonal,
 /turf/open/floor/plasteel/lightgrey,
 /area/ruin/jungle/anzu/restaurant)
-"Jg" = (
-/obj/structure/fluff/anzu/lattice/inlay/end{
-	dir = 1
-	},
-/turf/closed/wall,
-/area/ruin/jungle/anzu/bank)
 "Jh" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
@@ -4976,12 +5013,6 @@
 	},
 /turf/open/floor/concrete,
 /area/ruin/jungle/anzu/apartments)
-"JP" = (
-/obj/structure/fluff/anzu/lattice/wires/end{
-	dir = 4
-	},
-/turf/closed/wall,
-/area/ruin/jungle/anzu/outside)
 "JR" = (
 /obj/structure/fluff/anzu/lattice/inlay,
 /turf/open/floor/concrete/pavement,
@@ -5133,6 +5164,11 @@
 "KW" = (
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
+"Ld" = (
+/obj/structure/fluff/anzu/lattice/inlay,
+/obj/structure/fluff/anzu/lattice/inlay/south,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/ruin/jungle/anzu/outside)
 "Lh" = (
 /obj/effect/turf_decal/road{
 	dir = 4
@@ -5301,6 +5337,13 @@
 /obj/effect/turf_decal/road/line{
 	dir = 1
 	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
+"Mp" = (
+/obj/structure/fluff/anzu/lattice/pipe{
+	dir = 4
+	},
+/obj/structure/fluff/anzu/lattice/pipe/east,
 /turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/outside)
 "Mq" = (
@@ -5567,9 +5610,26 @@
 /area/ruin/jungle/anzu/gold)
 "Og" = (
 /obj/effect/turf_decal/road/line,
+/obj/structure/fluff/anzu/ambulance{
+	dir = 1;
+	pixel_x = -8;
+	pixel_y = 3
+	},
 /turf/open/floor/concrete/pavement{
 	icon_state = "pavement"
 	},
+/area/ruin/jungle/anzu/hospital)
+"Ok" = (
+/obj/effect/turf_decal/road/stripes{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 4
+	},
+/obj/structure/platform/ship_two{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
 /area/ruin/jungle/anzu/hospital)
 "Ol" = (
 /obj/structure/railing/thin,
@@ -5613,6 +5673,10 @@
 	},
 /turf/open/floor/plasteel/patterned,
 /area/ruin/jungle/anzu/hospital)
+"OA" = (
+/obj/structure/fluff/anzu/lattice/pipe,
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/outside)
 "OB" = (
 /turf/open/floor/plasteel/stairs{
 	icon = 'icons/obj/stairs.dmi';
@@ -5725,6 +5789,11 @@
 	},
 /turf/open/floor/plating/dirt/jungle/lit,
 /area/ruin/jungle/anzu/outside)
+"Pn" = (
+/obj/structure/fluff/anzu/lattice/pipe/north,
+/obj/structure/fluff/anzu/lattice/pipe,
+/turf/open/floor/plating/grass/jungle/lit,
+/area/ruin/jungle/anzu/outside)
 "Pp" = (
 /obj/effect/turf_decal/siding/thinplating/light/corner,
 /obj/effect/turf_decal/siding/thinplating/light/corner{
@@ -5807,12 +5876,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/bank)
-"Qa" = (
-/obj/structure/fluff/anzu/lattice/inlay/end{
-	dir = 1
-	},
-/turf/closed/wall,
-/area/ruin/jungle/anzu/engineering)
 "Qc" = (
 /obj/machinery/computer/monitor{
 	dir = 4;
@@ -5983,10 +6046,20 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ruin/jungle/anzu/bank)
+"Ru" = (
+/obj/effect/turf_decal/road{
+	dir = 4
+	},
+/obj/structure/platform/ship_two{
+	dir = 1
+	},
+/turf/open/floor/concrete/pavement,
+/area/ruin/jungle/anzu/hospital)
 "Rw" = (
 /obj/structure/fluff/anzu/lattice/wires{
 	dir = 4
 	},
+/obj/structure/fluff/anzu/lattice/wires/west,
 /turf/open/floor/plating/dirt/old/lit,
 /area/ruin/jungle/anzu/outside)
 "Rx" = (
@@ -6146,7 +6219,13 @@
 /area/ruin/jungle/anzu/hospital)
 "SQ" = (
 /obj/structure/fluff/anzu/exhaust,
-/turf/open/floor/concrete/tiles,
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/concrete/reinforced,
 /area/ruin/jungle/anzu/outside)
 "ST" = (
 /turf/closed/wall,
@@ -6580,6 +6659,7 @@
 /obj/structure/fluff/anzu/lattice/pipe{
 	dir = 4
 	},
+/obj/structure/fluff/anzu/lattice/pipe/west,
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
 "WB" = (
@@ -6604,11 +6684,11 @@
 	},
 /obj/structure/closet/crate/trashcart{
 	pixel_y = 24;
-	pixel_x = 3;
-	layer = 3.5
+	pixel_x = 3
 	},
 /obj/structure/sign/departments/medbay/alt{
-	pixel_y = 32
+	pixel_y = 32;
+	layer = 2.9
 	},
 /obj/effect/turf_decal/trimline/transparent/blue/corner{
 	dir = 1
@@ -6628,6 +6708,13 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/plasteel/dark,
 /area/ruin/jungle/anzu/hospital)
+"WL" = (
+/obj/structure/fluff/anzu/lattice/wires{
+	dir = 4
+	},
+/obj/structure/fluff/anzu/lattice/wires/east,
+/turf/open/floor/plating/dirt/jungle/lit,
+/area/ruin/jungle/anzu/outside)
 "WM" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 1
@@ -6689,12 +6776,6 @@
 	},
 /turf/open/floor/plating/grass/jungle/lit,
 /area/ruin/jungle/anzu/outside)
-"WY" = (
-/obj/structure/fluff/anzu/lattice/pipe/end{
-	dir = 1
-	},
-/turf/closed/wall,
-/area/ruin/jungle/anzu/engineering)
 "Xb" = (
 /turf/open/floor/concrete/slab_4,
 /area/ruin/jungle/anzu/restaurant)
@@ -6805,10 +6886,6 @@
 "Xz" = (
 /turf/open/floor/concrete/reinforced/jungleplanet,
 /area/ruin/jungle/anzu/outside)
-"XB" = (
-/obj/structure/fluff/anzu/lattice/inlay/end,
-/turf/closed/wall,
-/area/ruin/jungle/anzu/hospital)
 "XE" = (
 /obj/structure/chair/bench/blue{
 	dir = 8
@@ -6892,10 +6969,8 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/structure/fluff/steam_vent{
-	pixel_x = -4
-	},
-/turf/open/floor/concrete/tiles,
+/obj/structure/fluff/steam_vent/low,
+/turf/open/floor/concrete/reinforced,
 /area/ruin/jungle/anzu/outside)
 "Yh" = (
 /obj/structure/table/reinforced,
@@ -7041,6 +7116,10 @@
 	pixel_y = -1
 	},
 /turf/open/floor/plating/grass/jungle/lit,
+/area/ruin/jungle/anzu/outside)
+"ZC" = (
+/obj/structure/fluff/anzu/lattice/inlay,
+/turf/open/floor/concrete/slab_1,
 /area/ruin/jungle/anzu/outside)
 "ZF" = (
 /obj/structure/fence/end{
@@ -8442,11 +8521,11 @@ zk
 lp
 ID
 ck
-Qa
+hI
 gG
 mz
-jv
-xI
+Ld
+ST
 yl
 yl
 yl
@@ -8674,11 +8753,11 @@ um
 um
 ID
 lK
-WY
+hI
 pQ
 Ze
-LF
-pn
+zn
+ST
 yl
 yl
 yl
@@ -8887,11 +8966,11 @@ sR
 hI
 hI
 hI
-hp
+hI
 ve
 ve
 ve
-hp
+hI
 hI
 hI
 hI
@@ -9467,11 +9546,11 @@ VA
 VA
 VA
 Un
-Rw
+eN
 Un
 Un
 Un
-uf
+WL
 VA
 VA
 VA
@@ -9495,7 +9574,7 @@ Vg
 Vg
 Vg
 ST
-qE
+ST
 ST
 ST
 ST
@@ -9583,11 +9662,11 @@ Na
 Na
 Na
 Na
-JP
+BO
 Na
 Na
 Na
-JP
+BO
 Na
 Na
 Na
@@ -9843,7 +9922,7 @@ dH
 pT
 pT
 TO
-az
+Mp
 TO
 pT
 pT
@@ -9882,7 +9961,7 @@ QC
 ho
 ho
 iM
-ef
+Ok
 ef
 iM
 iM
@@ -9959,7 +10038,7 @@ XK
 XK
 XK
 XK
-HW
+XK
 XK
 XK
 jX
@@ -9998,7 +10077,7 @@ Qt
 nh
 nh
 Ol
-hw
+wj
 ci
 iM
 om
@@ -10102,19 +10181,19 @@ yl
 yl
 yl
 ST
-Vg
-Vg
-kB
-TO
-ps
-TO
-kB
+Pn
 LF
-eI
+Gn
+OA
+xl
+OA
+Gn
+zn
+iM
 BS
 BN
 Ll
-qc
+Ru
 gE
 iM
 tQ
@@ -10334,16 +10413,16 @@ yl
 yl
 yl
 ST
-Vg
-Vg
-kB
-TO
-ps
-TO
-kB
+nE
 jv
-XB
-nh
+ZC
+JR
+aV
+JR
+ZC
+Ld
+iM
+xQ
 Wu
 qI
 lS
@@ -10657,10 +10736,10 @@ WC
 ry
 lu
 Pe
-Jg
-JR
-JR
-xI
+XK
+eV
+Gp
+ST
 yl
 yl
 yl

@@ -1109,6 +1109,7 @@
 #include "code\game\machinery\telecomms\machines\receiver.dm"
 #include "code\game\machinery\telecomms\machines\relay.dm"
 #include "code\game\machinery\telecomms\machines\server.dm"
+#include "code\game\MapData\event\anzu.dm"
 #include "code\game\MapData\event\areas.dm"
 #include "code\game\MapData\event\LV759_hybrisa.dm"
 #include "code\game\MapData\shuttles\misc.dm"

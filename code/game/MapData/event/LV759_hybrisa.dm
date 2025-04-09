@@ -1,23 +1,4 @@
-/obj/effect/turf_decal/road/line/half
-	icon_state = "road_line_half"
-
-/obj/structure/fluff/anzu/boiler
-	name = "boiler"
-	desc = null
-	icon = 'icons/obj/atmos.dmi'
-	icon_state = "heater:0"
-
-/obj/structure/fluff/anzu/boiler/flipped
-	icon = 'icons/anzu_event/fluff.dmi'
-
-/obj/structure/fluff/anzu/exhaust
-	name = "exhaust"
-	desc = null
-	icon = 'icons/obj/atmos.dmi'
-	icon_state = "siphon:0"
-
-
-/// THIS SECTION USES MODIFIED ASSETS FROM CM'S LV759 HYBRISA ///
+/// USES MODIFIED ASSETS FROM CM'S LV759 HYBRISA ///
 
 /obj/structure/fluff/anzu/small_truck
 	name = "\improper CLIP truck"
@@ -63,23 +44,42 @@
 	. = ..()
 	AddComponent(/datum/component/largetransparency, _y_offset = 0)
 
-/obj/structure/fluff/anzu/lattice/end
-	icon_state = "lattice_end"
+// bweh !! sillycode warning
+#define OVERHEAD_LATTICE_HELPER(path, state, offset) ##path/north {\
+	icon_state = state; \
+	dir = NORTH; \
+	pixel_y = offset; \
+} \
+##path/south {\
+	icon_state = state; \
+	dir = SOUTH; \
+	pixel_y = -offset; \
+} \
+##path/east {\
+	icon_state = state; \
+	dir = EAST; \
+	pixel_x = offset; \
+} \
+##path/west {\
+	icon_state = state; \
+	dir = WEST; \
+	pixel_x = -offset; \
+}
+
+
+OVERHEAD_LATTICE_HELPER(/obj/structure/fluff/anzu/lattice, "lattice_end", 32)
 
 /obj/structure/fluff/anzu/lattice/wires
 	icon_state = "lattice_wires"
 
-/obj/structure/fluff/anzu/lattice/wires/end
-	icon_state = "lattice_wires_end"
+OVERHEAD_LATTICE_HELPER(/obj/structure/fluff/anzu/lattice/wires, "lattice_wires_end", 32)
 
 /obj/structure/fluff/anzu/lattice/inlay
 	icon_state = "lattice_inlay"
 
-/obj/structure/fluff/anzu/lattice/inlay/end
-	icon_state = "lattice_inlay_end"
+OVERHEAD_LATTICE_HELPER(/obj/structure/fluff/anzu/lattice/inlay, "lattice_inlay_end", 32)
 
 /obj/structure/fluff/anzu/lattice/pipe
 	icon_state = "lattice_pipe"
 
-/obj/structure/fluff/anzu/lattice/pipe/end
-	icon_state = "lattice_pipe_end"
+OVERHEAD_LATTICE_HELPER(/obj/structure/fluff/anzu/lattice/pipe, "lattice_pipe_end", 32)
