@@ -254,22 +254,23 @@
 #define COMSIG_LIVING_GET_PULLED "living_start_pulled"
 
 /////////////////
-//from base of area/Entered(): (/area). Sent to "area-sensitive" movables, see __DEFINES/traits.dm for info.
+///from base of area/Entered(): (/area). Sent to "area-sensitive" movables, see __DEFINES/traits.dm for info.
 #define COMSIG_ENTER_AREA "enter_area"
-//from base of area/Exited(): (/area). Sent to "area-sensitive" movables, see __DEFINES/traits.dm for info.
+///from base of area/Exited(): (/area). Sent to "area-sensitive" movables, see __DEFINES/traits.dm for info.
 #define COMSIG_EXIT_AREA "exit_area"
-//from base of atom/Click(): (location, control, params, mob/user)
+///from base of atom/Click(): (location, control, params, mob/user)
 #define COMSIG_CLICK "atom_click"
+	#define COMPONENT_CANCEL_CLICK (1<<0)
+	#define COMPONENT_ALLOW_CLICK (1<<1)
 //from base of atom/ShiftClick(): (/mob)
 #define COMSIG_CLICK_SHIFT "shift_click"
 //Allows the user to examinate regardless of client.eye.
 	#define COMPONENT_ALLOW_EXAMINATE 1
-//from base of atom/CtrlClickOn(): (/mob)
+///from base of atom/CtrlClickOn(): (/mob)
 #define COMSIG_CLICK_CTRL "ctrl_click"
-//from base of atom/AltClick(): (/mob)
+///from base of atom/AltClick(): (/mob)
 #define COMSIG_CLICK_ALT "alt_click"
-	#define COMPONENT_CANCEL_CLICK_ALT (1<<0)
-//from base of atom/CtrlShiftClick(/mob)
+///from base of atom/CtrlShiftClick(/mob)
 #define COMSIG_CLICK_CTRL_SHIFT "ctrl_shift_click"
 ///from base of atom/CtrlShiftRightClick(/mob)
 #define COMSIG_CLICK_CTRL_SHIFT_RIGHT "ctrl_shift_right_click"
@@ -302,7 +303,7 @@
 #define COMSIG_TURF_MULTIZ_DEL "turf_multiz_del"
 ///from base of turf/multiz_turf_new: (turf/source, direction)
 #define COMSIG_TURF_MULTIZ_NEW "turf_multiz_new"
-//! from base of turf/proc/afterShuttleMove: (turf/new_turf)
+/// from base of turf/proc/afterShuttleMove: (turf/new_turf)
 #define COMSIG_TURF_AFTER_SHUTTLE_MOVE "turf_after_shuttle_move"
 
 // /atom/movable signals
@@ -417,7 +418,7 @@
 #define COMSIG_MOB_MIDDLECLICKON "mob_middleclickon"
 ///from base of mob/AltClickOn(): (atom/A)
 #define COMSIG_MOB_ALTCLICKON "mob_altclickon"
-	#define COMSIG_MOB_CANCEL_CLICKON (1<<0)
+	#define COMSIG_CLICK_CANCEL (1<<0)
 
 ///From base of mob/living/MobBump() (mob/living)
 #define COMSIG_LIVING_MOB_BUMP "living_mob_bump"

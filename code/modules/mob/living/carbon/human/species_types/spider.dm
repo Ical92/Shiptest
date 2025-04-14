@@ -150,7 +150,7 @@
 	UnregisterSignal(H, list(COMSIG_MOB_MIDDLECLICKON, COMSIG_MOB_ALTCLICKON))
 	var/datum/species/spider/E = H.dna.species
 	if (!H || !isspiderperson(H))
-		return COMSIG_MOB_CANCEL_CLICKON
+		return COMSIG_CLICK_CANCEL
 	else
 		if(E.web_ready == FALSE)
 			to_chat(H, "<span class='warning'>You need to wait awhile to regenerate web fluid.</span>")

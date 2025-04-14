@@ -146,7 +146,7 @@
 		return
 	if(!istype(clicker) || !blackboard[BB_DOG_FRIENDS][clicker])
 		return
-	. = COMPONENT_CANCEL_CLICK_ALT
+	. = COMPONENT_CANCEL_CLICK
 	INVOKE_ASYNC(src, PROC_REF(command_radial), clicker)
 
 /// Show the command radial menu

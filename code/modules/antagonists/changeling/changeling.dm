@@ -154,7 +154,7 @@
 
 	INVOKE_ASYNC(chosen_sting, TYPE_PROC_REF(/datum/action/changeling/sting, try_to_sting), ling, A)
 
-	return COMSIG_MOB_CANCEL_CLICKON
+	return COMSIG_CLICK_CANCEL
 
 /datum/antagonist/changeling/proc/has_sting(datum/action/changeling/power)
 	for(var/P in purchasedpowers)

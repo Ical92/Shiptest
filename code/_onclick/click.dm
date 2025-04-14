@@ -78,7 +78,7 @@
 	if(notransform)
 		return
 
-	if(SEND_SIGNAL(src, COMSIG_MOB_CLICKON, A, params) & COMSIG_MOB_CANCEL_CLICKON)
+	if(SEND_SIGNAL(src, COMSIG_MOB_CLICKON, A, params) & COMSIG_CLICK_CANCEL)
 		return
 
 	var/list/modifiers = params2list(params)
@@ -292,7 +292,7 @@
  */
 /mob/proc/MiddleClickOn(atom/A)
 	. = SEND_SIGNAL(src, COMSIG_MOB_MIDDLECLICKON, A)
-	if(. & COMSIG_MOB_CANCEL_CLICKON)
+	if(. & COMSIG_CLICK_CANCEL)
 		return
 	swap_hand()
 
@@ -316,46 +316,43 @@
  * For most objects, pull
  */
 /mob/proc/CtrlClickOn(atom/A)
+	. = SEND_SIGNAL(A, COMSIG_MOB_CLICK_CTRL, src)
+	if(. & COMPONENT_CANCEL_CLICK)
+		return
+	if(!(. & COMPONENT_ALLOW_CLICK) && !can_interact(src))
+		return
+
 	A.CtrlClick(src)
 	return
 
 /atom/proc/CtrlClick(mob/user)
-	if(!can_interact(user))
-		return
-
-	SEND_SIGNAL(src, COMSIG_CLICK_CTRL, user)
 	var/mob/living/ML = user
 	if(istype(ML))
 		ML.pulled(src)
 
 /mob/living/carbon/human/CtrlClick(mob/user)
-	if(ishuman(user) && Adjacent(user) && !user.incapacitated())
-		if(world.time < user.next_move)
-			return FALSE
-		var/mob/living/carbon/human/H = user
-		H.dna.species.grab(H, src, H.mind.martial_art)
-		H.changeNext_move(CLICK_CD_MELEE)
-	else
-		..()
+	if(world.time < user.next_move)
+		return FALSE
+	var/mob/living/carbon/human/H = user
+	H.dna.species.grab(H, src, H.mind.martial_art)
+	H.changeNext_move(CLICK_CD_MELEE)
+
 /**
  * Alt click
  * Unused except for AI
  */
 /mob/proc/AltClickOn(atom/A)
-	. = SEND_SIGNAL(src, COMSIG_MOB_ALTCLICKON, A)
-	if(. & COMSIG_MOB_CANCEL_CLICKON)
+	. = SEND_SIGNAL(A, COMSIG_MOB_CLICK_ALT, src)
+	if(. & COMSIG_CLICK_CANCEL)
 		return
+	. |= SEND_SIGNAL(src, COMSIG_ATOM_CLICK_ALT)
+	if(!(. & COMPONENT_ALLOW_CLICK))
+		if((. & COMPONENT_CANCEL_CLICK) || !can_interact(src))
+			return
+
 	A.AltClick(src)
 
 /atom/proc/AltClick(mob/user)
-	// SHOULD_CALL_PARENT(TRUE)
-
-	if(!can_interact(user))
-		return
-
-	. = SEND_SIGNAL(src, COMSIG_CLICK_ALT, user)
-	if(. & COMPONENT_CANCEL_CLICK_ALT)
-		return
 	var/turf/T = get_turf(src)
 	if(T && (isturf(loc) || isturf(src)) && user.TurfAdjacent(T))
 		user.set_listed_turf(T)

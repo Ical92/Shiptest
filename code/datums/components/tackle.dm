@@ -121,7 +121,7 @@
 	user.adjustStaminaLoss(stamina_cost)
 	user.throw_at(A, range, speed, user, FALSE)
 	addtimer(CALLBACK(src, PROC_REF(resetTackle)), base_knockdown, TIMER_STOPPABLE)
-	return(COMSIG_MOB_CANCEL_CLICKON)
+	return(COMSIG_CLICK_CANCEL)
 
 /**
  * sack()

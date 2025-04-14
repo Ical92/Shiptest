@@ -94,7 +94,7 @@
 		start_baiting_phase()
 	else if(phase == BITING_PHASE)
 		start_minigame_phase()
-	return COMSIG_MOB_CANCEL_CLICKON
+	return COMSIG_CLICK_CANCEL
 
 /datum/fishing_challenge/proc/check_distance()
 	SIGNAL_HANDLER

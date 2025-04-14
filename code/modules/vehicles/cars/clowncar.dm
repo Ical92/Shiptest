@@ -193,7 +193,7 @@
 		playsound(src, pick('sound/vehicles/carcannon1.ogg', 'sound/vehicles/carcannon2.ogg', 'sound/vehicles/carcannon3.ogg'), 75)
 		L.throw_at(A, 10, 2)
 		log_combat(user, L, "fired", src, "towards [A]") //this doesn't catch if the mob hits something between the car and the target
-		return COMSIG_MOB_CANCEL_CLICKON
+		return COMSIG_CLICK_CANCEL
 
 /obj/vehicle/sealed/car/clowncar/proc/ThanksCounter()
 	thankscount++

@@ -215,7 +215,7 @@
 /obj/item/mod/module/proc/on_special_click(mob/source, atom/target)
 	SIGNAL_HANDLER
 	on_select_use(target)
-	return COMSIG_MOB_CANCEL_CLICKON
+	return COMSIG_CLICK_CANCEL
 
 /// Called on the MODsuit's process
 /obj/item/mod/module/proc/on_process(seconds_per_tick)
