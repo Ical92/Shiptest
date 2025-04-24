@@ -92,7 +92,7 @@
 	//Because of the callbacks which we don't track cleanly we can't transfer this
 	//item cleanly, better to let the new of the new item create a new rotation datum
 	//instead (there's no real state worth transferring)
-	return COMPONENT_NOTRANSFER
+	return COMPONENT_INCOMPATIBLE
 
 /datum/component/simple_rotation/UnregisterFromParent()
 	remove_verbs()

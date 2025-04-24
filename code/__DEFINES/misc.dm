@@ -1,3 +1,5 @@
+//! Miscellaneous defines that don't fit elsewhere
+
 //Human Overlays Indexes/////////
 #define MUTATIONS_LAYER 31 //mutations. Tk headglows, cold resistance glow, etc
 #define HANDS_UNDER_BODY_LAYER 30 //Held items that render underneath the user due to perspective
@@ -451,3 +453,15 @@ GLOBAL_LIST_INIT(ghost_others_options, list(GHOST_OTHERS_SIMPLE, GHOST_OTHERS_DE
 /// A null statement to guard against EmptyBlock lint without necessitating the use of pass()
 /// Used to avoid proc-call overhead. But use sparingly. Probably pointless in most places.
 #define EMPTY_BLOCK_GUARD ;
+
+//! Defines for [/datum/component/archaeology]
+/// Probability for each item
+#define ARCH_PROB "probability"
+/// Each item's max drop amount
+#define ARCH_MAXDROP "max_drop_amount"
+
+//! Defines for [/datum/component/caltrop]
+/// Damage ignores shoes or foot covers
+#define CALTROP_BYPASS_SHOES 1
+/// Damage ignores people walking (not running)
+#define CALTROP_IGNORE_WALKERS 2
