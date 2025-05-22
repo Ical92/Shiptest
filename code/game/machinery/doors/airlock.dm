@@ -200,7 +200,7 @@
 /obj/machinery/door/airlock/connect_to_shuttle(obj/docking_port/mobile/port, obj/docking_port/stationary/dock)
 	if(id_tag)
 		id_tag = "[REF(port)][id_tag]"
-	if(isnull(get_access_namespace())) // Don't override if we already have a namespace set (ex. by /obj/effect/mapping_helpers/airlock/access/public)
+	if(get_access_namespace() == NAMESPACE_PUBLIC) // Don't override if we already have a namespace set (ex. by /obj/effect/mapping_helpers/airlock/access/public)
 		set_access_namespace(port.current_ship.access_namespace)
 
 /obj/machinery/door/airlock/CanPass(atom/movable/mover, turf/target)
@@ -1262,6 +1262,7 @@
 		if(obj_flags & EMAGGED)
 			return FALSE
 		use_power(50)
+		play_fov_effect(src, 6, "note")
 		playsound(src, doorOpen, 30, FALSE, mono_adj = TRUE)
 		if(closeOther != null && istype(closeOther, /obj/machinery/door/airlock/) && !closeOther.density)
 			closeOther.close()
@@ -1310,6 +1311,7 @@
 		if(obj_flags & EMAGGED)
 			return
 		use_power(50)
+		play_fov_effect(src, 6, "note")
 		playsound(src, doorClose, 30, FALSE, mono_adj = TRUE)
 	else
 		playsound(src, pry_close_sound, 30, TRUE, mono_adj = TRUE)
