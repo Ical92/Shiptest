@@ -251,7 +251,7 @@
  */
 /datum/overmap/proc/Rename(new_name, force)
 	new_name = sanitize_name(new_name) //sets to a falsey value if it's not a valid name
-	if(!new_name || new_name == name)
+	if(!force && (!new_name || new_name == name))
 		return FALSE
 	name = new_name
 	alter_token_appearance()
@@ -726,3 +726,18 @@
 
 /datum/overmap/proc/admin_load()
 	return
+
+/datum/overmap/proc/gen_name()
+	. = ""
+	switch(rand(1,12))
+		if(1 to 4)
+			for(var/i in 1 to rand(2,3))
+				. += capitalize(pick(GLOB.alphabet))
+			. += "-"
+			. += "[pick(rand(1,999))]"
+		if(4 to 9)
+			. += "[pick(GLOB.planet_names)] \Roman[rand(1,9)]"
+		if(10, 11)
+			. += "[pick(GLOB.planet_prefixes)] [pick(GLOB.planet_names)]"
+		if(12)
+			. += "[pick(GLOB.adjectives)] [pick(GLOB.planet_names)]"

@@ -77,7 +77,7 @@
 		shaft_datums += new /datum/hangar_shaft("A", null)
 
 	// doing this after the main level is loaded means that the outpost areas are all renamed for us
-	Rename(gen_outpost_name())
+	Rename(gen_name())
 
 	if(!market)
 		market = new()
@@ -137,7 +137,7 @@
 					break
 
 // Shamelessly cribbed from how Elite: Dangerous does station names.
-/datum/overmap/outpost/proc/gen_outpost_name()
+/datum/overmap/outpost/gen_name()
 	return "[random_species_name()] [pick(GLOB.station_suffixes)]"
 
 /proc/random_species_name()

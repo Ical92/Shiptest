@@ -86,9 +86,8 @@
 
 	if(template_type == "Static Overmap Obj.")
 		var/location
-		var/list/choices = list("Random Overmap Square", "Specific Overmap Square")
-		var/choice = input("Select a location for the outpost.", "Outpost Location") as null|anything in choices
-		switch(choice)
+		var/location_choice = input("Select a location for the overmap object.", "Object Location") as null|anything in list("Random Overmap Square", "Specific Overmap Square")
+		switch(location_choice)
 			if(null)
 				return
 			if("Random Overmap Square")
@@ -97,6 +96,8 @@
 				var/loc_x = input(usr, "X overmap coordinate:") as num
 				var/loc_y = input(usr, "Y overmap coordinate:") as num
 				location = list("x" = loc_x, "y" = loc_y)
+
+		var/load_now = (alert("Load now?", "Instant Load", "Yes", "No") == "Yes")
 
 		var/datum/overmap_star_system/selected_system //the star system we are
 		if(length(SSovermap.tracked_star_systems) > 1)
@@ -109,6 +110,34 @@
 		var/datum/overmap/static_object/created = new /datum/overmap/static_object/admin_loaded(location, selected_system)
 		created.map_to_load = new_map
 
-		message_admins(span_big("Click here to jump to the overmap token: " + ADMIN_JMP(created.token)))
+		if(load_now)
+			created.load_level()
+			message_admins("Click here to jump to the overmap token: [ADMIN_JMP(created.token)] [created.reserve_docks.length ? ", and here to go to the dock: [ADMIN_JMP(created.reserve_docks[1])]" : ""]")
+		else
+			message_admins("Click here to jump to the overmap token: [ADMIN_JMP(created.token)]")
+			to_chat(src, "<span class='notice'>Map template '[map]' ready to loaded with load_level().</span>", confidential = TRUE)
 
-		to_chat(src, "<span class='notice'>Map template '[map]' ready to loaded with load_level().</span>", confidential = TRUE)
+		if(alert("Customize object/token?", "Customize Object", "Yes", "No") == "Yes")
+			var/new_name = created.name
+			if(alert("Random name?", "Random Name", "Yes", "No") == "Yes")
+				new_name = created.gen_name()
+			else
+				new_name = input("Object Name") as null|text
+			var/new_desc = input("Object Description") as null|text
+			if(new_desc)
+				created.desc = new_desc
+
+			var/possible_states = icon_states(created.current_overmap.tileset)
+			var/new_icon_state = input("Customize icon state", "Object Appearance") as null|anything in possible_states
+			if(new_icon_state)
+				created.token_icon_state = new_icon_state
+
+			var/new_color = input("Object Color") as null|text
+			if(new_color)
+				created.default_color = new_color
+
+			if(new_name != created.name)
+				created.Rename(new_name)
+			else
+				created.alter_token_appearance()
+
