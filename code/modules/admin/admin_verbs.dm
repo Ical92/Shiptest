@@ -302,6 +302,7 @@ GLOBAL_PROTECT(admin_verbs_hideable)
 		add_verb(src, GLOB.admin_verbs_default)
 		if(rights & R_BUILD)
 			add_verb(src, /client/proc/togglebuildmodeself)
+			add_verb(src, /client/proc/togglegmmodeself)
 		if(rights & R_ADMIN)
 			add_verb(src, GLOB.admin_verbs_admin)
 		if(rights & R_MENTOR)
@@ -333,6 +334,7 @@ GLOBAL_PROTECT(admin_verbs_hideable)
 	remove_verb(src, list(
 		GLOB.admin_verbs_default,
 		/client/proc/togglebuildmodeself,
+		/client/proc/togglegmmodeself,
 		GLOB.admin_verbs_admin,
 		GLOB.admin_verbs_ban,
 		GLOB.admin_verbs_fun,
@@ -674,6 +676,16 @@ GLOBAL_PROTECT(admin_verbs_hideable)
 	if(src.mob)
 		togglebuildmode(src.mob)
 	BLACKBOX_LOG_ADMIN_VERB("Toggle Build Mode")
+
+/client/proc/togglegmmodeself()
+	set name = "Toggle GM Mode Self"
+	set category = "Event"
+	if (!(holder.rank.rights & R_BUILD))
+		return
+	if(src.mob)
+		togglegm_mode(src.mob)
+	BLACKBOX_LOG_ADMIN_VERB("Toggle GM Mode")
+
 
 /client/proc/check_ai_laws()
 	set name = "Check AI Laws"
