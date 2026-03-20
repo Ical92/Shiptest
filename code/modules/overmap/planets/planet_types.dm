@@ -32,6 +32,8 @@
 	///How much of a radio message we mess up on nearby or on landed/orbitting ships
 	var/interference_power = 0
 
+	var/list/terraforming_table
+
 
 /datum/planet_type/lava
 	name = "lava planetoid"
@@ -115,6 +117,15 @@
 		/obj/item/stack/ore/iron,
 		/obj/item/stack/ore/titanium,
 		)
+	terraforming_table = list(\
+		/obj/machinery/terraforming/purifier = list(\
+			/turf/open/floor/plating/asteroid/whitesands = /turf/open/floor/plating/asteroid/sand,
+			/turf/open/floor/plating/asteroid/whitesands/lit = /turf/open/floor/plating/asteroid/sand,
+			/turf/open/floor/plating/asteroid/whitesands/rocky = /turf/open/floor/plating/asteroid/sand,
+			/turf/open/floor/plating/asteroid/whitesands/dried = /turf/open/floor/plating/asteroid/dirt,
+			/turf/open/floor/plating/asteroid/whitesands/dried/lit = /turf/open/floor/plating/asteroid/dirt
+		)
+	)
 
 
 /datum/planet_type/beach
