@@ -436,7 +436,7 @@
 	var/launch_status = NOLAUNCH
 
 	///Whether or not you want your ship to knock people down, and also whether it will throw them several tiles upon launching.
-	var/list/movement_force = list("KNOCKDOWN" = 3, "THROW" = 0)
+	var/list/movement_force = list("KNOCKDOWN" = 0, "THROW" = 0)
 
 	///List of all the ripple effects made at this shuttle's future docking location.
 	var/list/ripples = list()
