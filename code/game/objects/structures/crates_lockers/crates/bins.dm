@@ -25,12 +25,23 @@
 /obj/structure/closet/crate/bin/attackby(obj/item/W, mob/user, params)
 	if(istype(W, /obj/item/storage/bag/trash))
 		var/obj/item/storage/bag/trash/T = W
-		to_chat(user, "<span class='notice'>You fill the bag.</span>")
+		to_chat(user, span_notice("You fill the bag."))
 		for(var/obj/item/O in src)
 			SEND_SIGNAL(T, COMSIG_TRY_STORAGE_INSERT, O, user, TRUE)
 		T.update_appearance()
 		do_animate()
 		return TRUE
+	else
+		return ..()
+
+/obj/structure/closet/crate/bin/hitby(atom/movable/AM, skipcatch, hitpush, blocked, datum/thrownthing/throwingdatum)
+	if(opened && isitem(AM))
+		if(prob(75))
+			AM.forceMove(src.loc)
+			visible_message(span_notice("[AM] lands in [src]."))
+		else
+			visible_message(span_notice("[AM] bounces off of [src]'s rim!"))
+			return ..()
 	else
 		return ..()
 

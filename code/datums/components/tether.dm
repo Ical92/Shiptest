@@ -16,9 +16,7 @@
 		src.tether_name = initial(tmp.name)
 	else
 		src.tether_name = tether_name
-
-/datum/component/tether/RegisterWithParent()
-	RegisterSignal(parent, list(COMSIG_MOVABLE_PRE_MOVE), PROC_REF(checkTether))
+	RegisterSignal(parent, COMSIG_MOVABLE_PRE_MOVE, PROC_REF(checkTether))
 
 /datum/component/tether/UnregisterFromParent()
 	UnregisterSignal(parent, list(COMSIG_MOVABLE_PRE_MOVE))
@@ -26,8 +24,8 @@
 /datum/component/tether/proc/checkTether(mob/mover, newloc)
 	SIGNAL_HANDLER
 
-	if (get_dist(tether_target,newloc) >= max_dist)
-		to_chat(mover, "<span class='warning'>The [tether_name] runs out of slack and prevents you from moving!</span>")
+	if (get_dist(mover,newloc) > max_dist)
+		to_chat(mover, span_userdanger("The [tether_name] runs out of slack and prevents you from moving!"))
 		return COMPONENT_MOVABLE_BLOCK_PRE_MOVE
 
 	var/atom/blocker
@@ -42,5 +40,5 @@
 					blocker = A
 					break out
 	if (blocker)
-		to_chat(mover, "<span class='warning'>The [tether_name] catches on [blocker] and prevents you from moving!</span>")
+		to_chat(mover, span_userdanger("The [tether_name] catches on [blocker] and prevents you from moving!"))
 		return COMPONENT_MOVABLE_BLOCK_PRE_MOVE

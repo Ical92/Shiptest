@@ -64,9 +64,9 @@
 	var/list/critical = list()
 	var/list/dead = list()
 	var/list/ghosts = list()
+	var/list/ships = list()
 	var/list/misc = list()
 	var/list/npcs = list()
-	var/list/ships = list()
 
 	for(var/name in new_mob_pois)
 		var/list/serialized = list()
@@ -77,7 +77,11 @@
 			continue
 
 		serialized["ref"] = REF(mob_poi)
-		serialized["full_name"] = mob_poi.name
+		if(!mob_poi.real_name)
+			serialized["full_name"] = mob_poi.name
+		else
+			serialized["full_name"] = mob_poi.real_name
+		serialized["name"] = mob_poi.name
 		serialized["job"] = mob_poi.job
 		if(number_of_orbiters)
 			serialized["orbiters"] = number_of_orbiters
@@ -99,7 +103,6 @@
 			continue
 
 		serialized["client"] = !!mob_poi.client
-		serialized["name"] = mob_poi.real_name
 
 		if(isliving(mob_poi))
 			serialized += get_living_data(mob_poi)
@@ -132,9 +135,9 @@
 		"critical" = critical,
 		"dead" = dead,
 		"ghosts" = ghosts,
+		"ships" = ships,
 		"misc" = misc,
 		"npcs" = npcs,
-		"ships" = ships,
 	)
 
 /datum/orbit_menu/ui_assets()
@@ -240,7 +243,9 @@
 	if(istype(atom_poi, /obj/machinery/computer/helm))
 		var/obj/machinery/computer/helm/helm_poi = atom_poi
 		if(helm_poi.current_ship)
-			misc["extra"] = "Ship: [helm_poi.current_ship.name]"
+			var/datum/overmap/ship/controlled/helm_ship = helm_poi.current_ship
+			misc["full_name"] = helm_ship.name
+			misc["extra"] = "Crew Size: [length(helm_ship.manifest)]"
 
 		return list(misc, critical)
 
@@ -262,7 +267,7 @@
 				/mob/living/simple_animal/hostile/megafauna,
 				/mob/living/simple_animal/hostile/boss
 			))
-		if(!is_type_in_typecache(potential_mob_poi, mob_allowed_typecache) && !potential_mob_poi.GetComponent(/datum/component/deadchat_control))
+		if(!is_type_in_typecache(potential_mob_poi, mob_allowed_typecache) && !potential_mob_poi.GetComponent(/datum/component/deadchat_control) && !potential_mob_poi.GetComponent(/datum/component/mission_important))
 			return FALSE
 
 	return potential_poi.validate()

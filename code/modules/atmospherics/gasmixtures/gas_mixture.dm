@@ -187,7 +187,6 @@ GLOBAL_LIST_INIT(auxtools_atmos_initialized, FALSE)
 	return copy
 
 /datum/gas_mixture/copy_from_turf(turf/model)
-	set_temperature(initial(model.initial_temperature))
 	parse_gas_string(model.initial_gas_mix)
 	return 1
 
@@ -233,3 +232,9 @@ get_true_breath_pressure(pp) --> gas_pp = pp/breath_pp*total_moles()
 		return TRUE
 	return FALSE
 
+/// Returns the total mass of a gas mixture in grams. TODO - Implement this in auxmos directly.
+/datum/gas_mixture/proc/return_mass()
+	var/total_mass = 0
+	for(var/gas in get_gases())
+		total_mass += get_moles(gas) * GLOB.gas_data.molar_masses[gas]
+	return total_mass

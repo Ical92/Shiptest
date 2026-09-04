@@ -1,4 +1,5 @@
-#define SMELT_AMOUNT 10
+/// Smelt amount per second
+#define SMELT_AMOUNT 50
 
 /**********************Mineral processing unit console**************************/
 
@@ -61,31 +62,43 @@
 	if(T)
 		S.forceMove(T)
 
-/obj/machinery/mineral/processing_unit_console
+/obj/machinery/computer/processing_unit_console
 	name = "production machine console"
-	icon = 'icons/obj/machines/mining_machines.dmi'
-	icon_state = "console"
+
+	icon = 'icons/obj/machines/wallconsole.dmi'
+	icon_state = "wallconsole"
+	icon_screen = "wallconsole_production"
+	icon_keyboard = null
+	layer = SIGN_LAYER
+	unique_icon = TRUE
+
 	density = FALSE
 	///Connected processing unit
 	var/obj/machinery/mineral/processing_unit/machine
 	/// Direction for which console looks for stacking machine to connect to
 	var/machinedir = EAST
+	///Useless, kept to avoid maploading errors
+	var/input_dir = NORTH
+	var/output_dir = SOUTH
+	var/dist = 1
 
-/obj/machinery/mineral/processing_unit_console/Initialize()
+MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/computer/processing_unit_console, 17)
+
+/obj/machinery/computer/processing_unit_console/Initialize()
 	. = ..()
-	machine = locate(/obj/machinery/mineral/processing_unit, get_step(src, machinedir))
+	machine = locate(/obj/machinery/mineral/processing_unit, get_ranged_target_turf(src, machinedir, dist))
 	if (machine)
 		machine.CONSOLE = src
 
-/obj/machinery/mineral/processing_unit_console/multitool_act(mob/living/user, obj/item/I) //TEMP newly adding: multitool linkage
+/obj/machinery/computer/processing_unit_console/multitool_act(mob/living/user, obj/item/I) //TEMP newly adding: multitool linkage
 	if(!multitool_check_buffer(user, I))
 		return
 	var/obj/item/multitool/M = I
 	M.buffer = src
-	to_chat(user, "<span class='notice'>You store linkage information in [I]'s buffer.</span>")
+	to_chat(user, span_notice("You store linkage information in [I]'s buffer."))
 	return TRUE
 
-/obj/machinery/mineral/processing_unit_console/ui_interact(mob/user)
+/obj/machinery/computer/processing_unit_console/ui_interact(mob/user)
 	. = ..()
 	if(!machine)
 		return
@@ -96,7 +109,7 @@
 	popup.set_content(dat)
 	popup.open()
 
-/obj/machinery/mineral/processing_unit_console/Topic(href, href_list)
+/obj/machinery/computer/processing_unit_console/Topic(href, href_list)
 	if(..())
 		return
 	usr.set_machine(src)
@@ -119,7 +132,7 @@
 	updateUsrDialog()
 	return
 
-/obj/machinery/mineral/processing_unit_console/Destroy()
+/obj/machinery/computer/processing_unit_console/Destroy()
 	machine = null
 	return ..()
 
@@ -132,7 +145,7 @@
 	icon_state = "furnace"
 	density = TRUE
 	needs_item_input = TRUE
-	var/obj/machinery/mineral/processing_unit_console/CONSOLE = null
+	var/obj/machinery/computer/processing_unit_console/CONSOLE = null
 	var/on = FALSE
 	var/datum/material/selected_material = null
 	var/selected_alloy = null
@@ -154,10 +167,10 @@
 
 /obj/machinery/mineral/processing_unit/multitool_act(mob/living/user, obj/item/multitool/M)
 	if(istype(M))
-		if(istype(M.buffer, /obj/machinery/mineral/processing_unit_console))
+		if(istype(M.buffer, /obj/machinery/computer/processing_unit_console))
 			CONSOLE = M.buffer
 			CONSOLE.machine = src
-			to_chat(user, "<span class='notice'>You link [src] to the console in [M]'s buffer.</span>")
+			to_chat(user, span_notice("You link [src] to the console in [M]'s buffer."))
 			return TRUE
 
 /obj/machinery/mineral/processing_unit/proc/process_ore(obj/item/stack/ore/O)
@@ -182,7 +195,7 @@
 		if (selected_material == M)
 			dat += " <i>Smelting</i>"
 		else
-			dat += " <A href='?src=[REF(CONSOLE)];material=[REF(M)]'><b>Not Smelting</b></A> "
+			dat += " <A href='byond://?src=[REF(CONSOLE)];material=[REF(M)]'><b>Not Smelting</b></A> "
 		dat += "<br>"
 
 	dat += "<br><br>"
@@ -194,16 +207,16 @@
 		if (selected_alloy == D.id)
 			dat += " <i>Smelting</i>"
 		else
-			dat += " <A href='?src=[REF(CONSOLE)];alloy=[D.id]'><b>Not Smelting</b></A> "
+			dat += " <A href='byond://?src=[REF(CONSOLE)];alloy=[D.id]'><b>Not Smelting</b></A> "
 		dat += "<br>"
 
 	dat += "<br><br>"
 	//On or off
 	dat += "Machine is currently "
 	if (on)
-		dat += "<A href='?src=[REF(CONSOLE)];set_on=off'>On</A> "
+		dat += "<A href='byond://?src=[REF(CONSOLE)];set_on=off'>On</A> "
 	else
-		dat += "<A href='?src=[REF(CONSOLE)];set_on=on'>Off</A> "
+		dat += "<A href='byond://?src=[REF(CONSOLE)];set_on=on'>Off</A> "
 
 	return dat
 
@@ -213,13 +226,13 @@
 	if(istype(target, /obj/item/stack/ore))
 		process_ore(target)
 
-/obj/machinery/mineral/processing_unit/process()
+/obj/machinery/mineral/processing_unit/process(seconds_per_tick)
 	if(on)
 		if(selected_material)
-			smelt_ore()
+			smelt_ore(seconds_per_tick)
 
 		else if(selected_alloy)
-			smelt_alloy()
+			smelt_alloy(seconds_per_tick)
 
 
 		if(CONSOLE)
@@ -227,11 +240,11 @@
 	else
 		end_processing()
 
-/obj/machinery/mineral/processing_unit/proc/smelt_ore()
+/obj/machinery/mineral/processing_unit/proc/smelt_ore(seconds_per_tick = 2)
 	var/datum/component/material_container/materials = GetComponent(/datum/component/material_container)
 	var/datum/material/mat = selected_material
 	if(mat)
-		var/sheets_to_remove = (materials.materials[mat] >= (MINERAL_MATERIAL_AMOUNT * SMELT_AMOUNT)) ? SMELT_AMOUNT : round(materials.materials[mat] /  MINERAL_MATERIAL_AMOUNT)
+		var/sheets_to_remove = (materials.materials[mat] >= (MINERAL_MATERIAL_AMOUNT * SMELT_AMOUNT * seconds_per_tick)) ? SMELT_AMOUNT * seconds_per_tick : round(materials.materials[mat] / MINERAL_MATERIAL_AMOUNT)
 		if(!sheets_to_remove)
 			on = FALSE
 		else
@@ -239,13 +252,13 @@
 			materials.retrieve_sheets(sheets_to_remove, mat, out)
 
 
-/obj/machinery/mineral/processing_unit/proc/smelt_alloy()
+/obj/machinery/mineral/processing_unit/proc/smelt_alloy(seconds_per_tick = 2)
 	var/datum/design/alloy = stored_research.isDesignResearchedID(selected_alloy) //check if it's a valid design
 	if(!alloy)
 		on = FALSE
 		return
 
-	var/amount = can_smelt(alloy)
+	var/amount = can_smelt(alloy, seconds_per_tick)
 
 	if(!amount)
 		on = FALSE
@@ -256,11 +269,11 @@
 
 	generate_mineral(alloy.build_path, amount)
 
-/obj/machinery/mineral/processing_unit/proc/can_smelt(datum/design/D)
+/obj/machinery/mineral/processing_unit/proc/can_smelt(datum/design/D, seconds_per_tick = 2)
 	if(D.make_reagents.len)
 		return FALSE
 
-	var/build_amount = SMELT_AMOUNT
+	var/build_amount = SMELT_AMOUNT * seconds_per_tick
 
 	var/datum/component/material_container/materials = GetComponent(/datum/component/material_container)
 

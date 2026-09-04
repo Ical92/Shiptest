@@ -28,11 +28,18 @@
 	///Levels unlocked at roundstart in physiology
 	var/list/roundstart_experience
 
-/datum/job/New(new_name, datum/outfit/new_outfit)
-	if(new_name)
-		name = new_name
-		outfit = new_outfit
-		register()
+/datum/job/New(new_name, datum/outfit/job/new_outfit)
+	if(!new_name)
+		return
+
+	name = new_name
+	outfit = new_outfit
+
+	var/datum/job/outfit_job = new new_outfit.jobtype
+	if(outfit_job)
+		access = outfit_job.get_access()
+
+	register()
 
 /datum/job/proc/register()
 	GLOB.occupations += src
@@ -97,7 +104,7 @@
 	radio_help_message(living_mob)
 	//WS Begin - Wikilinks
 	if(wiki_page)
-		to_chat(living_mob, "<span class='notice'><a href=[CONFIG_GET(string/wikiurl)]/[wiki_page]>Wiki Page</a></span>")
+		to_chat(living_mob, span_notice("<a href=[CONFIG_GET(string/wikiurl)]/[wiki_page]>Wiki Page</a>"))
 	//WS End
 
 	var/related_policy = get_policy(name)
@@ -125,6 +132,10 @@
 		var/datum/bank_account/bank_account = new(H.real_name, H.age)
 		bank_account.adjust_money(officer ? 250 : 100, CREDIT_LOG_STARTING_MONEY) //just a little bit of money for you
 		H.account_id = bank_account.account_id
+
+		var/obj/item/card/id/idcard = H.get_idcard(TRUE)
+		if(idcard)
+			idcard.officer = officer
 
 	//Equip the rest of the gear
 	H.dna.species.before_equip_job(src, H, visualsOnly)
@@ -176,7 +187,8 @@
 /datum/outfit/job
 	name = "Standard Gear"
 
-	var/jobtype = null
+	var/datum/job/jobtype = null
+	var/faction
 
 	uniform = /obj/item/clothing/under/color/grey
 	wallet = /obj/item/storage/wallet
@@ -190,6 +202,9 @@
 	var/satchel  = /obj/item/storage/backpack/satchel
 	var/duffelbag = /obj/item/storage/backpack/duffelbag
 	var/courierbag = /obj/item/storage/backpack/messenger
+	var/tailbag = /obj/item/storage/backpack/satchel/tailbag
+	var/kitbag = /obj/item/storage/backpack/satchel/kitbag
+
 
 	///The icon this outfit's ID will have when shown on a sechud and ID cards. See [icons\mob\hud.dmi] for a list of icons. Leave null for default.
 	var/job_icon
@@ -223,6 +238,18 @@
 			back = duffelbag //Department duffel bag
 		if(DCOURIERBAG)
 			back = courierbag //Department messenger bag
+		if(SBAG)
+			back = /obj/item/storage/backpack/messenger/sport //sports bag
+		if(TAILBAG)
+			if(!HAS_TRAIT(H, TRAIT_TAILED))
+				back = /obj/item/storage/backpack/satchel/kitbag //fallback bag
+				return FALSE
+			back = /obj/item/storage/backpack/satchel/tailbag //Tailbag
+		if(KITBAG)
+			if(HAS_TRAIT(H, TRAIT_TAILED))
+				back = /obj/item/storage/backpack/satchel/tailbag //fallback bag
+				return FALSE
+			back = /obj/item/storage/backpack/satchel/kitbag //kitbag
 		else
 			back = backpack //Department backpack
 
@@ -265,6 +292,9 @@
 /datum/outfit/job/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE, client/preference_source = null)
 	if(visualsOnly)
 		return
+
+	if(faction)
+		H.faction |= list(faction)
 
 	var/datum/job/J = GLOB.type_occupations[jobtype]
 	if(!J)

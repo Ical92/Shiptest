@@ -11,31 +11,31 @@
 	desc = "If left untreated subject will regurgitate butterflies."
 	severity = DISEASE_SEVERITY_MINOR
 
-/datum/disease/anxiety/stage_act()
+/datum/disease/anxiety/stage_act(seconds_per_tick, times_fired)
 	..()
 	switch(stage)
 		if(2) //also changes say, see say.dm
-			if(prob(5))
-				to_chat(affected_mob, "<span class='notice'>You feel anxious.</span>")
+			if(SPT_PROB(2.5, seconds_per_tick))
+				to_chat(affected_mob, span_notice("You feel anxious."))
 		if(3)
-			if(prob(10))
-				to_chat(affected_mob, "<span class='notice'>Your stomach flutters.</span>")
-			if(prob(5))
-				to_chat(affected_mob, "<span class='notice'>You feel panicky.</span>")
-			if(prob(2))
-				to_chat(affected_mob, "<span class='danger'>You're overtaken with panic!</span>")
+			if(SPT_PROB(5, seconds_per_tick))
+				to_chat(affected_mob, span_notice("Your stomach flutters."))
+			if(SPT_PROB(2.5, seconds_per_tick))
+				to_chat(affected_mob, span_notice("You feel panicky."))
+			if(SPT_PROB(1, seconds_per_tick))
+				to_chat(affected_mob, span_danger("You're overtaken with panic!"))
 				affected_mob.confused += (rand(2,3))
 		if(4)
-			if(prob(10))
-				to_chat(affected_mob, "<span class='danger'>You feel butterflies in your stomach.</span>")
-			if(prob(5))
-				affected_mob.visible_message("<span class='danger'>[affected_mob] stumbles around in a panic.</span>", \
-												"<span class='userdanger'>You have a panic attack!</span>")
+			if(SPT_PROB(5, seconds_per_tick))
+				to_chat(affected_mob, span_danger("You feel butterflies in your stomach."))
+			if(SPT_PROB(2.5, seconds_per_tick))
+				affected_mob.visible_message(span_danger("[affected_mob] stumbles around in a panic."), \
+												span_userdanger("You have a panic attack!"))
 				affected_mob.confused += (rand(6,8))
-				affected_mob.adjust_jitter(rand(6,8))
-			if(prob(2))
-				affected_mob.visible_message("<span class='danger'>[affected_mob] coughs up butterflies!</span>", \
-													"<span class='userdanger'>You cough up butterflies!</span>")
+				affected_mob.set_timed_status_effect(rand(12 SECONDS, 16 SECONDS), /datum/status_effect/jitter, only_if_higher = TRUE)
+			if(SPT_PROB(1, seconds_per_tick))
+				affected_mob.visible_message(span_danger("[affected_mob] coughs up butterflies!"), \
+													span_userdanger("You cough up butterflies!"))
 				new /mob/living/simple_animal/butterfly(affected_mob.loc)
 				new /mob/living/simple_animal/butterfly(affected_mob.loc)
 	return

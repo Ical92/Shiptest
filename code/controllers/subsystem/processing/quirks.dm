@@ -5,29 +5,43 @@ PROCESSING_SUBSYSTEM_DEF(quirks)
 	name = "Quirks"
 	init_order = INIT_ORDER_QUIRKS
 	flags = SS_BACKGROUND
-	wait = 10
 	runlevels = RUNLEVEL_GAME
+	wait = 1 SECONDS
 
-	var/list/quirks = list()			//Assoc. list of all roundstart quirk datum types; "name" = /path/
-	var/list/quirk_points = list()		//Assoc. list of quirk names and their "point cost"; positive numbers are good traits, and negative ones are bad
-	var/list/quirk_objects = list()		//A list of all quirk objects in the game, since some may process
-	var/list/quirk_blacklist = list()	//A list a list of quirks that can not be used with each other. Format: list(quirk1,quirk2),list(quirk3,quirk4)
-	var/list/species_blacklist = list()	//A list of quirks and the species they can't be used by
+	///Assoc. list of all roundstart quirk datum types; "name" = /path/
+	var/list/quirks = list()
+	///Assoc. list of quirk names and their "point cost"; positive numbers are good traits, and negative ones are bad
+	var/list/quirk_points = list()
+	///A list of quirks and the species they can't be used by
+	var/list/quirk_objects = list()
+	///A list of quirks and the species they can't be used by
+	var/list/quirk_blacklist = list()
+	///A list of quirks and the species they can't be used by
+	var/list/species_blacklist = list()
 
 /datum/controller/subsystem/processing/quirks/Initialize(timeofday)
 	if(!quirks.len)
 		SetupQuirks()
 
-	quirk_blacklist = list(list("Blind","Nearsighted"), \
-							list("Jolly","Depression","Apathetic","Hypersensitive"), \
-							list("Ageusia","Vegetarian","Deviant Tastes"), \
-							list("Ananas Affinity","Ananas Aversion"), \
-							list("Alcohol Tolerance","Light Drinker"), \
-							list("Bad Touch", "Friendly"), \
-							list("Self-Aware", "Congenital Analgesia")
-							)
+	quirk_blacklist = list(
+		list("Blind","Nearsighted"),
+		list("Ageusia","Vegetarian","Deviant Tastes"),
+		list("Alcohol Tolerance","Light Drinker"),
+		list("Bad Touch", "Friendly"),
+		list("Self-Aware", "Congenital Analgesia"),
+		list("Trilingual", "Monolingual", "Polyglot"),
+	)
 
-	species_blacklist = list("Blood Deficiency" = list(SPECIES_IPC, SPECIES_JELLYPERSON, SPECIES_PLASMAMAN, SPECIES_VAMPIRE))
+	species_blacklist = list(
+		"Blood Deficiency" = list(SPECIES_IPC, SPECIES_PLASMAMAN, SPECIES_VAMPIRE),
+		"Alcohol Tolerance" = list(SPECIES_IPC, SPECIES_PLASMAMAN),
+		"Light Drinker" = list(SPECIES_IPC, SPECIES_PLASMAMAN),
+		"Smoker" = list(SPECIES_IPC, SPECIES_PLASMAMAN),
+		"Asthma" = list(SPECIES_IPC, SPECIES_PLASMAMAN),
+		"Robust Metabolism" = list(SPECIES_IPC, SPECIES_ELZUOSE),
+		"Fast Metabolism" = list(SPECIES_IPC, SPECIES_ELZUOSE),
+		"Electronic Voicebox" = list(SPECIES_IPC),
+	)
 
 	for(var/client/client in GLOB.clients)
 		client?.prefs.check_quirk_compatibility()
@@ -46,16 +60,19 @@ PROCESSING_SUBSYSTEM_DEF(quirks)
 	var/badquirk = FALSE
 	var/list/conflicting_quirks = cli?.prefs.check_quirk_compatibility()
 	conflicting_quirks &= cli?.prefs.all_quirks
+
 	if(length(conflicting_quirks) > 0)
 		stack_trace("Conflicting quirks [conflicting_quirks.Join(", ")] in client [cli.ckey] preferences on spawn")
+
 	for(var/V in cli?.prefs.all_quirks)
 		var/datum/quirk/Q = quirks[V]
 		if(Q)
-			user.add_quirk(Q, spawn_effects)
+			user.add_quirk(Q, cli, spawn_effects)
 		else
 			stack_trace("Invalid quirk \"[V]\" in client [cli.ckey] preferences")
 			cli?.prefs.all_quirks -= V
 			badquirk = TRUE
+
 	if(badquirk)
 		cli?.prefs.save_character()
 

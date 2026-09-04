@@ -1,8 +1,8 @@
 
 
 /obj/machinery/artillerycontrol
-	var/reload = 60
-	var/reload_cooldown = 60
+	var/reload = 120
+	var/reload_cooldown = 120
 	var/explosiondev = 3
 	var/explosionmed = 6
 	var/explosionlight = 12
@@ -11,9 +11,9 @@
 	icon = 'icons/obj/machines/particle_accelerator.dmi'
 	density = TRUE
 
-/obj/machinery/artillerycontrol/process()
+/obj/machinery/artillerycontrol/process(seconds_per_tick)
 	if(reload < reload_cooldown)
-		reload++
+		reload += seconds_per_tick
 
 /obj/structure/artilleryplaceholder
 	name = "artillery"
@@ -30,7 +30,7 @@
 	dat += "Locked on<BR>"
 	dat += "<B>Charge progress: [reload]/[reload_cooldown]:</B><BR>"
 	dat += "<A href='byond://?src=[REF(src)];fire=1'>Open Fire</A><BR>"
-	dat += "Deployment of weapon authorized by <br>Nanotrasen Naval Command<br><br>Remember, friendly fire is grounds for termination of your contract and life.<HR>"
+	dat += "Deployment of weapon authorized by <br>Makosso-Warra Naval Command<br><br>Remember, friendly fire is grounds for termination of your contract and life.<HR>"
 	user << browse(dat, "window=scroll")
 	onclose(user, "scroll")
 

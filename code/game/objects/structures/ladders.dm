@@ -1,3 +1,13 @@
+/proc/create_ladder_pair(turf/source, turf/destination)
+	if(!istype(source) || !istype(destination))
+		return
+	var/obj/structure/ladder/top = new(source)
+	var/obj/structure/ladder/bottom = new(destination)
+	if(!istype(top)||!istype(bottom))
+		return
+	bottom.connect(top)
+	return list(top, bottom)
+
 // Basic ladder. By default links to the z-level above/below.
 /obj/structure/ladder
 	name = "ladder"
@@ -12,14 +22,7 @@
 
 /obj/structure/ladder/Initialize(mapload, obj/structure/ladder/up, obj/structure/ladder/down)
 	..()
-	if (up)
-		src.up = up
-		up.down = src
-		up.update_appearance()
-	if (down)
-		src.down = down
-		down.up = src
-		down.update_appearance()
+	connect(up, down)
 	return INITIALIZE_HINT_LATELOAD
 
 /obj/structure/ladder/Destroy(force)
@@ -50,6 +53,17 @@
 
 	update_appearance()
 
+/obj/structure/ladder/proc/connect(obj/structure/ladder/up, obj/structure/ladder/down)
+	if (up)
+		src.up = up
+		up.down = src
+		up.update_appearance()
+	if (down)
+		src.down = down
+		down.up = src
+		down.update_appearance()
+	update_appearance()
+
 /obj/structure/ladder/proc/disconnect()
 	if(up && up.down == src)
 		up.down = null
@@ -66,7 +80,7 @@
 
 /obj/structure/ladder/singularity_pull()
 	if (!(resistance_flags & INDESTRUCTIBLE))
-		visible_message("<span class='danger'>[src] is torn to pieces by the gravitational pull!</span>")
+		visible_message(span_danger("[src] is torn to pieces by the gravitational pull!"))
 		qdel(src)
 
 /obj/structure/ladder/proc/travel(going_up, mob/user, is_ghost, obj/structure/ladder/ladder)
@@ -108,7 +122,7 @@
 	else if(down)
 		travel(FALSE, user, is_ghost, down)
 	else
-		to_chat(user, "<span class='warning'>[src] doesn't seem to lead anywhere!</span>")
+		to_chat(user, span_warning("[src] doesn't seem to lead anywhere!"))
 
 	if(!is_ghost)
 		add_fingerprint(user)
@@ -141,9 +155,9 @@
 
 /obj/structure/ladder/proc/show_fluff_message(going_up, mob/user)
 	if(going_up)
-		user.visible_message("<span class='notice'>[user] climbs up [src].</span>", "<span class='notice'>You climb up [src].</span>")
+		user.visible_message(span_notice("[user] climbs up [src]."), span_notice("You climb up [src]."))
 	else
-		user.visible_message("<span class='notice'>[user] climbs down [src].</span>", "<span class='notice'>You climb down [src].</span>")
+		user.visible_message(span_notice("[user] climbs down [src]."), span_notice("You climb down [src]."))
 
 
 // Indestructible away mission ladders which link based on a mapped ID and height value rather than X/Y/Z.

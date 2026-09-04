@@ -1,12 +1,21 @@
+#define CABLE_COLOR_YELLOW "#fff957"
+#define CABLE_COLOR_GREEN "#00aa00"
+#define CABLE_COLOR_BLUE "#4252ff"
+#define CABLE_COLOR_PINK "#ff78eb"
+#define CABLE_COLOR_ORANGE "#ff8000"
+#define CABLE_COLOR_CYAN "#60d5fc"
+#define CABLE_COLOR_WHITE "#efefef"
+#define CABLE_COLOR_RED "#ff3030"
+
 GLOBAL_LIST_INIT(cable_colors, list(
-	"yellow" = "#ffff00",
-	"green" = "#00aa00",
-	"blue" = "#1919c8",
-	"pink" = "#ff3cc8",
-	"orange" = "#ff8000",
-	"cyan" = "#00ffff",
-	"white" = "#ffffff",
-	"red" = "#ff0000"
+	"yellow" = CABLE_COLOR_YELLOW,
+	"green" = CABLE_COLOR_GREEN,
+	"blue" = CABLE_COLOR_BLUE,
+	"pink" = CABLE_COLOR_PINK,
+	"orange" = CABLE_COLOR_ORANGE,
+	"cyan" = CABLE_COLOR_CYAN,
+	"white" = CABLE_COLOR_WHITE,
+	"red" = CABLE_COLOR_RED
 	))
 
 ///////////////////////////////
@@ -51,7 +60,7 @@ GLOBAL_LIST_INIT(cable_colors, list(
 	var/obj/item/stack/cable_coil/stored
 
 	var/cable_color = "red"
-	color = "#ff0000"
+	color = CABLE_COLOR_RED
 	FASTDMM_PROP(\
 		pipe_type = PIPE_TYPE_CABLE,\
 		pipe_interference_group = list("cable"),\
@@ -60,31 +69,31 @@ GLOBAL_LIST_INIT(cable_colors, list(
 
 /obj/structure/cable/yellow
 	cable_color = "yellow"
-	color = "#ffff00"
+	color = CABLE_COLOR_YELLOW
 
 /obj/structure/cable/green
 	cable_color = "green"
-	color = "#00aa00"
+	color = CABLE_COLOR_GREEN
 
 /obj/structure/cable/blue
 	cable_color = "blue"
-	color = "#1919c8"
+	color = CABLE_COLOR_BLUE
 
 /obj/structure/cable/pink
 	cable_color = "pink"
-	color = "#ff3cc8"
+	color = CABLE_COLOR_PINK
 
 /obj/structure/cable/orange
 	cable_color = "orange"
-	color = "#ff8000"
+	color = CABLE_COLOR_ORANGE
 
 /obj/structure/cable/cyan
 	cable_color = "cyan"
-	color = "#00ffff"
+	color = CABLE_COLOR_CYAN
 
 /obj/structure/cable/white
 	cable_color = "white"
-	color = "#ffffff"
+	color = CABLE_COLOR_WHITE
 
 // the power cable object
 /obj/structure/cable/Initialize(mapload, param_color)
@@ -140,7 +149,7 @@ GLOBAL_LIST_INIT(cable_colors, list(
 	if(W.tool_behaviour == TOOL_WIRECUTTER)
 		if (shock(user, 50))
 			return
-		user.visible_message("[user] cuts the cable.", "<span class='notice'>You cut the cable.</span>")
+		user.visible_message("[user] cuts the cable.", span_notice("You cut the cable."))
 		stored.add_fingerprint(user)
 		investigate_log("was cut by [key_name(usr)] in [AREACOORD(src)]", INVESTIGATE_WIRES)
 		deconstruct()
@@ -149,7 +158,7 @@ GLOBAL_LIST_INIT(cable_colors, list(
 	else if(istype(W, /obj/item/stack/cable_coil))
 		var/obj/item/stack/cable_coil/coil = W
 		if (coil.get_amount() < 1)
-			to_chat(user, "<span class='warning'>Not enough cable!</span>")
+			to_chat(user, span_warning("Not enough cable!"))
 			return
 		coil.cable_join(src, user)
 
@@ -161,9 +170,9 @@ GLOBAL_LIST_INIT(cable_colors, list(
 
 	else if(W.tool_behaviour == TOOL_MULTITOOL)
 		if(powernet && (powernet.avail > 0))		// is it powered?
-			to_chat(user, "<span class='danger'>Total power: [DisplayPower(powernet.avail)]\nLoad: [DisplayPower(powernet.load)]\nExcess power: [DisplayPower(surplus())]</span>")
+			to_chat(user, span_danger("Total power: [DisplayPower(powernet.avail)]\nLoad: [DisplayPower(powernet.load)]\nExcess power: [DisplayPower(surplus())]"))
 		else
-			to_chat(user, "<span class='danger'>The cable is not powered.</span>")
+			to_chat(user, span_danger("The cable is not powered."))
 		shock(user, 5, 0.2)
 
 	add_fingerprint(user)
@@ -349,8 +358,8 @@ GLOBAL_LIST_INIT(cable_colors, list(
 
 			to_connect += N.terminal //we'll connect the machines after all cables are merged
 
-		else if(istype(AM, /obj/machinery/power)) //other power machines
-			var/obj/machinery/power/M = AM
+		else if(istype(AM, /obj/machinery)) //other power machines
+			var/obj/machinery/M = AM
 
 			if(M.powernet == powernet)
 				continue
@@ -358,7 +367,7 @@ GLOBAL_LIST_INIT(cable_colors, list(
 			to_connect += M //we'll connect the machines after all cables are merged
 
 	//now that cables are done, let's connect found machines
-	for(var/obj/machinery/power/PM in to_connect)
+	for(var/obj/machinery/PM in to_connect)
 		if(!PM.connect_to_network())
 			PM.disconnect_from_network() //if we somehow can't connect the machine to the new powernet, remove it from the old nonetheless
 
@@ -446,7 +455,7 @@ GLOBAL_LIST_INIT(cable_colors, list(
 	if(P_list.len == 0)//if nothing in both list, then the cable was a lone cable, just delete it and its powernet
 		powernet.remove_cable(src)
 
-		for(var/obj/machinery/power/P in T1)//check if it was powering a machine
+		for(var/obj/machinery/P in T1)//check if it was powering a machine
 			if(!P.connect_to_network()) //can't find a node cable on a the turf to connect to
 				P.disconnect_from_network() //remove from current network (and delete powernet)
 		return
@@ -461,7 +470,7 @@ GLOBAL_LIST_INIT(cable_colors, list(
 
 	// Disconnect machines connected to nodes
 	if(d1 == 0) // if we cut a node (O-X) cable
-		for(var/obj/machinery/power/P in T1)
+		for(var/obj/machinery/P in T1)
 			if(!P.connect_to_network()) //can't find a node cable on a the turf to connect to
 				P.disconnect_from_network() //remove from current network
 
@@ -525,31 +534,12 @@ GLOBAL_LIST_INIT(cable_coil_recipes, list(new/datum/stack_recipe("cable restrain
 	pixel_x = base_pixel_x + rand(-2,2)
 	pixel_y = base_pixel_y + rand(-2,2)
 	update_appearance()
+	AddElement(/datum/element/robotic_heal, burn_heal = 15)
 	recipes = GLOB.cable_coil_recipes
-
 
 ///////////////////////////////////
 // General procedures
 ///////////////////////////////////
-
-
-//you can use wires to heal robotics
-/obj/item/stack/cable_coil/attack(mob/living/carbon/human/H, mob/user)
-	if(!istype(H))
-		return ..()
-
-	var/obj/item/bodypart/affecting = H.get_bodypart(check_zone(user.zone_selected))
-	if(affecting && (!IS_ORGANIC_LIMB(affecting)))
-		if(user == H)
-			user.visible_message("<span class='notice'>[user] starts to fix some of the wires in [H]'s [parse_zone(affecting.body_zone)].</span>", "<span class='notice'>You start fixing some of the wires in [H == user ? "your" : "[H]'s"] [parse_zone(affecting.body_zone)].</span>")
-			if(!do_after(user, 0.5 SECONDS, H))
-				return
-		if(item_heal_robotic(H, user, 0, 15, integrity_loss = 5))
-			use(1)
-		return
-	else
-		return ..()
-
 
 /obj/item/stack/cable_coil/update_appearance()
 	. = ..()
@@ -596,15 +586,15 @@ GLOBAL_LIST_INIT(cable_coil_recipes, list(new/datum/stack_recipe("cable restrain
 		return
 
 	if(!isturf(T) || T.intact || !T.can_have_cabling())
-		to_chat(user, "<span class='warning'>You can only lay cables on catwalks and plating!</span>")
+		to_chat(user, span_warning("You can only lay cables on catwalks and plating!"))
 		return
 
 	if(get_amount() < 1) // Out of cable
-		to_chat(user, "<span class='warning'>There is no cable left!</span>")
+		to_chat(user, span_warning("There is no cable left!"))
 		return
 
 	if(get_dist(T,user) > 1) // Too far
-		to_chat(user, "<span class='warning'>You can't lay cable at a place that far away!</span>")
+		to_chat(user, span_warning("You can't lay cable at a place that far away!"))
 		return
 
 	var/dirn
@@ -618,7 +608,7 @@ GLOBAL_LIST_INIT(cable_coil_recipes, list(new/datum/stack_recipe("cable restrain
 
 	for(var/obj/structure/cable/LC in T)
 		if(LC.d2 == dirn && LC.d1 == 0)
-			to_chat(user, "<span class='warning'>There's already a cable at that position!</span>")
+			to_chat(user, span_warning("There's already a cable at that position!"))
 			return
 
 	var/obj/structure/cable/C = get_new_cable(T)
@@ -662,7 +652,7 @@ GLOBAL_LIST_INIT(cable_coil_recipes, list(new/datum/stack_recipe("cable restrain
 		return
 
 	if(get_dist(C, user) > 1)		// make sure it's close enough
-		to_chat(user, "<span class='warning'>You can't lay cable at a place that far away!</span>")
+		to_chat(user, span_warning("You can't lay cable at a place that far away!"))
 		return
 
 
@@ -678,10 +668,10 @@ GLOBAL_LIST_INIT(cable_coil_recipes, list(new/datum/stack_recipe("cable restrain
 	if((C.d1 == dirn || C.d2 == dirn) && !forceddir)
 		if(!U.can_have_cabling())						//checking if it's a plating or catwalk
 			if (showerror)
-				to_chat(user, "<span class='warning'>You can only lay cables on catwalks and plating!</span>")
+				to_chat(user, span_warning("You can only lay cables on catwalks and plating!"))
 			return
 		if(U.intact)						//can't place a cable if it's a plating with a tile on it
-			to_chat(user, "<span class='warning'>You can't lay cable there unless the floor tiles are removed!</span>")
+			to_chat(user, span_warning("You can't lay cable there unless the floor tiles are removed!"))
 			return
 		else
 			// cable is pointing at us, we're standing on an open tile
@@ -692,7 +682,7 @@ GLOBAL_LIST_INIT(cable_coil_recipes, list(new/datum/stack_recipe("cable restrain
 			for(var/obj/structure/cable/LC in U)		// check to make sure there's not a cable there already
 				if(LC.d1 == fdirn || LC.d2 == fdirn)
 					if (showerror)
-						to_chat(user, "<span class='warning'>There's already a cable at that position!</span>")
+						to_chat(user, span_warning("There's already a cable at that position!"))
 					return
 
 			var/obj/structure/cable/NC = get_new_cable (U)
@@ -738,7 +728,7 @@ GLOBAL_LIST_INIT(cable_coil_recipes, list(new/datum/stack_recipe("cable restrain
 				continue
 			if((LC.d1 == nd1 && LC.d2 == nd2) || (LC.d1 == nd2 && LC.d2 == nd1))	// make sure no cable matches either direction
 				if (showerror)
-					to_chat(user, "<span class='warning'>There's already a cable at that position!</span>")
+					to_chat(user, span_warning("There's already a cable at that position!"))
 
 				return
 
@@ -780,7 +770,7 @@ GLOBAL_LIST_INIT(cable_coil_recipes, list(new/datum/stack_recipe("cable restrain
 	if(item.tool_behaviour != TOOL_WIRECUTTER)
 		return
 	playsound(src, 'sound/weapons/slice.ogg', 50, TRUE, -1)
-	to_chat(user, "<span class='notice'>You start cutting the insulation off of [src]...</span>")
+	to_chat(user, span_notice("You start cutting the insulation off of [src]..."))
 	if(!do_after(user, 1 SECONDS, src))
 		return
 	var/obj/item/result = new /obj/item/garnish/wire(drop_location())
@@ -788,7 +778,7 @@ GLOBAL_LIST_INIT(cable_coil_recipes, list(new/datum/stack_recipe("cable restrain
 	use(1)
 	if(QDELETED(src) && give_to_user)
 		user.put_in_hands(result)
-	to_chat(user, "<span class='notice'>You finish cutting [src]</span>")
+	to_chat(user, span_notice("You finish cutting [src]"))
 
 //////////////////////////////
 // Misc.

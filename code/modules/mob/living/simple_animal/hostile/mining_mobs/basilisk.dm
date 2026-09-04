@@ -18,8 +18,8 @@
 	throw_message = "does nothing against the hard shell of"
 	vision_range = 2
 	speed = 3
-	maxHealth = 175
-	health = 175
+	maxHealth = 90
+	health = 90
 	harm_intent_damage = 5
 	obj_damage = 60
 	melee_damage_lower = 7
@@ -53,7 +53,7 @@
 	. = ..()
 	if(isliving(target))
 		var/mob/living/living_target = target
-		living_target.adjust_jitter(5)
+		living_target.set_timed_status_effect(10 SECONDS, /datum/status_effect/jitter)
 
 /obj/projectile/temp/basilisk/heated
 	name = "energy blast"
@@ -61,6 +61,7 @@
 	damage = 40
 	damage_type = BRUTE
 	nodamage = FALSE
+	flag = ENERGY
 	temperature = 0
 
 /mob/living/simple_animal/hostile/asteroid/basilisk/GiveTarget(new_target)
@@ -81,9 +82,9 @@
 /mob/living/simple_animal/hostile/asteroid/basilisk/AttackingTarget()
 	. = ..()
 	if(lava_drinker && !warmed_up && istype(target, /turf/open/lava))
-		visible_message("<span class='warning'>[src] begins to drink from [target]...</span>")
+		visible_message(span_warning("[src] begins to drink from [target]..."))
 		if(do_after(src, 70, target = target))
-			visible_message("<span class='warning'>[src] begins to fire up!</span>")
+			visible_message(span_warning("[src] begins to fire up!"))
 			fully_heal()
 			icon_state = "Basilisk_alert"
 			set_varspeed(0)
@@ -92,7 +93,7 @@
 			addtimer(CALLBACK(src, PROC_REF(cool_down)), 3000)
 
 /mob/living/simple_animal/hostile/asteroid/basilisk/proc/cool_down()
-	visible_message("<span class='warning'>[src] appears to be cooling down...</span>")
+	visible_message(span_warning("[src] appears to be cooling down..."))
 	if(stat != DEAD)
 		icon_state = "Basilisk"
 	set_varspeed(3)
@@ -115,7 +116,7 @@
 	lava_drinker = FALSE
 	maxHealth = 40
 	health = 40
-	var/shell_health = 80 //Tough to crack, easy to kill.
+	var/shell_health = 60 //Tough to crack, easy to kill.
 	var/has_shell = TRUE
 	var/list/shell_loot = list(/obj/item/stack/ore/diamond, /obj/item/stack/ore/diamond)
 	var/shell_snap_message = FALSE
@@ -130,7 +131,7 @@
 				new l(loc)
 			if(!shell_snap_message)
 				playsound(src, "shatter", 80, FALSE)
-				audible_message("<span class='danger'>[src]'s shell violently cracks as it's armor is shattered!</span>")
+				audible_message(span_danger("[src]'s shell violently cracks as it's armor is shattered!"))
 				throw_message = "bounces off of"
 				shell_snap_message = TRUE //so it doesnt repeat
 		update_appearance()
@@ -152,14 +153,14 @@
 	if(I.force)
 		if(shell_damage(I.force))			// Damage was absorbed by the shell, no need to go further
 			send_item_attack_message(I, user)
-			return TRUE
+			visible_message("<span class='notice'>[src]'s shell absorbs the damage, dealing minimal the [src] itself!</span>")
 	return ..()
 
 /mob/living/simple_animal/hostile/asteroid/basilisk/whitesands/bullet_act(obj/projectile/P)
 	shell_damage(P.damage/4)
 	if(has_shell)
 		playsound(src, pick('sound/weapons/bulletflyby.ogg', 'sound/weapons/bulletflyby2.ogg', 'sound/weapons/bulletflyby3.ogg'), 85, TRUE)
-		visible_message("<span class='notice'>The [P] is absorbed by the [src]'s shell, dealing minimal damage!</span>") //make it less confusing when bullets do no damage
+		visible_message(span_notice("The [P] is absorbed by the [src]'s shell, dealing minimal damage!")) //make it less confusing when bullets do no damage
 	return ..()
 
 /mob/living/simple_animal/hostile/asteroid/basilisk/whitesands/hitby(atom/movable/AM, skipcatch, hitpush, blocked, datum/thrownthing/throwingdatum)
@@ -195,10 +196,6 @@
 	else
 		icon_state = "basilisk_whitesands_dead"
 
-/mob/living/simple_animal/hostile/asteroid/basilisk/whitesands/heat
-	name = "glowing basilisk"
-	projectiletype = /obj/projectile/temp/basilisk/heated
-
 //Watcher
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher
 	name = "watcher"
@@ -220,10 +217,10 @@
 	speak_emote = list("telepathically cries")
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	stat_attack = UNCONSCIOUS
-	movement_type = FLYING
+	is_flying_animal = TRUE
 	robust_searching = 1
 	attack_same = TRUE		// So we'll fight basilisks
-	//mob_trophy = /obj/item/mob_trophy/watcher_wing
+	mob_trophy = /obj/item/mob_trophy/watcher_wing
 	loot = list()
 	butcher_results = list(/obj/item/stack/ore/diamond = 2, /obj/item/stack/sheet/sinew = 2, /obj/item/stack/sheet/bone = 1)
 	lava_drinker = FALSE
@@ -237,10 +234,10 @@
 
 	if(prob(5))
 		new /obj/item/gem/fdiamond(loc)
-		visible_message("<span class='warning'>The focusing diamond in [src]'s eye looks intact!</span>")
+		visible_message(span_warning("The focusing diamond in [src]'s eye looks intact!"))
 	..()
 
-/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/Life()
+/mob/living/simple_animal/hostile/asteroid/basilisk/watcher/Life(seconds_per_tick = SSMOBS_DT, times_fired)
 	. = ..()
 	if(stat == CONSCIOUS)
 		consume_bait()
@@ -286,7 +283,7 @@
 	light_power = 2.5
 	light_color = LIGHT_COLOR_LAVA
 	projectiletype = /obj/projectile/temp/basilisk/magmawing
-	//mob_trophy = /obj/item/mob_trophy/magma_wing
+	mob_trophy = /obj/item/mob_trophy/magma_wing
 	trophy_drop_mod = 75
 
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher/icewing
@@ -301,7 +298,7 @@
 	ranged_cooldown_time = 20
 	projectiletype = /obj/projectile/temp/basilisk/icewing
 	butcher_results = list(/obj/item/stack/ore/diamond = 5, /obj/item/stack/sheet/bone = 1) //No sinew; the wings are too fragile to be usable
-	//mob_trophy = /obj/item/mob_trophy/ice_wing
+	mob_trophy = /obj/item/mob_trophy/ice_wing
 	trophy_drop_mod = 75
 
 /obj/projectile/temp/basilisk/magmawing
@@ -318,7 +315,7 @@
 		var/mob/living/L = target
 		if (istype(L))
 			L.adjust_fire_stacks(0.1)
-			L.IgniteMob()
+			L.ignite_mob()
 
 /obj/projectile/temp/basilisk/icewing
 	damage = 15

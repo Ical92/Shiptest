@@ -3,7 +3,7 @@
 	if(istype(W, /obj/item/aiModule))
 		var/obj/item/aiModule/MOD = W
 		if(!mind) //A player mind is required for law procs to run antag checks.
-			to_chat(user, "<span class='warning'>[src] is entirely unresponsive!</span>")
+			to_chat(user, span_warning("[src] is entirely unresponsive!"))
 			return
 		MOD.install(laws, user) //Proc includes a success mesage so we don't need another one
 		return
@@ -28,17 +28,17 @@
 	if (prob(30))
 		view_core()
 
-/mob/living/silicon/ai/ex_act(severity, target)
+/mob/living/silicon/ai/ex_act(severity, target, light_dam = EX_LIGHT_BASE_DAM, light_item_dam = EX_LIGHT_BASE_ITEM_DAM, heavy_dam = EX_HEAVY_BASE_DAM, heavy_item_dam = EX_HEAVY_BASE_ITEM_DAM)
 	switch(severity)
 		if(1)
 			gib()
 		if(2)
 			if (stat != DEAD)
-				adjustBruteLoss(60)
-				adjustFireLoss(60)
+				adjustBruteLoss(heavy_dam/2)
+				adjustFireLoss(heavy_dam/2)
 		if(3)
 			if (stat != DEAD)
-				adjustBruteLoss(30)
+				adjustBruteLoss(light_dam)
 
 
 

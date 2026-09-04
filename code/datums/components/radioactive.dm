@@ -18,7 +18,7 @@
 	hl3_release_date = _half_life
 	can_contaminate = _can_contaminate
 	if(istype(parent, /atom))
-		RegisterSignal(parent, COMSIG_PARENT_EXAMINE, PROC_REF(rad_examine))
+		RegisterSignal(parent, COMSIG_ATOM_EXAMINE, PROC_REF(rad_examine))
 		RegisterSignal(parent, COMSIG_COMPONENT_CLEAN_ACT, PROC_REF(rad_clean))
 		if(istype(parent, /obj/item))
 			RegisterSignal(parent, COMSIG_ITEM_ATTACK, PROC_REF(rad_attack))
@@ -40,8 +40,8 @@
 	master.remove_filter("rad_glow")
 	return ..()
 
-/datum/component/radioactive/process()
-	if(!prob(50))
+/datum/component/radioactive/process(seconds_per_tick)
+	if(!SPT_PROB(50, seconds_per_tick))
 		return
 	radiation_pulse(parent, strength, RAD_DISTANCE_COEFFICIENT*2, FALSE, can_contaminate)
 	if(!hl3_release_date)

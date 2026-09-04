@@ -18,7 +18,7 @@
 	///list containing the actual ammo within the magazine
 	var/list/stored_ammo = list()
 	///type that the magazine will be searching for, rejects if not a subtype of
-	var/ammo_type = /obj/item/ammo_casing
+	var/obj/item/ammo_casing/ammo_type = /obj/item/ammo_casing
 	///maximum amount of ammo in the magazine
 	var/max_ammo = 7
 	///Controls how sprites are updated for the ammo box; see defines in combat.dm: AMMO_BOX_ONE_SPRITE; AMMO_BOX_PER_BULLET; AMMO_BOX_FULL_EMPTY
@@ -62,8 +62,9 @@
  * Arguments:
  * load_type - if you want to specify a specific ammo casing type to load, enter the path here, otherwise it'll use the basic [/obj/item/ammo_box/var/ammo_type]. Must be a compatible round
  * starting - Relevant for revolver cylinders, if FALSE then we mind the nulls that represent the empty cylinders (since those nulls don't exist yet if we haven't initialized when this is TRUE)
+ * amount - the amount of bullets we're putting in the mag. Otherwise fill it to full if unspecified
  */
-/obj/item/ammo_box/proc/top_off(load_type, starting=FALSE)
+/obj/item/ammo_box/proc/top_off(load_type, starting=FALSE, amount)
 	if(!load_type) //this check comes first so not defining an argument means we just go with default ammo
 		load_type = ammo_type
 
@@ -72,7 +73,11 @@
 		stack_trace("Tried loading unsupported ammocasing type [load_type] into ammo box [type].")
 		return
 
-	for(var/i = max(1, stored_ammo.len), i <= max_ammo, i++)
+	var/num_to_load = max_ammo
+	if(amount)
+		num_to_load = amount
+
+	for(var/i = max(1, stored_ammo.len), i <= num_to_load, i++)
 		stored_ammo += new round_check(src)
 
 /obj/item/ammo_box/Destroy()
@@ -128,6 +133,8 @@
 		for(var/obj/item/ammo_casing/casing_to_insert in attacking_box.stored_ammo)
 			if(!((instant_load && attacking_box.instant_load) || (stored_ammo.len >= max_ammo) || istype(attacking_obj, /obj/item/ammo_box/magazine/ammo_stack) && do_after(user, 0.5 SECONDS, attacking_box, timed_action_flags = IGNORE_USER_LOC_CHANGE)))
 				break
+			if(casing_to_insert.loc != attacking_box) // make sure bullet has not left stack
+				break
 			var/did_load = give_round(casing_to_insert, replace_spent)
 			if(!did_load)
 				break
@@ -170,7 +177,7 @@
 			num_loaded++
 			update_ammo_count()
 	if(num_loaded)
-		to_chat(user, "<span class='notice'>You load [num_loaded] cartridge\s into \the [to_load]!</span>")
+		to_chat(user, span_notice("You load [num_loaded] cartridge\s into \the [to_load]!"))
 	return
 
 /obj/item/ammo_box/attack_self(mob/user)
@@ -231,7 +238,26 @@
 		bullet2pop.fire_act()
 
 /obj/item/ammo_box/magazine
-	w_class = WEIGHT_CLASS_SMALL //Default magazine weight, only differs for tiny mags and drums
+	//Default magazine weight, only differs for tiny mags and drums
+	w_class = WEIGHT_CLASS_SMALL
+	///if this magazine can be quickly emptied with an alt-click
+	var/quick_empty = TRUE
+
+/obj/item/ammo_box/magazine/examine(mob/user)
+	. = ..()
+	if(quick_empty)
+		. += span_notice("You can <b>Alt-Click</b> [src] to quickly empty the entire magazine")
+
+/obj/item/ammo_box/magazine/AltClick(mob/user)
+	. = ..()
+	if(quick_empty)
+		if(do_after(user, 20, src))
+			playsound(src, 'sound/weapons/gun/smg/uzi_unload.ogg', 50)
+			empty_magazine()
+			to_chat(user, "You unload [src]")
+			return
+
+
 
 ///Count of number of bullets in the magazine
 /obj/item/ammo_box/magazine/proc/ammo_count(countempties = TRUE)

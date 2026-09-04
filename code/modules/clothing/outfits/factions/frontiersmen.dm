@@ -1,6 +1,6 @@
 /datum/outfit/job/frontiersmen
 	name = "Frontiersmen - Base Outfit"
-
+	faction = FACTION_PLAYER_FRONTIERSMEN
 	// faction_icon = "bg_frontiersmen"
 
 	uniform = /obj/item/clothing/under/frontiersmen
@@ -15,12 +15,11 @@
 	duffelbag = /obj/item/storage/backpack/duffelbag
 	courierbag = /obj/item/storage/backpack/messenger
 
-/datum/outfit/job/frontiersmen/post_equip(mob/living/carbon/human/H, visualsOnly)
+/datum/outfit/job/frontiersmen/post_equip(mob/living/carbon/human/H, visualsOnly, client/preference_source)
 	. = ..()
 	if(visualsOnly)
 		return
-	H.faction |= list(FACTION_PLAYER_FRONTIERSMEN)
-
+	H.faction |= list(FACTION_ANTAG_FRONTIERSMEN)
 // Assistant
 
 /datum/outfit/job/frontiersmen/assistant
@@ -92,7 +91,7 @@
 	uniform = /obj/item/clothing/under/frontiersmen/officer
 	head = /obj/item/clothing/head/hardhat/frontier
 	shoes = /obj/item/clothing/shoes/combat
-	gloves = /obj/item/clothing/gloves/color/yellow
+	gloves = /obj/item/clothing/gloves/insulated
 	belt = /obj/item/storage/belt/utility/full
 
 // Engineer
@@ -145,7 +144,7 @@
 	accessory = /obj/item/clothing/accessory/armband
 	uniform = /obj/item/clothing/under/frontiersmen/officer
 	head = /obj/item/clothing/head/beret/sec/frontier/officer
-	suit = /obj/item/clothing/suit/armor/vest/frontier
+	suit = /obj/item/clothing/suit/armor/vest/bulletproof/frontier
 	shoes = /obj/item/clothing/shoes/jackboots
 	gloves = /obj/item/clothing/gloves/combat
 	backpack_contents = list(/obj/item/clothing/mask/gas/frontiersmen, /obj/item/melee/baton/loaded=1)

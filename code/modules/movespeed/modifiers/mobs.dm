@@ -14,7 +14,7 @@
 	multiplicative_slowdown = -1
 
 /datum/movespeed_modifier/damage_slowdown
-	blacklisted_movetypes = FLOATING|FLYING
+	blacklisted_movetypes = MOVETYPES_NOT_TOUCHING_GROUND
 	variable = TRUE
 
 /datum/movespeed_modifier/damage_slowdown_flying
@@ -119,3 +119,18 @@
 
 /datum/movespeed_modifier/xeno_queen_loss
 	multiplicative_slowdown = 2
+
+/datum/movespeed_modifier/basicmob_varspeed
+	variable = TRUE
+	flags = IGNORE_NOSLOW
+
+///Slowdown for wading through water
+/datum/movespeed_modifier/wading
+	blacklisted_movetypes = MOVETYPES_NOT_TOUCHING_GROUND
+	multiplicative_slowdown = 1.5
+	conflicts_with = /datum/movespeed_modifier/swimming_deep
+
+///Slowdown for swimming on deep water tiles
+/datum/movespeed_modifier/swimming_deep
+	blacklisted_movetypes = MOVETYPES_NOT_TOUCHING_GROUND
+	multiplicative_slowdown = 3

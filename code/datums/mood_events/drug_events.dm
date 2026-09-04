@@ -59,6 +59,11 @@
 	timeout = 30 SECONDS
 	special_screen_obj = "mood_happiness_bad"
 
+/datum/mood_event/narcotic_light
+	description = span_nicegreen("I feel so soft.")
+	mood_change = 2
+	timeout = 3 MINUTES
+
 /datum/mood_event/narcotic_medium
 	description = span_nicegreen("I feel comfortably numb.")
 	mood_change = 4
@@ -67,6 +72,11 @@
 /datum/mood_event/narcotic_heavy
 	description = span_nicegreen("I feel like I'm wrapped up in cotton!")
 	mood_change = 9
+	timeout = 3 MINUTES
+
+/datum/mood_event/stimulant_light
+	description = span_nicegreen("I feel so light. So productive!")
+	mood_change = 2
 	timeout = 3 MINUTES
 
 /datum/mood_event/stimulant_medium
@@ -79,6 +89,11 @@
 	mood_change = 6
 	timeout = 3 MINUTES
 
+/datum/mood_event/stimulant_bad
+	description = span_boldwarning("Fuck. Need to move. Need to do something. I'm not doing enough. I'm not DOING ENOUGH!!")
+	mood_change = -10
+	timeout = 6 MINUTES
+
 /datum/mood_event/legion_good
 	mood_change = 5
 	description = span_nicegreen("Everything feels so light! I'm strong! Unstoppable!")
@@ -86,3 +101,7 @@
 /datum/mood_event/legion_bad
 	mood_change = -4
 	description = span_warning("Something is slithering through my veins")
+
+/datum/mood_event/stoned
+	mood_change = 6
+	description = span_nicegreen("The world is so comfortable...")

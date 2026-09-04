@@ -18,6 +18,7 @@
 	usesound = list('sound/effects/picaxe1.ogg', 'sound/effects/picaxe2.ogg', 'sound/effects/picaxe3.ogg')
 	attack_verb = list("hit", "pierced", "sliced", "attacked")
 	wall_decon_damage = MINERAL_WALL_INTEGRITY
+	demolition_mod = 1.15
 
 /obj/item/pickaxe/rusted
 	name = "rusty pickaxe"
@@ -82,7 +83,7 @@
 	icon_state = "diamonddrill"
 	item_state = "diamonddrill"
 	toolspeed = 0.2
-	desc = "EXOCOM's improvement on the NT autodrill design, featuring a premium diamond cutting head. Yours is the drill that will pierce the heavens!"
+	desc = "EXOCOM's improvement on the Makosso-Warra autodrill design, featuring a premium diamond cutting head. Yours is the drill that will pierce the heavens!"
 	force = 20
 	custom_materials = list(/datum/material/diamond=2000)
 
@@ -98,23 +99,25 @@
 	toolspeed = 0.1 //the epitome of powertools. extremely fast mining
 	usesound = 'sound/weapons/sonic_jackhammer.ogg'
 	hitsound = 'sound/weapons/sonic_jackhammer.ogg'
-	desc = "The epitome of conventional rock-smashing technology, invented by NT and cost-optimized by EXOCOM. Smashes rocks, objects, and unfortunate wildlife with sonic blasts."
-	force = 25
+	desc = "The epitome of conventional rock-smashing technology, invented by Makosso-Warra and cost-optimized by EXOCOM. Smashes rocks, objects, and unfortunate wildlife with sonic blasts."
+	force = 20
+	armour_penetration = 15
 	attack_verb = list("blasted", "smashed", "slammed", "hammered")
+	demolition_mod = 6
 
 // //back in my day, our jackhammers used nothing but rattlin' drill bits! And we liked it!
 /obj/item/pickaxe/drill/jackhammer/old
 	name = "blastwave jackhammer"
 	icon_state = "jackhammerold"
 	item_state = "jackhammerold"
-	toolspeed = 0.5//meh
+	toolspeed = 0.4//meh
 	desc = "The old fashioned solution to a stubborn wall- used heavily all over known space until the onset of sonic deconstruction technology and Rapid Construction Devices."
-	force = 20
+	force = 15
 	armour_penetration = 15
 
 /obj/item/pickaxe/drill/jackhammer/Initialize(mapload)
 	. = ..()
-	AddComponent(/datum/component/knockback, 2, FALSE, FALSE)
+	AddComponent(/datum/component/knockback, 1, FALSE, FALSE)
 
 //The fist of justice
 /obj/item/pickaxe/drill/jackhammer/brigador
@@ -161,7 +164,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	custom_materials = list(/datum/material/iron=50)
 	attack_verb = list("bashed", "bludgeoned", "thrashed", "whacked")
-	sharpness = IS_SHARP
+	sharpness = SHARP_EDGED
 
 /obj/item/shovel/Initialize()
 	. = ..()
@@ -190,18 +193,81 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	toolspeed = 0.6
 	attack_verb = list("slashed", "impaled", "stabbed", "sliced")
-	sharpness = IS_SHARP
+	sharpness = SHARP_EDGED
 
 /obj/item/shovel/spoon
 	name = "comically large spoon"
 	desc = "Digs out only a spoonfull"
-	icon = 'icons/obj/mining.dmi'
-	icon_state = "spoon"
 	item_state = "spoon"
-	lefthand_file = 'icons/mob/inhands/equipment/mining_lefthand.dmi'
-	righthand_file = 'icons/mob/inhands/equipment/mining_righthand.dmi'
 	force = 6
 	throwforce = 2
 	toolspeed = 0.8
 	attack_verb = list("bashed", "bludgeoned", "spooned", "scooped")
-	sharpness = IS_BLUNT
+	sharpness = SHARP_NONE
+
+/obj/item/trench_tool
+	name = "entrenching tool"
+	desc = "A dual-purpose excavation tool in black and red, serving as both a powerful bladed shovel and a pickaxe. Manufactured by the New Gorlex Republic."
+	icon = 'icons/obj/mining.dmi'
+	icon_state = "trench_tool"
+	lefthand_file = 'icons/mob/inhands/equipment/mining_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/mining_righthand.dmi'
+	force = 15
+	throwforce = 6
+	armour_penetration = 15
+	wound_bonus = 5
+	tool_behaviour = TOOL_MINING
+	slot_flags = ITEM_SLOT_BELT
+	demolition_mod = 1.15
+	wall_decon_damage = MINERAL_WALL_INTEGRITY
+	w_class = WEIGHT_CLASS_NORMAL
+	sharpness = SHARP_POINTY
+	toolspeed = 0.5
+	usesound = 'sound/effects/picaxe1.ogg'
+	attack_verb = list("hits", "pierced", "sliced", "attacked")
+	hitsound = 'sound/weapons/bladeslice.ogg'
+	wound_bonus = 5
+
+/obj/item/trench_tool/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/update_icon_updates_onmob)
+
+/obj/item/trench_tool/ComponentInitialize()
+	. = ..()
+	AddComponent( \
+		/datum/component/transforming, \
+		force_on = 20, \
+		throwforce_on = 10, \
+		hitsound_on = 'sound/weapons/bladeslice.ogg', \
+		attack_verb_on = list("slashed", "impaled", "stabbed", "sliced"), \
+	)
+	RegisterSignal(src, COMSIG_TRANSFORMING_ON_TRANSFORM, PROC_REF(on_transform))
+
+/obj/item/trench_tool/examine(mob/user)
+	. = ..()
+	. += span_notice("It functions as a [tool_behaviour] tool.")
+
+/obj/item/trench_tool/proc/on_transform(obj/item/source, mob/user, active)
+	SIGNAL_HANDLER
+
+	if(active)
+		tool_behaviour = TOOL_SHOVEL
+		sharpness = SHARP_EDGED
+		toolspeed = 0.25
+		usesound = 'sound/effects/shovel_dig.ogg'
+		bare_wound_bonus = 10
+		armour_penetration = 0
+	else
+		tool_behaviour = TOOL_MINING
+		sharpness = SHARP_POINTY
+		toolspeed = 0.5
+		usesound = 'sound/effects/picaxe1.ogg'
+		bare_wound_bonus = 0
+		armour_penetration = 15
+	playsound(src, 'sound/items/ratchet.ogg', 50, vary = TRUE)
+	return COMPONENT_NO_DEFAULT_MESSAGE
+
+/obj/item/trench_tool/gezena
+	name = "entrenching tool"
+	desc = "A dual-purpose excavation tool in green, serving as both a powerful bladed shovel and a pickaxe. In use by the Pan-Gezenan Federation."
+	icon_state = "trench_tool_gezena"

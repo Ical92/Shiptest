@@ -30,7 +30,7 @@ In all, this is a lot like the monkey code. /N
 			AdjustParalyzed(-60)
 			AdjustUnconscious(-60)
 			AdjustSleeping(-100)
-			visible_message("<span class='notice'>[M.name] nuzzles [src] trying to wake [p_them()] up!</span>")
+			visible_message(span_notice("[M.name] nuzzles [src] trying to wake [p_them()] up!"))
 
 		if ("grab")
 			grabbedby(M)
@@ -39,14 +39,14 @@ In all, this is a lot like the monkey code. /N
 			if(health > 0)
 				M.do_attack_animation(src, ATTACK_EFFECT_BITE)
 				playsound(loc, 'sound/weapons/bite.ogg', 50, TRUE, -1)
-				visible_message("<span class='danger'>[M.name] bites [src]!</span>", \
-								"<span class='userdanger'>[M.name] bites you!</span>", "<span class='hear'>You hear a chomp!</span>", COMBAT_MESSAGE_RANGE, M)
-				to_chat(M, "<span class='danger'>You bite [src]!</span>")
+				visible_message(span_danger("[M.name] bites [src]!"), \
+								span_userdanger("[M.name] bites you!"), span_hear("You hear a chomp!"), COMBAT_MESSAGE_RANGE, M)
+				to_chat(M, span_danger("You bite [src]!"))
 				adjustBruteLoss(1)
 				log_combat(M, src, "attacked")
 				updatehealth()
 			else
-				to_chat(M, "<span class='warning'>[name] is too injured for that.</span>")
+				to_chat(M, span_warning("[name] is too injured for that."))
 
 
 /mob/living/carbon/alien/attack_larva(mob/living/carbon/alien/larva/L)
@@ -105,7 +105,7 @@ In all, this is a lot like the monkey code. /N
 		log_combat(M, src, "attacked")
 		updatehealth()
 
-/mob/living/carbon/alien/ex_act(severity, target, origin)
+/mob/living/carbon/alien/ex_act(severity, target, light_dam = EX_LIGHT_BASE_DAM, light_item_dam = EX_LIGHT_BASE_ITEM_DAM, heavy_dam = EX_HEAVY_BASE_DAM, heavy_item_dam = EX_HEAVY_BASE_ITEM_DAM, origin)
 	if(origin && istype(origin, /datum/spacevine_mutation) && isvineimmune(src))
 		return
 	..()
@@ -117,17 +117,19 @@ In all, this is a lot like the monkey code. /N
 			return
 
 		if (EXPLODE_HEAVY)
-			take_overall_damage(60, 60)
-			adjustEarDamage(30,120)
+			take_overall_damage(heavy_dam/2, heavy_dam/2)
+			adjustEarDamage(heavy_dam/2,heavy_dam/3)
 
 		if(EXPLODE_LIGHT)
-			take_overall_damage(30,0)
-			if(prob(50))
-				Unconscious(20)
-			adjustEarDamage(15,60)
+			take_overall_damage(light_dam/2,light_dam/2)
+			adjustEarDamage(light_dam/2,light_dam/3)
 
 /mob/living/carbon/alien/soundbang_act(intensity = 1, stun_pwr = 20, damage_pwr = 5, deafen_pwr = 15)
 	return 0
 
 /mob/living/carbon/alien/acid_act(acidpwr, acid_volume)
 	return 0//aliens are immune to acid.
+
+
+/mob/living/carbon/alien/on_fire_stack(seconds_per_tick, times_fired, datum/status_effect/fire_handler/fire_stacks/fire_handler)
+	adjust_bodytemperature(((fire_handler.stacks * 12)) * 0.5 * seconds_per_tick)

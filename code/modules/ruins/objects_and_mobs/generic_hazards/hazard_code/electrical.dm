@@ -32,7 +32,7 @@
 	//flags for the stun, SHOCK_NOGLOVES ignores gloves, SHOCK_NOSTUN doesn't stun (built in stun_time is seperate), SHOCK_ILLUSION does stamina damage instead.
 	var/shock_flags = SHOCK_NOGLOVES | SHOCK_NOSTUN
 	//examine text shown in can_be_disabled is TRUE
-	disable_text = "cutting the wires."
+	disable_text = "cutting the wires"
 
 /obj/structure/hazard/electrical/Initialize()
 	//if contact, need to set enter_activated
@@ -86,14 +86,14 @@
 	..()
 	if(!can_be_disabled)
 		return
-	user.visible_message("<span class='warning'>[user] cuts power to [src].</span>",
-		"<span class='notice'>You start to cut power to [src].</span>", "<span class='hear'>You hear cutting.</span>")
+	user.visible_message(span_warning("[user] cuts power to [src]."),
+		span_notice("You start to cut power to [src]."), span_hear("You hear cutting."))
 	if(!disabled)
 		if(I.use_tool(src, user, time_to_disable, volume=100))
-			to_chat(user, "<span class='notice'>You disable [src].</span>")
+			to_chat(user, span_notice("You disable [src]."))
 			disable()
 	else
 		if(I.use_tool(src, user, time_to_disable * 2, volume=100))
-			to_chat(user, "<span class='notice'>You destroy [src].</span>")
+			to_chat(user, span_notice("You destroy [src]."))
 			qdel(src)
 	return TRUE

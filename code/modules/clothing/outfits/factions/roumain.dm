@@ -1,17 +1,22 @@
 /datum/outfit/job/roumain
 	name = "Saint-Roumain Militia - Base Outfit"
-
+	faction = FACTION_PLAYER_ROUMAIN
 	uniform = /obj/item/clothing/under/suit/roumain
-	id = /obj/item/card/id
+	alt_uniform = /obj/item/clothing/under/suit/roumain/alt
 	faction_icon = "bg_srm"
 
-	box = null
 
 /datum/outfit/job/roumain/post_equip(mob/living/carbon/human/H, visualsOnly)
 	. = ..()
 	if(visualsOnly)
 		return
-	H.faction |= list(FACTION_PLAYER_ROUMAIN)
+	var/list/crafting_recipe_types = list(
+		/datum/crafting_recipe/bonespear,
+		/datum/crafting_recipe/boneaxe
+	)
+	if(H.mind)
+		for(var/crafting_recipe_type in crafting_recipe_types)
+			H.mind.teach_crafting_recipe(crafting_recipe_type)
 
 // Assistant
 
@@ -21,12 +26,17 @@
 	jobtype = /datum/job/assistant
 	job_icon = "srm_shadow"
 
-	uniform = /obj/item/clothing/under/suit/roumain
-	alt_uniform = null
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	suit = /obj/item/clothing/suit/armor/roumain/shadow
 
 	head = /obj/item/clothing/head/cowboy/sec/roumain/shadow
+
+/datum/outfit/job/roumain/assistant/empty
+	name = "Saint-Roumain Militia - Shadow (Naked)"
+
+	suit = null
+	head = null
+
 
 // Captain
 
@@ -36,23 +46,26 @@
 	job_icon = "srm_montagne"
 	jobtype = /datum/job/captain
 
+	uniform = /obj/item/clothing/under/suit/roumain/montagne
 	ears = /obj/item/radio/headset/headset_com/alt
-	uniform = /obj/item/clothing/under/suit/roumain
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	suit = /obj/item/clothing/suit/armor/roumain/montagne
 	head = /obj/item/clothing/head/cowboy/sec/roumain/montagne
 	id = /obj/item/card/id/gold
 
-	duffelbag = /obj/item/storage/backpack/cultpack
-	courierbag = /obj/item/storage/backpack/cultpack
-	backpack = /obj/item/storage/backpack/cultpack
-	satchel = /obj/item/storage/backpack/cultpack
+	backpack = /obj/item/storage/backpack
+	satchel  = /obj/item/storage/backpack/satchel
+	duffelbag = /obj/item/storage/backpack/duffelbag
+	courierbag = /obj/item/storage/backpack/messenger
 
-	backpack_contents = list(/obj/item/book/manual/srmlore=1,
-		/obj/item/stamp/chap = 1,
-		/obj/item/melee/classic_baton/telescopic=1,
-	)
-	chameleon_extras = null
+	backpack_contents = null
+
+/datum/outfit/job/roumain/captain/empty
+	name = "Saint-Roumain Militia - Hunter Montagne (Naked)"
+
+	ears = null
+	suit = null
+	head = null
 
 // Second-In-Command
 
@@ -63,22 +76,24 @@
 	jobtype = /datum/job/head_of_personnel
 
 	ears = /obj/item/radio/headset/headset_com
-	uniform = /obj/item/clothing/under/suit/roumain
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	suit = /obj/item/clothing/suit/armor/roumain/colligne
 	head = /obj/item/clothing/head/cowboy/sec/roumain/colligne
 	id = /obj/item/card/id/silver
 
-	duffelbag = /obj/item/storage/backpack/cultpack
-	courierbag = /obj/item/storage/backpack/cultpack
-	backpack = /obj/item/storage/backpack/cultpack
-	satchel = /obj/item/storage/backpack/cultpack
+	backpack = /obj/item/storage/backpack
+	satchel  = /obj/item/storage/backpack/satchel
+	duffelbag = /obj/item/storage/backpack/duffelbag
+	courierbag = /obj/item/storage/backpack/messenger
 
-	backpack_contents = list(/obj/item/book/manual/srmlore=1,
-		/obj/item/stamp/chap = 1,
-		/obj/item/melee/classic_baton/telescopic=1,
-	)
-	chameleon_extras = null
+	backpack_contents = null
+
+/datum/outfit/job/roumain/hop/empty
+	name = "Saint-Roumain Militia - Hunter Colligne (Naked)"
+
+	ears = null
+	suit = null
+	head = null
 
 /datum/outfit/job/roumain/security
 	name = "Saint-Roumain Militia - Hunter"
@@ -86,8 +101,6 @@
 	jobtype = /datum/job/officer
 	job_icon = "srm_hunter"
 
-	uniform = /obj/item/clothing/under/suit/roumain
-	alt_uniform = null
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	suit = /obj/item/clothing/suit/armor/roumain
 	head = /obj/item/clothing/head/cowboy/sec/roumain
@@ -100,6 +113,12 @@
 
 	backpack_contents = null
 
+/datum/outfit/job/roumain/security/empty
+	name = "Saint-Roumain Militia - Hunter (naked)"
+
+	suit = null
+	head = null
+
 // engineer
 
 /datum/outfit/job/roumain/engineer
@@ -108,8 +127,6 @@
 	job_icon = "srm_machinist"
 	jobtype = /datum/job/engineer
 
-	uniform = /obj/item/clothing/under/suit/roumain
-	alt_uniform = null
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	belt = /obj/item/storage/belt/utility/full/engi
 	suit = /obj/item/clothing/suit/hazardvest/roumain
@@ -122,6 +139,14 @@
 	duffelbag = /obj/item/storage/backpack/duffelbag
 	courierbag = /obj/item/storage/backpack/messenger
 
+/datum/outfit/job/roumain/engineer/empty
+	name = "Saint-Roumain Militia - Machinist (Naked)"
+
+	belt = null
+	suit = null
+	head = null
+	accessory = null
+
 // Medical Doctor
 
 /datum/outfit/job/roumain/doctor
@@ -130,8 +155,6 @@
 	job_icon = "srm_doctor"
 	jobtype = /datum/job/doctor
 
-	uniform = /obj/item/clothing/under/suit/roumain
-	alt_uniform = null
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	suit = /obj/item/clothing/suit/toggle/labcoat/roumain_med
 	head = /obj/item/clothing/head/cowboy/sec/roumain/med
@@ -143,6 +166,13 @@
 	duffelbag = /obj/item/storage/backpack/duffelbag
 	courierbag = /obj/item/storage/backpack/messenger
 
+/datum/outfit/job/roumain/doctor/empty
+	name = "Saint-Roumain Militia - Hunter Doctor (Naked)"
+
+	suit = null
+	head = null
+	mask = null
+
 // Chaplain
 
 /datum/outfit/job/roumain/flamebearer
@@ -151,18 +181,20 @@
 	job_icon = "srm_flamebearer"
 	jobtype = /datum/job/chaplain
 
-	uniform = /obj/item/clothing/under/suit/roumain
-	alt_uniform = null
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	suit = /obj/item/clothing/suit/armor/roumain/flamebearer
 	head = /obj/item/clothing/head/cowboy/sec/roumain/flamebearer
 	gloves = null
 
-	duffelbag = /obj/item/storage/backpack/cultpack
-	courierbag = /obj/item/storage/backpack/cultpack
-	backpack = /obj/item/storage/backpack/cultpack
-	satchel = /obj/item/storage/backpack/cultpack
+	backpack = /obj/item/storage/backpack
+	satchel  = /obj/item/storage/backpack/satchel
+	duffelbag = /obj/item/storage/backpack/duffelbag
+	courierbag = /obj/item/storage/backpack/messenger
 
-	backpack_contents = list(/obj/item/book/manual/srmlore=1,
-		/obj/item/stamp/chap = 1,
-	)
+	backpack_contents = null
+
+/datum/outfit/job/roumain/flamebearer/empty
+	name = "Saint-Roumain Militia - Flamebearer (Naked)"
+
+	suit = null
+	head = null

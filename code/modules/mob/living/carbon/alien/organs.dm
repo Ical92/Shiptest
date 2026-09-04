@@ -31,14 +31,18 @@
 	icon_state = "plasma"
 	w_class = WEIGHT_CLASS_NORMAL
 	zone = BODY_ZONE_CHEST
-	slot = "plasmavessel"
+	slot = ORGAN_SLOT_XENO_PLASMAVESSEL
 	alien_powers = list(/obj/effect/proc_holder/alien/plant, /obj/effect/proc_holder/alien/transfer)
 	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/toxin/plasma = 10)
 
+	/// The current amount of stored plasma.
 	var/storedPlasma = 100
+	/// The maximum plasma this organ can store.
 	var/max_plasma = 250
-	var/heal_rate = 5
-	var/plasma_rate = 10
+	/// The rate this organ regenerates its owners health at per damage type per second.
+	var/heal_rate = 2.5
+	/// The rate this organ regenerates plasma at per second.
+	var/plasma_rate = 5
 
 /obj/item/organ/alien/plasmavessel/large
 	name = "large plasma vessel"
@@ -46,7 +50,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	storedPlasma = 200
 	max_plasma = 500
-	plasma_rate = 15
+	plasma_rate = 7.5
 
 /obj/item/organ/alien/plasmavessel/large/queen
 	plasma_rate = 20
@@ -57,7 +61,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	storedPlasma = 100
 	max_plasma = 150
-	plasma_rate = 5
+	plasma_rate = 2.5
 
 /obj/item/organ/alien/plasmavessel/small/tiny
 	name = "tiny plasma vessel"
@@ -66,22 +70,22 @@
 	max_plasma = 100
 	alien_powers = list(/obj/effect/proc_holder/alien/transfer)
 
-/obj/item/organ/alien/plasmavessel/on_life()
+/obj/item/organ/alien/plasmavessel/on_life(seconds_per_tick, times_fired)
 	//If there are alien weeds on the ground then heal if needed or give some plasma
 	if(locate(/obj/structure/alien/weeds) in owner.loc)
 		if(owner.health >= owner.maxHealth)
-			owner.adjustPlasma(plasma_rate)
+			owner.adjustPlasma(plasma_rate * seconds_per_tick)
 		else
 			var/heal_amt = heal_rate
 			if(!isalien(owner))
 				heal_amt *= 0.2
-			owner.adjustPlasma(plasma_rate*0.5)
-			owner.adjustBruteLoss(-heal_amt)
-			owner.adjustFireLoss(-heal_amt)
-			owner.adjustOxyLoss(-heal_amt)
-			owner.adjustCloneLoss(-heal_amt)
+			owner.adjustPlasma(0.5 * plasma_rate * seconds_per_tick)
+			owner.adjustBruteLoss(-heal_amt * seconds_per_tick)
+			owner.adjustFireLoss(-heal_amt * seconds_per_tick)
+			owner.adjustOxyLoss(-heal_amt * seconds_per_tick)
+			owner.adjustCloneLoss(-heal_amt * seconds_per_tick)
 	else
-		owner.adjustPlasma(plasma_rate * 0.1)
+		owner.adjustPlasma(0.1 * plasma_rate * seconds_per_tick)
 
 /obj/item/organ/alien/plasmavessel/Insert(mob/living/carbon/organ_owner, special = 0)
 	..()
@@ -107,7 +111,7 @@
 	name = "hive node"
 	icon_state = "hivenode"
 	zone = BODY_ZONE_HEAD
-	slot = "hivenode"
+	slot = ORGAN_SLOT_XENO_HIVENODE
 	w_class = WEIGHT_CLASS_TINY
 	var/recent_queen_death = 0 //Indicates if the queen died recently, aliens are heavily weakened while this is active.
 	alien_powers = list(/obj/effect/proc_holder/alien/whisper)
@@ -127,17 +131,17 @@
 	if(!owner|| owner.stat == DEAD)
 		return
 	if(isalien(owner)) //Different effects for aliens than humans
-		to_chat(owner, "<span class='userdanger'>Your Queen has been struck down!</span>")
-		to_chat(owner, "<span class='danger'>You are struck with overwhelming agony! You feel confused, and your connection to the hivemind is severed.</span>")
+		to_chat(owner, span_userdanger("Your Queen has been struck down!"))
+		to_chat(owner, span_danger("You are struck with overwhelming agony! You feel confused, and your connection to the hivemind is severed."))
 		owner.emote("roar")
 		owner.Stun(200) //Actually just slows them down a bit.
 
 	else if(ishuman(owner)) //Humans, being more fragile, are more overwhelmed by the mental backlash.
-		to_chat(owner, "<span class='danger'>You feel a splitting pain in your head, and are struck with a wave of nausea. You cannot hear the hivemind anymore!</span>")
+		to_chat(owner, span_danger("You feel a splitting pain in your head, and are struck with a wave of nausea. You cannot hear the hivemind anymore!"))
 		owner.force_scream()
 		owner.Paralyze(100)
 
-	owner.adjust_jitter(30)
+	owner.set_timed_status_effect(200 SECONDS, /datum/status_effect/jitter, only_if_higher = TRUE)
 	owner.confused += 30
 	owner.stuttering += 30
 
@@ -152,7 +156,7 @@
 	recent_queen_death = 0
 	if(!owner) //In case the xeno is butchered or subjected to surgery after death.
 		return
-	to_chat(owner, "<span class='noticealien'>The pain of the queen's death is easing. You begin to hear the hivemind again.</span>")
+	to_chat(owner, span_noticealien("The pain of the queen's death is easing. You begin to hear the hivemind again."))
 	owner.clear_alert("alien_noqueen")
 
 #undef QUEEN_DEATH_DEBUFF_DURATION
@@ -161,7 +165,7 @@
 	name = "resin spinner"
 	icon_state = "stomach-x"
 	zone = BODY_ZONE_PRECISE_MOUTH
-	slot = "resinspinner"
+	slot = ORGAN_SLOT_XENO_RESINSPINNER
 	alien_powers = list(/obj/effect/proc_holder/alien/resin)
 
 
@@ -169,7 +173,7 @@
 	name = "acid gland"
 	icon_state = "acid"
 	zone = BODY_ZONE_PRECISE_MOUTH
-	slot = "acidgland"
+	slot = ORGAN_SLOT_XENO_ACIDGLAND
 	alien_powers = list(/obj/effect/proc_holder/alien/acid)
 
 
@@ -177,7 +181,7 @@
 	name = "neurotoxin gland"
 	icon_state = "neurotox"
 	zone = BODY_ZONE_PRECISE_MOUTH
-	slot = "neurotoxingland"
+	slot = ORGAN_SLOT_XENO_NEUROTOXINGLAND
 	alien_powers = list(/obj/effect/proc_holder/alien/neurotoxin)
 
 
@@ -185,6 +189,6 @@
 	name = "egg sac"
 	icon_state = "eggsac"
 	zone = BODY_ZONE_PRECISE_GROIN
-	slot = "eggsac"
+	slot = ORGAN_SLOT_XENO_EGGSAC
 	w_class = WEIGHT_CLASS_BULKY
 	alien_powers = list(/obj/effect/proc_holder/alien/lay_egg)

@@ -1,6 +1,6 @@
 /obj/item/seeds/cotton
 	name = "pack of cotton seeds"
-	desc = "A pack of seeds that'll grow into a cotton plant. Assistants make good free labor if neccesary."
+	desc = "A pack of seeds that'll grow into a cotton plant, a fundamental component of early fabrics."
 	icon_state = "seed-cotton"
 	species = "cotton"
 	plantname = "Cotton"
@@ -32,7 +32,7 @@
 	var/cotton_name = "raw cotton"
 
 /obj/item/grown/cotton/attack_self(mob/user)
-	user.show_message("<span class='notice'>You pull some [cotton_name] out of the [name]!</span>", MSG_VISUAL)
+	user.show_message(span_notice("You pull some [cotton_name] out of the [name]!"), MSG_VISUAL)
 	var/seed_modifier = 0
 	if(seed)
 		seed_modifier = round(seed.potency / 25)
@@ -50,7 +50,7 @@
 		potential_stack.attackby(cotton, user)
 
 	if(cotton.amount > old_cotton_amount)
-		to_chat(user, "<span class='notice'>You add the newly-formed [cotton_name] to the stack. It now contains [cotton.amount] [cotton_name].</span>")
+		to_chat(user, span_notice("You add the newly-formed [cotton_name] to the stack. It now contains [cotton.amount] [cotton_name]."))
 	qdel(src)
 
 //reinforced mutated variant

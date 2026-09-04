@@ -1,7 +1,7 @@
 ///Delete one of every type, sleep a while, then check to see if anything has gone fucky
 /datum/unit_test/create_and_destroy
-	//You absolutely must run last
-	priority = TEST_DEL_WORLD
+	//You absolutely must run after everything else
+	priority = TEST_CREATE_AND_DESTROY
 
 /datum/unit_test/create_and_destroy/Run()
 	//We'll spawn everything here
@@ -42,8 +42,6 @@
 		/obj/item/bodypart/l_arm,
 		/obj/item/bodypart/r_arm,
 		/obj/item/bodypart/leg,
-		//fucking explodes when created
-		/obj/item/grown/bananapeel/bombanana,
 	)
 	//This turf existing is an error in and of itself
 	ignore += typesof(/turf/baseturf_skipover)
@@ -61,7 +59,7 @@
 	//We can't pass a mind into this
 	ignore += typesof(/obj/item/phylactery)
 	//This expects a seed, we can't pass it
-	ignore += typesof(/obj/item/reagent_containers/food/snacks/grown)
+	ignore += typesof(/obj/item/food/grown)
 	//Nothing to hallucinate if there's nothing to hallicinate
 	ignore += typesof(/obj/effect/hallucination)
 	//We don't have a pod
@@ -104,12 +102,16 @@
 	//Needs an elevator
 	ignore += typesof(/obj/machinery/status_display/elevator)
 	ignore += typesof(/obj/machinery/elevator_floor_button)
+	ignore += typesof(/obj/effect/greeble_spawner)
+	//Flakey by design
+	ignore += typesof(/obj/effect/spawner/random)
 
 	var/list/cached_contents = spawn_at.contents.Copy()
 	var/original_turf_type = spawn_at.type
 	var/original_baseturfs = islist(spawn_at.baseturfs) ? spawn_at.baseturfs.Copy() : spawn_at.baseturfs
 	var/original_baseturf_count = length(original_baseturfs)
 
+	GLOB.running_create_and_destroy = TRUE
 	for(var/type_path in typesof(/atom/movable, /turf) - ignore) //No areas please
 		if(ispath(type_path, /turf))
 			spawn_at.ChangeTurf(type_path)
@@ -135,9 +137,6 @@
 		if(length(to_del))
 			for(var/atom/to_kill in to_del)
 				qdel(to_kill)
-
-	//Hell code, we're bound to have ended the round somehow so let's stop if from ending while we work
-	SSticker.delay_end = TRUE
 
 	// Drastically lower the amount of time it takes to GC, since we don't have clients that can hold it up.
 	SSgarbage.collection_timeout[GC_QUEUE_CHECK] = 10 SECONDS
@@ -212,6 +211,6 @@
 		if(fails & BAD_INIT_SLEPT)
 			TEST_FAIL("[path] slept during Initialize()")
 
-	SSticker.delay_end = FALSE
+	GLOB.running_create_and_destroy = FALSE
 	//This shouldn't be needed, but let's be polite
 	SSgarbage.collection_timeout[GC_QUEUE_CHECK] = GC_CHECK_QUEUE

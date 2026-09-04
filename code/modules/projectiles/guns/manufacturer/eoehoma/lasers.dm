@@ -1,6 +1,6 @@
 /obj/item/gun/energy/laser/e10
 	name = "E-10 laser pistol"
-	desc = "A very old laser weapon. Despite the extreme age of some of these weapons, they are sometimes preferred to newer, mass-produced Nanotrasen laser weapons."
+	desc = "A very old laser weapon. Despite the extreme age of some of these weapons, they are sometimes preferred to newer, mass-produced Makosso-Warra laser weapons."
 	icon = 'icons/obj/guns/manufacturer/eoehoma/48x32.dmi'
 	lefthand_file = 'icons/obj/guns/manufacturer/eoehoma/lefthand.dmi'
 	righthand_file = 'icons/obj/guns/manufacturer/eoehoma/righthand.dmi'
@@ -12,12 +12,14 @@
 	wield_delay = 0.2 SECONDS
 	wield_slowdown = LASER_PISTOL_SLOWDOWN
 
-	spread = 2
-	spread_unwielded = 5
+	spread = 6
+	spread_unwielded = 6
 
-	ammo_type = list(/obj/item/ammo_casing/energy/lasergun/eoehoma)
+	ammo_type = list(/obj/item/ammo_casing/energy/lasergun/eoehoma, /obj/item/ammo_casing/energy/lasergun/eoehoma/heavy)
 	manufacturer = MANUFACTURER_EOEHOMA
 
+/obj/item/gun/energy/laser/e10/empty_cell
+	spawn_no_ammo = TRUE
 
 /obj/item/gun/energy/e_gun/e11
 	name = "E-11 hybrid energy rifle"
@@ -31,9 +33,9 @@
 
 	ammo_type = list(/obj/item/ammo_casing/energy/disabler, /obj/item/ammo_casing/energy/laser/eoehoma)
 	ammo_x_offset = 0
-	spread = 60
-	spread_unwielded = 100
-	dual_wield_spread = 100
+	spread = 30
+	spread_unwielded = 40
+	dual_wield_spread = 40
 	shaded_charge = TRUE
 	manufacturer = MANUFACTURER_EOEHOMA
 
@@ -70,8 +72,14 @@
 	charge_sections = 2
 	slot_flags = 0
 
+	slot_available = list(
+		ATTACHMENT_SLOT_MUZZLE = 1,
+		ATTACHMENT_SLOT_RAIL = 1,
+		ATTACHMENT_SLOT_SCOPE = 1
+	)
+
 /obj/item/gun/energy/disabler/e60
-	name = "E-60"
+	name = "E-60 personal defense disabler"
 	desc = "A self-defense weapon that exhausts organic targets, weakening them until they collapse."
 	icon = 'icons/obj/guns/manufacturer/eoehoma/48x32.dmi'
 	lefthand_file = 'icons/obj/guns/manufacturer/eoehoma/lefthand.dmi'
@@ -82,3 +90,6 @@
 
 	shaded_charge = TRUE
 	manufacturer = MANUFACTURER_EOEHOMA
+
+/obj/item/gun/energy/disabler/e60/empty_cell
+	spawn_no_ammo = TRUE

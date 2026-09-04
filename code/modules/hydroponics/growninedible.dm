@@ -37,7 +37,7 @@
 /obj/item/grown/attackby(obj/item/O, mob/user, params)
 	..()
 	if (istype(O, /obj/item/plant_analyzer))
-		var/msg = "This is \a <span class='name'>[src]</span>\n"
+		var/msg = "This is \a [span_name("[src]")]\n"
 		if(seed)
 			msg += seed.get_analyzer_text()
 		to_chat(usr, boxed_message(msg))
@@ -57,6 +57,7 @@
 /obj/item/grown/microwave_act(obj/machinery/microwave/M)
 	return
 
-/obj/item/grown/on_grind()
-	for(var/i in 1 to grind_results.len)
-		grind_results[grind_results[i]] = round(seed.potency)
+/obj/item/grown/on_grind(simulated=FALSE)
+	. = list()
+	for(var/i in grind_results)
+		.[grind_results[i]] = round(seed.potency)

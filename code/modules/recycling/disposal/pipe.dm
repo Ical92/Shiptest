@@ -117,10 +117,10 @@
 
 
 // pipe affected by explosion
-/obj/structure/disposalpipe/contents_explosion(severity, target)
+/obj/structure/disposalpipe/contents_explosion(severity, target, light_dam = EX_LIGHT_BASE_DAM, light_item_dam = EX_LIGHT_BASE_ITEM_DAM, heavy_dam = EX_HEAVY_BASE_DAM, heavy_item_dam = EX_HEAVY_BASE_ITEM_DAM)
 	var/obj/structure/disposalholder/H = locate() in src
 	if(H)
-		H.contents_explosion(severity, target)
+		H.contents_explosion(severity, target, light_dam, light_item_dam, heavy_dam, heavy_item_dam)
 
 
 //welding tool: unfasten and convert to obj/disposalconstruct
@@ -129,13 +129,13 @@
 	if(!can_be_deconstructed(user))
 		return TRUE
 
-	if(!I.tool_start_check(user, amount=0))
+	if(!I.tool_start_check(user, src, amount=0))
 		return TRUE
 
-	to_chat(user, "<span class='notice'>You start slicing [src]...</span>")
+	to_chat(user, span_notice("You start slicing [src]..."))
 	if(I.use_tool(src, user, 30, volume=50))
 		deconstruct()
-		to_chat(user, "<span class='notice'>You slice [src].</span>")
+		to_chat(user, span_notice("You slice [src]."))
 	return TRUE
 
 //checks if something is blocking the deconstruction (e.g. trunk with a bin still linked to it)
@@ -255,7 +255,7 @@
 
 /obj/structure/disposalpipe/trunk/can_be_deconstructed(mob/user)
 	if(linked)
-		to_chat(user, "<span class='warning'>You need to deconstruct disposal machinery above this pipe!</span>")
+		to_chat(user, span_warning("You need to deconstruct disposal machinery above this pipe!"))
 		return FALSE
 	return TRUE
 

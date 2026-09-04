@@ -6,6 +6,7 @@
 	caliber = ".357"
 	icon_state = "magnum-brass"
 	projectile_type = /obj/projectile/bullet/a357
+	stack_size = 12
 
 /obj/item/ammo_casing/a357/match
 	name = ".357 match bullet casing"
@@ -28,7 +29,7 @@
 	caliber = ".45-70"
 	icon_state = "magnum-brass"
 	projectile_type = /obj/projectile/bullet/a4570
-	stack_size = 5
+	stack_size = 6
 
 /obj/item/ammo_casing/a4570/match
 	name = ".45-70 match bullet casing"
@@ -59,6 +60,7 @@
 	name = ".38 surplus bullet casing"
 	desc = "A .38 surplus bullet casing."
 	projectile_type = /obj/projectile/bullet/c38/surplus
+	wear_modifier = 2
 
 /obj/item/ammo_casing/c38/trac
 	name = ".38 TRAC bullet casing"
@@ -79,8 +81,8 @@
 	projectile_type = /obj/projectile/bullet/c38/bouncy
 
 /obj/item/ammo_casing/c38/dumdum
-	name = ".38 dum-dum bullet casing"
-	desc = "A .38 dum-dum bullet casing."
+	name = ".38 prism bullet casing"
+	desc = "A .38 prism bullet casing."
 	bullet_skin = "rubber"
 	projectile_type = /obj/projectile/bullet/c38/dumdum
 
@@ -96,6 +98,24 @@
 	bullet_skin = "surplus"
 	projectile_type = /obj/projectile/bullet/c38/iceblox
 
+/obj/item/ammo_casing/c38/ashwine
+	name = ".38 hallucinogenic bullet casing"
+	desc = "A .38 hallucinogenic bullet casing."
+	bullet_skin = "ash"
+	projectile_type = /obj/projectile/bullet/c38/ashwine
+
+/obj/item/ammo_casing/c38/shock
+	name = ".38 shock bullet casing"
+	desc = "A .38 shock bullet casing."
+	bullet_skin = "shock"
+	projectile_type = /obj/projectile/bullet/c38/shock
+
+/obj/item/ammo_casing/c38/force
+	name = ".38 force bullet casing"
+	desc = "A .38 force bullet casing."
+	bullet_skin = "force"
+	projectile_type = /obj/projectile/bullet/c38/force
+
 //44 Roumain (Montagne & Shadow)
 
 /obj/item/ammo_casing/a44roum
@@ -104,6 +124,7 @@
 	caliber = ".44 Roumain"
 	icon_state = "pistol-steel"
 	projectile_type = /obj/projectile/bullet/a44roum
+	stack_size = 12
 
 /obj/item/ammo_casing/a44roum/rubber
 	name = ".44 roumain rubber bullet casing"

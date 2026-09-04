@@ -58,11 +58,6 @@
 	desc = "The closet of mining equipment."
 	icon_state = "mining"
 
-/area/ship/external/dark
-	name = "Dark External"
-	dynamic_lighting = DYNAMIC_LIGHTING_FORCED
-	icon_state = "space_near"
-
 /area/ship/roumain
 	name = "Hunter's Glade"
 	icon_state = "Sleep"
@@ -88,29 +83,6 @@
 	DELAY 15
 	"}
 
-
-/obj/item/storage/firstaid/roumain
-	name = "Roumain first aid kit"
-	desc = "A common first aid kit used amongst the followers of the Ashen Huntsman."
-	icon_state = "radfirstaid"
-	item_state = "firstaid-rad"
-	custom_premium_price = 1100
-
-/obj/item/storage/firstaid/roumain/PopulateContents()
-	if(empty)
-		return
-	var/static/list/items_inside = list(
-		/obj/item/healthanalyzer = 1,
-		/obj/item/reagent_containers/food/snacks/grown/ash_flora/puce = 1,
-		/obj/item/reagent_containers/glass/mortar = 1,
-		/obj/item/reagent_containers/glass/bowl/mushroom_bowl = 1,
-		/obj/item/pestle = 1,
-		/obj/item/reagent_containers/food/snacks/grown/ash_flora/cactus_fruit = 3,
-		/obj/item/reagent_containers/food/snacks/meat/slab/bear = 3,
-		/obj/item/reagent_containers/food/snacks/grown/ash_flora/mushroom_leaf = 3,
-	)
-	generate_items_inside(items_inside, src)
-
 /obj/item/book/manual/srmlore
 	name = "Notes on the SRM"
 	icon_state = "book5"
@@ -125,7 +97,7 @@
 			The SRM originated on the planet Illestren, a planet colonized early in the
 			expansionist period of space exploration by solgov colonists. Formed by large
 			group of hunters who banded together to form a sort of citizen's militia.
-			When these Solgov colonists came to Illestren, the brought with them the
+			When these SolGov colonists came to Illestren, the brought with them the
 			tales of the Ashen Hunter, a figure who came to be venerated by this militia.
 			The Ashen Huntsman is a religious figure venerated by the SRM, said to be able
 			to survive any conditions on their own, and fell any man, creature, or beast
@@ -137,7 +109,7 @@
 			emulate such glory.<br>
 			Many of the SRM are contracted mercenaries, mostly hired aboard independent
 			vessels. The religious habits amongst members of the organization make them
-			less popular hires for many corporate or government factions. However Nanotrasen
+			less popular hires for many corporate or government factions. However Makosso-Warra
 			doesn't disallow veneration of the Ashen Huntsman on their vessels, making
 			them one of the more common factions for SRM members to serve.<br>
 			The SRM itself is structured around individual companies of hunters. Each SRM

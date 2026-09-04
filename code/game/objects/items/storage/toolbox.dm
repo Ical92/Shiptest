@@ -58,6 +58,7 @@
 		if(3)
 			new /obj/item/flashlight/flare(src)
 	new /obj/item/radio(src)
+	new /obj/item/oxygen_candle(src)
 
 /obj/item/storage/toolbox/emergency/old
 	name = "rusty red toolbox"
@@ -135,7 +136,7 @@
 	new /obj/item/crowbar/old(src)
 	new /obj/item/wirecutters/old(src)
 	new /obj/item/multitool/old(src)
-	new /obj/item/clothing/gloves/color/yellow(src)
+	new /obj/item/clothing/gloves/insulated(src)
 
 /obj/item/storage/toolbox/electrical
 	name = "electrical toolbox"
@@ -152,7 +153,7 @@
 	new /obj/item/stack/cable_coil(src,MAXCOIL,pickedcolor)
 	new /obj/item/stack/cable_coil(src,MAXCOIL,pickedcolor)
 	if(prob(5))
-		new /obj/item/clothing/gloves/color/yellow(src)
+		new /obj/item/clothing/gloves/insulated(src)
 	else
 		new /obj/item/stack/cable_coil(src,MAXCOIL,pickedcolor)
 
@@ -174,7 +175,7 @@
 	new /obj/item/crowbar/syndie(src)
 	new /obj/item/wirecutters/syndie(src)
 	new /obj/item/multitool/syndie(src)
-	new /obj/item/clothing/gloves/color/yellow(src)
+	new /obj/item/clothing/gloves/insulated(src)
 
 /obj/item/storage/toolbox/syndicate/empty
 
@@ -241,7 +242,7 @@
 		/obj/item/clothing/head/helmet/infiltrator,
 		/obj/item/clothing/suit/armor/vest/infiltrator,
 		/obj/item/clothing/under/syndicate/bloodred,
-		/obj/item/clothing/gloves/color/latex/nitrile/infiltrator,
+		/obj/item/clothing/gloves/nitrile/infiltrator,
 		/obj/item/clothing/mask/infiltrator,
 		/obj/item/gun/ballistic/automatic/pistol/ringneck,
 		/obj/item/gun/ballistic/revolver,
@@ -252,7 +253,7 @@
 	new /obj/item/clothing/head/helmet/infiltrator(src)
 	new /obj/item/clothing/suit/armor/vest/infiltrator(src)
 	new /obj/item/clothing/under/syndicate/bloodred(src)
-	new /obj/item/clothing/gloves/color/latex/nitrile/infiltrator(src)
+	new /obj/item/clothing/gloves/nitrile/infiltrator(src)
 	new /obj/item/clothing/mask/infiltrator(src)
 
 /obj/item/storage/toolbox/bounty
@@ -301,7 +302,7 @@
 	if(!is_type_in_list(src, allowed_toolbox) && (type != /obj/item/storage/toolbox))
 		return
 	if(contents.len >= 1)
-		to_chat(user, "<span class='warning'>They won't fit in, as there is already stuff inside!</span>")
+		to_chat(user, span_warning("They won't fit in, as there is already stuff inside!"))
 		return
 	if(T.use(10))
 		var/obj/item/bot_assembly/floorbot/B = new
@@ -319,8 +320,8 @@
 				B.toolbox_color = "s"
 		user.put_in_hands(B)
 		B.update_appearance()
-		to_chat(user, "<span class='notice'>You add the tiles into the empty [name]. They protrude from the top.</span>")
+		to_chat(user, span_notice("You add the tiles into the empty [name]. They protrude from the top."))
 		qdel(src)
 	else
-		to_chat(user, "<span class='warning'>You need 10 floor tiles to start building a floorbot!</span>")
+		to_chat(user, span_warning("You need 10 floor tiles to start building a floorbot!"))
 		return

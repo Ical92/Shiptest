@@ -4,13 +4,6 @@
 	prefix = "_maps/RandomRuins/SandRuins/"
 	ruin_type = RUINTYPE_SAND
 
-/datum/map_template/ruin/whitesands/pubbyslopcrash
-	name = "Pubby Slop Crash"
-	id = "ws-pubbyslopcrash"
-	description = "A failed attempt of the Nanotrasen nutrional replacement program"
-	suffix = "whitesands_surface_pubbyslopcrash.dmm"
-	ruin_tags = list(RUIN_TAG_MINOR_COMBAT, RUIN_TAG_MEDIUM_LOOT, RUIN_TAG_SHELTER)
-
 /datum/map_template/ruin/whitesands/cave_base
 	name = "Abandoned Cave Base"
 	id = "cave_base"
@@ -26,14 +19,6 @@
 	suffix = "whitesands_surface_camp_saloon.dmm"
 	ruin_tags = list(RUIN_TAG_MEDIUM_COMBAT, RUIN_TAG_MEDIUM_LOOT, RUIN_TAG_INHOSPITABLE)
 
-/datum/map_template/ruin/whitesands/survivors/combination //combined extra large ruin of several other whitesands survivor ruins
-	name = "Wasteland Survivor Village"
-	id = "ws-combination"
-	description = "A small encampment of nomadic survivors of the First Colony, and their descendants. By all accounts, feral and without allegance to anyone but themselves."
-	suffix = "whitesands_surface_camp_combination.dmm"
-	allow_duplicates = FALSE
-	ruin_tags = list(RUIN_TAG_MEDIUM_COMBAT, RUIN_TAG_MEDIUM_LOOT, RUIN_TAG_INHOSPITABLE, RUIN_TAG_HAZARDOUS)
-
 /datum/map_template/ruin/whitesands/e11_manufactory
 	name = "E-11 Manufacturing Plant"
 	id = "ws-e11manufactory"
@@ -47,3 +32,24 @@
 	description = "A conspicuous compound in the middle of the sandy wasteland. What goodies are inside?"
 	suffix = "whitesands_brazillianlab.dmm"
 	ruin_tags = list(RUIN_TAG_BOSS_COMBAT, RUIN_TAG_MAJOR_LOOT, RUIN_TAG_INHOSPITABLE)
+
+/datum/map_template/ruin/whitesands/nomads_stop
+	name = "Nomad's Stop"
+	id = "nomad-stop"
+	description = "A set of structures born of ancient prefabs and quick-pour cement, turned into a place for trade on the planet's surface."
+	suffix = "whitesands_nomads_stop.dmm"
+	ruin_tags = list(RUIN_TAG_MEDIUM_COMBAT, RUIN_TAG_MEDIUM_LOOT, RUIN_TAG_HAZARDOUS, RUIN_TAG_SHELTER)
+
+/datum/map_template/ruin/whitesands/settlement_raid
+	name = "Settlement Raid"
+	id = "settlement-raid"
+	description = "A settlement leading a solitary salvaging life under the direction of a former Gorlex Marauder, now being raided by the brutal Frontiersmen Fleet."
+	suffix = "whitesands_settlement_raid.dmm"
+	ruin_tags = list(RUIN_TAG_BOSS_COMBAT, RUIN_TAG_MAJOR_LOOT, RUIN_TAG_SHELTER)
+
+/datum/map_template/ruin/whitesands/pubbytown
+	name = "Pubby Town"
+	id = "pubbytown"
+	description = "A town built around the wreck of a Pubby-Class, founded by a Makosso-Warra technician who helps maintain the hermits' sharplite weapons."
+	suffix = "whitesands_surface_pubbytown.dmm"
+	ruin_tags = list(RUIN_TAG_MEDIUM_COMBAT, RUIN_TAG_MEDIUM_LOOT, RUIN_TAG_SHELTER)

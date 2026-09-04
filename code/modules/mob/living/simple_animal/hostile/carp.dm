@@ -11,7 +11,7 @@
 	mob_biotypes = MOB_ORGANIC|MOB_BEAST
 	speak_chance = 0
 	turns_per_move = 5
-	butcher_results = list(/obj/item/reagent_containers/food/snacks/fishmeat/carp = 2)
+	butcher_results = list(/obj/item/food/fishmeat/carp = 2)
 	response_help_continuous = "pets"
 	response_help_simple = "pet"
 	response_disarm_continuous = "gently pushes aside"
@@ -21,7 +21,7 @@
 	speed = 0
 	maxHealth = 25
 	health = 25
-	food_type = list(/obj/item/reagent_containers/food/snacks/meat)
+	food_type = list(/obj/item/food/fishmeat/carp)
 	tame_chance = 10
 	bonus_tame_chance = 5
 	search_objects = 1
@@ -34,6 +34,7 @@
 	attack_verb_continuous = "bites"
 	attack_verb_simple = "bite"
 	attack_sound = 'sound/weapons/bite.ogg'
+	sharpness = SHARP_POINTY
 	speak_emote = list("gnashes")
 
 	//Space carp aren't affected by cold.
@@ -41,7 +42,7 @@
 	minbodytemp = 0
 	maxbodytemp = 1500
 	faction = list("carp", "mining")
-	movement_type = FLYING
+	is_flying_animal = TRUE
 	pressure_resistance = 200
 
 	var/random_color = TRUE //if the carp uses random coloring
@@ -104,14 +105,14 @@
 /mob/living/simple_animal/hostile/carp/proc/chomp_plastic()
 	var/obj/item/storage/cans/tasty_plastic = locate(/obj/item/storage/cans) in view(1, src)
 	if(tasty_plastic && Adjacent(tasty_plastic))
-		visible_message("<span class='notice'>[src] gets its head stuck in [tasty_plastic], and gets cut breaking free from it!</span>", "<span class='notice'>You try to avoid [tasty_plastic], but it looks so... delicious... Ow! It cuts the inside of your mouth!</span>")
+		visible_message(span_notice("[src] gets its head stuck in [tasty_plastic], and gets cut breaking free from it!"), span_notice("You try to avoid [tasty_plastic], but it looks so... delicious... Ow! It cuts the inside of your mouth!"))
 
 		new /obj/effect/decal/cleanable/plastic(loc)
 
 		adjustBruteLoss(5)
 		qdel(tasty_plastic)
 
-/mob/living/simple_animal/hostile/carp/Life()
+/mob/living/simple_animal/hostile/carp/Life(seconds_per_tick = SSMOBS_DT, times_fired)
 	. = ..()
 	if(stat == CONSCIOUS)
 		chomp_plastic()
@@ -203,10 +204,10 @@
 	if(.)
 		regen_cooldown = world.time + REGENERATION_DELAY
 
-/mob/living/simple_animal/hostile/carp/megacarp/Life()
+/mob/living/simple_animal/hostile/carp/megacarp/Life(seconds_per_tick = SSMOBS_DT, times_fired)
 	. = ..()
 	if(regen_cooldown < world.time)
-		heal_overall_damage(4)
+		heal_overall_damage(2 * seconds_per_tick)
 	if(!rideable && src.mind)
 		can_buckle = TRUE
 		buckle_lying = FALSE

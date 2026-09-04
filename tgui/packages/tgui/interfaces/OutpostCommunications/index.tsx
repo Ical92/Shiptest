@@ -17,6 +17,9 @@ export const OutpostCommunications = (props, context) => {
   const { act, data } = useBackend<Data>(context);
   const { outpostDocked, onShip, points } = data;
   const [tab, setTab] = useSharedState(context, 'outpostTab', '');
+  if (!outpostDocked && tab !== 'shipMission') {
+    setTab('shipMissions');
+  }
   return (
     <Window width={600} height={700} resizable>
       <Window.Content scrollable>
@@ -79,38 +82,11 @@ export const OutpostCommunications = (props, context) => {
 
 const CargoExpressContent = (props, context) => {
   const { act, data } = useBackend<Data>(context);
-  const {
-    beaconZone,
-    beaconName,
-    hasBeacon,
-    usingBeacon,
-    printMsg,
-    canBuyBeacon,
-    message,
-  } = data;
+  const { message } = data;
   return (
     <>
       <Section title="Cargo Express">
         <LabeledList>
-          <LabeledList.Item label="Landing Location">
-            <Button
-              content="Cargo Bay"
-              selected={!usingBeacon}
-              onClick={() => act('LZCargo')}
-            />
-            <Button
-              selected={usingBeacon}
-              disabled={!hasBeacon}
-              onClick={() => act('LZBeacon')}
-            >
-              {beaconZone} ({beaconName})
-            </Button>
-            <Button
-              content={printMsg}
-              disabled={!canBuyBeacon}
-              onClick={() => act('printBeacon')}
-            />
-          </LabeledList.Item>
           <LabeledList.Item label="Notice">{message}</LabeledList.Item>
         </LabeledList>
       </Section>
@@ -131,7 +107,13 @@ const ShipMissionsContent = (props, context) => {
 
 const OutpostMissionsContent = (props, context) => {
   const { data } = useBackend<Data>(context);
-  const { numMissions, maxMissions, outpostDocked, outpostMissions } = data;
+  const {
+    numMissions,
+    maxMissions,
+    outpostDocked,
+    outpostMissions,
+    highPriorityAssigned,
+  } = data;
   const disabled = numMissions >= maxMissions;
   return (
     <Section title={'Available Missions ' + numMissions + '/' + maxMissions}>
@@ -139,6 +121,7 @@ const OutpostMissionsContent = (props, context) => {
         showButton={outpostDocked}
         missions={outpostMissions}
         disabled={disabled}
+        hasHighPriority={highPriorityAssigned}
         tooltip={(disabled && 'You have too many missions!') || null}
       />
     </Section>
@@ -150,6 +133,7 @@ const MissionsList = (props, context) => {
   const disabled = props.disabled as Boolean;
   const tooltip = props.tooltip as string;
   const missionsArray = props.missions as Array<Mission>;
+  const hasHighPriority = props.highPriorityAssigned as Boolean;
   const { act } = useBackend(context);
   //   const { numMissions, maxMissions } = data;
 
@@ -173,7 +157,13 @@ const MissionsList = (props, context) => {
     <Stack vertical>
       <Stack.Item>
         <Box inline mx={1}>
-          {`${mission.value} cr, completed: ${mission.progressStr}`}
+          {`${mission.value} cr`}
+        </Box>
+      </Stack.Item>
+
+      <Stack.Item>
+        <Box inline mx={1}>
+          {`Completed: ${mission.progressStr}`}
         </Box>
       </Stack.Item>
 
@@ -184,14 +174,14 @@ const MissionsList = (props, context) => {
             average: [0.25, 0.75],
             bad: [0, 0.25],
           }}
-          value={mission.remaining / mission.duration}
-        >
-          {mission.timeStr}
-        </ProgressBar>
+          value={mission.progressPer}
+        />
       </Stack.Item>
 
       <Stack.Item>
-        {(showButton && buttonJSX(mission, tooltip, disabled)) || undefined}
+        {(((hasHighPriority && mission.highPriority) || showButton) &&
+          buttonJSX(mission, tooltip, disabled)) ||
+          undefined}
       </Stack.Item>
     </Stack>
   );

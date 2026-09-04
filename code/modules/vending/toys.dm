@@ -1,5 +1,5 @@
 /obj/machinery/vending/donksofttoyvendor
-	name = "\improper Donksoft Toy Vendor"
+	name = "\improper Toy Gun Vendor"
 	desc = "Ages 8 and up approved vendor that dispenses toys."
 	icon_state = "nt-donk"
 	product_slogans = "Get your cool toys today!;Quality toy weapons for cheap prices!"
@@ -15,11 +15,9 @@
 		/obj/item/storage/box/ammo/foam_darts = 20,
 		/obj/item/toy/foamblade = 10,
 		/obj/item/toy/balloon/syndicate = 10,
-		/obj/item/clothing/suit/syndicatefake = 5,
-		/obj/item/clothing/head/syndicatefake = 5,
 		/obj/item/gun/ballistic/shotgun/toy/crossbow = 10,
 		/obj/item/toy/katana = 10,
-		/obj/item/dualsaber/toy = 5)
+		/obj/item/melee/duelenergy/saber/toy = 5)
 	armor = list("melee" = 100, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 100, "acid" = 50)
 	resistance_flags = FIRE_PROOF
 	refill_canister = /obj/item/vending_refill/donksoft
@@ -27,5 +25,5 @@
 	extra_price = 300
 
 /obj/item/vending_refill/donksoft
-	machine_name = "Donksoft Toy Vendor"
+	machine_name = "Toy Gun Vendor"
 	icon_state = "refill_donksoft"

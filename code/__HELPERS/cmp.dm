@@ -10,6 +10,22 @@
 /proc/cmp_text_dsc(a,b)
 	return sorttext(a,b)
 
+/proc/cmp_embed_text_asc(a,b)
+	if(isdatum(a))
+		a = REF(a)
+	if(isdatum(b))
+		b = REF(b)
+	return sorttext("[b]", "[a]")
+
+/proc/cmp_embed_text_dsc(a,b)
+	if(isdatum(a))
+		a = REF(a)
+	if(isdatum(b))
+		b = REF(b)
+	return sorttext("[a]", "[b]")
+
+
+
 /proc/cmp_name_asc(atom/a, atom/b)
 	return sorttext(b.name, a.name)
 
@@ -142,3 +158,6 @@ GLOBAL_VAR_INIT(cmp_field, "name")
 	if(A.dock_width == B.dock_width)
 		return A.dock_height - B.dock_height
 	return A.dock_width - B.dock_width
+
+/proc/cmp_factions_asc(datum/faction/a, datum/faction/b)
+	return initial(b.order) - initial(a.order) || sorttext(initial(b.name), initial(a.name))

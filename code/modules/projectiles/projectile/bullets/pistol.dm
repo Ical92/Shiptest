@@ -2,23 +2,27 @@
 
 /obj/projectile/bullet/c22lr
 	name = ".22LR bullet"
-	damage = 16
+	damage = 20
 	armour_penetration = -40
 	ricochet_incidence_leeway = 20
 	ricochet_chance = 65
 	speed = BULLET_SPEED_HANDGUN
 	bullet_identifier = "tiny bullet"
 
+/obj/projectile/bullet/c22lr/surplus
+	name = ".22LR surplus bullet"
+	speed_mod = BULLET_SPEED_SURPLUS_MOD
+
 /obj/projectile/bullet/c22lr/hp
 	name = ".22LR HP bullet"
-	damage = 22
+	damage = 24
 	armour_penetration = -50
 	ricochet_chance = 0
 	speed_mod = BULLET_SPEED_HP_MOD
 
 /obj/projectile/bullet/c22lr/ap
 	name = ".22LR armor piercing bullet"
-	damage = 15
+	damage = 18
 	armour_penetration = -20
 	ricochet_incidence_leeway = 20
 	ricochet_chance = 30
@@ -42,12 +46,12 @@
 	name = "9mm bullet"
 	damage = 20
 	armour_penetration = -20
+	embedding = list(embed_chance=15, fall_chance=3, jostle_chance=4, ignore_throwspeed_threshold=TRUE, pain_stam_pct=0.4, pain_mult=5, jostle_pain_mult=6, rip_time=10)
 	speed = BULLET_SPEED_HANDGUN
 	bullet_identifier = "small bullet"
 
 /obj/projectile/bullet/c9mm/surplus
 	name = "9mm surplus bullet"
-	damage = 15
 	speed_mod = BULLET_SPEED_SURPLUS_MOD
 
 /obj/projectile/bullet/c9mm/ap
@@ -81,7 +85,6 @@
 
 /obj/projectile/bullet/c10mm/surplus
 	name = "10mm surplus bullet"
-	damage = 20
 	speed_mod = BULLET_SPEED_SURPLUS_MOD
 
 /obj/projectile/bullet/c10mm/ap
@@ -115,7 +118,6 @@
 
 /obj/projectile/bullet/c45/surplus
 	name = ".45 surplus bullet"
-	damage = 22
 	speed_mod = BULLET_SPEED_SURPLUS_MOD
 
 /obj/projectile/bullet/c45/ap

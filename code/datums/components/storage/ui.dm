@@ -1,14 +1,20 @@
 // Generates a list of numbered_display datums for the numerical display system.
 /datum/component/storage/proc/_process_numerical_display()
 	. = list()
-	for(var/obj/item/I in accessible_items())
-		if(QDELETED(I))
+	for(var/obj/item/thing in accessible_items())
+		if(QDELETED(thing))
 			continue
-		if(!.[I.type])
-			.[I.type] = new /datum/numbered_display(I, 1, src)
+
+		var/total_amnt = 1
+		if(isstack(thing))
+			var/obj/item/stack/things = thing
+			total_amnt = things.amount
+
+		if(!.["[thing.type]-[thing.name]"])
+			.["[thing.type]-[thing.name]"] = new /datum/numbered_display(thing, total_amnt, src)
 		else
-			var/datum/numbered_display/ND = .[I.type]
-			ND.number++
+			var/datum/numbered_display/ND = .["[thing.type]-[thing.name]"]
+			ND.number += total_amnt
 
 // Orients all objects in legacy mode, and returns the objects to show to the user.
 /datum/component/storage/proc/orient2hud_legacy(mob/user, maxcolumns)
@@ -41,12 +47,13 @@
 	if(islist(numbered_contents))
 		for(var/type in numbered_contents)
 			var/datum/numbered_display/ND = numbered_contents[type]
-			ND.sample_object.mouse_opacity = MOUSE_OPACITY_OPAQUE
-			ND.sample_object.screen_loc = "[cx]:[screen_pixel_x],[cy]:[screen_pixel_y]"
-			ND.sample_object.maptext = "<font color='white'>[(ND.number > 1)? "[ND.number]" : ""]</font>"
-			ND.sample_object.layer = ABOVE_HUD_LAYER
-			ND.sample_object.plane = ABOVE_HUD_PLANE
-			. += ND.sample_object
+			var/obj/O = ND.holder.our_item
+			ND.holder.mouse_opacity = MOUSE_OPACITY_OPAQUE
+			ND.holder.screen_loc = "[cx]:[screen_pixel_x],[cy]:[screen_pixel_y]"
+			O.maptext = "<font color='white'>[(ND.number > 1)? "[ND.number]" : ""]</font>"
+			O.layer = ABOVE_HUD_LAYER
+			O.plane = ABOVE_HUD_PLANE
+			. += ND.holder
 			cx++
 			if(cx - screen_start_x >= columns)
 				cx = screen_start_x
@@ -101,7 +108,7 @@
 	var/min_pixels = (MINIMUM_PIXELS_PER_ITEM * length(percentage_by_item)) + padding_pixels
 	// do the check for fallback for when someone has too much gamer gear
 	if((min_pixels) > (max_horizontal_pixels + 4))	// 4 pixel grace zone
-		to_chat(user, "<span class='warning'>[parent] was showed to you in legacy mode due to your items overrunning the three row limit! Consider not carrying too much or bugging a maintainer to raise this limit!</span>")
+		to_chat(user, span_warning("[parent] was showed to you in legacy mode due to your items overrunning the three row limit! Consider not carrying too much or bugging a maintainer to raise this limit!"))
 		return orient2hud_legacy(user, maxcolumns)
 	// after this point we are sure we can somehow fit all items into our max number of rows.
 
@@ -111,7 +118,7 @@
 	var/overrun = FALSE
 	if(used > our_volume)
 		// congratulations we are now in overrun mode. everything will be crammed to minimum storage pixels.
-		to_chat(user, "<span class='warning'>[parent] rendered in overrun mode due to more items inside than the maximum volume supports.</span>")
+		to_chat(user, span_warning("[parent] rendered in overrun mode due to more items inside than the maximum volume supports."))
 		overrun = TRUE
 
 	// how much we are using
@@ -184,7 +191,7 @@
 	// in tiles
 	var/maxallowedscreensize = cview[1]-8
 	// we got screen size, register signal
-	RegisterSignal(M, COMSIG_PARENT_QDELETING, PROC_REF(on_logout), override = TRUE)
+	RegisterSignal(M, COMSIG_QDELETING, PROC_REF(on_logout), override = TRUE)
 	if(M.active_storage != src)
 		if(M.active_storage)
 			M.active_storage.ui_hide(M)
@@ -222,7 +229,7 @@
 /datum/component/storage/proc/ui_hide(mob/M)
 	if(!M.client)
 		return TRUE
-	UnregisterSignal(M, list(COMSIG_PARENT_QDELETING))
+	UnregisterSignal(M, list(COMSIG_QDELETING))
 	M.client.screen -= ui_by_mob[M]
 	var/list/objects = ui_by_mob[M]
 	QDEL_LIST(objects)

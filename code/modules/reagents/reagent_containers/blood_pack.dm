@@ -8,6 +8,7 @@
 	var/unique_blood = null
 	var/labelled = 0
 	fill_icon_thresholds = list(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
+	custom_materials = list(/datum/material/plastic = 600)
 
 /obj/item/reagent_containers/blood/Initialize()
 	. = ..()
@@ -74,7 +75,7 @@
 /obj/item/reagent_containers/blood/attackby(obj/item/I, mob/user, params)
 	if (istype(I, /obj/item/pen) || istype(I, /obj/item/toy/crayon))
 		if(!user.is_literate())
-			to_chat(user, "<span class='notice'>You scribble illegibly on the label of [src]!</span>")
+			to_chat(user, span_notice("You scribble illegibly on the label of [src]!"))
 			return
 		var/t = stripped_input(user, "What would you like to label the blood pack?", name, null, 53)
 		if(!user.canUseTopic(src, BE_CLOSE))

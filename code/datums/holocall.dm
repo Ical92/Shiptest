@@ -46,11 +46,11 @@
 
 	var/call_start_time
 
-//creates a holocall made by `caller` from `calling_pad` to `callees`
-/datum/holocall/New(mob/living/caller, obj/machinery/holopad/calling_pad, list/callees, elevated_access = FALSE)
+//creates a holocall made by `requester` from `calling_pad` to `callees`
+/datum/holocall/New(mob/living/requester, obj/machinery/holopad/calling_pad, list/callees, elevated_access = FALSE)
 	call_start_time = world.time
-	user = caller
-	caller_location = get_area_name(caller)
+	user = requester
+	caller_location = calling_pad.get_pad_name()
 	calling_pad.outgoing_call = src
 	calling_holopad = calling_pad
 	dialed_holopads = list()
@@ -60,6 +60,8 @@
 		if(!QDELETED(H) && H.is_operational)
 			dialed_holopads += H
 			H.say("Incoming call.")
+			if(H.admin_pad)
+				to_chat(GLOB.admins, span_adminnotice("[icon2html(calling_holopad.icon, GLOB.admins)]<b><font color=green> Incoming Holocall! \n </font>[ADMIN_FULLMONTY(requester)]:</b><span class='linkify'> is calling <b>[H.get_pad_name()][ADMIN_FLW(H)]</b> from <b>[get_area_name(calling_holopad)][ADMIN_FLW(calling_pad)]</b>!"))
 			LAZYADD(H.holo_calls, src)
 
 	if(!dialed_holopads.len)
@@ -161,7 +163,7 @@
 		return
 
 	calling_holopad.calling = FALSE
-	hologram = H.activate_holo(user)
+	hologram = H.activate_holo(user, calling_holopad.secret_user)
 	hologram.HC = src
 
 	//eyeobj code is horrid, this is the best copypasta I could make
@@ -178,6 +180,7 @@
 	hangup.Grant(user)
 	playsound(H, 'sound/machines/ping.ogg', 100)
 	H.say("Connection established.")
+	H.update_appearance()
 
 //Checks the validity of a holocall and qdels itself if it's not. Returns TRUE if valid, FALSE otherwise
 /datum/holocall/proc/Check()
@@ -220,7 +223,7 @@
 	var/caller_name = "Unknown" //Caller name
 	var/image/caller_image
 	var/list/entries = list()
-	var/language = /datum/language/common //Initial language, can be changed by HOLORECORD_LANGUAGE entries
+	var/language = /datum/language/galactic_common //Initial language, can be changed by HOLORECORD_LANGUAGE entries
 
 /datum/holorecord/proc/set_caller_image(mob/user)
 	var/olddir = user.dir
@@ -260,10 +263,10 @@
 			record.caller_image = holodiskOriginal.record.caller_image
 			record.entries = holodiskOriginal.record.entries.Copy()
 			record.language = holodiskOriginal.record.language
-			to_chat(user, "<span class='notice'>You copy the record from [holodiskOriginal] to [src] by connecting the ports!</span>")
+			to_chat(user, span_notice("You copy the record from [holodiskOriginal] to [src] by connecting the ports!"))
 			name = holodiskOriginal.name
 		else
-			to_chat(user, "<span class='warning'>[holodiskOriginal] has no record on it!</span>")
+			to_chat(user, span_warning("[holodiskOriginal] has no record on it!"))
 	..()
 
 /obj/item/disk/holodisk/proc/build_record()
@@ -324,28 +327,26 @@
 		if(outfit_type)
 			mannequin.equipOutfit(outfit_type,TRUE)
 		mannequin.setDir(SOUTH)
-		COMPILE_OVERLAYS(mannequin)
 		. = image(mannequin)
 		unset_busy_human_dummy("HOLODISK_PRESET")
 
 /obj/item/disk/holodisk/example
-	preset_image_type = /datum/preset_holoimage/clown
+	preset_image_type = /datum/preset_holoimage/researcher
 	preset_record_text = {"
-	NAME Clown
+	NAME Guy Scienceman
 	DELAY 10
 	SAY Why did the chaplain cross the maint ?
 	DELAY 20
 	SAY He wanted to get to the other side!
-	SOUND clownstep
+	SOUND scream
 	DELAY 30
-	LANGUAGE /datum/language/narsie
 	SAY Helped him get there!
 	DELAY 10
 	SAY ALSO IM SECRETLY A GORILLA
 	DELAY 10
 	PRESET /datum/preset_holoimage/gorilla
 	NAME Gorilla
-	LANGUAGE /datum/language/common
+	LANGUAGE /datum/language/galactic_common
 	SAY OOGA
 	DELAY 20"}
 
@@ -364,17 +365,14 @@
 /datum/preset_holoimage/captain
 	outfit_type = /datum/outfit/job/captain
 
-/datum/preset_holoimage/nanotrasenprivatesecurity
-	outfit_type = /datum/outfit/nanotrasensoldiercorpse2
+/datum/preset_holoimage/warraprivatesecurity
+	outfit_type = /datum/outfit/vigilitas/trooper
 
 /datum/preset_holoimage/gorilla
 	nonhuman_mobtype = /mob/living/simple_animal/hostile/gorilla
 
 /datum/preset_holoimage/corgi
 	nonhuman_mobtype = /mob/living/simple_animal/pet/dog/corgi
-
-/datum/preset_holoimage/clown
-	outfit_type = /datum/outfit/job/clown
 
 /datum/preset_holoimage/miner
 	outfit_type = /datum/outfit/job/miner
@@ -450,11 +448,10 @@
 	SAY Oh, shit!
 	DELAY 10
 	PRESET /datum/preset_holoimage/engineer/atmos/rig
-	LANGUAGE /datum/language/narsie
 	NAME Unknown
 	SAY RISE, MY LORD!!
 	DELAY 10
-	LANGUAGE /datum/language/common
+	LANGUAGE /datum/language/galactic_common
 	NAME Plastic
 	PRESET /datum/preset_holoimage/engineer/rig
 	SAY Fuck, fuck, fuck!

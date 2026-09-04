@@ -21,15 +21,25 @@
 	path = /obj/item/clothing/head/hardhat/dblue
 	allowed_roles = list("Chief Engineer", "Engineer", "Atmospheric Technician")
 
+//Motorcycle Helmets
+
+/datum/gear/hat/motorcycle
+	display_name = "motorcycle helmet, recolorable"
+	path = /obj/item/clothing/head/motorcycle
+
+/datum/gear/hat/motorcycle_cat
+	display_name = "motorcycle helmet (ears), recolorable"
+	path = /obj/item/clothing/head/motorcycle/cat
+
 //Berets, AKA how I lost my will to live again
 
 /datum/gear/hat/beret
-	display_name = "beret, red"
-	path = /obj/item/clothing/head/beret
+	display_name = "beret, recolorable"
+	path = /obj/item/clothing/head/beret/color
 
-/datum/gear/hat/beret/black
-	display_name = "beret, black"
-	path = /obj/item/clothing/head/beret/black
+/datum/gear/hat/beret/aclf
+	display_name = "ACLF beret"
+	path = /obj/item/clothing/head/beret/aclf
 
 /datum/gear/hat/beret/departmental
 	display_name = "beret, departmental"
@@ -69,8 +79,6 @@
 		"Curator" = /obj/item/clothing/head/beret/service,
 		"Janitor" = /obj/item/clothing/head/beret/service,
 		"Lawyer" = /obj/item/clothing/head/beret/service,
-		"Mime" = /obj/item/clothing/head/beret,
-		"Clown" = /obj/item/clothing/head/beret/puce
 	)
 
 /datum/gear/hat/beret/engineering/hazard
@@ -81,27 +89,8 @@
 //Soft caps
 
 /datum/gear/hat/softcap
-	subtype_path = /datum/gear/hat/softcap
-
-/datum/gear/hat/softcap/red
-	display_name = "cap, red"
-	path = /obj/item/clothing/head/soft/red
-
-/datum/gear/hat/softcap/blue
-	display_name = "cap, blue"
-	path = /obj/item/clothing/head/soft/blue
-
-/datum/gear/hat/softcap/grey
-	display_name = "cap, grey"
-	path = /obj/item/clothing/head/soft/grey
-
-/datum/gear/hat/softcap/white
-	display_name = "cap, white"
-	path = /obj/item/clothing/head/soft/mime
-
-/datum/gear/hat/softcap/black
-	display_name = "cap, black"
-	path = /obj/item/clothing/head/soft/black
+	display_name = "cap, recolorable"
+	path = /obj/item/clothing/head/soft
 
 /datum/gear/hat/utility_black
 	display_name = "utility cover, black"
@@ -123,33 +112,14 @@
 //Beanies
 
 /datum/gear/hat/beanie
-	display_name = "beanie, white"
+	display_name = "beanie, recolorable"
 	path = /obj/item/clothing/head/beanie
 
-/datum/gear/hat/beanie/black
-	display_name = "beanie, black"
-	path = /obj/item/clothing/head/beanie/black
-
-/datum/gear/hat/beanie/red
-	display_name = "beanie, red"
-	path = /obj/item/clothing/head/beanie/red
-
-/datum/gear/hat/beanie/green
-	display_name = "beanie, green"
-	path = /obj/item/clothing/head/beanie/green
-
-/datum/gear/hat/beanie/purple
-	display_name = "beanie, purple"
-	path = /obj/item/clothing/head/beanie/purple
-
-/datum/gear/hat/beanie/blue
-	display_name = "beanie, blue"
-	path = /obj/item/clothing/head/beanie/darkblue
-
-/datum/gear/hat/beanie/orange
-	display_name = "beanie, orange"
-	path = /obj/item/clothing/head/beanie/orange
 //Misc
+
+/datum/gear/hat/brimmed
+	display_name = "brimmed hat, colorable"
+	path = /obj/item/clothing/head/brimmed
 
 /datum/gear/hat/that
 	display_name = "top hat"
@@ -179,6 +149,10 @@
 	display_name = "cowboy hat"
 	path = /obj/item/clothing/head/cowboy
 
+/datum/gear/hat/cowboyblack
+	display_name = "black cowboy hat"
+	path = /obj/item/clothing/head/cowboy/black
+
 /datum/gear/hat/trapper
 	display_name = "trapper hat"
 	path = /obj/item/clothing/head/trapper
@@ -186,3 +160,27 @@
 /datum/gear/hat/flowers
 	display_name = "plastic flower, pickable"
 	path = /obj/item/clothing/head/plastic_flower
+
+/datum/gear/hat/flap
+	display_name = "flap cap, recolorable"
+	path = /obj/item/clothing/head/flap
+
+/datum/gear/hat/boonie
+	display_name = "boonie, recolorable"
+	path = /obj/item/clothing/head/boonie
+
+/datum/gear/hat/sunhat
+	display_name = "sun hat"
+	path = /obj/item/clothing/head/sunhat
+
+/datum/gear/hat/hairbow
+	display_name = "hairbow, recolorable"
+	path = /obj/item/clothing/head/hairbow
+
+/datum/gear/hat/headband
+	display_name = "headband, recolorable"
+	path = /obj/item/clothing/head/headband
+
+/datum/gear/hat/ribbon
+	display_name = "ribbon, recolorable"
+	path = /obj/item/clothing/head/ribbon

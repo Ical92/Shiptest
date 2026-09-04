@@ -2,7 +2,7 @@
 //this is meant to hold reagents/obj/item/gun/syringe
 /obj/item/gun/chem
 	name = "reagent gun"
-	desc = "A Nanotrasen syringe gun, modified to automatically synthesise chemical darts, and instead hold reagents."
+	desc = "A Makosso-Warra syringe gun, modified to automatically synthesise chemical darts, and instead hold reagents."
 	icon_state = "chemgun"
 	item_state = "chemgun"
 	w_class = WEIGHT_CLASS_NORMAL
@@ -33,12 +33,12 @@
 	if(chambered && !chambered.BB && syringes_left)
 		chambered.newshot()
 
-/obj/item/gun/chem/process()
+/obj/item/gun/chem/process(seconds_per_tick)
 	if(syringes_left >= max_syringes)
 		return
 	if(world.time < last_synth+time_per_syringe)
 		return
-	to_chat(loc, "<span class='warning'>You hear a click as [src] synthesizes a new dart.</span>")
+	to_chat(loc, span_warning("You hear a click as [src] synthesizes a new dart."))
 	syringes_left++
 	if(chambered && !chambered.BB)
 		chambered.newshot()

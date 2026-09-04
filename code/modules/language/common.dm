@@ -1,15 +1,21 @@
 // 'basic' language; spoken by default.
-/datum/language/common
+/datum/language/galactic_common
 	name = "Galactic Common"
 	desc = "The common galactic tongue."
-	speech_verb = "says"
-	whisper_verb = "whispers"
-	sing_verb = "sings"
 	key = "0"
-	flags = TONGUELESS_SPEECH | LANGUAGE_HIDE_ICON_IF_UNDERSTOOD
+	flags = TONGUELESS_SPEECH | LANGUAGE_HIDE_ICON_IF_UNDERSTOOD | ROUNDSTART_LANGUAGE
 	default_priority = 100
 
 	icon_state = "galcom"
+
+	mutual_understanding = list(
+		/datum/language/league_kalixcian = 25,
+		/datum/language/solarian_international = 20,
+		/datum/language/gezena_kalixcian = 20,
+		/datum/language/vox_pidgin = 30,
+		/datum/language/zohil_kalixcian = 15, // similar to gezenan
+	)
+
 
 //Syllable Lists
 /*
@@ -20,7 +26,7 @@
 	http://www.sttmedia.com/syllablefrequency-english
 	http://www.chinahighlights.com/travelguide/learning-chinese/pinyin-syllables.htm
 */
-/datum/language/common/syllables = list(
+/datum/language/galactic_common/syllables = list(
 "a", "ai", "an", "ang", "ao", "ba", "bai", "ban", "bang", "bao", "bei", "ben", "beng", "bi", "bian", "biao",
 "bie", "bin", "bing", "bo", "bu", "ca", "cai", "can", "cang", "cao", "ce", "cei", "cen", "ceng", "cha", "chai",
 "chan", "chang", "chao", "che", "chen", "cheng", "chi", "chong", "chou", "chu", "chua", "chuai", "chuan", "chuang", "chui", "chun",

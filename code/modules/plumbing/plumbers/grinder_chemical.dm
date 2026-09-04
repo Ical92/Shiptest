@@ -19,7 +19,7 @@
 
 /obj/machinery/plumbing/grinder_chemical/can_be_rotated(mob/user, rotation_type)
 	if(anchored)
-		to_chat(user, "<span class='warning'>It is fastened to the floor!</span>")
+		to_chat(user, span_warning("It is fastened to the floor!"))
 		return FALSE
 	return TRUE
 
@@ -54,8 +54,7 @@
 				I.reagents.trans_to(src, I.reagents.total_volume, transfered_by = src)
 			qdel(I)
 			return
-		I.on_grind()
-		reagents.add_reagent_list(I.grind_results)
+		reagents.add_reagent_list(I.on_grind())
 		if(I.reagents)
 			I.reagents.trans_to(src, I.reagents.total_volume, transfered_by = src)
 		qdel(I)

@@ -3,7 +3,7 @@
 ///Reagent Scanner - Lets the user scan reagents.
 /obj/item/mod/module/reagent_scanner
 	name = "MOD reagent scanner module"
-	desc = "A module based off research-oriented Nanotrasen HUDs, this is capable of scanning the contents of \
+	desc = "A module based off research-oriented Makosso-Warra HUDs, this is capable of scanning the contents of \
 		containers and projecting the information in an easy-to-read format on the wearer's display. \
 		It cannot detect flavors, so that's up to you."
 	icon_state = "scanner"
@@ -111,16 +111,14 @@
 		return
 	var/turf/open/target_turf = get_turf(target)
 	if(!istype(target_turf) || target_turf.is_blocked_turf() || !(target_turf in view(mod.wearer)))
-		balloon_alert(mod.wearer, "invalid target!")
+		to_chat(mod.wearer,span_warning("\The [target_turf] is an invalid target!"))
 		return
-	balloon_alert(mod.wearer, "teleporting...")
 	var/matrix/pre_matrix = matrix()
 	pre_matrix.Scale(4, 0.25)
 	var/matrix/post_matrix = matrix()
 	post_matrix.Scale(0.25, 4)
 	animate(mod.wearer, teleport_time, color = COLOR_CYAN, transform = pre_matrix.Multiply(mod.wearer.transform), easing = SINE_EASING|EASE_OUT)
 	if(!do_after(mod.wearer, teleport_time, target = mod))
-		balloon_alert(mod.wearer, "interrupted!")
 		animate(mod.wearer, teleport_time*0.1, color = null, transform = post_matrix.Multiply(mod.wearer.transform), easing = SINE_EASING|EASE_OUT)
 		return
 	animate(mod.wearer, teleport_time*0.1, color = null, transform = post_matrix.Multiply(mod.wearer.transform), easing = SINE_EASING|EASE_OUT)

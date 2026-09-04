@@ -71,7 +71,7 @@
 /turf/open/floor/wood/mahogany,
 /area/ship/bridge)
 "aF" = (
-/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/machinery/portable_atmospherics/canister/fuel,
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
@@ -167,16 +167,10 @@
 	pixel_x = 4;
 	pixel_y = -6
 	},
-/obj/item/clothing/suit/space/eva{
-	pixel_x = -8
-	},
-/obj/item/clothing/mask/breath{
-	pixel_y = 9;
-	pixel_x = -6
-	},
-/obj/item/clothing/head/helmet/space/eva{
-	pixel_y = 8;
-	pixel_x = 8
+/obj/item/clothing/mask/gas/roumain,
+/obj/item/clothing/suit/space/hardsuit/mining/roumain{
+	pixel_x = -5;
+	pixel_y = -5
 	},
 /turf/open/floor/wood/ebony,
 /area/ship/cargo)
@@ -226,10 +220,10 @@
 /area/ship/cargo)
 "cj" = (
 /obj/structure/closet/crate/freezer,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
+/obj/item/food/egg,
+/obj/item/food/egg,
+/obj/item/food/egg,
+/obj/item/food/egg,
 /obj/item/stack/ore/glass/basalt{
 	amount = 25;
 	pixel_y = -2;
@@ -250,14 +244,14 @@
 	pixel_y = -2;
 	pixel_x = -9
 	},
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
+/obj/item/food/egg,
+/obj/item/food/egg,
+/obj/item/food/egg,
+/obj/item/food/egg,
+/obj/item/food/egg,
+/obj/item/food/egg,
+/obj/item/food/egg,
+/obj/item/food/egg,
 /turf/open/floor/grass/ship/jungle,
 /area/ship/roumain)
 "co" = (
@@ -369,6 +363,30 @@
 	pixel_x = 8;
 	pixel_y = -6
 	},
+/obj/item/storage/box/ammo/a4570{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/item/storage/box/ammo/a4570{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/storage/box/ammo/a4570{
+	pixel_x = -6;
+	pixel_y = 9
+	},
+/obj/item/ammo_box/a4570{
+	pixel_x = -3;
+	pixel_y = -6
+	},
+/obj/item/ammo_box/a4570{
+	pixel_x = -8;
+	pixel_y = -6
+	},
+/obj/item/ammo_box/a4570{
+	pixel_x = -12;
+	pixel_y = -6
+	},
 /turf/open/floor/wood/ebony,
 /area/ship/storage)
 "de" = (
@@ -383,6 +401,19 @@
 	},
 /turf/open/floor/wood/maple,
 /area/ship/hallway/central)
+"dl" = (
+/obj/machinery/suit_storage_unit/inherit,
+/obj/item/tank/internals/emergency_oxygen/double{
+	pixel_x = 4;
+	pixel_y = -6
+	},
+/obj/item/clothing/mask/gas/roumain,
+/obj/item/clothing/suit/space/hardsuit/mining/roumain{
+	pixel_x = -7;
+	pixel_y = -4
+	},
+/turf/open/floor/wood/ebony,
+/area/ship/cargo)
 "dn" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -476,7 +507,7 @@
 	pixel_y = 1
 	},
 /obj/item/stack/sheet/mineral/wood/twentyfive,
-/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/insulated,
 /obj/item/clothing/head/welding{
 	pixel_x = 5;
 	pixel_y = -4
@@ -588,7 +619,7 @@
 /turf/open/floor/wood/maple,
 /area/ship/hallway/port)
 "fC" = (
-/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/machinery/portable_atmospherics/canister/fuel,
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engine)
 "fP" = (
@@ -742,9 +773,7 @@
 /turf/open/floor/wood/maple,
 /area/ship/storage)
 "hp" = (
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 4
-	},
+/obj/machinery/power/smes/shuttle/precharged,
 /obj/structure/cable/pink{
 	icon_state = "0-8"
 	},
@@ -778,9 +807,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/cargo)
 "hZ" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
+/obj/machinery/power/shuttle/engine/electric,
 /obj/structure/cable/pink{
 	icon_state = "0-4"
 	},
@@ -1058,8 +1085,8 @@
 	dir = 6
 	},
 /obj/item/clothing/suit/space/hardsuit/solgov/roumain,
-/obj/item/clothing/mask/breath,
 /obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/clothing/mask/gas/roumain,
 /turf/open/floor/wood/mahogany,
 /area/ship/bridge)
 "lM" = (
@@ -1280,9 +1307,7 @@
 /turf/open/floor/wood/ebony,
 /area/ship/hallway/port)
 "oY" = (
-/obj/machinery/power/shuttle/engine/fueled/plasma{
-	dir = 4
-	},
+/obj/machinery/power/shuttle/engine/fire,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "pb" = (
@@ -1505,15 +1530,13 @@
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/medical)
 "rE" = (
-/obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 4
+/obj/machinery/atmospherics/components/unary/shuttle/fire_heater,
+/obj/structure/window/reinforced{
+	dir = 8
 	},
 /obj/machinery/door/poddoor/shutters{
 	dir = 8;
 	id = "elderengineshuts"
-	},
-/obj/structure/window/reinforced{
-	dir = 8
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
@@ -1540,14 +1563,15 @@
 	},
 /obj/item/storage/backpack/satchel/leather,
 /obj/item/clothing/accessory/waistcoat/roumain,
+/obj/item/clothing/under/suit/roumain/alt,
 /turf/open/floor/wood/ebony,
 /area/ship/storage)
 "rW" = (
 /obj/machinery/smartfridge/drying_rack,
-/obj/item/reagent_containers/food/snacks/grown/tobacco,
-/obj/item/reagent_containers/food/snacks/grown/tobacco,
-/obj/item/reagent_containers/food/snacks/grown/tobacco,
-/obj/item/reagent_containers/food/snacks/grown/tobacco,
+/obj/item/food/grown/tobacco,
+/obj/item/food/grown/tobacco,
+/obj/item/food/grown/tobacco,
+/obj/item/food/grown/tobacco,
 /turf/open/floor/ship/dirt/dark,
 /area/ship/roumain)
 "sb" = (
@@ -1705,16 +1729,16 @@
 	pixel_y = 9;
 	pixel_x = 6
 	},
-/obj/item/reagent_containers/food/snacks/grown/ash_flora/cactus_fruit,
+/obj/item/food/grown/ash_flora/cactus_fruit,
 /obj/item/pestle{
 	pixel_y = 6
 	},
-/obj/item/reagent_containers/food/snacks/grown/ash_flora/mushroom_leaf,
-/obj/item/reagent_containers/food/snacks/meat/slab/bear{
+/obj/item/food/grown/ash_flora/mushroom_leaf,
+/obj/item/food/meat/slab/bear{
 	pixel_y = 1;
 	pixel_x = -7
 	},
-/obj/item/reagent_containers/food/snacks/grown/ash_flora/puce,
+/obj/item/food/grown/ash_flora/puce,
 /obj/effect/turf_decal/corner/opaque/blue/diagonal,
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
@@ -1842,6 +1866,15 @@
 /obj/effect/turf_decal/spline/fancy/wood/corner{
 	dir = 4
 	},
+/obj/machinery/button/door{
+	pixel_x = -20;
+	pixel_y = -10;
+	dir = 4;
+	id = "elders_bathroom";
+	normaldoorcontrol = 1;
+	specialfunctions = 4;
+	name = "Bathroom Lock"
+	},
 /turf/open/floor/wood/mahogany,
 /area/ship/medical)
 "vX" = (
@@ -1930,7 +1963,7 @@
 /obj/structure/railing/wood{
 	dir = 1
 	},
-/mob/living/simple_animal/cow,
+/mob/living/basic/cow,
 /turf/open/floor/grass/ship/jungle,
 /area/ship/roumain)
 "xN" = (
@@ -1947,7 +1980,7 @@
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer3{
 	dir = 8
 	},
-/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/machinery/portable_atmospherics/canister/fuel,
 /obj/effect/turf_decal/trimline/opaque/orange/filled/line{
 	dir = 8
 	},
@@ -2045,13 +2078,16 @@
 /obj/item/storage/box/ammo/a44roum,
 /obj/item/storage/guncase/pistol/montagne,
 /obj/item/clothing/accessory/waistcoat/roumain,
+/obj/item/clothing/suit/armor/roumain/plate/montagne,
+/obj/item/clothing/head/helmet/roumain,
+/obj/item/clothing/under/suit/roumain/montagne,
 /turf/open/floor/wood/mahogany,
 /area/ship/bridge)
 "zH" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer3{
 	dir = 8
 	},
-/obj/machinery/portable_atmospherics/canister/toxins,
+/obj/machinery/portable_atmospherics/canister/fuel,
 /obj/effect/turf_decal/trimline/opaque/orange/filled/line{
 	dir = 8
 	},
@@ -2111,7 +2147,7 @@
 /turf/open/floor/grass/ship/jungle,
 /area/ship/bridge)
 "Aq" = (
-/obj/machinery/hydroponics/soil,
+/obj/machinery/hydroponics/wooden,
 /turf/open/floor/grass/ship/jungle,
 /area/ship/roumain)
 "Ar" = (
@@ -2214,16 +2250,16 @@
 	dir = 8
 	},
 /obj/item/gun/ballistic/rifle/illestren/factory{
-	pixel_y = 3;
-	pixel_x = -4
-	},
-/obj/item/gun/ballistic/rifle/illestren/factory{
 	pixel_x = -4;
 	pixel_y = -5
 	},
 /obj/item/gun/ballistic/rifle/illestren/factory{
 	pixel_x = -4;
 	pixel_y = -1
+	},
+/obj/item/gun/ballistic/shotgun/flamingarrow/pyre/factory{
+	pixel_x = -6;
+	pixel_y = 3
 	},
 /turf/open/floor/wood/ebony,
 /area/ship/storage)
@@ -2294,27 +2330,27 @@
 "BJ" = (
 /obj/structure/crate_shelf,
 /obj/structure/closet/crate,
-/obj/item/reagent_containers/food/snacks/meat/steak{
+/obj/item/food/meat/steak{
 	pixel_y = 7;
 	pixel_x = -3
 	},
-/obj/item/reagent_containers/food/snacks/meat/steak/chicken,
-/obj/item/reagent_containers/food/snacks/meat/steak/chicken{
+/obj/item/food/meat/steak/chicken,
+/obj/item/food/meat/steak/chicken{
 	pixel_y = 6;
 	pixel_x = 4
 	},
-/obj/item/reagent_containers/food/snacks/meat/steak{
+/obj/item/food/meat/steak{
 	pixel_x = -9
 	},
-/obj/item/reagent_containers/food/snacks/meat/steak{
+/obj/item/food/meat/steak{
 	pixel_y = -6;
 	pixel_x = 5
 	},
-/obj/item/reagent_containers/food/snacks/meat/steak/chicken{
+/obj/item/food/meat/steak/chicken{
 	pixel_y = -4;
 	pixel_x = -6
 	},
-/obj/item/reagent_containers/food/snacks/meat/steak/chicken{
+/obj/item/food/meat/steak/chicken{
 	pixel_y = 5;
 	pixel_x = -6
 	},
@@ -2578,6 +2614,16 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engine)
+"FE" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/emergency_panel,
+/turf/open/floor/wood/maple,
+/area/ship/hallway/central)
 "FF" = (
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume/layer2{
 	dir = 1
@@ -2667,6 +2713,8 @@
 	},
 /obj/item/storage/backpack/satchel/leather,
 /obj/item/clothing/accessory/waistcoat/roumain,
+/obj/item/clothing/head/helmet/roumain,
+/obj/item/clothing/under/suit/roumain/alt,
 /turf/open/floor/wood/ebony,
 /area/ship/storage)
 "HB" = (
@@ -2680,10 +2728,6 @@
 	pixel_y = 8;
 	pixel_x = 8
 	},
-/obj/item/clothing/mask/breath{
-	pixel_y = 9;
-	pixel_x = -6
-	},
 /obj/item/tank/internals/emergency_oxygen{
 	pixel_x = 7;
 	pixel_y = -7
@@ -2691,6 +2735,7 @@
 /obj/effect/turf_decal/trimline/opaque/syndiered/arrow_ccw{
 	dir = 8
 	},
+/obj/item/clothing/mask/gas/roumain,
 /turf/open/floor/wood/maple,
 /area/ship/cargo)
 "HO" = (
@@ -2721,6 +2766,8 @@
 /obj/item/clothing/suit/armor/roumain/colligne,
 /obj/structure/closet/secure_closet/collignes,
 /obj/item/clothing/accessory/waistcoat/roumain,
+/obj/item/clothing/head/helmet/roumain,
+/obj/item/clothing/under/suit/roumain/alt,
 /turf/open/floor/wood/mahogany,
 /area/ship/bridge)
 "Ii" = (
@@ -2998,7 +3045,7 @@
 /obj/structure/railing/wood{
 	dir = 1
 	},
-/mob/living/simple_animal/cow,
+/mob/living/basic/cow,
 /turf/open/floor/ship/dirt/dark,
 /area/ship/roumain)
 "LG" = (
@@ -3031,10 +3078,7 @@
 /turf/closed/wall/r_wall,
 /area/ship/storage)
 "LS" = (
-/obj/machinery/advanced_airlock_controller{
-	pixel_x = -25;
-	pixel_y = 3
-	},
+/obj/machinery/advanced_airlock_controller/directional/west,
 /obj/effect/turf_decal/trimline/opaque/red/arrow_cw{
 	dir = 4
 	},
@@ -3076,9 +3120,7 @@
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "Mj" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
+/obj/machinery/power/shuttle/engine/electric,
 /obj/structure/cable/pink{
 	icon_state = "0-4"
 	},
@@ -3171,15 +3213,13 @@
 /turf/open/floor/wood/ebony,
 /area/ship/cargo)
 "MV" = (
-/obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 4
+/obj/machinery/atmospherics/components/unary/shuttle/fire_heater,
+/obj/structure/window/reinforced{
+	dir = 8
 	},
 /obj/machinery/door/poddoor/shutters{
 	dir = 8;
 	id = "elderengineshuts"
-	},
-/obj/structure/window/reinforced{
-	dir = 8
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
@@ -3343,6 +3383,7 @@
 /obj/item/clothing/shoes/workboots/mining,
 /obj/structure/closet/secure_closet/machinist,
 /obj/item/storage/belt/utility/full,
+/obj/item/clothing/under/suit/roumain/alt,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "Oo" = (
@@ -3416,9 +3457,7 @@
 /turf/open/floor/wood/ebony,
 /area/ship/cargo)
 "Py" = (
-/obj/machinery/power/shuttle/engine/fueled/plasma{
-	dir = 4
-	},
+/obj/machinery/power/shuttle/engine/fire,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "PE" = (
@@ -3593,13 +3632,13 @@
 /obj/item/clothing/under/suit/roumain,
 /obj/item/storage/belt/medical,
 /obj/item/healthanalyzer,
-/obj/item/storage/firstaid,
 /obj/item/storage/box/beakers,
 /obj/item/storage/box/syringes,
 /obj/item/storage/box/bodybags,
 /obj/item/storage/box/gloves,
 /obj/item/storage/box/masks,
 /obj/effect/turf_decal/corner/opaque/blue/diagonal,
+/obj/item/storage/firstaid/regular,
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "RJ" = (
@@ -3616,9 +3655,7 @@
 /turf/open/floor/wood/ebony,
 /area/ship/hallway/port)
 "RT" = (
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 4
-	},
+/obj/machinery/power/smes/shuttle/precharged,
 /obj/structure/cable/pink{
 	icon_state = "0-8"
 	},
@@ -3691,6 +3728,7 @@
 	},
 /obj/item/storage/backpack/satchel/leather,
 /obj/item/clothing/accessory/waistcoat/roumain,
+/obj/item/clothing/under/suit/roumain/alt,
 /turf/open/floor/wood/ebony,
 /area/ship/storage)
 "Tc" = (
@@ -4128,7 +4166,8 @@
 	dir = 1
 	},
 /obj/machinery/door/airlock/wood{
-	name = "Restroom"
+	name = "Restroom";
+	id_tag = "elders_bathroom"
 	},
 /obj/effect/turf_decal/spline/fancy/wood/cee{
 	dir = 1
@@ -4703,7 +4742,7 @@ Jx
 mA
 bN
 bN
-bN
+dl
 uY
 BA
 sH
@@ -4801,7 +4840,7 @@ aP
 aP
 Wr
 Nq
-Nq
+FE
 Nq
 bv
 aP

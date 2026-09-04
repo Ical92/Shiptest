@@ -29,7 +29,7 @@
 		if(!moving)
 			I.play_tool_sound(src)
 			if(contents.len)
-				user.visible_message("<span class='notice'>[user] empties \the [src].</span>", "<span class='notice'>You empty \the [src].</span>")
+				user.visible_message(span_notice("[user] empties \the [src]."), span_notice("You empty \the [src]."))
 				empty_pod()
 			else
 				deconstruct(TRUE, user)
@@ -42,7 +42,7 @@
 		if(user)
 			location = user.loc
 			add_fingerprint(user)
-			user.visible_message("<span class='notice'>[user] removes [src].</span>", "<span class='notice'>You remove [src].</span>")
+			user.visible_message(span_notice("[user] removes [src]."), span_notice("You remove [src]."))
 		var/obj/structure/c_transit_tube_pod/R = new/obj/structure/c_transit_tube_pod(location)
 		transfer_fingerprints_to(R)
 		R.setDir(dir)
@@ -54,15 +54,16 @@
 	if(!QDELETED(src))
 		empty_pod()
 
-/obj/structure/transit_tube_pod/contents_explosion(severity, target)
+/obj/structure/transit_tube_pod/contents_explosion(severity, target, light_dam = EX_LIGHT_BASE_DAM, light_item_dam = EX_LIGHT_BASE_ITEM_DAM, heavy_dam = EX_HEAVY_BASE_DAM, heavy_item_dam = EX_HEAVY_BASE_ITEM_DAM)
 	for(var/atom/movable/AM in contents)
+		var/list/to_explode = list(AM,light_dam,light_item_dam,heavy_dam,heavy_item_dam)
 		switch(severity)
 			if(EXPLODE_DEVASTATE)
-				SSexplosions.highobj += AM
+				SSexplosions.highobj += list(to_explode)
 			if(EXPLODE_HEAVY)
-				SSexplosions.medobj += AM
+				SSexplosions.medobj += list(to_explode)
 			if(EXPLODE_LIGHT)
-				SSexplosions.lowobj += AM
+				SSexplosions.lowobj += list(to_explode)
 
 /obj/structure/transit_tube_pod/singularity_pull(S, current_size)
 	..()
@@ -76,9 +77,9 @@
 	if(!moving)
 		user.changeNext_move(CLICK_CD_BREAKOUT)
 		user.last_special = world.time + CLICK_CD_BREAKOUT
-		to_chat(user, "<span class='notice'>You start trying to escape from the pod...</span>")
+		to_chat(user, span_notice("You start trying to escape from the pod..."))
 		if(do_after(user, 1 MINUTES, target = src))
-			to_chat(user, "<span class='notice'>You manage to open the pod.</span>")
+			to_chat(user, span_notice("You manage to open the pod."))
 			empty_pod()
 
 /obj/structure/transit_tube_pod/proc/empty_pod(atom/location)
@@ -158,7 +159,7 @@
 	var/list/savedcontents = contents.Copy()
 	var/saveddir = dir
 	var/turf/destination = get_edge_target_turf(src,saveddir)
-	visible_message("<span class='warning'>[src] ejects its insides out!</span>")
+	visible_message(span_warning("[src] ejects its insides out!"))
 	deconstruct(FALSE)//we automatically deconstruct the pod
 	for(var/i in savedcontents)
 		var/atom/movable/AM = i

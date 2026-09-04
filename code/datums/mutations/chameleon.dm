@@ -4,8 +4,8 @@
 	desc = "A genome that causes the holder's skin to become transparent over time."
 	quality = POSITIVE
 	difficulty = 16
-	text_gain_indication = "<span class='notice'>You feel one with your surroundings.</span>"
-	text_lose_indication = "<span class='notice'>You feel oddly exposed.</span>"
+	text_gain_indication = span_notice("You feel one with your surroundings.")
+	text_lose_indication = span_notice("You feel oddly exposed.")
 	time_coeff = 5
 	instability = 25
 
@@ -16,7 +16,7 @@
 	RegisterSignal(owner, COMSIG_MOVABLE_MOVED, PROC_REF(on_move))
 	RegisterSignal(owner, COMSIG_HUMAN_EARLY_UNARMED_ATTACK, PROC_REF(on_attack_hand))
 
-/datum/mutation/human/chameleon/on_life()
+/datum/mutation/human/chameleon/on_life(seconds_per_tick, times_fired)
 	owner.alpha = max(0, owner.alpha - 25)
 
 /datum/mutation/human/chameleon/proc/on_move()

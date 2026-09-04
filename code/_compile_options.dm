@@ -8,6 +8,11 @@
 #define USE_CUSTOM_ERROR_HANDLER
 #endif
 
+#if defined(OPENDREAM) && !defined(SPACEMAN_DMM) && !defined(CIBUILDING)
+// The code is being compiled for OpenDream, and not just for the CI linting.
+#define OPENDREAM_REAL
+#endif
+
 #ifdef TESTING
 #define DATUMVAR_DEBUGGING_MODE
 
@@ -44,6 +49,10 @@
 //#define UNIT_TESTS //Enables unit tests via TEST_RUN_PARAMETER
 //#define ALL_TESTS //Enables all tests, including the ones that take a long time to run
 
+// If defined, we will compile with FULL timer debug info, rather then a limited scope
+// Be warned, this increases timer creation cost by 5x
+// #define TIMER_DEBUG
+
 #ifndef PRELOAD_RSC				//set to:
 #define PRELOAD_RSC 2			//	0 to allow using external resources or on-demand behaviour;
 #endif							//	1 to use the default behaviour;
@@ -77,6 +86,8 @@
 #define REFERENCE_TRACKING_DEBUG
 #define FIND_REF_NO_CHECK_TICK
 #define GC_FAILURE_HARD_LOOKUP
+//Test at full capacity, the extra cost doesn't matter
+#define TIMER_DEBUG
 #endif
 
 #ifdef ALL_TESTS
@@ -86,10 +97,6 @@
 #define RUIN_PLACEMENT_TEST
 #define SHIP_PLACEMENT_TEST
 #endif
-
-// A reasonable number of maximum overlays an object needs
-// If you think you need more, rethink it
-#define MAX_ATOM_OVERLAYS 100
 
 #if defined(OPENDREAM)
 	#if !defined(CIBUILDING)

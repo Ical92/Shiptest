@@ -13,7 +13,7 @@
 	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
 
 	var/smash_time = 3 SECONDS
-	var/time_to_harden = 50 SECONDS
+	var/time_to_harden = 20 SECONDS
 	// fraction ranging from 0 to 1 -- 0 is fully soft, 1 is fully hardened
 	// don't change this in subtypes unless you want them to spawn in soft on maps
 	var/harden_lvl = 1
@@ -32,6 +32,9 @@
 	var/entered_dirs
 	var/exited_dirs
 
+	smoothing_groups = list(SMOOTH_GROUP_TURF_OPEN, SMOOTH_GROUP_FLOOR_PLASTEEL)
+	canSmoothWith = list(SMOOTH_GROUP_OPEN_FLOOR, SMOOTH_GROUP_TURF_OPEN, SMOOTH_GROUP_FLOOR_PLASTEEL)
+
 /turf/open/floor/concrete/Initialize()
 	. = ..()
 	if(has_variation)
@@ -41,7 +44,7 @@
 
 /turf/open/floor/concrete/examine(mob/user)
 	. = ..()
-	. += "<span class='notice'>[p_they(TRUE)] look[p_s()] like you could <b>smash</b> [p_them()].</span>"
+	. += span_notice("[p_they(TRUE)] look[p_s()] like you could <b>smash</b> [p_them()].")
 	switch(harden_lvl)
 		if(0.8 to 0.99)
 			. += "[p_they(TRUE)] look[p_s()] nearly dry."
@@ -56,10 +59,10 @@
 	if(.)
 		return
 	if(C.tool_behaviour == TOOL_MINING)
-		to_chat(user, "<span class='notice'>You start smashing [src]...</span>")
+		to_chat(user, span_notice("You start smashing [src]..."))
 		var/adj_time = (broken || burnt) ? smash_time/2 : smash_time
 		if(C.use_tool(src, user, adj_time, volume=30))
-			to_chat(user, "<span class='notice'>You break [src].</span>")
+			to_chat(user, span_notice("You break [src]."))
 			playsound(src, 'sound/effects/break_stone.ogg', 30, TRUE)
 			remove_tile()
 			return TRUE
@@ -222,6 +225,9 @@
 	icon_state = "conc_tiles"
 	has_variation = FALSE
 
+/turf/open/floor/concrete/tiles/chlorine
+	initial_gas_mix = COMBAT_CHLORINE
+
 /turf/open/floor/concrete/reinforced
 	name = "hexacrete floor"
 	desc = "Reinforced hexacrete tiling."
@@ -230,11 +236,11 @@
 	base_icon_state = "hexacrete"
 	has_variation = FALSE
 	smoothing_flags = SMOOTH_BITMASK
-	smoothing_groups = list(SMOOTH_GROUP_TURF_OPEN, SMOOTH_GROUP_OPEN_FLOOR, SMOOTH_GROUP_FLOOR_HEXACRETE)
+	smoothing_groups = list(SMOOTH_GROUP_TURF_OPEN, SMOOTH_GROUP_OPEN_FLOOR, SMOOTH_GROUP_FLOOR_PLASTEEL, SMOOTH_GROUP_FLOOR_HEXACRETE)
 	canSmoothWith = list(SMOOTH_GROUP_FLOOR_HEXACRETE)
 
 	smash_time = 8 SECONDS
-	time_to_harden = 80 SECONDS
+	time_to_harden = 40 SECONDS
 	// so that you can remove the overlays
 	shape_types = list(/turf/open/floor/concrete/reinforced)
 
@@ -246,7 +252,7 @@
 	return
 
 // modified from /turf/open/floor/engine/ex_act()
-/turf/open/floor/concrete/reinforced/ex_act(severity,target)
+/turf/open/floor/concrete/reinforced/ex_act(severity,target, light_dam = EX_LIGHT_BASE_DAM, light_item_dam = EX_LIGHT_BASE_ITEM_DAM, heavy_dam = EX_HEAVY_BASE_DAM, heavy_item_dam = EX_HEAVY_BASE_ITEM_DAM)
 	var/shielded = is_shielded()
 	contents_explosion(severity, target)
 	SEND_SIGNAL(src, COMSIG_ATOM_EX_ACT, severity, target)
@@ -282,11 +288,15 @@
 	return ..()
 
 /turf/open/floor/concrete/pavement
-	name = "pavement"
-	desc = "The hot, coarse, and somewhat pavement. Vehicles driven on this are generally quiter than on traditional concrete, and is prefered for roadways."
+	name = "strip of pavement"
+	desc = "Hot, coarse pavement. Preferred for roadways, as vehicles are generally quieter driven on this than on traditional concrete."
 	icon_state = "pavement_1"
 	base_icon_state = "pavement"
 	broken_states = null
 	shape_types = list(
 		/turf/open/floor/concrete/pavement,
 	)
+
+
+/turf/open/floor/concrete/pavement/airless
+	initial_gas_mix = AIRLESS_ATMOS
